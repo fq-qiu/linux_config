@@ -129,3 +129,6 @@ PATH=$JAVA_HOME/bin:$JRE_HOME/bin:$PATH
 
 #android studio
 alias anstudio="/opt/android-studio/bin/studio.sh"
+
+#adb shell kill
+alias akill=". ~/linux_config/adb_shell_kill.sh"
