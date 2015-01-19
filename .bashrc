@@ -132,3 +132,6 @@ alias anstudio="/opt/android-studio/bin/studio.sh"
 
 #adb shell kill
 alias akill=". ~/linux_config/adb_shell_kill.sh"
+
+#adb shell screen capture
+alias acapture=". ~/linux_config/adb_screencap.sh"
