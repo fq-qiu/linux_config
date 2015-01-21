@@ -1,6 +1,9 @@
- shell
-rm -rf ~/.zshrc
+# bash shell
 rm -rf ~/.bashrc
+mv ~/.bashrc_backup ~/.bashrc
+
+rm -rf ~/.zshrc
+rm -rf ~/.oh-my-zsh
 
 # git
 rm -rf ~/.gitignore
