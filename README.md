@@ -1,6 +1,11 @@
+This a auto configure script for my linux configure
+
 ##Environment:
-ubuntu
+
+###ubuntu
+
 following softwares should be installed:
+
 - git
 - tmux
 - autojump
@@ -8,6 +13,3 @@ following softwares should be installed:
 - vim-gnome
 
 
-##Todo:
-- [ ] copy the ubuntu .tmux.config
-- [ ] code auto make scripts
