@@ -3,7 +3,7 @@
 	email = qiufuqing@bbktel.com
 [core]
 	editor = vim
-	excludesfile = /opt2/qiufuqing/.gitignore
+	excludesfile = ~/.gitignore
 [color]
 	ui = auto
 [alias]

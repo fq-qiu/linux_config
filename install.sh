@@ -7,7 +7,12 @@ ln ./config_sh/gitignore ~/.gitignore
 ln ./config_sh/gitconfig ~/.gitconfig
 
 # tmux
+ln ./tmux ~/.tmux
 ln ./config_sh/tmux.conf ~/.tmux.conf
 
 # for AndroidStudio or Intellij IDEA plugin IdeaVim
 ln ./config_sh/ideavimrc ~/.ideavimrc
+
+# for vim
+ln ./vimfile ~/.vim
+
