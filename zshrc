@@ -81,5 +81,7 @@ source $ZSH/oh-my-zsh.sh
 
 export PATH=$PATH
 
+source ~/linux_config/bashrc_zshrc
+
 # autojump
 . /usr/share/autojump/autojump.sh

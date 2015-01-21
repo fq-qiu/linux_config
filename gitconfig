@@ -1,0 +1,20 @@
+[user]
+	name = qiufuqing
+	email = qiufuqing@bbktel.com
+[core]
+	editor = vim
+	excludesfile = /opt2/qiufuqing/.gitignore
+[color]
+	ui = auto
+[alias]
+	st = status
+    co = checkout
+    br = branch
+    ci = commit
+	d = difftool
+[diff]
+	tool = vimdiff
+[difftool]
+	prompt = true
+[merge]
+	tool = vimdiff

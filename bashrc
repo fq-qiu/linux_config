@@ -120,18 +120,4 @@ fi
 #ANDROID_HOME=~/Android-Sdk
 #PATH=$ANDROID_HOME/build-tools/android-4.4W:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$PATH
 
-# java 
-JAVA_HOME=/opt/jdk1.8.0_25
-JRE_HOME=/opt/jdk1.8.0_25/jre
-CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar:$JRE_HOME/lib
-PATH=$JAVA_HOME/bin:$JRE_HOME/bin:$PATH
-
-
-#android studio
-alias anstudio="/opt/android-studio/bin/studio.sh"
-
-#adb shell kill
-alias akill=". ~/linux_config/adb_shell_kill.sh"
-
-#adb shell screen capture
-alias acapture=". ~/linux_config/adb_screencap.sh"
+source ~/linux_config/bashrc_zshrc
