@@ -4,6 +4,10 @@ JRE_HOME=/opt/jdk1.8.0_25/jre
 CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar:$JRE_HOME/lib
 PATH=$JAVA_HOME/bin:$JRE_HOME/bin:$PATH
 
+# anroid Sdk
+ANDROID_SDK=~/Android/Sdk
+PATH=$PATH:$ANDROID_SDK/platform-tools:$ANDROID_PLATFROM/tools:$PATH3
+
 # auto color
 alias grep="grep --color"
 alias ls="ls -hF --color=tty"
@@ -19,3 +23,4 @@ alias acapture=". ~/linux_config/shell_tools/adb_screencap.sh"
 
 # tags
 alias mtags=". ~/linux_config/shell_tools/tags.sh"
+
