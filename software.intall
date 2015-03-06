@@ -1,5 +1,5 @@
 # build essential
-apt-get build-essential
+apt-get g++ build-essential
 apt-get install git vim-gnome
 apt-get install automake libevent-dev libncurses5-dev libncurses5-dev
 apt-get install cmake python-dev

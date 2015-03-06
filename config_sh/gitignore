@@ -2,3 +2,7 @@
 gen/
 tags
 cscope.*
+NERD*
+session.vim*
+*patch
+.idea/
