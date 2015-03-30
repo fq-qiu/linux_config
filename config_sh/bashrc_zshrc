@@ -18,6 +18,9 @@ alias anstudio="/opt/android-studio/bin/studio.sh"
 # Intellij IDEA for java
 alias idea="/opt/idea-IC-139.225.3/bin/idea.sh"
 
+# eclipse
+alias eclipse="/opt/eclipse/eclipse"
+
 #adb shell kill
 alias akill=". ~/linux_config/shell_tools/adb_shell_kill.sh"
 
