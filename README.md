@@ -25,21 +25,21 @@ eclipse         # eclipse
 
 自定义的shell脚本
 
-### akill ###
+### mkill ###
 杀死android device的名为的进程, 名称可以是正则表达式
 ```
-akill *float*       #杀死符合正则表达式规则的*float*进程
+mkill *float*       #杀死符合正则表达式规则的*float*进程
 ```
 
-### acapture ###
+### mcapture ###
 android device解屏并保存到当前目录, 同时也能缩小图片, 用于博客等. 有两种用法
 默认参数
 ```
-acapture            #截屏原图为screen_original.png, 缩小率为%30x%30, 缩小后的图片为thumnail.png
+mcapture            #截屏原图为screen_original.png, 缩小率为%30x%30, 缩小后的图片为thumnail.png
 ```
 自定以参数
 ```
-acapture 50 file_name.png #截屏原图为screen_original.png, 缩小率为%50x%50, 缩小后的图片为file_name.png
+mcapture 50 file_name.png #截屏原图为screen_original.png, 缩小率为%50x%50, 缩小后的图片为file_name.png
 ```
 ###mtags###
 ```
