@@ -7,10 +7,6 @@
 [color]
 	ui = auto
 [alias]
-	st = status
-    co = checkout
-    br = branch
-    ci = commit
 	d = difftool
 [diff]
 	tool = vimdiff
