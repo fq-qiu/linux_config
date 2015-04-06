@@ -30,3 +30,4 @@ alias acapture=". ~/linux_config/shell_tools/adb_screencap.sh"
 # tags
 alias mtags=". ~/linux_config/shell_tools/tags.sh"
 
+export SVN_EDITOR=vim
