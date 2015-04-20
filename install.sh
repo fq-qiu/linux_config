@@ -20,4 +20,7 @@ ln -s ~/linux_config/config_sh/ideavimrc ~/.ideavimrc
 # for vim
 ln -s ~/linux_config/vimfile ~/.vim
 
+# for ack
+ln -s ~/linux_config/config_sh/ackrc ~/.ackrc
+
 
