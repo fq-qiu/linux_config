@@ -21,3 +21,6 @@ rm -rf ~/.vim
 
 # for ack
 rm -rf ~/.ackrc
+
+# for rm crontab
+crontab -l | grep -v rm_recovery | crontab -

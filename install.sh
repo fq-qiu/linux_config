@@ -23,4 +23,6 @@ ln -s ~/linux_config/vimfile ~/.vim
 # for ack
 ln -s ~/linux_config/config_sh/ackrc ~/.ackrc
 
-
+# crontab rm: /bin/rm ~/.tmp_reconvery every week
+CRONTAB_CMD_RM="10 4 * * 1 /bin/rm -rf ~/.rm_recovery"
+(crontab -l 2>/dev/null; echo $CRONTAB_CMD_RM) | crontab -
