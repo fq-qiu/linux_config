@@ -18,3 +18,6 @@ rm -rf ~/.ideavimrc
 
 # for vim
 rm -rf ~/.vim
+
+# for ack
+rm -rf ~/.ackrc

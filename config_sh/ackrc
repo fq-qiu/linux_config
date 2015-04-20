@@ -1,0 +1,7 @@
+--ignore-dir=.plus
+--ignore-dir=.git
+--ignore-dir=.svn
+--ignore-dir=.idea
+
+--ignore-file=match:/cscope*/
+--ignore-file=is:tags
