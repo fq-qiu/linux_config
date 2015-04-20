@@ -30,4 +30,7 @@ alias mcapture=". ~/linux_config/shell_tools/adb_screencap.sh"
 # tags
 alias mtags=". ~/linux_config/shell_tools/tags.sh"
 
+# rm recovert
+alias rm='. ~/linux_config/shell_tools/myrm.sh'
+
 export SVN_EDITOR=vim
