@@ -1,3 +1,5 @@
+# 编译app, 并把编译信息输出到.compile.tmp
+
 CURRENT_PATH=`pwd`
 COMMON_APPLICATION=("BBKVideoPlayer" "UpnpServer" "AudioEffect" "FlaotingWindow")
 SYSTEM_APPLICATION=("MediaProvider")
