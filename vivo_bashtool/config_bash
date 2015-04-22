@@ -1,0 +1,5 @@
+source ~/linux_config/vivo_bashtool/vivo_plus.sh
+
+alias vmm='. ~/linux_config/vivo_bashtool/compile_server.sh'
+alias install='. ~/linux_config/vivo_bashtool/locale_install.sh'
+
