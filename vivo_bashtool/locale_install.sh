@@ -1,3 +1,5 @@
+# 读取.compile_tmp文件获取android版本, app, 然后push到android设备种安装
+ 
 CURRENT_PATH=`pwd`
 TAG="____"
 COMMON_APPLICATION=("BBKVideoPlayer" "UpnpServer" "AudioEffect" "FlaotingWindow")
@@ -10,12 +12,11 @@ APPLICATION=`tail -50 .compile_tmp | grep ^Install.*apk | awk -F/ '{print $7}'`
 echo ${TAG}"sdk_version____:"${ANDROID_VERSION}
 echo ${TAG}"application____:"${APPLICATION}
 
+target_install_path="system/app"
 for i in "${SYSTEM_APPLICATION[@]}"; do
     if [ $i = $APPLICATION ]
     then
         target_install_path="system/priv-app"
-    else
-        target_install_path="system/app"
     fi
 done
 echo ${TAG}"target_path____:"${target_install_path}
