@@ -52,6 +52,7 @@ mtags       #在当前目录下生成vim的cscope和tag文件
 - 如果要完全删除该命令, 可以使用`/bin/rm`
 - 通过crontab命令, 定义定时任务, 每周清理一次该目录
 - crontab命令通过`linux_config/install.sh`添加, 并通过`linux_config/unisntall.sh`删除
+- 如果批量删除, `rm test\*`,末尾添加星号
 
 ## config ##
 `linux_config/config_sh`目录
