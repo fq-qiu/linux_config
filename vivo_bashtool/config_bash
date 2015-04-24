@@ -1,5 +1,5 @@
 source ~/linux_config/vivo_bashtool/vivo_plus.sh
 
-alias mbianyi='sh ~/linux_config/vivo_bashtool/compile_server.sh'
-alias minstall='sh ~/linux_config/vivo_bashtool/locale_install.sh'
+alias mbianyi='. ~/linux_config/vivo_bashtool/compile_server.sh'
+alias minstall='. ~/linux_config/vivo_bashtool/locale_install.sh'
 

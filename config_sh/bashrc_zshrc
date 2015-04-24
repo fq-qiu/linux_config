@@ -22,13 +22,13 @@ alias idea="/opt/idea-IC-139.225.3/bin/idea.sh"
 alias eclipse="/opt/eclipse/eclipse"
 
 #adb shell kill
-alias mkill="sh ~/linux_config/shell_tools/adb_shell_kill.sh"
+alias mkill=". ~/linux_config/shell_tools/adb_shell_kill.sh"
 
 #adb shell screen capture
-alias mcapture="sh ~/linux_config/shell_tools/adb_screencap.sh"
+alias mcapture=". ~/linux_config/shell_tools/adb_screencap.sh"
 
 # tags
-alias mtags="sh ~/linux_config/shell_tools/tags.sh"
+alias mtags=". ~/linux_config/shell_tools/tags.sh"
 
 # rm recovert
 alias rm='. ~/linux_config/shell_tools/myrm.sh'
