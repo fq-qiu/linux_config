@@ -30,7 +30,7 @@ then
     adb shell kill -9 $zygote_id
 else
     echo "adb push "${APPLICATION_ORIGINAL_PATH}" "${target_install_path}"/"
-    adb shell rm ${target_install_path}"/"${APPLICATION}"*"
+    adb shell rm ${target_install_path}"/"${APPLICATION%.*}"*"
     adb push ${APPLICATION_ORIGINAL_PATH} ${target_install_path}"/"
 fi
 
