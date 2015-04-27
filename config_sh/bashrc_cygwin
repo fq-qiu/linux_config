@@ -102,7 +102,6 @@ shopt -s nocaseglob
 # Misc :)
 # alias less='less -r'                          # raw control characters
 # alias whence='type -a'                        # where, of a sort
-alias grep='grep --color'                     # show differences in colour
 # alias grep='egrep --color=auto'              # show differences in colour
 # alias fgrep='fgrep --color=auto'              # show differences in colour
 #
@@ -202,8 +201,27 @@ alias ls='ls -hF --color=tty'                 # classify files in colour
 # export PS1='\[\e]0;$title\w\a\]\n\[\e[32m\]\u@\h \[\e[33m\]\w\[\e[0m\]\n\$ ' 
 
 
-# adb shell kill -9
-alias akill=". ~/linux_config/adb_shell_kill.sh"
+# git
+alias gst='git status'
+alias ga='git add'
+alias gd='git diff'
+alias gc='git commit'
+alias gco='git checkout'
+
+
+# directory
+alias ..='cd ../'
+alias ...='cd .../'
+alias ....='cd ..../'
+
+# grep
+alias grep='grep -i --color=auto'
+
+
+#adb shell kill
+alias mkill=". ~/linux_config/shell_tools/adb_shell_kill.sh"
 
 #adb shell screen capture
-alias acapture=". ~/linux_config/adb_screencap.sh"
+alias mcapture=". ~/linux_config/shell_tools/adb_screencap.sh"
+
+source ~/linux_config/vivo_bashtool/config_bash

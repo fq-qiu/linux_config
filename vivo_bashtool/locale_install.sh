@@ -8,6 +8,7 @@ SYSTEM_APPLICATION=("MediaProvider")
 APPLICATION_ORIGINAL_PATH=`tail -50 .compile_tmp | grep ^Install.*apk | awk '{print $2}'`
 ANDROID_VERSION=`tail -50 .compile_tmp | grep ^Install.*apk | awk -F/ '{print $4}'`
 APPLICATION=`tail -50 .compile_tmp | grep ^Install.*apk | awk -F/ '{print $7}'`
+APPLICATION=${APPLICATION%.*}
 #rm .compile_tmp
 echo ${TAG}"sdk_version____:"${ANDROID_VERSION}
 echo ${TAG}"application____:"${APPLICATION}
@@ -28,6 +29,7 @@ then
     #sleep 3s
     zygote_id=`adb shell ps | grep -i zygote | awk '{print $2}'`
     adb shell kill -9 $zygote_id
+    #adb shell am broadcast -a android.intent.action.BOOT_COMPLETED
 else
     echo "adb push "${APPLICATION_ORIGINAL_PATH}" "${target_install_path}"/"
     adb shell rm ${target_install_path}"/"${APPLICATION}"*"
