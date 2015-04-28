@@ -4,7 +4,7 @@
 @(vivo)
 
 ## how to use ##
-**usage**: add `source ~/vivo_plus.sh` to `~/.zshrc`
+**usage**: source ./config_bash
 
 ## 编译与安装 ##
 假设编译生成的apk文件在`~/git_vivosdk`,然后映射到本地是`/z/git_vivosdk`
@@ -63,12 +63,12 @@ ppush
 ```
 
 ### padd ###
-给最近的一次修改添加reviewers
+给最近的一次修改添加reviewers, 2个参数
 ```
-padd review_id --add qiufuqing
+padd review_id reviewer
 ```
 ### pmansuo ###
-获取最近一次被审核后的可以填写在漫索上commit信息
+获取最近5次被审核后的可以填写在漫索上commit信息
 ```
 pmansuo
 ```
