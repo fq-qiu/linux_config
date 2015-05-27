@@ -21,7 +21,9 @@ elif [[ ${APPLICATION} = "MediaProvider" ]]; then
     TARGET_INSTALL_PATH="system/priv-app"
 fi 
 
-if [ ${ANDROID_VERSION:0:1} = "5" ]; then
+if [ ${ANDROID_VERSION:0:3} = "4.2" ]; then
+    TARGET_INSTALL_PATH="system/app"
+elif [ ${ANDROID_VERSION:0:1} = "5" ]; then
     TARGET_INSTALL_PATH=${TARGET_INSTALL_PATH}"/"${APPLICATION}
 fi
 echo ${TAG}"target_path____:"${TARGET_INSTALL_PATH}
