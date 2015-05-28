@@ -44,9 +44,11 @@ if [[ ${APPLICATION} = "MediaProvider" ]]; then
     adb push ${APPLICATION_ORIGINAL_PATH} ${TARGET_INSTALL_PATH}"/"
 
     adb shell rm -rf data/data/com.android.providers.media
-    adb shell am broadcast -a android.intent.action.MEDIA_MOUNTED -d file:///storage/sdcard0
-    adb shell am broadcast -a android.intent.action.MEDIA_MOUNTED -d file:///storage/sdcard1
-    #adb shell am braodcast -a android.intent.action.BOOT_COMPLETED
+    #adb shell am broadcast -a android.intent.action.MEDIA_MOUNTED -d file:///storage/sdcard0
+    #adb shell am broadcast -a android.intent.action.MEDIA_MOUNTED -d file:///storage/sdcard1
+    #adb shell am broadcast -a android.intent.action.MEDIA_MOUNTED -d file:///storage/otg
+    adb shell am broadcast -a android.intent.action.MEDIA_MOUNTED -d file
+    adb shell am broadcast -a android.intent.action.BOOT_COMPLETED -n com.android.providers.media/.MediaScannerReceiver
 else
     adb shell ps | grep -i ${PACKAGENAME} | awk '{print $9}' | xargs adb shell am force-stop
     echo "adb push "${APPLICATION_ORIGINAL_PATH}" "${TARGET_INSTALL_PATH}"/"${APPLICATION}
