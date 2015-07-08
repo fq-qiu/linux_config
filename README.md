@@ -25,6 +25,19 @@ eclipse         # eclipse
 
 自定义的shell脚本
 
+### mbianyi ###
+```
+mbianyi app-project-path
+```
+编译apk, 并把输出结果写入到当前目录的.commit_tmp, 供本地的`minstall`使用
+
+### minstall ###
+```
+minstall
+minstall update
+```
+解析从远程编译服务器同步过来的`.commit_tmp`本地安装apk, 有`update`参数时, 不清楚MediaProvider的database, 如果没有则清除, 重新生成database
+
 ### mkill ###
 杀死android device的名为的进程, 名称可以是正则表达式
 ```
@@ -53,6 +66,11 @@ mtags       #在当前目录下生成vim的cscope和tag文件
 - 通过crontab命令, 定义定时任务, 每周清理一次该目录
 - crontab命令通过`linux_config/install.sh`添加, 并通过`linux_config/unisntall.sh`删除
 - 如果批量删除, `rm test\*`,末尾添加星号
+
+### mdatabase ###
+```
+mdatabase 1501_db_1 #拷贝出data/data/com.android.providers.media/databases
+```
 
 ## config ##
 `linux_config/config_sh`目录
