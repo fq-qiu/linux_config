@@ -1,5 +1,9 @@
 This a auto configure script for my linux configure
 
+##Install##
+```
+git clone --recursive https://git.coding.net/tainzhi/linux_config.git
+```
 ##Environment:
 
 ## ubuntu install software ##
