@@ -3,6 +3,8 @@ This a auto configure script for my linux configure
 ##Install##
 ```
 git clone --recursive https://git.coding.net/tainzhi/linux_config.git
+cd linux_config
+git submodule foreach --recursive git checkout master
 ```
 ##Environment:
 
