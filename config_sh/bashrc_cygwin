@@ -207,6 +207,9 @@ alias ga='git add'
 alias gd='git diff'
 alias gc='git commit'
 alias gco='git checkout'
+alias gp='git push origin master'
+alias gl='git pull'
+alias glo='git log --oneline'
 
 
 # directory
@@ -218,10 +221,15 @@ alias ....='cd ..../'
 alias grep='grep -i --color=auto'
 
 
-#adb shell kill
+# adb shell kill
 alias mkill=". ~/linux_config/shell_tools/adb_shell_kill.sh"
 
-#adb shell screen capture
+# adb shell screen capture
 alias mcapture=". ~/linux_config/shell_tools/adb_screencap.sh"
+
+# pull databases
+alias mdatabase="adb pull data/data/com.android.providers.media/databases"
+# delete database
+alias rmdatabase="adb shell rm -rf data/data/com.android.providers.media/database"
 
 source ~/linux_config/vivo_bashtool/config_bash
