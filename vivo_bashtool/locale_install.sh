@@ -16,9 +16,9 @@ TAG="__________"
 COMMON_APPLICATION=("BBKVideoPlayer" "UpnpServer" "AudioEffect" "FlaotingWindow")
 SYSTEM_APPLICATION=("MediaProvider")
 
-APPLICATION_ORIGINAL_PATH=`tail -50 .compile_tmp | grep ^Install.*apk | awk '{print $2}'`
-ANDROID_VERSION=`tail -50 .compile_tmp | grep ^Install.*apk | awk -F/ '{print $4}'`
-APPLICATION=`tail -50 .compile_tmp | grep ^Install.*apk | awk -F/ '{print $7}'`
+APPLICATION_ORIGINAL_PATH=`tail -50 .compile_tmp | grep -P "^Install.*apk" | awk '{print $2}'`
+ANDROID_VERSION=`tail -50 .compile_tmp | grep -P "^Install.*apk" | awk -F/ '{print $4}'`
+APPLICATION=`tail -50 .compile_tmp | grep -P "^Install.*apk" | awk -F/ '{print $7}'`
 APPLICATION=${APPLICATION%.*}
 #rm .compile_tmp
 echo ${TAG}"sdk_version"${TAG}${ANDROID_VERSION}
