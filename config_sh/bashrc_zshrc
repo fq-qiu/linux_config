@@ -35,4 +35,4 @@ alias mtags=". ~/linux_config/shell_tools/tags.sh"
 
 export SVN_EDITOR=vim
 
-source ~/linux_config/vivo_bashtool/config_bash
+source ~/linux_config/vivo_bashtool/config_bash.sh
