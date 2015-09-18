@@ -23,4 +23,5 @@ alias previewer='plus changes-query --reviewers ./'
 alias ppush='git push origin HEAD:refs/for/$(remote_branch)'
 alias pmansuo='. ~/linux_config/vivo_bashtool/plus_revision.sh'
 alias padd='. ~/linux_config/vivo_bashtool/plus_add.sh'
+alias mdatabase='adb pull /data/data/com.android.providers.media/databases'
 
