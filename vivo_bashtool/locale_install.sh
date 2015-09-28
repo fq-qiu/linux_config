@@ -16,9 +16,9 @@ TAG="__________"
 COMMON_APPLICATION=("BBKVideoPlayer" "UpnpServer" "AudioEffect" "FlaotingWindow")
 SYSTEM_APPLICATION=("MediaProvider")
 
-APPLICATION_ORIGINAL_PATH=`tail -50 .compile_tmp | grep ^Install.*apk | awk '{print $2}'`
-ANDROID_VERSION=`tail -50 .compile_tmp | grep ^Install.*apk | awk -F/ '{print $4}'`
-APPLICATION=`tail -50 .compile_tmp | grep ^Install.*apk | awk -F/ '{print $7}'`
+APPLICATION_ORIGINAL_PATH=`tail -50 .compile_tmp | grep -P "^Install.*apk" | awk '{print $2}'`
+ANDROID_VERSION=`tail -50 .compile_tmp | grep -P "^Install.*apk" | awk -F/ '{print $4}'`
+APPLICATION=`tail -50 .compile_tmp | grep -P "^Install.*apk" | awk -F/ '{print $7}'`
 APPLICATION=${APPLICATION%.*}
 #rm .compile_tmp
 echo ${TAG}"sdk_version"${TAG}${ANDROID_VERSION}
@@ -113,6 +113,12 @@ elif [ ${ANDROID_VERSION:0:1} = "5" ]; then
         adb shell am broadcast -a MEDIA_SCANNER_SCAN_AUDIO_FILE -d file:///storage/emulated/0 -n com.android.providers.media/.MediaScannerReceiver
         adb shell am broadcast -a MEDIA_SCANNER_SCAN_IMAGE_FILE -d file:///storage/emulated/0 -n com.android.providers.media/.MediaScannerReceiver
         adb shell am broadcast -a android.intent.action.BOOT_COMPLETED -n com.android.providers.media/.MediaScannerReceiver
+    elif [[ ${APPLICATION} = "AudioEffect" ]]; then
+        TARGET_INSTALL_PATH="system/app/"${APPLICATION}
+        adb shell ps | grep -i audiofx | awk '{print $9}' | xargs adb shell am force-stop
+        echo ${TAG}"adb push "${APPLICATION_ORIGINAL_PATH}" "${TARGET_INSTALL_PATH}"/"${APPLICATION}
+        adb shell rm ${TARGET_INSTALL_PATH}"/"${APPLICATION}"*"
+        adb push ${APPLICATION_ORIGINAL_PATH} ${TARGET_INSTALL_PATH}"/"
     else
         TARGET_INSTALL_PATH="system/app/"${APPLICATION}
         adb shell ps | grep -i ${PACKAGENAME} | awk '{print $9}' | xargs adb shell am force-stop
