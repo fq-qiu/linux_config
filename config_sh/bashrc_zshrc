@@ -1,12 +1,12 @@
 # java 
-JAVA_HOME=/opt/jdk1.8.0_25
-JRE_HOME=/opt/jdk1.8.0_25/jre
+JAVA_HOME=/opt/jdk1.8.0_60
+JRE_HOME=/opt/jdk1.8.0_60/jre
 CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar:$JRE_HOME/lib
 PATH=$JAVA_HOME/bin:$JRE_HOME/bin:$PATH
 
 # anroid Sdk
 ANDROID_SDK=~/Android/Sdk
-PATH=$PATH:$ANDROID_SDK/platform-tools:$ANDROID_PLATFROM/tools:$PATH3
+PATH=$ANDROID_SDK/build-tools/19.1.0:$ANDROID_SDK/platform-tools:$ANDROID_SDK/tools:$PATH
 
 # auto color
 alias grep="grep --color"
@@ -35,4 +35,4 @@ alias mtags=". ~/linux_config/shell_tools/tags.sh"
 
 export SVN_EDITOR=vim
 
-source ~/linux_config/vivo_bashtool/config_bash
+source ~/linux_config/vivo_bashtool/config_bash.sh
