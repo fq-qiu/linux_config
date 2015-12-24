@@ -8,3 +8,9 @@ session.vim*
 .idea/
 .plus/
 bundle/
+project.properties
+.classpath
+.project
+.settings/
+bin/
+.commit_temp
