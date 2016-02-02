@@ -6,7 +6,7 @@ PATH=$JAVA_HOME/bin:$JRE_HOME/bin:$PATH
 
 # anroid Sdk
 ANDROID_SDK=~/Android/Sdk
-PATH=$PATH:$ANDROID_SDK/platform-tools:$ANDROID_SDK/tools:$PATH
+PATH=$ANDROID_SDK/build-tools/19.1.0:$ANDROID_SDK/platform-tools:$ANDROID_SDK/tools:$PATH
 
 # auto color
 alias grep="grep --color"
