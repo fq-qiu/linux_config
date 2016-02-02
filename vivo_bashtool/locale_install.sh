@@ -57,6 +57,7 @@ if [ ${ANDROID_VERSION:0:3} = "4.2" ]; then
         adb shell am broadcast -a android.intent.action.BOOT_COMPLETED -n com.android.providers.media/.MediaScannerReceiver
     else
         adb shell ps | grep -i ${PACKAGENAME} | awk '{print $9}' | xargs adb shell am force-stop
+        adb shell ps | grep -i ${PACKAGENAME} | awk '{print $9}' | xargs adb shell pm clear
         echo ${TAG}"adb push "${APPLICATION_ORIGINAL_PATH}" "${TARGET_INSTALL_PATH}"/"${APPLICATION}
         adb shell rm ${TARGET_INSTALL_PATH}"/"${APPLICATION}"*"
         adb push ${APPLICATION_ORIGINAL_PATH} ${TARGET_INSTALL_PATH}"/"
@@ -70,12 +71,13 @@ elif [ ${ANDROID_VERSION:0:3} = "4.4" ]; then
         adb shell rm ${TARGET_INSTALL_PATH}"/"${APPLICATION}"*"
         adb push ${APPLICATION_ORIGINAL_PATH} ${TARGET_INSTALL_PATH}"/"
 
-        adb shell rm -rf data/data/com.android.providers.media
-        adb shell am broadcast -a android.intent.action.MEDIA_MOUNTED -d file
-        adb shell am broadcast -a android.intent.action.BOOT_COMPLETED -n com.android.providers.media/.MediaScannerReceiver
+        # adb shell rm -rf data/data/com.android.providers.media
+        # adb shell am broadcast -a android.intent.action.MEDIA_MOUNTED -d file
+        # adb shell am broadcast -a android.intent.action.BOOT_COMPLETED -n com.android.providers.media/.MediaScannerReceiver
     else
         TARGET_INSTALL_PATH="system/app"
         adb shell ps | grep -i ${PACKAGENAME} | awk '{print $9}' | xargs adb shell am force-stop
+        adb shell ps | grep -i ${PACKAGENAME} | awk '{print $9}' | xargs adb shell pm clear
         echo ${TAG}"adb push "${APPLICATION_ORIGINAL_PATH}" "${TARGET_INSTALL_PATH}"/"${APPLICATION}
         adb shell rm ${TARGET_INSTALL_PATH}"/"${APPLICATION}"*"
         adb push ${APPLICATION_ORIGINAL_PATH} ${TARGET_INSTALL_PATH}"/"
@@ -95,39 +97,89 @@ elif [ ${ANDROID_VERSION:0:1} = "5" ]; then
             adb shell rm -rf data/data/com.android.providers.media
         else
             echo ${TAG}"Database Update, not remove the original data"
+            # android 5.0 and beyond don't allow pm uninstall, so just copy the apk to system/priv-app
+            # and install the apk to data/app.Then use the apk in data/app
+            # After reboot, the system found system/priv-app and data/app both have installed apk then
+            # use the apk in system/priv-app
+            adb install -r ${APPLICATION_ORIGINAL_PATH}
+            # adb shell pm uninstall com.android.providers.media
+            # adb shell pm install system/priv-app/MediaProvider/MediaProvider.apk
+            # adb shell pm install-create -r data/MediaProvider.apk
+            # adb shell kill -9 `adb shell ps | grep -i zygote | awk '{print $2;}'`
+            adb shell pm clear com.android.providers.media
+            # Send broadcast to recreate the database
+            # to timely show the results in media apps listview, like audio, video, image,
+            # media broadcasts are sended first
+            # adb shell am broadcast -a MEDIA_SCANNER_SCAN_VIDEO_FILE -d file:///storage/emulated/0 -n com.android.providers.media/.MediaScannerReceiver
+            # adb shell am broadcast -a MEDIA_SCANNER_SCAN_AUDIO_FILE -d file:///storage/emulated/0 -n com.android.providers.media/.MediaScannerReceiver
+            # adb shell am broadcast -a MEDIA_SCANNER_SCAN_IMAGE_FILE -d file:///storage/emulated/0 -n com.android.providers.media/.MediaScannerReceiver
+            adb shell am broadcast -a android.intent.action.BOOT_COMPLETED -n com.android.providers.media/.MediaScannerReceiver
         fi
-        # android 5.0 and beyond don't allow pm uninstall, so just copy the apk to system/priv-app
-        # and install the apk to data/app.Then use the apk in data/app
-        # After reboot, the system found system/priv-app and data/app both have installed apk then
-        # use the apk in system/priv-app
-        adb install -r ${APPLICATION_ORIGINAL_PATH}
-        # adb shell pm uninstall com.android.providers.media
-        # adb shell pm install system/priv-app/MediaProvider/MediaProvider.apk
-        # adb shell pm install-create -r data/MediaProvider.apk
-        # adb shell kill -9 `adb shell ps | grep -i zygote | awk '{print $2;}'`
-        adb shell pm path com.android.providers.media
-        # Send broadcast to recreate the database
-        # to timely show the results in media apps listview, like audio, video, image,
-        # media broadcasts are sended first
-        adb shell am broadcast -a MEDIA_SCANNER_SCAN_VIDEO_FILE -d file:///storage/emulated/0 -n com.android.providers.media/.MediaScannerReceiver
-        adb shell am broadcast -a MEDIA_SCANNER_SCAN_AUDIO_FILE -d file:///storage/emulated/0 -n com.android.providers.media/.MediaScannerReceiver
-        adb shell am broadcast -a MEDIA_SCANNER_SCAN_IMAGE_FILE -d file:///storage/emulated/0 -n com.android.providers.media/.MediaScannerReceiver
-        adb shell am broadcast -a android.intent.action.BOOT_COMPLETED -n com.android.providers.media/.MediaScannerReceiver
     elif [[ ${APPLICATION} = "AudioEffect" ]]; then
         TARGET_INSTALL_PATH="system/app/"${APPLICATION}
         adb shell ps | grep -i audiofx | awk '{print $9}' | xargs adb shell am force-stop
+        adb shell ps | grep -i audiofx | awk '{print $9}' | xargs adb shell pm clear
         echo ${TAG}"adb push "${APPLICATION_ORIGINAL_PATH}" "${TARGET_INSTALL_PATH}"/"${APPLICATION}
         adb shell rm ${TARGET_INSTALL_PATH}"/"${APPLICATION}"*"
         adb push ${APPLICATION_ORIGINAL_PATH} ${TARGET_INSTALL_PATH}"/"
     else
         TARGET_INSTALL_PATH="system/app/"${APPLICATION}
         adb shell ps | grep -i ${PACKAGENAME} | awk '{print $9}' | xargs adb shell am force-stop
+        adb shell ps | grep -i ${PACKAGENAME} | awk '{print $9}' | xargs adb shell pm clear
+        echo ${TAG}"adb push "${APPLICATION_ORIGINAL_PATH}" "${TARGET_INSTALL_PATH}"/"${APPLICATION}
+        adb shell rm ${TARGET_INSTALL_PATH}"/"${APPLICATION}"*"
+        adb push ${APPLICATION_ORIGINAL_PATH} ${TARGET_INSTALL_PATH}"/"
+    fi
+
+# else 
+else
+    echo "the default for all rom compile"
+    if [[ ${APPLICATION} = "MediaProvider" ]]; then
+        TARGET_INSTALL_PATH="system/priv-app/"${APPLICATION}
+        echo ${TAG}"adb push "${APPLICATION_ORIGINAL_PATH}" "${TARGET_INSTALL_PATH}"/"${APPLICATION}
+        adb push ${APPLICATION_ORIGINAL_PATH} ${TARGET_INSTALL_PATH}"/"
+
+        if [[ $# -eq 0 ]]; then
+            echo ${TAG}"Not update, remove the original Database and recreate it"
+            # clear database associated with MediaProvider
+            adb shell pm clear com.android.providers.media
+            adb shell rm -rf data/data/com.android.providers.media
+        else
+            echo ${TAG}"Database Update, not remove the original data"
+            # android 5.0 and beyond don't allow pm uninstall, so just copy the apk to system/priv-app
+            # and install the apk to data/app.Then use the apk in data/app
+            # After reboot, the system found system/priv-app and data/app both have installed apk then
+            # use the apk in system/priv-app
+            adb install -r ${APPLICATION_ORIGINAL_PATH}
+            # adb shell pm uninstall com.android.providers.media
+            # adb shell pm install system/priv-app/MediaProvider/MediaProvider.apk
+            # adb shell pm install-create -r data/MediaProvider.apk
+            # adb shell kill -9 `adb shell ps | grep -i zygote | awk '{print $2;}'`
+            adb shell pm clear com.android.providers.media
+            # Send broadcast to recreate the database
+            # to timely show the results in media apps listview, like audio, video, image,
+            # media broadcasts are sended first
+            adb shell am broadcast -a MEDIA_SCANNER_SCAN_VIDEO_FILE -d file:///storage/emulated/0 -n com.android.providers.media/.MediaScannerReceiver
+            adb shell am broadcast -a MEDIA_SCANNER_SCAN_AUDIO_FILE -d file:///storage/emulated/0 -n com.android.providers.media/.MediaScannerReceiver
+            adb shell am broadcast -a MEDIA_SCANNER_SCAN_IMAGE_FILE -d file:///storage/emulated/0 -n com.android.providers.media/.MediaScannerReceiver
+            adb shell am broadcast -a android.intent.action.BOOT_COMPLETED -n com.android.providers.media/.MediaScannerReceiver
+        fi
+    elif [[ ${APPLICATION} = "AudioEffect" ]]; then
+        TARGET_INSTALL_PATH="system/app/"${APPLICATION}
+        adb shell ps | grep -i audiofx | awk '{print $9}' | xargs adb shell am force-stop
+        adb shell ps | grep -i audiofx | awk '{print $9}' | xargs adb shell pm clear
+        echo ${TAG}"adb push "${APPLICATION_ORIGINAL_PATH}" "${TARGET_INSTALL_PATH}"/"${APPLICATION}
+        adb shell rm ${TARGET_INSTALL_PATH}"/"${APPLICATION}"*"
+        adb push ${APPLICATION_ORIGINAL_PATH} ${TARGET_INSTALL_PATH}"/"
+    else
+        TARGET_INSTALL_PATH="system/app/"${APPLICATION}
+        adb shell ps | grep -i ${PACKAGENAME} | awk '{print $9}' | xargs adb shell am force-stop
+        adb shell ps | grep -i ${PACKAGENAME} | awk '{print $9}' | xargs adb shell pm clear
         echo ${TAG}"adb push "${APPLICATION_ORIGINAL_PATH}" "${TARGET_INSTALL_PATH}"/"${APPLICATION}
         adb shell rm ${TARGET_INSTALL_PATH}"/"${APPLICATION}"*"
         adb push ${APPLICATION_ORIGINAL_PATH} ${TARGET_INSTALL_PATH}"/"
     fi
 fi
-
 
 
 
