@@ -116,6 +116,30 @@ if ! shopt -oq posix; then
   fi
 fi
 
+
+# short commands
+alias ...='../..'
+alias ....='../../..'
+alias .....='../../../..'
+alias  ......='../../../../..'
+
+alias gst='git status'
+alias gl='git pull'
+alias gp='gp'
+alias gd='git diff'
+alias gc='git commit -v'
+alias gc!='git commit -v -amend'
+alias gco='git checkout'
+alias gcm='git checkout master'
+alias gr='git remote'
+alias gb='git branch'
+alias gcl='git config --list'
+alias ga='git add'
+alias gm='git merge'
+alias glo='git log --oneline --decorate  --color'
+alias glog='git log --oneline --decorate  --color -raph'
+
+
 # android
 #ANDROID_HOME=~/Android-Sdk
 #PATH=$ANDROID_HOME/build-tools/android-4.4W:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$PATH
