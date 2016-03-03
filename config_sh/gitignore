@@ -3,7 +3,7 @@ gen/
 tags
 cscope.*
 NERD*
-session.vim*
+.session.vim*
 *patch
 .idea/
 .plus/
