@@ -14,6 +14,7 @@
 CURRENT_PATH=`pwd`
 TAG="__________"
 COMMON_APPLICATION=("BBKVideoPlayer" "UpnpServer" "AudioEffect" "FlaotingWindow")
+COMMON_APPLICATION_PACKAGENAME=("com.android.VideoPlayer" "com.vivo.upnpserver" "com.vivo.audiofx" "com.vivo.floatingwindow")
 SYSTEM_APPLICATION=("MediaProvider")
 
 APPLICATION_ORIGINAL_PATH=`tail -50 .compile_tmp | grep -P "^Install.*apk" | awk '{print $2}'`
@@ -50,6 +51,7 @@ if [ ${ANDROID_VERSION:0:3} = "4.2" ]; then
         adb push ${APPLICATION_ORIGINAL_PATH} ${TARGET_INSTALL_PATH}"/"
 
         adb shell rm -rf data/data/com.android.providers.media
+        adb shell pm uninstall com.android.providers.media
         #adb shell am broadcast -a android.intent.action.MEDIA_MOUNTED -d file:///storage/sdcard0
         #adb shell am broadcast -a android.intent.action.MEDIA_MOUNTED -d file:///storage/sdcard1
         #adb shell am broadcast -a android.intent.action.MEDIA_MOUNTED -d file:///storage/otg
@@ -68,6 +70,7 @@ elif [ ${ANDROID_VERSION:0:3} = "4.4" ]; then
     if [[ ${APPLICATION} = "MediaProvider" ]]; then
         TARGET_INSTALL_PATH="system/priv-app"
         echo ${TAG}"adb push "${APPLICATION_ORIGINAL_PATH}" "${TARGET_INSTALL_PATH}"/"${APPLICATION}
+        adb shell pm uninstall com.android.providers.media
         adb shell rm ${TARGET_INSTALL_PATH}"/"${APPLICATION}"*"
         adb push ${APPLICATION_ORIGINAL_PATH} ${TARGET_INSTALL_PATH}"/"
 
@@ -93,6 +96,7 @@ elif [ ${ANDROID_VERSION:0:1} = "5" ]; then
         if [[ $# -eq 0 ]]; then
             echo ${TAG}"Not update, remove the original Database and recreate it"
             # clear database associated with MediaProvider
+            adb shell pm uninstall com.android.providers.media
             adb shell pm clear com.android.providers.media
             adb shell rm -rf data/data/com.android.providers.media
         else
@@ -101,6 +105,7 @@ elif [ ${ANDROID_VERSION:0:1} = "5" ]; then
             # and install the apk to data/app.Then use the apk in data/app
             # After reboot, the system found system/priv-app and data/app both have installed apk then
             # use the apk in system/priv-app
+            adb shell pm uninstall com.android.providers.media
             adb install -r ${APPLICATION_ORIGINAL_PATH}
             # adb shell pm uninstall com.android.providers.media
             # adb shell pm install system/priv-app/MediaProvider/MediaProvider.apk
@@ -142,6 +147,7 @@ else
         if [[ $# -eq 0 ]]; then
             echo ${TAG}"Not update, remove the original Database and recreate it"
             # clear database associated with MediaProvider
+            adb shell pm uninstall com.android.providers.media
             adb shell pm clear com.android.providers.media
             adb shell rm -rf data/data/com.android.providers.media
         else
@@ -150,6 +156,7 @@ else
             # and install the apk to data/app.Then use the apk in data/app
             # After reboot, the system found system/priv-app and data/app both have installed apk then
             # use the apk in system/priv-app
+            adb shell pm uninstall com.android.providers.media
             adb install -r ${APPLICATION_ORIGINAL_PATH}
             # adb shell pm uninstall com.android.providers.media
             # adb shell pm install system/priv-app/MediaProvider/MediaProvider.apk

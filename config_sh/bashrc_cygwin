@@ -232,4 +232,4 @@ alias mdatabase="adb pull data/data/com.android.providers.media/databases"
 # delete database
 alias rmdatabase="adb shell rm -rf data/data/com.android.providers.media/database"
 
-source ~/linux_config/vivo_bashtool/config_bash
+source ~/linux_config/config_sh/bashrc_zshrc_general
