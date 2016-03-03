@@ -144,4 +144,4 @@ alias glog='git log --oneline --decorate  --color -raph'
 #ANDROID_HOME=~/Android-Sdk
 #PATH=$ANDROID_HOME/build-tools/android-4.4W:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools:$PATH
 
-source ~/linux_config/config_sh/bashrc_zshrc
+source ~/linux_config/config_sh/bashrc_zshrc_general

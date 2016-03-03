@@ -33,6 +33,9 @@ alias mtags=". ~/linux_config/shell_tools/tags.sh"
 # rm recovert
 # alias rm='. ~/linux_config/shell_tools/myrm.sh'
 
+# split file
+alias msplit='sh ~/linux_config/shell_tools/split.sh'
+
 export SVN_EDITOR=vim
 
 source ~/linux_config/vivo_bashtool/config_bash.sh

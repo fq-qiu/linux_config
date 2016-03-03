@@ -73,6 +73,12 @@ mtags       #在当前目录下生成vim的cscope和tag文件
 - crontab命令通过`linux_config/install.sh`添加, 并通过`linux_config/unisntall.sh`删除
 - 如果批量删除, `rm test\*`,末尾添加星号
 
+###msplit###
+切分文件
+```
+msplit --help
+```
+
 ### mdatabase ###
 ```
 mdatabase 1501_db_1 #拷贝出data/data/com.android.providers.media/databases
@@ -89,4 +95,4 @@ mdatabase 1501_db_1 #拷贝出data/data/com.android.providers.media/databases
 - ackrc: ack命令的配置
 - ideavimrc: vim配置for Android Studio vim plugin
 - tmux.conf: tmux config
-- bashrc_zshrc: bashrc和zshrc都source的文件, 包括一些配置和alias
+- bashrc_zshrc_general: bashrc和zshrc都source的文件, 包括一些共有配置和alias
