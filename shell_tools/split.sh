@@ -37,7 +37,7 @@ function_help() {
     echo "**************************************************************************"
 }
 
-if [ $# -eq 0 ] || ([ $# -eq 1 ] && ([ $1='-h' ] || [ $1='--help' ]))  ; then
+if [ $# -eq 0 ] || ([ $# -eq 1 ] && ([ $1 = '-h' ] || [ $1 = '--help' ]))  ; then
     function_help
 elif [ $# -eq 1 ] && [ -f $1 ]; then
     function_file_split $1
