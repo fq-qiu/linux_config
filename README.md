@@ -94,6 +94,7 @@ mdatabase 1501_db_1 #拷贝出data/data/com.android.providers.media/databases
 - bashrc_zshrc_general: bashrc和zshrc都source的文件, 包括一些共有配置和alias
 - gitconfig
 - gitignore
+- iptables.rules: some rules to block some online game show ip
 - ideavimrc: vim配置for Android Studio vim plugin ideavim
 - ssh-config: config for ssh, for coding.net, github
 - tmux.conf: tmux config
