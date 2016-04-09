@@ -25,5 +25,9 @@ rm -rf ~/.ackrc
 # for ssh
 rm -rf ~/.ssh
 
+# for iptables, unblock some online game show sites
+rm /etc/iptables.up.rules
+iptables -F
+
 # for rm crontab
 crontab -l | grep -v rm_recovery | crontab -
