@@ -27,5 +27,10 @@ ln -s ~/linux_config/config_sh/ackrc ~/.ackrc
 mkdir ~/.ssh
 ln -s ~/linux_config/config_sh/ssh-config ~/.ssh/config
 
+# for iptables, block some online game show sites
+iptables-restore < config_sh/iptables.rules
+echo "pre-up iptables-restore < /etc/iptables.up.rules" >> /etc/network/interfaces
+echo "post-down iptables-save > /etc/iptables.up.rules" >> /etc/network/interfaces
+
 # crontab rm: /bin/rm ~/.tmp_reconvery every week
 (crontab -l 2>/dev/null; echo "10 4 * * 1 /bin/rm -rf ~/.rm_recovery") | crontab -
