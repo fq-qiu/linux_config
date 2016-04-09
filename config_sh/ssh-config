@@ -15,6 +15,6 @@ User qiufuqing
 Identityfile ~/.ssh/smartgit_server
 
 Host coding.net
-HostName coding.net
+HostName git.coding.net
 User git
 Identityfile ~/.ssh/coding.net

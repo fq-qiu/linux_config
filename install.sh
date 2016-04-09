@@ -23,5 +23,9 @@ ln -s ~/linux_config/vimfile ~/.vim
 # for ack
 ln -s ~/linux_config/config_sh/ackrc ~/.ackrc
 
+# for ssh
+mkdir ~/.ssh
+ln -s ~/linux_config/config_sh/ssh-config ~/.ssh/config
+
 # crontab rm: /bin/rm ~/.tmp_reconvery every week
 (crontab -l 2>/dev/null; echo "10 4 * * 1 /bin/rm -rf ~/.rm_recovery") | crontab -
