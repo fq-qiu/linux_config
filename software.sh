@@ -9,11 +9,12 @@ else
 fi
 
 # build essential
-yes | apt-get install g++
+apt-get -y install g++
 yes | apt-get install build-essential
 yes | apt-get install automake libevent-dev libncurses5-dev libncurses5-dev
-yes | apt-get install cmake python-dev
 yes | apt-get install curl
+yes | apt-get install cmake python-dev python-setuptools
+easy_install pip
 
 # zsh
 yes | apt-get install zsh
@@ -77,3 +78,7 @@ ln -s ~/linux_config/vimfile ~/.vim
 cd ~/.vim
 echo | vim -u ~/.vim/vimrc +BundleUpdate +qall
 
+
+## compatible i386, for android mksdard tool
+dpkg --add-architecture i386
+apt-get install libncurses5:i386 libstdc++6:i386 zlib1g:i386 lib32z1 lib32ncurses5
