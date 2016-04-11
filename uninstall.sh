@@ -25,13 +25,17 @@ rm -rf ~/.gitconfig
 
 # tmux
 rm -rf ~/.tmux.conf
-rm -rf ~/.tmux
+if [ -L ~/.tmux ]; then
+    rm -rf ~/.tmux
+fi
 
 # for AndroidStudio or Intellij IDEA plugin IdeaVim
 rm -rf ~/.ideavimrc
 
 # for vim
-rm -rf ~/.vim
+if [ -L ~/.vim ]; then
+    rm -rf ~/.vim
+fi
 
 # for ack
 rm -rf ~/.ackrc
