@@ -1,6 +1,12 @@
 # bash shell
-mv ~/.bashrc ~/.bashrc_backup
+if [ ! -L ~/.bashrc ]; then
+    mv ~/.bashrc ~/.bashrc_backup
+fi
 ln -s ~/linux_config/config_sh/bashrc ~/.bashrc
+if [ ! -L ~/.bash_history ]; then
+    mv ~/.bash_history ~/.bash_history_backup
+fi
+ln -s ~/linux_config/config_sh/bash_history ~/.bash_history
 
 # zsh
 ln -s ~/linux_config/config_sh/zshrc ~/.zshrc

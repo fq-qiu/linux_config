@@ -1,6 +1,8 @@
 # bash shell
 rm -rf ~/.bashrc
 mv ~/.bashrc_backup ~/.bashrc
+rm -rf ~/.bash_history
+mv ~/.bash_history_backup ~/.bash_history
 
 rm -rf ~/.zshrc
 rm -rf ~/.oh-my-zsh
