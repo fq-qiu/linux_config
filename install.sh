@@ -24,14 +24,18 @@ ln -s ~/linux_config/config_sh/gitignore ~/.gitignore
 ln -s ~/linux_config/config_sh/gitconfig ~/.gitconfig
 
 # tmux
-ln -s ~/linux_config/tmux ~/.tmux
+if [ ! -d ~/.tmux ]; then
+    ln -s ~/linux_config/tmux ~/.tmux
+fi
 ln -s ~/linux_config/config_sh/tmux.conf ~/.tmux.conf
 
 # for AndroidStudio or Intellij IDEA plugin IdeaVim
 ln -s ~/linux_config/config_sh/ideavimrc ~/.ideavimrc
 
 # for vim
-ln -s ~/linux_config/vimfile ~/.vim
+if [ ! -d ~/.vim ]; then
+    ln -s ~/linux_config/vimfile ~/.vim
+fi
 
 # for ack
 ln -s ~/linux_config/config_sh/ackrc ~/.ackrc

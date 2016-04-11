@@ -6048,3 +6048,34 @@ iptables -A OUTPUT -m string --string "longzhu.com" --algo bm -j DROP
 : 1460389574:0;cd linux_config
 : 1460389574:0;gst
 : 1460389579:0;ga config_sh/
+: 1460389598:0;ls |grep mo
+: 1460389620:0;ls -lla ~/ |grep zsh
+: 1460389623:0;gst
+: 1460389629:0;git commit
+: 1460389637:0;gst
+: 1460389641:0;gp
+: 1460389652:0;cd .vim
+: 1460389652:0;gst
+: 1460389654:0;gd vimrc
+: 1460410895:0;tmux
+: 1460410896:0;gst
+: 1460410898:0;cd linux_config
+: 1460410898:0;gst
+: 1460410913:0;rm tmux -rf
+: 1460410917:0;cd Videos
+: 1460410924:0;cd ~/.vim
+: 1460410925:0;gst
+: 1460410929:0;rm vimfile 
+: 1460410930:0;ls
+: 1460410939:0;git submodule foreach git pull
+: 1460410986:0;gst
+: 1460410991:0;gd
+: 1460410994:0;gd vimrc
+: 1460410997:0;gst
+: 1460411003:0;ls
+: 1460411006:0;vim
+: 1460411179:0;gst
+: 1460411187:0;ga install.sh uninstall.sh
+: 1460411188:0;gc
+: 1460411195:0;gst
+: 1460411198:0;ga config_sh/
