@@ -1,0 +1,6050 @@
+: 1458309125:0;exit
+: 1458309646:0;ls
+: 1458309648:0;ls /opt/
+: 1458309648:0;ls
+: 1458309661:0;vim .zshrc
+: 1458309743:0;ls /opt/android-studio-ide-141.2456560-linux
+: 1458309743:0;ls
+: 1458309747:0;cd /opt/android-studio-ide-141.2456560-linux
+: 1458309747:0;ls
+: 1458309752:0;sudo mv android-studio ../
+: 1458309756:0;ls
+: 1458309757:0;cd ..
+: 1458309758:0;ls
+: 1458309764:0;rm android-studio-ide-141.2456560-linux -rf
+: 1458309777:0;sudo rm -rf android-studio-ide-141.2456560-linux
+: 1458309778:0;ls
+: 1458309799:0;source ~/.zshrc
+: 1458309802:0;java --version
+: 1458309805:0;java -version
+: 1458309808:0;anstudio
+: 1458311298:0;cd ~/
+: 1458311298:0;ls
+: 1458311648:0;cd Downloads
+: 1458311648:0;ls
+: 1458311658:0;mv androidstudio-settings.jar.txt androidstudio-settings.jar
+: 1458311673:0;anstudio
+: 1458335189:0;ls
+: 1458335219:0;ls -all ~/ |grep zsh
+: 1458335225:0;vim ~/.zshrc
+: 1458335250:0;tmux
+: 1458335262:0;j linux__
+: 1458335266:0;j linux
+: 1458335269:0;cd ~/linux_config
+: 1458335270:0;ls
+: 1458335276:0;vim config_sh/bashrc_zshrc_general
+: 1458335308:0;ls /opt/android-studio/
+: 1458335329:0;anstudio
+: 1458335396:0;cd ~/Android/Sdk/
+: 1458335397:0;ls
+: 1458335440:0;anstudio
+: 1458335700:0;exit
+: 1458335729:0;gst
+: 1458335742:0;gd vimfile
+: 1458335756:0;exit
+: 1458335859:0;tmux
+: 1458335863:0;anstudio
+: 1458336647:0;ping p1.jp1.pathair.com
+: 1458337252:0;ls
+: 1458337258:0;vim examples.desktop
+: 1458337270:0;ls
+: 1458337290:0;rm Public Templates examples.desktop -rf
+: 1458337290:0;ls
+: 1458337302:0;cd Android
+: 1458337303:0;ls
+: 1458337313:0;mkdir Workspaces
+: 1458337314:0;ls
+: 1458337316:0;cd Workspaces
+: 1458337317:0;ls
+: 1458337326:0;adb devices
+: 1458337366:0;ls
+: 1458337517:0;adb devices
+: 1458337542:0;sudo apt-get install lib32z1 lib32ncurses5 lib32bz2-1.0 lib32stdc++6
+: 1458337578:0;ls
+: 1458337595:0;cd ~/linux_config
+: 1458337595:0;ls
+: 1458337596:0;vim
+: 1458337631:0;exit
+: 1458337638:0;cd ~/linux_config
+: 1458337638:0;ls
+: 1458337639:0;vim
+: 1458337649:0;cd Android/Sdk
+: 1458337649:0;ls
+: 1458337670:0;ls platforms
+: 1458337680:0;ls platform-tools/
+: 1458337703:0;pwd
+: 1458337720:0;ls build-tools/23.0.2/
+: 1458337745:0;source ~/.zshrc
+: 1458337748:0;adb devices
+: 1458337765:0;lsusb
+: 1458337829:0;ls /etc/udev/rules.d
+: 1458337871:0;adb devices
+: 1458337875:0;adb devices
+: 1458337897:0;adb remount
+: 1458337901:0;exit
+: 1458337906:0;adb devices
+: 1458337909:0;adb logcat 
+: 1458337932:0;ls
+: 1458337944:0;cd linux_config
+: 1458337944:0;ls
+: 1458337959:0;ack -g ssh
+: 1458337969:0;vim config_sh/ssh-config
+: 1458337992:0;cd ~/
+: 1458337992:0;ls
+: 1458337999:0;mkdir .ssh
+: 1458338014:0;ls
+: 1458338016:0;ps
+: 1458338110:0;. ./install.sh
+: 1458338115:0;ls ~/.ssh
+: 1458338115:0;ls
+: 1458338119:0;ls ~/.ssh
+: 1458338121:0;ps
+: 1458338144:0;. ./install.sh
+: 1458338150:0;ls ~/.ssh/config
+: 1458338159:0;ls ~/.ssh/
+: 1458338164:0;cd ~/.ssh
+: 1458338165:0;ls
+: 1458338166:0;vim config
+: 1458338280:0;ssh-keygen -t rsa -C "ssh for coding.net" -f coding.net
+: 1458338284:0;ls
+: 1458338290:0;cat config
+: 1458338294:0;ls
+: 1458338319:0;cat coding.net.pub
+: 1458338357:0;ssh -T coding.net
+: 1458338407:0;ssh-keygen -f coding.net
+: 1458338412:0;ls
+: 1458338416:0;cat coding.net.pub
+: 1458338438:0;ssh -T coding.net
+: 1458338449:0;vim config
+: 1458338508:0;ps
+: 1458338522:0;ssh -T coding.net
+: 1458338556:0;ps
+: 1458338572:0;j work
+: 1458338576:0;git@git.coding.net:tainzhi/VideoPlayer.git
+: 1458338584:0;git clone git@git.coding.net:tainzhi/VideoPlayer.git
+: 1458338647:0;cd linux_config
+: 1458338648:0;gst
+: 1458338799:0;gradle --version
+: 1458338807:0;cd ~/.gradle
+: 1458338808:0;ls
+: 1458338811:0;cd native
+: 1458338811:0;ls
+: 1458338819:0;cd ../daemon
+: 1458338820:0;ls
+: 1458338823:0;exit
+: 1458339095:0;ls
+: 1458339137:0;cd ~/Do
+: 1458339140:0;j Down
+: 1458339140:0;ls
+: 1458339147:0;tar zxvf clang+llvm-3.8.0-x86_64-linux-gnu-ubuntu-15.10.tar.xz
+: 1458339172:0;tar -xjf clang+llvm-3.8.0-x86_64-linux-gnu-ubuntu-15.10.tar.xz
+: 1458339182:0;tar xf clang+llvm-3.8.0-x86_64-linux-gnu-ubuntu-15.10.tar.xz
+: 1458339198:0;ls
+: 1458339201:0;cd clang+llvm-3.8.0-x86_64-linux-gnu-ubuntu-15.10
+: 1458339201:0;ls
+: 1458339256:0;vim ~/.zshrc
+: 1458339298:0;cd ~/linux_config
+: 1458339299:0;ls
+: 1458339299:0;vim
+: 1458339423:0;source ~/.zshrc
+: 1458339427:0;clang --version
+: 1458339432:0;pwd
+: 1458339439:0;vim config_sh/bashrc_zshrc_general
+: 1458339460:0;echo $CLANG_HOME
+: 1458339482:0;source ~/.zshrc
+: 1458339487:0;echo $CLANG_HOME
+: 1458339492:0;clang --version
+: 1458339515:0;ls
+: 1458339517:0;cd Desktop
+: 1458339518:0;ls
+: 1458339519:0;vim a.c
+: 1458339555:0;clang a.c
+: 1458339556:0;ls
+: 1458339559:0;. ./a.out
+: 1458339566:0;vim a.c
+: 1458339581:0;rm a.*
+: 1458339582:0;ls
+: 1458339622:0;cd ~/software_install
+: 1458339622:0;ls
+: 1458339632:0;mkdir ycm_build
+: 1458339644:0;ls
+: 1458339646:0;cd ..
+: 1458339646:0;ls
+: 1458339650:0;mkdir ycm_build
+: 1458339652:0;cd ycm_build
+: 1458339653:0;ls
+: 1458339721:0;cmake --version
+: 1458339764:0;cd ~/Downloads/clang+llvm-3.8.0-x86_64-linux-gnu-ubuntu-15.10/lib
+: 1458339766:0;ls
+: 1458339773:0;ls |grep libcla
+: 1458339780:0;ls |grep libclang.so
+: 1458339788:0;pwd
+: 1458339792:0;/home/muqing/Downloads/clang+llvm-3.8.0-x86_64-linux-gnu-ubuntu-15.10/lib
+: 1458339799:0;cmake -G "Unix Makefiles" -DEXTERNAL_LIBCLANG_PATH=kj
+: 1458339807:0;cmake -G "Unix Makefiles" -DEXTERNAL_LIBCLANG_PATH=/home/muqing/Downloads/clang+llvm-3.8.0-x86_64-linux-gnu-ubuntu-15.10/lib
+: 1458339841:0;cmake -G "Unix Makefiles" -DEXTERNAL_LIBCLANG_PATH=/home/muqing/Downloads/clang+llvm-3.8.0-x86_64-linux-gnu-ubuntu-15.10/lib/libclang.so ~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp
+: 1458339847:0;make ycm_core
+: 1458339929:0;exit
+: 1458339949:0;cd ~/linux_config
+: 1458339949:0;ls
+: 1458339957:0;vim software.sh
+: 1458340108:0;make ycm_support_libs
+: 1458340434:0;ls
+: 1458340446:0;\
+
+: 1458340472:0;make ycm_support_libs
+: 1458340488:0;cmake -G "Unix Makefiles" -DEXTERNAL_LIBCLANG_PATH=/home/muqing/Downloads/clang+llvm-3.8.0-x86_64-linux-gnu-ubuntu-15.10/lib/libclang.so ~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp
+: 1458340492:0;ls
+: 1458340509:0;ack ycm_core
+: 1458340523:0;vim Makefile
+: 1458340718:0;exit
+: 1458340769:0;cd .vim/bundle/YouCompleteMe
+: 1458340770:0;gst
+: 1458340772:0;gl
+: 1458340777:0;gst
+: 1458340780:0;git pull
+: 1458340784:0;sudo git pull
+: 1458340792:0;git log
+: 1458340795:0;gcl
+: 1458340802:0;git config list
+: 1458340804:0;git config --list
+: 1458340882:0;pwd
+: 1458340887:0;ls
+: 1458340898:0;./install.py --clang-completer
+: 1458341528:0;clang --verson
+: 1458341532:0;clang --version
+: 1458341582:0;ls
+: 1458341587:0;vim README.md
+: 1458341593:0;exit
+: 1458341596:0;ls
+: 1458341598:0;cd Desktop
+: 1458341599:0;ls
+: 1458341602:0;vim a.c
+: 1458341622:0;ls
+: 1458341631:0;j video
+: 1458341639:0;cd ~/Android/Workspaces/VideoPlayer
+: 1458341639:0;ls
+: 1458341640:0;mtags
+: 1458341642:0;ls
+: 1458341649:0;vim
+: 1458341713:0;gst
+: 1458341719:0;gco -- app/src
+: 1458342748:0;ls
+: 1458342749:0;tmux
+: 1458342755:0;cd ~/linux_config
+: 1458342756:0;ls
+: 1458342757:0;gst
+: 1458342769:0;vim config_sh/bashrc_zshrc_general
+: 1458342954:0;gst
+: 1458343124:0;ls
+: 1458399879:0;cat what\'s\ fuck
+: 1458399881:0;exit
+: 1458455412:0;ps
+: 1458455414:0;top
+: 1458455421:0;top | grep -i chrome
+: 1458455441:0;kill -9 893756
+: 1458455454:0;kill -9 1157172
+: 1458455463:0;kill -9 194000
+: 1458455472:0;kill -9 115552
+: 1458455475:0;top
+: 1458455516:0;kill -9 20
+: 1458455521:0;sudo kill -9 20
+: 1458455539:0;top |grep chrome
+: 1458455552:0;kill -9 2127
+: 1458455557:0;kill -9 1740
+: 1458455564:0;kill -9 2163
+: 1458455572:0;top |grep chrome
+: 1458455583:0;top
+: 1458455590:0;top | grep -i chrome
+: 1458455602:0;top
+: 1458455668:0;sudo shutdown -r now
+: 1458485438:0;ls
+: 1458485524:0;tmux
+: 1458485542:0;j work
+: 1458485597:0;git clone git@git.coding.net:tainzhi/ScreenCapture2Gif.git
+: 1458485609:0;ls
+: 1458485614:0;cd ScreenCapture2Gif
+: 1458485615:0;ls
+: 1458485616:0;gst
+: 1458485617:0;git log
+: 1458485620:0;cd ..
+: 1458485620:0;ls
+: 1458485623:0;rm ScreenCapture2Gif -rf
+: 1458485625:0;ls
+: 1458485633:0;git clone git@git.coding.net:tainzhi/ScreenCapture2Gif.git
+: 1458485795:0;ls
+: 1458485797:0;cd ScreenCapture2Gif
+: 1458485797:0;ls
+: 1458485798:0;gst
+: 1458485799:0;git log
+: 1458485802:0;ls
+: 1458485807:0;vim README.md
+: 1458487543:0;vim /var/log/syslog
+: 1458488143:0;sudo dpkg -l kvpnc
+: 1458488191:0;sudo apt-get update && upgrade
+: 1458488363:0;ls
+: 1458488377:0;cd /etc/apt
+: 1458488378:0;ls
+: 1458488390:0;ack ubuntukylin
+: 1458488413:0;vim sources.list.d/sogoupinyin.list
+: 1458488422:0;ls
+: 1458488437:0;sudo gedit sources.list
+: 1458488449:0;ls
+: 1458488456:0;sudo cp sources.list sources.list.backup
+: 1458488457:0;ls
+: 1458488462:0;vim sources.list.d/sogoupinyin.list
+: 1458488466:0;ls
+: 1458488474:0;sudo vim sources.list.d/sogoupinyin.list
+: 1458488504:0;gst
+: 1458488507:0;vim sources.list
+: 1458488516:0;sudo gedit sources.list
+: 1458488524:0;ls
+: 1458488527:0;sudo apt-get update
+: 1458488550:0;sudo apg-get upgrade
+: 1458488554:0;sudo apt-get upgrade
+: 1458572068:0;tmux
+: 1458572102:0;vim .tmux.conf
+: 1458572142:0;gst
+: 1458572145:0;cd linux_config
+: 1458572145:0;gst
+: 1458572153:0;tmux
+: 1458572159:0;exit
+: 1458572161:0;vim .tmux.conf
+: 1458572187:0;gst
+: 1458572192:0;ls -a |grep sesson
+: 1458572198:0;ls -a |grep session
+: 1458572201:0;rm .session.vim
+: 1458572202:0;ls
+: 1458572232:0;vim .tmux.conf
+: 1458572247:0;ps
+: 1458572251:0;vim .tmux.conf
+: 1458572255:0;tmux
+: 1458572416:0;j 2
+: 1458572417:0;gst
+: 1458572418:0;gd
+: 1458572425:0;gl
+: 1458572427:0;gst
+: 1458572435:0;vim README.md
+: 1458572443:0;gst
+: 1458572445:0;ga .
+: 1458572445:0;gst
+: 1458572446:0;gc
+: 1458572455:0;gst
+: 1458572455:0;gl
+: 1458572457:0;gst
+: 1458572459:0;ps
+: 1458572461:0;vim
+: 1458572493:0;gst
+: 1458572495:0;ga .
+: 1458572495:0;gst
+: 1458572497:0;gc
+: 1458572502:0;gst
+: 1458573017:0;j Download
+: 1458573018:0;ls
+: 1458573665:0;vim what\'s\ fuck
+: 1458602743:0;ls
+: 1458602745:0;ls -a
+: 1458602751:0;ls -a|grep gradle
+: 1458602753:0;cd .gradle
+: 1458602754:0;ls
+: 1458602763:0;gradel
+: 1458602765:0;gradle
+: 1458602821:0;ls -a
+: 1458658896:0;tmux
+: 1458658898:0;j Down
+: 1458658899:0;ls
+: 1458658920:0;unzip speed_up.zip -d yunti_speed_up
+: 1458658922:0;cd yunti_speed_up
+: 1458658923:0;ls
+: 1458658929:0;sudo ./install.sh
+: 1458684433:0;gvim
+: 1458684439:0;tmux
+: 1458687406:0;cd Downloads/yunti_speed_up
+: 1458687407:0;ls
+: 1458687411:0;sudo . ./install.sh
+: 1458687420:0;sudo sh ./install.sh
+: 1458687425:0;sudo ./install.sh
+: 1458687439:0;vim install.sh
+: 1458687462:0;ls
+: 1458687463:0;ls -a
+: 1458742128:0;tmux
+: 1458742130:0;j screen
+: 1458742131:0;gst
+: 1458742132:0;gd
+: 1458742136:0;git stash
+: 1458742137:0;gl
+: 1458742143:0;gst
+: 1458742146:0;git stash pop
+: 1458742147:0;gst
+: 1458742166:0;git reset HEAD^ --hard
+: 1458742167:0;gst
+: 1458742175:0;anstudio
+: 1458742387:0;ls
+: 1458742391:0;cd .gradle
+: 1458742391:0;ls
+: 1458742393:0;cd daemon
+: 1458742394:0;ls
+: 1458742462:0;cd ..
+: 1458742463:0;ls
+: 1458742469:0;vim gradle.properties
+: 1458742704:0;anstudio
+: 1458742828:0;ls
+: 1458742830:0;cd daemon
+: 1458742831:0;ls
+: 1458742832:0;cd 2.
+: 1458742835:0;cd 2.8
+: 1458742836:0;ls
+: 1458742844:0;ls ../2.4/
+: 1458742851:0;ls ../2.4/ -ll
+: 1458742861:0;ls -ll
+: 1458742929:0;ls
+: 1458742940:0;gcl
+: 1458742947:0;gci
+: 1458742953:0;gcl
+: 1458742959:0;which gc
+: 1458742962:0;which gcl
+: 1458742977:0;git config -l
+: 1458742987:0;ls
+: 1458742988:0;cd ..
+: 1458742989:0;sl
+: 1458742992:0;rm ScreenCapture2Gif -rf
+: 1458743001:0;git clone git@git.coding.net:tainzhi/ScreenCapture2Gif.git
+: 1458743190:0;ls
+: 1458743195:0;cd ..
+: 1458743196:0;ls
+: 1458743197:0;cd ..
+: 1458743198:0;ls
+: 1458743201:0;cd caches
+: 1458743202:0;ls
+: 1458743207:0;ls jars-1
+: 1458743207:0;ls
+: 1458743209:0;cd ..
+: 1458743210:0;ls
+: 1458743214:0;ca caches
+: 1458743215:0;ls
+: 1458743218:0;cd caches
+: 1458743219:0;ls
+: 1458743224:0;ls 2.4
+: 1458743224:0;ls
+: 1458743227:0;cd 2.4
+: 1458743228:0;ls
+: 1458743230:0;cd plugin-resolution
+: 1458743230:0;ls
+: 1458743234:0;ls ../scripts
+: 1458743234:0;ls
+: 1458743238:0;rm -rf *
+: 1458743242:0;ls
+: 1458743245:0;cd ..
+: 1458743252:0;cd 2.8/plugin-resolution
+: 1458743253:0;ls
+: 1458743255:0;cd ../scripts
+: 1458743256:0;ls
+: 1458743259:0;rm -rf *
+: 1458743261:0;ls
+: 1458743591:0;tmux
+: 1458743592:0;gvim
+: 1458744121:0;ls
+: 1458744123:0;j screen
+: 1458744123:0;ls
+: 1458744124:0;gst
+: 1458744124:0;gd
+: 1458744126:0;gst
+: 1458744127:0;gl
+: 1458744131:0;glo -1
+: 1458744133:0;gl
+: 1458744851:0;gst
+: 1458744854:0;gd
+: 1458744858:0;gco -- .
+: 1458744859:0;gst
+: 1458744961:0;top |grep -i androi
+: 1458744973:0;top
+: 1458744978:0;top |grep -i studio
+: 1458745043:0;j gradle
+: 1458745044:0;ls
+: 1458745046:0;cd daemon
+: 1458745046:0;ls
+: 1458745252:0;j screen
+: 1458745253:0;gst
+: 1458767410:0;tmux
+: 1458767538:0;anstudio
+: 1458767543:0;j scree__
+: 1458767653:0;adb devices
+: 1458767785:0;gst
+: 1458767798:0;gd build.gradle
+: 1458767804:0;gco build.gradle
+: 1458767805:0;gst
+: 1458768108:0;anstudio
+: 1458768118:0;gst
+: 1458768126:0;gd
+: 1458768205:0;gst
+: 1458768211:0;git reset HEAD --hard
+: 1458768215:0;an
+: 1458768217:0;anstudio
+: 1458768239:0;adb devices
+: 1458768279:0;adb remount
+: 1458768586:0;gst
+: 1458768597:0;cd ../ScreenCapture2Gif2
+: 1458768598:0;ls
+: 1458768601:0;gst
+: 1458768606:0;anstudio
+: 1458768742:0;cd ..
+: 1458768743:0;ls
+: 1458768747:0;rm ScreenCapture2Gif2 -rf
+: 1458768747:0;ls
+: 1458768939:0;cd /opt/android-studio/gradle
+: 1458768939:0;ls
+: 1458768942:0;cd gradle-2.8
+: 1458768942:0;ls
+: 1458768946:0;cd bin
+: 1458768947:0;ls
+: 1458769238:0;gst
+: 1458769245:0;ls
+: 1458769250:0;rm MyApplication -rf
+: 1458769253:0;anstudio
+: 1458769287:0;cd ScreenCapture2Gif
+: 1458769288:0;ls
+: 1458769289:0;gst
+: 1458769290:0;gd
+: 1458769328:0;gstls
+: 1458769328:0;ls
+: 1458769329:0;cd ..
+: 1458769330:0;ls
+: 1458769340:0;rm MyApplication* ScreenCapture2Gif -rf
+: 1458769343:0;anstudio
+: 1458769542:0;sudo dpkg --add-architecture i386
+: 1458769575:0;ls -a
+: 1458769579:0;ls -a |grep -i android
+: 1458769589:0;rm .AndroidStudio1.5 -rf
+: 1458769606:0;sudo rm -rf /opt/android-studio -rf
+: 1458769607:0;ls
+: 1458769613:0;cd Dow
+: 1458769616:0;j dow
+: 1458769617:0;ls
+: 1458769626:0;unzip -d android-studio-ide-141.2456560-linux.zip
+: 1458769642:0;unzip android-studio-ide-141.2456560-linux.zip -d android-studio-ide-141.2456560-linux
+: 1458769654:0;cd android-studio-ide-141.2456560-linux
+: 1458769655:0;ls
+: 1458769665:0;sudo mv android-studio /opt/
+: 1458769670:0;anstudio
+: 1458769747:0;cd ..
+: 1458769747:0;ls
+: 1458769754:0;rm android-studio-ide-141.2456560-linux -rf
+: 1458769758:0;cd ~/Downloads
+: 1458769758:0;ls
+: 1458769762:0;cd ~
+: 1458769763:0;ls
+: 1458769767:0;cd Android
+: 1458769768:0;ls
+: 1458769770:0;cd Sdk
+: 1458769771:0;ls
+: 1458769775:0;cd platform
+: 1458769775:0;ls
+: 1458769843:0;anstudio
+: 1458770284:0;ls
+: 1458770291:0;ls -a |grep -i gradle
+: 1458770292:0;ls
+: 1458770302:0;rm -rf .gradle .AndroidStudio1.5
+: 1458770308:0;cd Downloads
+: 1458770308:0;ls
+: 1458770319:0;sudo rm -rf /opt/android-studio
+: 1458770325:0;unzip android-studio-ide-141.2456560-linux.zip -d android-studio-ide-141.2456560-linux
+: 1458770330:0;anstudio
+: 1458770350:0;sudo cp android-studio-ide-141.2456560-linux/android-studio /opt/
+: 1458770354:0;sudo cp android-studio-ide-141.2456560-linux/android-studio /opt/ -rf
+: 1458770359:0;anstudio
+: 1458770760:0;ls
+: 1458770763:0;ls -a
+: 1458770776:0;cd AndroidStudioProjects
+: 1458770776:0;ls
+: 1458770777:0;cd ..
+: 1458770778:0;ls
+: 1458770789:0;rm -rf .AndroidStudio1.5
+: 1458770789:0;ls
+: 1458770792:0;cd .android
+: 1458770792:0;ls
+: 1458770794:0;cd ..
+: 1458770794:0;ls
+: 1458770801:0;rm .gradle -rf
+: 1458770802:0;ls
+: 1458770829:0;sudo rm -rf ~/AndroidStudioProjects
+: 1458770841:0;sudo rm -rf /opt/android-studio
+: 1458770842:0;ls
+: 1458770844:0;cd Downloads
+: 1458770845:0;ls
+: 1458770857:0;sudo rm -rf ~/Android -rf
+: 1458771098:0;ls
+: 1458771104:0;unzip android-studio-ide-141.2456560-linux.zip -d android-studio-ide-141.2456560-linux
+: 1458771132:0;sudo cp android-studio-ide-141.2456560-linux/android-studio /opt/ -rf
+: 1458771135:0;anstudio
+: 1458771400:0;sudo apt-get install lib32z1 lib32ncurses5 lib32bz2-1.0 lib32stdc++6
+: 1458771413:0;sudo apt-get install lib32z1 lib32ncurses5 lib32bz2 lib32stdc++6
+: 1458771437:0;sudo apt-get install lib32bz2
+: 1458771463:0;sudo apt-cache search lib32stdc
+: 1458771481:0;sudo apt-get iinstall lib32stdc++6
+: 1458771489:0;sudo apt-get install lib32stdc++6
+: 1458771510:0;sudo apt-cache search lib32bz
+: 1458771516:0;sudo apt-cache search lib32bz2
+: 1458771525:0;sudo apt-cache search lib32
+: 1458771531:0;sudo apt-cache search lib32z
+: 1458771541:0;sudo apt-get install lib32z1
+: 1458771555:0;sudo apt-get install lib32ncurses5
+: 1458771567:0;sudo apt-get install lib32b
+: 1458771576:0;sudo apt-cache search lib32bz
+: 1458771594:0;anstudio
+: 1458772506:0;cd linux_config
+: 1458772507:0;ls
+: 1458772511:0;vim software.sh
+: 1458772671:0;gst
+: 1458772709:0;j android
+: 1458772710:0;ls
+: 1458772711:0;cd Projects
+: 1458772712:0;ls
+: 1458772715:0;git clone git@git.coding.net:tainzhi/ScreenCapture2Gif.git
+: 1458772850:0;cd ScreenCapture2Gif
+: 1458772850:0;gst
+: 1458772851:0;gd
+: 1458772854:0;gst
+: 1458772891:0;ls
+: 1458772892:0;cd ..
+: 1458772892:0;ls
+: 1458772895:0;rm ScreenCapture2Gif -rf
+: 1458772895:0;ls
+: 1458772995:0;j desk
+: 1458772996:0;ls
+: 1458773001:0;git clone git@git.coding.net:tainzhi/ScreenCapture2Gif.git
+: 1458773065:0;cd proxy
+: 1458773066:0;ls
+: 1458773069:0;cd ~/Android/Projects
+: 1458773069:0;ls
+: 1458773072:0;rm ScreenCapture2Gif -rf
+: 1458773120:0;ls
+: 1458773809:0;pwd
+: 1458773819:0;cd ~/Downloads
+: 1458773820:0;ls
+: 1458773831:0;cd ~/Desktop
+: 1458773831:0;ls
+: 1458773834:0;rm ScreenCapture2Gif -rf
+: 1458773834:0;ls
+: 1458773840:0;cd ~/Downloads
+: 1458773840:0;ls
+: 1458773845:0;j scree
+: 1458773845:0;ls
+: 1458773846:0;gst
+: 1458774008:0;ls
+: 1458774012:0;gst
+: 1458774067:0;git init
+: 1458774068:0;gst
+: 1458774083:0;cd ..
+: 1458774084:0;ls
+: 1458774091:0;cp ScreenCapture2Gif ScreenCapture2Gif_1/
+: 1458774094:0;cp ScreenCapture2Gif ScreenCapture2Gif_1/ -rf
+: 1458774101:0;cd ScreenCapture2Gif_1/
+: 1458774101:0;ls
+: 1458774132:0;git remote add origin git@git.coding.net:tainzhi/ScreenCapture2Gif.git
+: 1458774133:0;gst
+: 1458774135:0;git pull
+: 1458774184:0;gst
+: 1458774186:0;git log
+: 1458774195:0;git merge origin master
+: 1458774201:0;git merge origin/master
+: 1458774216:0;rm .gitignore
+: 1458774218:0;git merge origin/master
+: 1458774222:0;gst
+: 1458774240:0;git reset HEAD --hard
+: 1458774241:0;gst
+: 1458774245:0;git clean -xdf
+: 1458774245:0;gst
+: 1458774249:0;gl
+: 1458774268:0;git branch --set-upstream-to=origin/master master
+: 1458774271:0;gb
+: 1458774272:0;gbr
+: 1458774280:0;git pull origin master
+: 1458774293:0;gst
+: 1458774295:0;glo
+: 1458774297:0;gst
+: 1458774307:0;cp ../ScreenCapture2Gif ./ -rf
+: 1458774308:0;ls
+: 1458774308:0;gst
+: 1458774315:0;rm ScreenCapture2Gif -rf
+: 1458774328:0;cp ../ScreenCapture2Gif/* ./ -rf
+: 1458774329:0;gst
+: 1458774414:0;ga .
+: 1458774415:0;gst
+: 1458774422:0;gc 
+: 1458774436:0;gst
+: 1458774437:0;gp
+: 1458774451:0;git push --set-upstream origin master
+: 1458774456:0;gst
+: 1458774481:0;ls
+: 1458774483:0;cd ..
+: 1458774485:0;cd -
+: 1458774490:0;j projec
+: 1458774490:0;ls
+: 1458774506:0;mkdir ScreenRecord
+: 1458774508:0;cd Screen
+: 1458774512:0;cd ScreenRecord
+: 1458774512:0;ls
+: 1458774516:0;vim main.java
+: 1458774523:0;mtags
+: 1458774524:0;vim
+: 1458776006:0;abb logcat |grep -i runtime
+: 1458776012:0;adb logcat |grep -i runtime
+: 1458777110:0;gst
+: 1458777115:0;ga .
+: 1458777116:0;gst
+: 1458777122:0;gc
+: 1458777132:0;gst
+: 1458777133:0;gp
+: 1458777145:0;git push --set-upstream origin master
+: 1458829547:0;ls
+: 1458829551:0;cd Android
+: 1458829551:0;ls
+: 1458829553:0;cd Projects
+: 1458829554:0;ls
+: 1458829568:0;rm ScreenCapture2Gif_1 -rf
+: 1458829569:0;ls
+: 1458829579:0;mv ScreenCapture2Gif ScreenCapture2Gif_temp
+: 1458829594:0;mv ScreenCapture2Gif_temp temp_ScreenCapture2Gif
+: 1458829595:0;ls
+: 1458829955:0;ping www.github.com
+: 1458829965:0;sudo shutdown -r now
+: 1458830359:0;tmux
+: 1458830361:0;j linux
+: 1458830361:0;gst
+: 1458830362:0;gd
+: 1458830370:0;gst
+: 1458830404:0;gd install.sh
+: 1458830422:0;gd software.sh
+: 1458830428:0;gst
+: 1458830523:0;ls
+: 1458830538:0;android
+: 1458830641:0;anstudio
+: 1458830657:0;android
+: 1458830740:0;anstudio
+: 1458831753:0;j projects
+: 1458831754:0;ls
+: 1458831773:0;git clone git@git.coding.net:tainzhi/ScreenCapture2Gif.git
+: 1458831831:0;ls
+: 1458831844:0;rm ScreenCapture2Gif_1 -rf
+: 1458832000:0;cd ~/Android
+: 1458832000:0;ls
+: 1458832003:0;cd Sdk
+: 1458832003:0;ls
+: 1458832010:0;cd ndk-bundle
+: 1458832011:0;ls
+: 1458832030:0;cd Android/Projects
+: 1458832031:0;ls
+: 1458832035:0;git clone https://github.com/dxjia/ffmpeg-for-android-shared-library.git
+: 1458834060:0;s
+: 1458834061:0;ls
+: 1458834066:0;cd ffmpeg-for-android-shared-library
+: 1458834066:0;ls
+: 1458834067:0;gst
+: 1458834068:0;mtags
+: 1458834072:0;vim
+: 1458834370:0;j proj
+: 1458834390:0;git clone https://github.com/dxjia/ffmpeg-for-android-shared-library.git
+: 1458834422:0;git clone https://github.com/dxjia/GifAssistant
+: 1458834551:0;gst
+: 1458834556:0;ls
+: 1458834559:0;cd source
+: 1458834559:0;ls
+: 1458834571:0;vim ffmpeg/config
+: 1458834577:0;ls
+: 1458834586:0;vim ffmpeg/configure
+: 1458834629:0;ls
+: 1458834633:0;vim build_android_arm.sh
+: 1458835275:0;ls
+: 1458835282:0;cp build_android_arm.sh ffmpeg
+: 1458835283:0;ls
+: 1458835302:0;cd systemd-resolve
+: 1458835303:0;ls
+: 1458835311:0;./build_android_arm.sh
+: 1458835320:0;. ./build_android_arm.sh
+: 1458835326:0;ls
+: 1458835329:0;cd ffmpeg
+: 1458835330:0;ls
+: 1458835333:0;. ./build_android_arm.sh
+: 1458855923:0;ls
+: 1458855931:0;tmux
+: 1458855933:0;j project
+: 1458855934:0;ls
+: 1458855955:0;cd ~/Desktop
+: 1458855956:0;ls
+: 1458855962:0;rm ScreenCapture2Gif -rf
+: 1458855971:0;ls
+: 1458855976:0;cd ffmpeg-for-android-shared-library
+: 1458855977:0;ls
+: 1458855980:0;cd source
+: 1458855980:0;ls
+: 1458855985:0;cd ffmpeg
+: 1458855986:0;ls
+: 1458856000:0;. ./build_android_arm.sh
+: 1458856085:0;vim ~/.tmux.conf
+: 1458856118:0;exit
+: 1458856120:0;tmux
+: 1458856132:0;vim .tmux.conf
+: 1458856175:0;tmux
+: 1458856183:0;ls
+: 1458856186:0;man git
+: 1458856194:0;adb logcat
+: 1458856260:0;tmux --version
+: 1458856264:0;tmux -v
+: 1458856273:0;man tmux
+: 1458856280:0;tmux -V
+: 1458856501:0;tmux
+: 1458856503:0;exit
+: 1458856504:0;tmux
+: 1458856509:0;adb logcat
+: 1458856607:0;fpcDeviceControl ctl='clk_enable' val='0'
+: 1458856665:0;j ffmpeg
+: 1458856666:0;ls
+: 1458856690:0;cd source
+: 1458856690:0;ls
+: 1458856694:0;cd ffmpeg
+: 1458856705:0;vim build_android_arm.sh
+: 1458857297:0;adb shell cat /proc/cpuinfo
+: 1458857326:0;gvim
+: 1458857445:0;. ./build_android_arm.sh
+: 1458857476:0;vim build_android_arm.sh
+: 1458857520:0;. ./build_android_arm.sh
+: 1458857731:0;ls
+: 1458857740:0;rm hs_err_pid1740.log java_error_in_STUDIO_.log tmux-client-3963.log
+: 1458857741:0;ls
+: 1458857746:0;git clone git://source.ffmpeg.org/ffmpeg.git ffmpeg
+: 1458857766:0;ls
+: 1458857770:0;cd ~/Desktop
+: 1458857771:0;ls
+: 1458857773:0;cd arm
+: 1458857773:0;ls
+: 1458857776:0;cd include
+: 1458857776:0;ls
+: 1458857781:0;d
+: 1458857785:0;3
+: 1458857786:0;ls
+: 1458857786:0;gst
+: 1458857790:0;vim build_android_arm.sh
+: 1458857862:0;. ./build_android_arm.sh
+: 1458857868:0;vim build_android_arm.sh
+: 1458857916:0;. ./build_android_arm.sh
+: 1458858128:0;ls
+: 1458858130:0;cd ffmpeg
+: 1458858130:0;ls
+: 1458858141:0;cd ..
+: 1458858142:0;ls
+: 1458858147:0;du -h -d 1
+: 1458858166:0;du -h -d 1 | sort
+: 1458858204:0;du -h -d 1 |grep ffmpeg
+: 1458858219:0;j projects
+: 1458858221:0;ls
+: 1458858227:0;git clone https://github.com/JakeWharton/Telecine.git
+: 1458858233:0;ls
+: 1458858237:0;cd te
+: 1458858240:0;cd Telecine
+: 1458858241:0;ls
+: 1458858242:0;mtags
+: 1458858243:0;vim
+: 1458858298:0;pwd
+: 1458858309:0;1ls
+: 1458858312:0;cd ~/Desktop
+: 1458858312:0;ls
+: 1458858315:0;cd arm
+: 1458858316:0;ls
+: 1458858322:0;cd -
+: 1458858324:0;d
+: 1458858326:0;2
+: 1458858328:0;vim build_android_arm.sh
+: 1458858355:0;cd ~/Desktop
+: 1458858356:0;ls
+: 1458858357:0;cd arm
+: 1458858358:0;ls
+: 1458858359:0;cd ..
+: 1458858364:0;rm -rf arm
+: 1458858364:0;d
+: 1458858367:0;2
+: 1458858370:0;. ./build_android_arm.sh
+: 1458858380:0;ls ~/Desktop
+: 1458858387:0;cd ~
+: 1458858388:0;ls
+: 1458858417:0;ls -R |grep ffmpeg
+: 1458858431:0;ls -R |grep ffmpeg-ar
+: 1458858444:0;ls ~/Desktop
+: 1458858444:0;ls
+: 1458858454:0;vim build_android_arm.sh
+: 1458858475:0;. ./build_android_arm.sh
+: 1458858482:0;ls ~/Desktop
+: 1458858482:0;ls
+: 1458858486:0;cd ~/Desktop
+: 1458858486:0;ls
+: 1458858536:0;ls ~/Desktop
+: 1458858542:0;cd ~
+: 1458858550:0;ls -R |grep ffmpeg64
+: 1458858568:0;cd ffmpeg
+: 1458858569:0;ls
+: 1458858570:0;gst
+: 1458858582:0;vim configure
+: 1458858785:0;ls
+: 1458858789:0;cd ~/Desktop
+: 1458858789:0;ls
+: 1458858791:0;cd arm
+: 1458858792:0;ls
+: 1458858794:0;cd lib
+: 1458858794:0;ls
+: 1458858800:0;ls -ll
+: 1458858891:0;cd ~/Desktop
+: 1458858891:0;ls
+: 1458858903:0;cp arm aarch64-ffmpeg
+: 1458858906:0;cp arm aarch64-ffmpeg -rf
+: 1458858919:0;cd aarch64-ffmpeg/lib
+: 1458858919:0;ls
+: 1458858925:0;ls --help
+: 1458858930:0;man ls
+: 1458858958:0;ls -L
+: 1458858966:0;ls -Lll
+: 1458858972:0;ls -ll
+: 1458859026:0;ln -s
+: 1458859029:0;ln -L
+: 1458859058:0;find -type -l
+: 1458859070:0;find -tyle l
+: 1458859078:0;find -type l
+: 1458859084:0;find -type l | ls -ll
+: 1458859095:0;find -type -l
+: 1458859103:0;find -type l d
+: 1458859108:0;find -type d
+: 1458859117:0;find -type l -delete
+: 1458859118:0;ls -ll
+: 1458859127:0;find -type d -delete
+: 1458859129:0;ls
+: 1458859137:0;rm pkgconfig -rf
+: 1458859138:0;ls
+: 1458859512:0;ack ffmpeg-entry
+: 1458859518:0;ack ffmpeg_entry
+: 1458859521:0;ack entry
+: 1458859535:0;ls
+: 1458859691:0;j pro
+: 1458859692:0;ls
+: 1458859697:0;git clone https://github.com/dxjia/GifAssistant
+: 1458859773:0;ls
+: 1458859775:0;cd GifAssistant
+: 1458859775:0;ls
+: 1458859779:0;ack ffmpeg_entry
+: 1458859787:0;ack entry
+: 1458860169:0;ls
+: 1458860173:0;mtags
+: 1458860174:0;ls
+: 1458860178:0;cd app
+: 1458860179:0;ls
+: 1458860182:0;cd libs
+: 1458860182:0;ls
+: 1458860186:0;cd ~
+: 1458860188:0;d
+: 1458860190:0;2
+: 1458860190:0;ls
+: 1458860206:0;cd src
+: 1458860207:0;ls
+: 1458860210:0;cd main
+: 1458860210:0;ls
+: 1458860213:0;cd jniLibs
+: 1458860214:0;ls
+: 1458860216:0;cd armeabi
+: 1458860216:0;ls
+: 1458860545:0;pwd
+: 1458860550:0;j pro
+: 1458860551:0;ls
+: 1458860553:0;cd ffmpeg-for-android-shared-library
+: 1458860554:0;ls
+: 1458860556:0;cd source
+: 1458860557:0;ls
+: 1458860559:0;cd ffmpeg
+: 1458860560:0;ls
+: 1458860594:0;find -iname android
+: 1458860602:0;cd ~/ffmpeg
+: 1458860602:0;ls
+: 1458860608:0;ack -g android
+: 1458860612:0;find -iname android
+: 1458860679:0;ls
+: 1458860680:0;pwd
+: 1458860682:0;ls
+: 1458860688:0;vim ffmpeg.c
+: 1458861392:0;ls
+: 1458861394:0;ack main
+: 1458861500:0;pwd
+: 1458861504:0;ls
+: 1458861509:0;ack jni
+: 1458861512:0;gst
+: 1458861520:0;cp build_android_arm.sh ~/ffmpeg
+: 1458861520:0;ls
+: 1458861521:0;gst
+: 1458861527:0;cd ~/ffmpeg
+: 1458861528:0;gst
+: 1458861542:0;rm ~/Desktop/arm -rf
+: 1458861545:0;. ./build_android_arm.sh
+: 1458861555:0;d
+: 1458861557:0;1
+: 1458861557:0;ls
+: 1458861558:0;pwd
+: 1458861562:0;. ./build_android_arm.sh
+: 1458861564:0;ls
+: 1458861569:0;cp build_android_arm.sh ~/ffmpeg
+: 1458861571:0;ls
+: 1458861577:0;. ./build_android_arm.sh
+: 1458861581:0;pwd
+: 1458861583:0;cd ~/ffmpeg
+: 1458861584:0;ls
+: 1458861585:0;. ./build_android_arm.sh
+: 1458861592:0;pwd
+: 1458861592:0;gst
+: 1458861595:0;vim build_android_arm.sh
+: 1458861617:0;ls
+: 1458861621:0;vim config
+: 1458861628:0;vim README.md
+: 1458861643:0;vim INSTALL.md
+: 1458861648:0;ls
+: 1458861655:0;vim config
+: 1458861659:0;gst
+: 1458861662:0;ls |grep confi
+: 1458861669:0;vim configure
+: 1458861695:0;gst
+: 1458861713:0;ls
+: 1458861719:0;. ./build_android_arm.sh
+: 1458861729:0;vim build_android_arm.sh
+: 1458861777:0;vim Makefile
+: 1458861792:0;./configure
+: 1458861809:0;sudo apt-get install yasm
+: 1458861818:0;. ./build_android_arm.sh
+: 1458861823:0;./configure
+: 1458861836:0;. ./build_android_arm.sh
+: 1458861854:0;ls
+: 1458861856:0;pwd
+: 1458861862:0;vim build_android_arm.sh
+: 1458862174:0;ls ~/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-
+: 1458862282:0;gst
+: 1458862293:0;pwd
+: 1458862301:0;cp build_android_arm.sh ~/Android/Projects/ffmpeg-for-android-shared-library
+: 1458862304:0;cd ~/Android/Projects/ffmpeg-for-android-shared-library
+: 1458862305:0;gst
+: 1458862306:0;gd
+: 1458862323:0;gst
+: 1458862328:0;pwd
+: 1458862329:0;ls
+: 1458862341:0;gd source/build_android_arm.sh
+: 1458862351:0;ls
+: 1458862357:0;cd ..
+: 1458862358:0;ls
+: 1458862360:0;cd ffmpeg-for-android-shared-library
+: 1458862361:0;ls
+: 1458862366:0;mv build_android_arm.sh source
+: 1458862368:0;cd source
+: 1458862368:0;gst
+: 1458862374:0;ls
+: 1458862378:0;gst
+: 1458862383:0;pwd
+: 1458862394:0;rm ffmpeg/build_android_arm.sh
+: 1458862395:0;gst
+: 1458862408:0;gd build_android_arm.sh
+: 1458862420:0;gst
+: 1458862427:0;ls
+: 1458862430:0;cp build_android_arm.sh ffmpeg
+: 1458862433:0;cd ffmpeg
+: 1458862434:0;ls
+: 1458862435:0;gst
+: 1458862451:0;ls ~/Desktop
+: 1458862459:0;rm ~/Desktop/aarch64-ffmpeg -rf
+: 1458862462:0;. ./build_android_arm.sh
+: 1458862553:0;gst
+: 1458862556:0;pwd
+: 1458862562:0;vim build_android_arm.sh
+: 1458862612:0;mv build_android_arm.sh build_android_aarch64.sh
+: 1458862613:0;vim build_android_aarch64.sh
+: 1458862772:0;ls
+: 1458862775:0;vim configure
+: 1458862797:0;ps
+: 1458862801:0;vim build_android_aarch64.sh
+: 1458862809:0;ps
+: 1458862942:0;cp build_android_aarch64.sh ~/Android/Projects/ffmpeg-for-android-shared-library/source
+: 1458862944:0;cd ~/Android/Projects/ffmpeg-for-android-shared-library/source
+: 1458862945:0;gst
+: 1458862945:0;gd
+: 1458862949:0;gd build_android_arm.sh
+: 1458862965:0;ps
+: 1458863021:0;d
+: 1458863024:0;cd ~/Android/Projects/ffmpeg-for-android-shared-library/source
+: 1458863026:0;gst
+: 1458863053:0;ps
+: 1458863060:0;cp build_android_aarch64.sh ffmpeg
+: 1458863063:0;cd ffmpeg
+: 1458863071:0;rm ~/Desktop/ -rf
+: 1458863072:0;ls
+: 1458863075:0;vim build_android_aarch64.sh
+: 1458863098:0;pwd
+: 1458863100:0;ls
+: 1458863158:0;history
+: 1458863188:0;. ./build_android_aarch64.sh
+: 1458863242:0;cd ~
+: 1458863242:0;ls
+: 1458863247:0;mkdir Desktops
+: 1458863257:0;cd Desktops
+: 1458863257:0;ls
+: 1458863308:0;pwd
+: 1458863329:0;cp ~/Desktop/notes.md ./
+: 1458863333:0;rm ~/Desktop -rf
+: 1458863333:0;ls
+: 1458863439:0;utity --reset
+: 1458863473:0;gsettings reset com.canonical.Unity.Launcher favorites
+: 1458863518:0;unity --reset-icons
+: 1458863544:0;gconftool-2 --recursive-unset /apps/compiz-1\
+unity --reset
+: 1458863555:0;bash
+: 1458863657:0;ls
+: 1458863661:0;pwd
+: 1458863670:0;. ./build_android_aarch64.sh
+: 1458863962:0;anstudio
+: 1458863996:0;tmux
+: 1458863997:0;ls
+: 1458864000:0;cd Desktop
+: 1458864001:0;cd arm
+: 1458864002:0;ls
+: 1458864003:0;cd lib
+: 1458864004:0;ls
+: 1458864017:0;find -type l -delete
+: 1458864018:0;gst
+: 1458864020:0;ls
+: 1458864023:0;rm pkgconfig -rf
+: 1458864023:0;ls
+: 1458864229:0;adb devices
+: 1458864242:0;adb shell pm path com.muqing.android.screencapture2gif
+: 1458864271:0;adb shell ls /data/local/tmp/
+: 1458864292:0;adb shell rm /data/local/tmp/
+: 1458864298:0;adb shell rm /data/local/
+: 1458864309:0;adb shell ls /data/local/tmp/
+: 1458864338:0;adb shell rm -rf /data/local/tmp/com.muqing.android.screencapture2gif
+: 1458864538:0;ls
+: 1458864544:0;j ffmp__
+: 1458864546:0;pwd
+: 1458864550:0;vim build_android_aarch64.sh
+: 1458864586:0;cd ffmpeg
+: 1458864586:0;ls
+: 1458864590:0;vim build_android_aarch64.sh
+: 1458864962:0;ps
+: 1458864965:0;vim configure
+: 1458865119:0;pwd
+: 1458865121:0;. ./build_android_aarch64.sh
+: 1458865140:0;ps
+: 1458865150:0;. ./build_android_aarch64.sh
+: 1458865218:0;cd ffmpeg
+: 1458865219:0;ls
+: 1458865220:0;vim build_android_aarch64.sh
+: 1458865410:0;gst
+: 1458865428:0;cd ~/Desktop/arm
+: 1458865429:0;ls
+: 1458865430:0;cd lib
+: 1458865433:0;ls -ll
+: 1458865439:0;find -type l -delete
+: 1458865442:0;rm pkgconfig -rf
+: 1458865567:0;vim ~/Desktop/notes.md
+: 1458865620:0;j screen
+: 1458865621:0;gst
+: 1458865622:0;gd
+: 1458865628:0;cd ../ScreenCapture2Gif
+: 1458865628:0;gst
+: 1458865634:0;ga -A
+: 1458865635:0;gst
+: 1458865637:0;gc
+: 1458865656:0;gp
+: 1458865672:0;ls
+: 1458865676:0;ls -a
+: 1458865677:0;pwd
+: 1458865681:0;ls |grep -i arm
+: 1458865689:0;cd /tmp
+: 1458865690:0;ls
+: 1458865693:0;ls |grep -i arm
+: 1458865696:0;cd -
+: 1458865697:0;pwd
+: 1458865698:0;gst
+: 1458865699:0;ls -a
+: 1458865702:0;ls |grep build
+: 1458865718:0;gst
+: 1458912941:0;sudo apt-get install steam
+: 1458913829:0;steam
+: 1458914539:0;vim what\'s\ fuck
+: 1458916475:0;ls
+: 1458916484:0;j project
+: 1458916485:0;ls
+: 1458916496:0;cd Telecine
+: 1458916499:0;tmux
+: 1458916508:0;anstudio
+: 1458917457:0;ls
+: 1458917459:0;vim
+: 1458918884:0;gvim
+: 1458918975:0;cd linux_config
+: 1458918976:0;ls
+: 1458918981:0;cd ~/.vim
+: 1458918982:0;ls
+: 1458918984:0;vim vimrc
+: 1458919021:0;tmux
+: 1458919029:0;j scree__
+: 1458919030:0;ls
+: 1458919037:0;j projec
+: 1458919043:0;cd ScreenCapture2Gif
+: 1458919043:0;ls
+: 1458919048:0;mtags
+: 1458919049:0;ls
+: 1458919056:0;ls |grep cscop
+: 1458919064:0;ls |grep tags
+: 1458919066:0;vim
+: 1458919192:0;ps
+: 1458919194:0;exit
+: 1458919195:0;eexit
+: 1458919197:0;exit
+: 1458919202:0;gst
+: 1458919204:0;exit
+: 1458941024:0;ls
+: 1458941025:0;cd ..
+: 1458941026:0;ls
+: 1458941658:0;LS
+: 1458941659:0;ls
+: 1458941663:0;cd ~/ffmpeg
+: 1458941663:0;ls
+: 1458941664:0;gst
+: 1458941668:0;vim build_android_aarch64.sh
+: 1458941838:0;ls
+: 1458941845:0;j project
+: 1458941846:0;ls
+: 1458941848:0;cd ffmpeg-for-android-shared-library
+: 1458941848:0;ls
+: 1458941849:0;gst
+: 1458941858:0;cd source
+: 1458941858:0;ls
+: 1458941862:0;cd ffmpeg
+: 1458941863:0;ls
+: 1458941869:0;vim build_android_aarch64.sh
+: 1458941911:0;gst
+: 1458941919:0;ls
+: 1458941925:0;vim ../build_android_aarch64.sh
+: 1458941959:0;ls
+: 1458941964:0;gst
+: 1458941964:0;gd
+: 1458941971:0;gst
+: 1458941979:0;gco config.log doc/config.texi
+: 1458941980:0;gst
+: 1458941994:0;vim build_android_aarch64.sh
+: 1458942008:0;rm build_android_arm.sh build_android_aarch64.sh
+: 1458942009:0;gst
+: 1458942016:0;gco -- .
+: 1458942017:0;gst
+: 1458942023:0;vim ../build_android_
+: 1458942243:0;j project
+: 1458942244:0;ls
+: 1458942246:0;cd ffmpeg-for-android-shared-library
+: 1458942270:0;ls
+: 1458942271:0;tmux
+: 1458942274:0;cd ~/ffmpeg
+: 1458942275:0;ls
+: 1458942279:0;vim configure
+: 1458942309:0;pwd
+: 1458942310:0;d
+: 1458942312:0;1
+: 1458942315:0;ls
+: 1458942317:0;cd source
+: 1458942318:0;ls
+: 1458942324:0;vim build_android_aarch64.sh
+: 1458942405:0;cd ~/ffmpeg
+: 1458942405:0;ls
+: 1458942408:0;vim configure
+: 1458942430:0;sgt
+: 1458942430:0;gst
+: 1458942432:0;gd
+: 1458942446:0;cp build_android_aarch64.sh ffmpeg
+: 1458942448:0;cd ffmpeg
+: 1458942449:0;gst
+: 1458942455:0;ls ~/Desktop
+: 1458942461:0;rm ~/Desktop/arm -rf
+: 1458942462:0;gst
+: 1458942470:0;. ./build_android_aarch64.sh
+: 1458942563:0;ls
+: 1458942567:0;cd ~/Desktop
+: 1458942567:0;ls
+: 1458942571:0;cd arm
+: 1458942572:0;ls
+: 1458942580:0;cd -
+: 1458942580:0;gst
+: 1458942582:0;d
+: 1458942584:0;2
+: 1458942584:0;ls
+: 1458942585:0;gst
+: 1458942593:0;vim build_android_aarch64.sh
+: 1458942609:0;gst
+: 1458942614:0;pwd
+: 1458942617:0;vim build_android_aarch64.sh
+: 1458942624:0;cd ..
+: 1458942625:0;gst
+: 1458942631:0;gco ffmpeg/config.log
+: 1458942631:0;gst
+: 1458942639:0;ls
+: 1458942640:0;cd ffmpeg
+: 1458942641:0;ls
+: 1458942642:0;gst
+: 1458942647:0;vim build_android_aarch64.sh
+: 1458942660:0;gst
+: 1458942666:0;vim build_android_aarch64.sh
+: 1458942816:0;gst
+: 1458942823:0;vim build_android_aarch64.sh
+: 1458942827:0;gst
+: 1458942835:0;ls
+: 1458942841:0;. ./build_android_aarch64.sh
+: 1458942952:0;which ffmpeg
+: 1458942968:0;ls
+: 1458942971:0;vim build_android_aarch64.sh
+: 1458942992:0;gst
+: 1458942999:0;rm ~/Desktop/arm -rf
+: 1458943000:0;gst
+: 1458943002:0;. ./build_android_aarch64.sh
+: 1458943126:0;gst
+: 1458943128:0;ls ~/Desktop
+: 1458943136:0;ls ~/
+: 1458943158:0;ls
+: 1458943161:0;vim build_android_aarch64.sh
+: 1458943169:0;gst
+: 1458943173:0;vim build_android_aarch64.sh
+: 1458943179:0;. ./build_android_aarch64.sh
+: 1458943193:0;cd ~/ffmpeg
+: 1458943194:0;ls
+: 1458943195:0;vim build_android_aarch64.sh
+: 1458943258:0;ps
+: 1458943263:0;vim build_android_aarch64.sh
+: 1458943315:0;ls
+: 1458943333:0;cd libavcodec
+: 1458943333:0;ls
+: 1458943337:0;cd ~/Desktop
+: 1458943337:0;ls
+: 1458943344:0;ls -a
+: 1458943349:0;cd -
+: 1458943350:0;ls
+: 1458943351:0;cd ..
+: 1458943352:0;ls
+: 1458943356:0;gst
+: 1458943366:0;cd /usr/local/lib/
+: 1458943367:0;ls
+: 1458943370:0;cd /mtp
+: 1458943373:0;cd /tmp
+: 1458943374:0;ls
+: 1458943382:0;cd -
+: 1458943383:0;gst
+: 1458943723:0;ls
+: 1458943732:0;pwd
+: 1458943735:0;vim build_android_aarch64.sh
+: 1458943760:0;gst
+: 1458943769:0;j gifass
+: 1458943770:0;ls
+: 1458943775:0;vim
+: 1458943823:0;top |grep -i tmux
+: 1458943833:0;ps |grep -i tmux
+: 1458943838:0;pkill tmux
+: 1458943839:0;exit
+: 1458944514:0;pkill dota2
+: 1458944516:0;pkill dota
+: 1458944519:0;top
+: 1458944566:0;kill -9 872
+: 1458944574:0;steam --perfectword
+: 1459081278:0;ping www.baidu.com
+: 1459121563:0;sudo apt-get purge steam
+: 1459121596:0;rm ~/.steam -rf
+: 1459121597:0;ls
+: 1459121599:0;dota2
+: 1459121618:0;cd /
+: 1459121620:0;ls
+: 1459121628:0;cd /opt
+: 1459121628:0;ls
+: 1459121632:0;cd /usr
+: 1459121633:0;ls
+: 1459121635:0;cd games
+: 1459121636:0;ls
+: 1459121644:0;cd lo
+: 1459121736:0;ping www.bing.com
+: 1459121781:0;du -h -d 1
+: 1459121822:0;cd /
+: 1459121825:0;du -l -d 1
+: 1459121842:0;sudo du -h -d 1
+: 1459121888:0;df
+: 1459121894:0;df -h
+: 1459121938:0;du -d 1 -h /
+: 1459121949:0;sudo du -d 1 -h /
+: 1459121995:0;exit
+: 1459122042:0;sudo shutdown -r now
+: 1459177823:0;ls
+: 1459177825:0;tmux
+: 1459177830:0;j ffmpeg
+: 1459177832:0;pwd
+: 1459177837:0;ls
+: 1459177839:0;vim build_android_aarch64.sh
+: 1459177911:0;ls ~
+: 1459177925:0;cd ~/Steam
+: 1459177926:0;ls
+: 1459177929:0;cd -
+: 1459177933:0;rm ~/Steam -rf
+: 1459177945:0;ls
+: 1459177947:0;ps
+: 1459177955:0;ls ~ |grep -i aar
+: 1459177957:0;ls
+: 1459177965:0;ls ~/Desktop
+: 1459177966:0;ls
+: 1459177974:0;rm ~/Desktop/arm -rf
+: 1459177975:0;ls
+: 1459177981:0;vim build_android_aarch64.sh
+: 1459178007:0;. ./build_android_aarch64.sh
+: 1459178017:0;cd ffmpeg
+: 1459178017:0;ls
+: 1459178025:0;vim build_android_aarch64.sh
+: 1459178083:0;ps
+: 1459178090:0;echo $PREFIX
+: 1459178098:0;ls ~
+: 1459178105:0;cd ï½ƒ¾
+: 1459178108:0;cd ~
+: 1459178119:0;find -iname "aarch"
+: 1459178126:0;d 
+: 1459178129:0;cd -
+: 1459178129:0;ls
+: 1459178135:0;ls ~/Desktop
+: 1459178135:0;ls
+: 1459178139:0;ls ~/Desktop
+: 1459178149:0;ls
+: 1459178157:0;cd ~/Desktop/arm
+: 1459178158:0;ls
+: 1459178160:0;cd include
+: 1459178160:0;ls
+: 1459178166:0;d
+: 1459178173:0;2
+: 1459178173:0;ls
+: 1459178177:0;ps
+: 1459178374:0;d
+: 1459178383:0;cd ~/Desktop/arm/lib
+: 1459178383:0;ls
+: 1459178389:0;find -type l -delete
+: 1459178392:0;rm pkgconfig -rf
+: 1459178461:0;ps
+: 1459178462:0;d
+: 1459178464:0;1
+: 1459178465:0;ps
+: 1459178490:0;gst
+: 1459178512:0;ps
+: 1459178721:0;./configure --show-help
+: 1459178729:0;./configure --help
+: 1459178804:0;ps
+: 1459179583:0;gst
+: 1459179589:0;ls
+: 1459179600:0;vim config.log
+: 1459179634:0;gst
+: 1459179635:0;cd .
+: 1459179637:0;cd ..
+: 1459179637:0;ls
+: 1459179642:0;gst
+: 1459179649:0;cat config
+: 1459179653:0;ps
+: 1459205760:0;tmux
+: 1459205762:0;j ffmpeg
+: 1459205763:0;ls
+: 1459205767:0;vim build_android_aarch64.sh
+: 1459206073:0;adb shell cat /proc/cpuinfo
+: 1459206972:0;adb shell
+: 1459207160:0;cd ffmpeg
+: 1459207161:0;gst
+: 1459207167:0;ls
+: 1459207172:0;vim README.md
+: 1459207192:0;ls
+: 1459207204:0;ls ~/Desktop
+: 1459207204:0;ls
+: 1459207209:0;rm ~/Desktop/arm -rf
+: 1459207209:0;ls
+: 1459207214:0;vim build_android_aarch64.sh
+: 1459207489:0;ls ~/Desktop
+: 1459207496:0;sh ./build_android_aarch64.sh
+: 1459207687:0;ls ~/Desktop
+: 1459207707:0;ps
+: 1459207740:0;sh ./build_android_aarch64.sh
+: 1459207884:0;ls ~/Desktop
+: 1459207895:0;ls
+: 1459207917:0;export
+: 1459207923:0;export |grep arm
+: 1459207929:0;export
+: 1459207962:0;export | grep arm
+: 1459207996:0;ps
+: 1459208015:0;sh ./build_android_aarch64.sh
+: 1459208247:0;ls ~/Desktop
+: 1459208269:0;ls /usr/local
+: 1459208274:0;ls /usr/local/lib
+: 1459208298:0;ls /usr/local/include
+: 1459208302:0;cd /usr/local
+: 1459208303:0;ls
+: 1459208306:0;ls bin
+: 1459208308:0;ls etc
+: 1459208311:0;ls games
+: 1459208312:0;ls include
+: 1459208315:0;ls lib
+: 1459208318:0;ls sbin
+: 1459208320:0;ls share
+: 1459208323:0;ls src
+: 1459208324:0;ls
+: 1459208331:0;d
+: 1459208333:0;1
+: 1459208333:0;ls
+: 1459208335:0;vim build_android_aarch64.sh
+: 1459208401:0;ls
+: 1459208404:0;cd Downloads
+: 1459208405:0;ls
+: 1459208414:0;ls |grep ffmpeg
+: 1459208425:0;tar --help
+: 1459208428:0;man
+: 1459208430:0;man tar
+: 1459208470:0;tar jxv ffmpeg-3.0.tar.bz2
+: 1459208477:0;ls
+: 1459208481:0;tar --help
+: 1459208524:0;tar jxvf ffmpeg-3.0.tar.bz2
+: 1459208527:0;ls
+: 1459208529:0;cd ffmpeg-3.0
+: 1459208529:0;ls
+: 1459208536:0;cp ~/ffmpeg/build_android_aarch64.sh
+: 1459208543:0;cp ~/ffmpeg/build_android_aarch64.sh ./
+: 1459208544:0;s
+: 1459208545:0;ls
+: 1459208547:0;vim build_android_aarch64.sh
+: 1459208556:0;ls
+: 1459208558:0;sh ./build_android_aarch64.sh
+: 1459208579:0;ls
+: 1459208588:0;cd ..
+: 1459208588:0;ls
+: 1459208601:0;rm Unconfirmed\ 497085.crdownload ffmpeg-3.0 -rf
+: 1459208602:0;ls
+: 1459208607:0;rm ffmpeg-3.0.tar.bz2
+: 1459208608:0;ls
+: 1459208643:0;tar jxvf ffmpeg-3.0.tar.bz2
+: 1459208647:0;cd ffmpeg-3.0
+: 1459208647:0;ls
+: 1459208649:0;cp ~/ffmpeg/build_android_aarch64.sh ./
+: 1459208652:0;sh ./build_android_aarch64.sh
+: 1459208670:0;vim build_android_aarch64.sh
+: 1459208692:0;ps
+: 1459208711:0;cp ~/ffmpeg/build_android_aarch64.sh ./
+: 1459208712:0;ps
+: 1459208718:0;sh ./build_android_aarch64.sh
+: 1459208724:0;ps
+: 1459208904:0;sh ./build_android_aarch64.sh
+: 1459208906:0;bash
+: 1459208942:0;ls
+: 1459208955:0;ps
+: 1459208956:0;bash
+: 1459208979:0;ls
+: 1459208980:0;bash
+: 1459209189:0;ps
+: 1459209192:0;vim build_android_aarch64.sh
+: 1459209212:0;cd $ANDROID_SDK/
+: 1459209212:0;ls
+: 1459209250:0;cd ndk-bundle/toolchains/aarch64-linux-android-4.9
+: 1459209250:0;ls
+: 1459209252:0;cd prebuilt
+: 1459209253:0;ls
+: 1459209259:0;mv linux-x86_64 linux-x64
+: 1459209272:0;. ./build_android_aarch64.sh
+: 1459209398:0;ps
+: 1459209415:0;. ./build_android_aarch64.sh
+: 1459209421:0;ps
+: 1459209425:0;vim config.log
+: 1459209430:0;ps
+: 1459209444:0;mv linux-x64 linux-x86_64
+: 1459209444:0;ls
+: 1459209491:0;. ./build_android_aarch64.sh
+: 1459209537:0;sudo apt-get install build-essential
+: 1459209566:0;sudo apt-get install --reinstall libc6
+: 1459209574:0;. ./build_android_aarch64.sh
+: 1459209595:0;sudo apt-get build-dep ffmpeg
+: 1459209633:0;ls
+: 1459209634:0;ps
+: 1459209660:0;. ./build_android_aarch64.sh
+: 1459209749:0;ps
+: 1459209801:0;. ./build_android_aarch64.sh
+: 1459209811:0;ls
+: 1459209819:0;ps
+: 1459209916:0;. ./build_android_aarch64.sh
+: 1459209924:0;ps
+: 1459209998:0;. ./build_android_aarch64.sh
+: 1459210007:0;bash
+: 1459210282:0;ls
+: 1459210286:0;bash
+: 1459210292:0;ls ~
+: 1459210302:0;ls
+: 1459210335:0;j 2
+: 1459210336:0;gst
+: 1459210344:0;cd ../ScreenCapture2Gif
+: 1459210344:0;gst
+: 1459210345:0;ls
+: 1459210346:0;gd
+: 1459210572:0;cd ~/Downloads
+: 1459210573:0;ls
+: 1459210576:0;wget https://github.com/dxjia/GifAssistant/blob/master/app/src/main/jniLibs/armeabi/libffmpegjni.so
+: 1459210847:0;gst
+: 1459210851:0;ps
+: 1459210855:0;j scrr
+: 1459210859:0;j screen
+: 1459210860:0;ls
+: 1459210860:0;gst
+: 1459210862:0;ga -A
+: 1459210863:0;gst
+: 1459210864:0;gc
+: 1459210896:0;gp
+: 1459290966:0;tmux
+: 1459290970:0;j Des__
+: 1459290971:0;ls
+: 1459290973:0;vim notes.md
+: 1459290985:0;rm notes.md
+: 1459350849:0;ls
+: 1459350860:0;rm Butter\ Knife.desktop
+: 1459350861:0;ls
+: 1459350867:0;j ffmpeg
+: 1459350868:0;ls
+: 1459350885:0;vim build_android_aarch64.sh
+: 1459350955:0;ps
+: 1459350963:0;cd ~/ffmpeg
+: 1459350964:0;ls
+: 1459350966:0;. ./build_android_aarch64.sh
+: 1459350970:0;pwd
+: 1459350972:0;ls
+: 1459350975:0;vim build_android_aarch64.sh
+: 1459350986:0;ls
+: 1459350987:0;pwd
+: 1459350995:0;gst
+: 1459351005:0;cp build_android_aarch64.sh ~/Downloads/ffmpeg-3.0
+: 1459351006:0;ls
+: 1459351011:0;cd ~/Downloads/ffmpeg-3.0
+: 1459351012:0;ls
+: 1459351015:0;. ./build_android_aarch64.sh
+: 1459351019:0;ls
+: 1459351030:0;. ./build_android_aarch64.sh
+: 1459351046:0;anstudio
+: 1459351125:0;ls
+: 1459351127:0;ls ~/Desktop
+: 1459351128:0;ls
+: 1459351131:0;ls ~/Desktop
+: 1459351132:0;ls
+: 1459351135:0;vim build_android_aarch64.sh
+: 1459351159:0;ls
+: 1459351162:0;. ./build_android_aarch64.sh
+: 1459351255:0;ls ~/Desktop
+: 1459351263:0;cd ~/Desktop/ffmpeg64
+: 1459351263:0;ls
+: 1459351270:0;cd lib
+: 1459351270:0;ls
+: 1459351311:0;j screen
+: 1459351313:0;ls
+: 1459351313:0;gst
+: 1459351315:0;gl
+: 1459351317:0;gst
+: 1459351661:0;ls
+: 1459351662:0;d
+: 1459351720:0;2
+: 1459351720:0;ls
+: 1459351725:0;vim configure
+: 1459351827:0;gst
+: 1459351828:0;ps
+: 1459351829:0;d
+: 1459351833:0;1
+: 1459351834:0;ls
+: 1459351839:0;rm -rf *
+: 1459351842:0;d
+: 1459351846:0;1
+: 1459351849:0;. ./build_android_aarch64.sh
+: 1459351860:0;	gvim
+: 1459351957:0;ls ~/Downloads/ |grep ffmpeg
+: 1459352137:0;ls ~/Desktop
+: 1459352143:0;cd ~/Desktop/ffmpeg64/lib
+: 1459352144:0;ls
+: 1459352162:0;rm ~/Desktop/ffmpeg64 -rf
+: 1459352165:0;ls ~/Desktop
+: 1459352170:0;d
+: 1459352173:0;2
+: 1459352175:0;d 2
+: 1459352177:0;d
+: 1459352181:0;1
+: 1459352184:0;ls ~/Desktop
+: 1459352187:0;. ./build_android_aarch64.sh
+: 1459352262:0;cd ~/Desktop/ffmpeg64
+: 1459352263:0;ls
+: 1459352264:0;cd lib
+: 1459352265:0;ls
+: 1459352284:0;find -type l -delete
+: 1459352285:0;ls
+: 1459352303:0;cd -
+: 1459352306:0;pwd
+: 1459352313:0;cd ~/Downloads/ffmpeg-3.0
+: 1459352313:0;ls
+: 1459352317:0;rm ~/Desktop/ffmpeg
+: 1459352324:0;rm ~/Desktop/ffmpeg64 -rf
+: 1459352325:0;ls
+: 1459352327:0;vim build_android_aarch64.sh
+: 1459376472:0;cd ~/Downloads
+: 1459376473:0;ls
+: 1459376475:0;cd ffmpeg-3.0
+: 1459376476:0;ls
+: 1459376652:0;top |grep android
+: 1459376659:0;ps 
+: 1459376661:0;ps -a
+: 1459376672:0;kill -o 5474
+: 1459376684:0;pkill -9 studio
+: 1459376689:0;ps --help
+: 1459376696:0;ps -l
+: 1459376701:0;ps -a
+: 1459376704:0;ps -s
+: 1459376733:0;kill -9 5580
+: 1459376897:0;find -iname "ffmpeg.c"
+: 1459376905:0;vim ffmpeg.c
+: 1459377226:0;tmux
+: 1459377231:0;j project
+: 1459377232:0;ls
+: 1459377243:0;git clone https://github.com/Kernald/ffmpeg-android.git
+: 1459377249:0;cd ffmpeg-
+: 1459377252:0;cd ffmpeg-android
+: 1459377252:0;ls
+: 1459377254:0;mtags
+: 1459377255:0;vim
+: 1459377347:0;vim ffmpeg.c
+: 1459377653:0;ls
+: 1459377655:0;gst
+: 1459377666:0;mv build_android_aarch64.sh ~/Desktop
+: 1459377667:0;gst
+: 1459377669:0;ls
+: 1459377677:0;vim config.log
+: 1459377692:0;mv config.log ~/Desktop
+: 1459377692:0;ls
+: 1459377695:0;git init
+: 1459377695:0;gst
+: 1459377698:0;ga -A
+: 1459377704:0;gst
+: 1459377705:0;gc
+: 1459377911:0;gst
+: 1459377928:0;mv ~/Desktop/{config.log,build_android_aarch64.sh} ./
+: 1459377929:0;ls
+: 1459377931:0;gst
+: 1459377939:0;ps
+: 1459378054:0;cd jni
+: 1459378055:0;ls
+: 1459378060:0;cd videokit
+: 1459378061:0;ls
+: 1459378209:0;ls ~/Desktop
+: 1459378218:0;. ./build_android_aarch64.sh
+: 1459378564:0;ls
+: 1459378569:0;vim build_android_aarch64.sh 
+: 1459378577:0;ps
+: 1459378582:0;gst
+: 1459378586:0;vim configure
+: 1459378605:0;rm /tmp/config* 
+: 1459378606:0;ps
+: 1459378857:0;ls
+: 1459378863:0;cd ~/Desktop
+: 1459378864:0;ls
+: 1459378868:0;cd ffmpeg64
+: 1459378868:0;ls
+: 1459378873:0;cd ~/
+: 1459378873:0;ls
+: 1459378877:0;d
+: 1459378880:0;1
+: 1459378882:0;ls
+: 1459378885:0;3
+: 1459378886:0;gst
+: 1459378888:0;vim build_android_aarch64.sh
+: 1459379056:0;rm ~/Desktop/ffmpeg64 -rf
+: 1459379057:0;ls
+: 1459379063:0;. ./build_android_aarch64.sh
+: 1459379151:0;cd ~/Desktop/ffmpeg64/lib
+: 1459379152:0;ls
+: 1459379168:0;cd ../include
+: 1459379168:0;ls
+: 1459379170:0;cd lib
+: 1459379175:0;cd libavcodec
+: 1459379176:0;ls
+: 1459379185:0;cd -
+: 1459379186:0;d
+: 1459379189:0;2
+: 1459379189:0;ls
+: 1459379206:0;ls -ll
+: 1459379219:0;ls
+: 1459379234:0;d
+: 1459379237:0;3
+: 1459379238:0;ls
+: 1459379245:0;ps
+: 1459379323:0;gst
+: 1459379327:0;rm config.log
+: 1459379332:0;ps
+: 1459379356:0;rm ~/Desktop/ffmpeg64 -rf
+: 1459379357:0;ps
+: 1459379380:0;. ./build_android_aarch64.sh
+: 1459379388:0;j Des__
+: 1459379390:0;ls
+: 1459379392:0;ls -a
+: 1459379482:0;ls ~/Desktop
+: 1459379501:0;ls -a |grep config
+: 1459379509:0;vim config
+: 1459379515:0;vim .config
+: 1459379525:0;vim config.fate
+: 1459379552:0;rm .config config.fate config.log config.mak
+: 1459379555:0;ls -a |grep config
+: 1459379562:0;vim config.h
+: 1459379577:0;rm config.h
+: 1459379578:0;ls
+: 1459379583:0;ls |grep -i config
+: 1459379586:0;. ./build_android_aarch64.sh
+: 1459379601:0;gst
+: 1459379614:0;git reset HEAD config.mak
+: 1459379618:0;gst
+: 1459379633:0;git checkout config.mak
+: 1459379634:0;gst
+: 1459379637:0;. ./build_android_aarch64.sh
+: 1459379642:0;ls
+: 1459379644:0;gst
+: 1459379658:0;git reset HEAD --hard
+: 1459379661:0;gst
+: 1459379672:0;ls
+: 1459379677:0;cd ~/Downloads
+: 1459379677:0;ls
+: 1459379688:0;tar --help
+: 1459379719:0;man tar
+: 1459379757:0;ls
+: 1459379763:0;mv ffmpeg-3.0-old
+: 1459379768:0;gst
+: 1459379770:0;s
+: 1459379783:0;gst
+: 1459379795:0;mv ffmpeg-3.0 ffmpeg-3.0-old
+: 1459379806:0;tar jxvf ffmpeg-3.0.tar.bz2
+: 1459379809:0;cd ~
+: 1459379810:0;ls
+: 1459379814:0;cd ~/Downloads
+: 1459379815:0;ls
+: 1459379821:0;cd ffmpeg-3.0
+: 1459379821:0;ls
+: 1459379823:0;mtags
+: 1459379829:0;gst
+: 1459379832:0;git init
+: 1459379836:0;git commit
+: 1459379840:0;gst
+: 1459379843:0;ga -A
+: 1459379847:0;git commit
+: 1459379862:0;gst
+: 1459379876:0;cp ../ffmpeg-3.0-old/build_android_aarch64.sh ./
+: 1459379876:0;gst
+: 1459379881:0;vim build_android_aarch64.sh
+: 1459379898:0;gst
+: 1459379901:0;. ./build_android_aarch64.sh
+: 1459379915:0;gst
+: 1459379929:0;vim config.log
+: 1459379952:0;gst
+: 1459379954:0;. ./build_android_aarch64.sh
+: 1459379960:0;ps
+: 1459379967:0;gst
+: 1459379973:0;ps
+: 1459379977:0;vim build_android_aarch64.sh
+: 1459380003:0;. ./build_android_aarch64.sh
+: 1459380022:0;ls
+: 1459380023:0;gst
+: 1459380028:0;cd ffmpeg-3.0
+: 1459380029:0;ls
+: 1459380029:0;gst
+: 1459380034:0;ls ~/Desktop
+: 1459380044:0;ps
+: 1459380078:0;ls
+: 1459380080:0;ls ~/Desktop
+: 1459380082:0;gst
+: 1459380108:0;ls ~/Desktop/ffmpeg-aarch64/lib/
+: 1459380111:0;cd ~/Desktop/ffmpeg-aarch64/lib/
+: 1459380113:0;ls
+: 1459380163:0;cp ~/Android/Projects/ffmpeg-android/jni/* ./
+: 1459380166:0;cp ~/Android/Projects/ffmpeg-android/jni/* ./ -rf
+: 1459380167:0;ls
+: 1459380185:0;mv videokit/fr* ./
+: 1459380186:0;ls
+: 1459380195:0;vim Android.mk
+: 1459380292:0;~/Android/Sdk/ndk-bundle/ndk-build
+: 1459380426:0;vim ~/linux_config/config_sh/bashrc_zshrc_general
+: 1459380472:0;cd ~/Android/Sdk/ndk-bundle
+: 1459380474:0;ls
+: 1459380543:0;source ~/.zsh
+: 1459380545:0;source ~/.zshrc
+: 1459380562:0;echo $ANDROID_NDK
+: 1459380566:0;ndk-build
+: 1459380568:0;ps
+: 1459380575:0;ls
+: 1459380579:0;ps
+: 1459380584:0;gst
+: 1459380590:0;ps
+: 1459380600:0;vim ~/linux_config/config_sh/bashrc_zshrc_general
+: 1459380625:0;ps
+: 1459380627:0;vim ~/linux_config/config_sh/bashrc_zshrc_general
+: 1459380637:0;pwd
+: 1459380675:0;source ~/.zshrc
+: 1459380683:0;cd ~/Desktop/ffmpeg-aarch64
+: 1459380687:0;ndk-build
+: 1459380701:0;exit
+: 1459380705:0;gst
+: 1459380718:0;source ~/.zshrc
+: 1459380723:0;echo $ANDROID_SDK
+: 1459380728:0;echo /home/muqing/Android/Sdk/ndk-build
+: 1459380733:0;ndk-build
+: 1459380742:0;ps
+: 1459380749:0;j ndk
+: 1459380751:0;pwd
+: 1459380752:0;ls
+: 1459380759:0;ps
+: 1459380761:0;vim ~/linux_config/config_sh/bashrc_zshrc_general
+: 1459380776:0;source ~/.zshrc
+: 1459380784:0;j aar__
+: 1459380790:0;cd ~/Desktop/ffmpeg-aarch64
+: 1459380798:0;source ~/.zshrc
+: 1459380801:0;ndk-build
+: 1459380803:0;ls
+: 1459380806:0;cd lib
+: 1459380807:0;ls
+: 1459380808:0;ndk-build
+: 1459380860:0;tmux
+: 1459380864:0;j ffmpeg-
+: 1459380865:0;ls
+: 1459380871:0;cd ~/Desktop/ffmpeg-aarch64
+: 1459380873:0;ls
+: 1459380874:0;cd lib
+: 1459380874:0;ls
+: 1459380884:0;ndk-build
+: 1459381015:0;ls
+: 1459381019:0;vim Application.mk
+: 1459381086:0;ndk-build
+: 1459381108:0;ps
+: 1459381195:0;ndk-build
+: 1459381660:0;ls
+: 1459381667:0;ps
+: 1459381975:0;j ffmpeg-andr__
+: 1459381976:0;ls
+: 1459381978:0;vim
+: 1459382431:0;ps
+: 1459382453:0;cd ~/Android/Projects/ScreenCapture2Gif/app/src/main/java/jni
+: 1459382453:0;ls
+: 1459382461:0;ndk-build
+: 1459383190:0;ps
+: 1459383210:0;rm /tmp/* -rf
+: 1459383214:0;ls /tmp
+: 1459383218:0;ps
+: 1459383258:0;cd jni
+: 1459383259:0;ls
+: 1459383267:0;ndk-build
+: 1459383396:0;ps
+: 1459383407:0;vim Android.mk
+: 1459383612:0;ls
+: 1459383617:0;cd ~/ffmpeg
+: 1459383617:0;gst
+: 1459383623:0;cd ~/Downloads
+: 1459383623:0;ls
+: 1459383629:0;cd ffmpeg-3.0
+: 1459383630:0;ls
+: 1459383632:0;gst
+: 1459383639:0;pwd
+: 1459383643:0;git log
+: 1459383645:0;gst
+: 1459383652:0;cd ../ffmpeg-3.0-old
+: 1459383653:0;gst
+: 1459383661:0;cd -
+: 1459383662:0;gst
+: 1459383689:0;rm ~/Desktop/{ffmpeg64,ffmpeg-aarch64} -rf
+: 1459383690:0;ls
+: 1459383701:0;gst
+: 1459383706:0;vim build_android_aarch64.sh
+: 1459383762:0;gst
+: 1459383764:0;. ./build_android_aarch64.sh
+: 1459383808:0;ls
+: 1459383810:0;gst
+: 1459383825:0;vim videokit
+: 1459383881:0;1ls
+: 1459383881:0;ls
+: 1459383891:0;gst
+: 1459383899:0;ls ~/Desktop/ffmpeg-aarch64-static
+: 1459383900:0;ls
+: 1459383907:0;cd ~/Desktop/ffmpeg-aarch64-static
+: 1459383908:0;ls
+: 1459383910:0;cd lib
+: 1459383910:0;ls
+: 1459384922:0;pwd
+: 1459384930:0;d
+: 1459384933:0;6
+: 1459384935:0;ndk-build
+: 1459385102:0;ls
+: 1459385133:0;cd ~/Android/Sdk/ndk-bundle
+: 1459385134:0;ls
+: 1459385140:0;cd sources
+: 1459385141:0;ls
+: 1459385172:0;cp ~/Downloads/ffmpeg-3.0 ./ -rf
+: 1459385179:0;cd ffmpeg-3.0
+: 1459385180:0;ls
+: 1459385187:0;vim build_android_aarch64.sh
+: 1459385192:0;gst
+: 1459385217:0;ga build_android_aarch64.sh
+: 1459385218:0;gst
+: 1459385223:0;git clean -xdf
+: 1459385224:0;gst
+: 1459385228:0;vim build_android_aarch64.sh
+: 1459385269:0;ls
+: 1459385277:0;. ./build_android_aarch64.sh
+: 1459385283:0;vim build_android_aarch64.sh
+: 1459385312:0;gst
+: 1459385321:0;git clean -xdf
+: 1459385321:0;gst
+: 1459385323:0;ga build_android_aarch64.sh
+: 1459385325:0;gst
+: 1459385329:0;. ./build_android_aarch64.sh
+: 1459385353:0;cd $ANDROID_NDK/sources/ffmpeg-3.0/
+: 1459385354:0;ls
+: 1459385361:0;vim Android.mk
+: 1459385539:0;ls
+: 1459385542:0;cd android/aarch64
+: 1459385543:0;ls
+: 1459385722:0;mv Android.mk android/aarch64
+: 1459385736:0;0ls
+: 1459385736:0;ls
+: 1459385742:0;ps
+: 1459385775:0;ls
+: 1459385777:0;cd jni
+: 1459385778:0;ls
+: 1459385781:0;ndk-build
+: 1459385785:0;ps
+: 1459385797:0;ls
+: 1459385801:0;ps
+: 1459385829:0;ls
+: 1459385830:0;cd jni
+: 1459385830:0;ls
+: 1459385833:0;vim Android.mk
+: 1459385851:0;ndk-build
+: 1459385861:0;ps
+: 1459385862:0;gst
+: 1459385864:0;ps
+: 1459385865:0;cd ..
+: 1459385865:0;gst
+: 1459385867:0;cd jni
+: 1459385868:0;ls
+: 1459385872:0;vim Android.mk
+: 1459385881:0;gst
+: 1459385882:0;gd
+: 1459385898:0;cd $ANDROID_NDK/sources/ffmpeg-3.0
+: 1459385901:0;cd $ANDROID_NDK/sources/ffmpeg-3.0/
+: 1459385903:0;ls
+: 1459385908:0;ls |grep config
+: 1459385939:0;ps
+: 1459385979:0;ndk-build
+: 1459385988:0;psps
+: 1459386018:0;ndk-build
+: 1459386021:0;ps
+: 1459386028:0;vim Android.mk
+: 1459386056:0;ndk-build
+: 1459386063:0;ps
+: 1459386077:0;5ps
+: 1459386078:0;ps
+: 1459386085:0;vim android/aarch64/
+: 1459386098:0;ls
+: 1459386101:0;ndk-build
+: 1459386114:0;gst
+: 1459386117:0;gco videokit/
+: 1459386117:0;gst
+: 1459386119:0;vim Android.mk
+: 1459386128:0;exit
+: 1459386135:0;ls
+: 1459386139:0;rm /tmp -rf
+: 1459386140:0;ls
+: 1459386149:0;rm /tmp/* -rf
+: 1459386151:0;ls
+: 1459386164:0;vim .vim/vimrc
+: 1459386211:0;gst
+: 1459386215:0;vim .vim/vimrc
+: 1459386255:0;tmux
+: 1459386262:0;j jni
+: 1459386263:0;pwd
+: 1459386265:0;ls
+: 1459386267:0;gst
+: 1459386270:0;ndk-build
+: 1459386274:0;vim Android.mk
+: 1459386289:0;ndk-build
+: 1459386292:0;ps
+: 1459386338:0;ndk-build
+: 1459386341:0;ps
+: 1459386423:0;ndk-build
+: 1459386429:0;ps
+: 1459386443:0;ndk-build
+: 1459386444:0;ps
+: 1459386450:0;gst
+: 1459386451:0;gd
+: 1459386459:0;ps
+: 1459386489:0;ndk-build
+: 1459386502:0;psps
+: 1459386503:0;ps
+: 1459386513:0;gst
+: 1459386514:0;gd
+: 1459386520:0;ndk-build
+: 1459386538:0;j aar__
+: 1459386548:0;cd ~/Android/Sdk/ndk-bundle/sources/ffmpeg-3.0/android/aarch64
+: 1459386548:0;ls
+: 1459386551:0;vim Android.mk
+: 1459386580:0;ps
+: 1459386597:0;gst
+: 1459386599:0;gco -- .
+: 1459386599:0;ps
+: 1459386601:0;gst
+: 1459386604:0;ls ~/Android/Sdk/ndk-bundle/sources/ffmpeg-3.0/kk\
+
+: 1459386646:0;ndk-build
+: 1459386654:0;cd ..
+: 1459386655:0;gst
+: 1459386658:0;cd jni
+: 1459386658:0;ls
+: 1459386665:0;ndk-build
+: 1459386669:0;ndk-build clean
+: 1459386683:0;ps
+: 1459386684:0;ls
+: 1459386691:0;cd ..
+: 1459386691:0;ls
+: 1459386693:0;vim AndroidManifest.xml
+: 1459386719:0;ndk-build
+: 1459386724:0;ps
+: 1459386741:0;pwd
+: 1459386748:0;ndk-build
+: 1459386751:0;ps
+: 1459386792:0;cd ..
+: 1459386792:0;ls
+: 1459386793:0;gst
+: 1459386795:0;cd ..
+: 1459386796:0;ls
+: 1459386797:0;gst
+: 1459386802:0;cd ffmpeg-android
+: 1459386803:0;ls
+: 1459386807:0;cd obj
+: 1459386807:0;ls
+: 1459386809:0;cd ..
+: 1459386809:0;ls
+: 1459386812:0;rm obj -rf
+: 1459386812:0;ls
+: 1459386813:0;gst
+: 1459386818:0;cd jni
+: 1459386818:0;ls
+: 1459386823:0;ndk-build
+: 1459386829:0;ps
+: 1459386866:0;rm ../obj -rf
+: 1459386868:0;ndk-build
+: 1459386899:0;ps
+: 1459386900:0;ls
+: 1459386902:0;cd videokit
+: 1459386903:0;ls
+: 1459386925:0;cd ..
+: 1459386925:0;ls
+: 1459431978:0;tmux
+: 1459431982:0;j ffmepg-andr__
+: 1459431983:0;ls
+: 1459431998:0;cd jni
+: 1459431998:0;ls
+: 1459432003:0;ndk-build
+: 1459432029:0;gvim Desktop/ffmpeg\ on\ android.md
+: 1459432084:0;ls
+: 1459432091:0;vim Android.mk
+: 1459432118:0;ps
+: 1459432126:0;ls
+: 1459432134:0;cd ~/Android/Projects/
+: 1459432134:0;ls
+: 1459432137:0;cd ffmpeg-android
+: 1459432137:0;ls
+: 1459432138:0;l
+: 1459432138:0;sgst
+: 1459432143:0;ps
+: 1459432150:0;cd ..
+: 1459432151:0;ls
+: 1459432154:0;vim
+: 1459432170:0;gst
+: 1459432173:0;gco -- .
+: 1459432174:0;ps
+: 1459432284:0;gst
+: 1459432286:0;gd
+: 1459432287:0;gst
+: 1459432296:0;j ffmpeg-android
+: 1459432296:0;ls
+: 1459432298:0;cd jni
+: 1459432299:0;ls
+: 1459432302:0;ndk-build
+: 1459433228:0;ls
+: 1459433249:0;cd ~/Downloads
+: 1459433250:0;ls
+: 1459433252:0;cd ffmpeg-3.0
+: 1459433252:0;ls
+: 1459433260:0;ack "main("
+: 1459433265:0;ls
+: 1459433279:0;sl
+: 1459433280:0;ls
+: 1459433317:0;ack "main("
+: 1459433325:0;vim ffmpeg.c
+: 1459433338:0;ack "main(.*"
+: 1459433345:0;ack "main(int"
+: 1459433354:0;ack main
+: 1459433372:0;vim main(
+: 1459433379:0;ack main(
+: 1459433384:0;ack "main\("
+: 1459433390:0;ps
+: 1459433477:0;ls
+: 1459433491:0;ps
+: 1459433557:0;ls
+: 1459433563:0;ps
+: 1459433910:0;ls
+: 1459433916:0;vim Android.mk
+: 1459433948:0;cd $ANDROID_NDK
+: 1459433949:0;ls
+: 1459433953:0;cd sources/ffmpeg-3.0
+: 1459433954:0;ls
+: 1459433963:0;ls |grep config
+: 1459434090:0;ls android/aarch64
+: 1459434098:0;cd android/aarch64
+: 1459434098:0;ls
+: 1459434102:0;vim Android.mk
+: 1459434239:0;ndk-build
+: 1459434250:0;ps
+: 1459434607:0;vils
+: 1459434610:0;cd Downloads
+: 1459434610:0;ls
+: 1459434624:0;ndk-build
+: 1459434647:0;ls
+: 1459434651:0;rm obj -rf
+: 1459434652:0;gst
+: 1459434655:0;ls
+: 1459434665:0;ndk-build
+: 1459434671:0;ls
+: 1459434674:0;vim Application.mk
+: 1459434683:0;ndk-build
+: 1459434691:0;ndk-build clean
+: 1459434697:0;ndk-build
+: 1459434704:0;ndk-build --help
+: 1459434722:0;ndk-build clean
+: 1459434731:0;ndk-build
+: 1459434773:0;ps
+: 1459434830:0;ndk-build
+: 1459434834:0;ps
+: 1459434856:0;ndk-build
+: 1459434901:0;ps
+: 1459434916:0;ndk-build
+: 1459434947:0;ls
+: 1459434950:0;j ffmpeg
+: 1459434954:0;cd ~/Downloads/ffmpeg-3.0
+: 1459434955:0;ls
+: 1459434960:0;vim config.h
+: 1459435260:0;LS
+: 1459435264:0;cd ffmpeg-3.0
+: 1459435265:0;ls
+: 1459435270:0;ls |grep -i .c
+: 1459435274:0;ls |grep -i \.c
+: 1459435436:0;j project
+: 1459435436:0;ls
+: 1459435441:0;git clone https://github.com/HikoQiu/JNI_INVOKE_FFMPEG.git
+: 1459435460:0;ls
+: 1459435464:0;cd obj
+: 1459435464:0;ls
+: 1459435466:0;cd local
+: 1459435466:0;ls
+: 1459435471:0;cd ..
+: 1459435471:0;ls
+: 1459435472:0;cd ..
+: 1459435473:0;ls
+: 1459435475:0;rm obj -rf
+: 1459435476:0;gst
+: 1459435484:0;ndk-build
+: 1459435486:0;gst
+: 1459435489:0;gco jni/videokit/
+: 1459435492:0;ndk-build
+: 1459435527:0;gst
+: 1459435587:0;git clone https://github.com/HikoQiu/JNI_INVOKE_FFMPEG.git
+: 1459435630:0;ps
+: 1459435725:0;cd $ANDROID_NDK
+: 1459435727:0;ls
+: 1459435732:0;cd sources/ffmpeg-3.0
+: 1459435733:0;ls
+: 1459435789:0;cd jni
+: 1459435792:0;ndk-build
+: 1459435914:0;ps
+: 1459435929:0;d
+: 1459435930:0;exit
+: 1459435931:0;ps
+: 1459435938:0;j ffmpeg__
+: 1459435939:0;gst
+: 1459435945:0;j ffmpeg_android
+: 1459435946:0;ls
+: 1459435946:0;gst
+: 1459435948:0;pwd
+: 1459435949:0;gst
+: 1459435957:0;cd ../Android/Projects/ffmpeg-android
+: 1459435958:0;ls
+: 1459435959:0;gst
+: 1459435962:0;cd jni
+: 1459435963:0;ls
+: 1459435967:0;cd ..
+: 1459435968:0;vim
+: 1459436004:0;cd jni
+: 1459436004:0;ls
+: 1459436007:0;cd videokit
+: 1459436007:0;ls
+: 1459436017:0;rm ffmpeg_*
+: 1459436018:0;ls
+: 1459436025:0;rm ffmpeg.h
+: 1459436025:0;ls
+: 1459436028:0;ps
+: 1459436160:0;ndk-build
+: 1459436175:0;ps
+: 1459436205:0;ls |grep ffmpeg
+: 1459436213:0;ps
+: 1459436217:0;d
+: 1459436218:0;ps
+: 1459436224:0;ndk-build
+: 1459436296:0;pwd
+: 1459436299:0;vim build_android_aarch64.sh
+: 1459436309:0;gst
+: 1459436314:0;git clean -xdf
+: 1459436315:0;gst
+: 1459436319:0;ps
+: 1459436325:0;gst
+: 1459436327:0;ps
+: 1459436330:0;gst
+: 1459436332:0;git log
+: 1459436335:0;gst
+: 1459436336:0;git log
+: 1459436341:0;ps
+: 1459436359:0;. ./build_android_aarch64.sh
+: 1459436710:0;ls
+: 1459436719:0;cd ~/Desktop/ffmpeg-aarch64-shared/lib
+: 1459436720:0;ls
+: 1459436731:0;cd jni
+: 1459436732:0;ls
+: 1459436744:0;cp ~/Desktop/ffmpeg-aarch64-shared/lib/*.so ./
+: 1459436911:0;ls
+: 1459436914:0;ndk-build
+: 1459437078:0;ls
+: 1459437093:0;ndk-build
+: 1459437108:0;1ps
+: 1459437110:0;ps
+: 1459437218:0;ls
+: 1459437221:0;cd jni
+: 1459437221:0;ls
+: 1459437242:0;mkdir prebuilt
+: 1459437243:0;ls
+: 1459437249:0;ls -ll
+: 1459437261:0;mv *so prebuilt
+: 1459437264:0;ps
+: 1459437310:0;ls
+: 1459437314:0;mv prebuilt/* ./
+: 1459437314:0;ls
+: 1459437336:0;ndk-build
+: 1459437504:0;ls
+: 1459437511:0;rm obj -rf
+: 1459437516:0;ndk-build
+: 1459437519:0;ls
+: 1459437522:0;gst
+: 1459437530:0;rm ../tags
+: 1459437542:0;exit
+: 1459437543:0;gst
+: 1459437644:0;cd jni
+: 1459437645:0;ls
+: 1459437688:0;cp ~/Desktop/ffmpeg-aarch64-shared/include/ ./
+: 1459437691:0;cp ~/Desktop/ffmpeg-aarch64-shared/include/ ./ -rf
+: 1459437693:0;ps
+: 1459437710:0;cd jni
+: 1459437710:0;ls
+: 1459437721:0;mv include/* ./
+: 1459437728:0;rm include prebuilt -rf
+: 1459437729:0;ls
+: 1459437738:0;ps
+: 1459437748:0;ndk-build
+: 1459437787:0;ls
+: 1459437792:0;cd jni/libavcodec
+: 1459437792:0;ls
+: 1459437801:0;ps
+: 1459437823:0;ndk-build
+: 1459437831:0;ps
+: 1459437852:0;ndk-build
+: 1459437864:0;ls
+: 1459437870:0;cd jni
+: 1459437870:0;gst
+: 1459437876:0;rm ../__Tagbar__
+: 1459437877:0;gst
+: 1459437892:0;ps
+: 1459437925:0;ndk-build
+: 1459437938:0;ps
+: 1459437948:0;ndk-build
+: 1459438199:0;ps
+: 1459438216:0;ndk-build
+: 1459438226:0;ps
+: 1459438253:0;pwd
+: 1459438256:0;ndk-build
+: 1459438280:0;ls
+: 1459438291:0;ls libs
+: 1459438293:0;cd ..
+: 1459438293:0;ls
+: 1459438326:0;cd ffmpeg-android
+: 1459438326:0;gst
+: 1459438351:0;git checkout jni/videokit
+: 1459438352:0;gst
+: 1459438359:0;ndk-build
+: 1459438375:0;gst
+: 1459438971:0;0ls
+: 1459438971:0;ls
+: 1459438975:0;cd JNI_INVOKE_FFMPEG
+: 1459438975:0;ls
+: 1459438980:0;mtags
+: 1459438982:0;vim
+: 1459439023:0;ps
+: 1459439093:0;ls
+: 1459439096:0;cd jni
+: 1459439097:0;ls
+: 1459439100:0;ack main
+: 1459439138:0;ls
+: 1459439143:0;vim Android.mk
+: 1459439165:0;ps
+: 1459439299:0;ls
+: 1459439308:0;gst
+: 1459439309:0;ls
+: 1459439311:0;cd jni
+: 1459439312:0;ls
+: 1459439327:0;cp ~/Desktop/ffmpeg-aarch64-shared/lib/*.so ./
+: 1459439328:0;ps
+: 1459439408:0;cd jni
+: 1459439409:0;ndk-build
+: 1459439428:0;ps
+: 1459439441:0;ls
+: 1459439443:0;cd ..
+: 1459439443:0;sl
+: 1459439444:0;ls
+: 1459439450:0;rm libs obi -rf
+: 1459439451:0;ls
+: 1459439476:0;cd jni
+: 1459439478:0;ndk-build
+: 1459439489:0;ps
+: 1459439510:0;cd jni
+: 1459439512:0;ndk-build
+: 1459439515:0;ps
+: 1459439534:0;cd jni
+: 1459439535:0;ndk-build
+: 1459439550:0;cd jni
+: 1459439553:0;ndk-build
+: 1459439575:0;cd ~/Android/Projects/JNI_INVOKE_FFMPEG/jni/
+: 1459439575:0;ls
+: 1459439582:0;ps
+: 1459439588:0;ndk-build
+: 1459439624:0;ls
+: 1459439641:0;cp ~/Downloads/ffmpeg-3.0/ffmpeg.c ./
+: 1459439650:0;cp ~/Downloads/ffmpeg-3.0/ffmpeg.h ./
+: 1459439656:0;ndk-build
+: 1459439673:0;cp ~/Downloads/ffmpeg-3.0/config.h ./
+: 1459439675:0;ndk-build
+: 1459439693:0;cp ~/Downloads/ffmpeg-3.0/cmdutils.* ./
+: 1459439711:0;cp ~/Downloads/ffmpeg-3.0/ffmpeg_filter.c ./
+: 1459439721:0;cp ~/Downloads/ffmpeg-3.0/ffmpeg_opt.c ./
+: 1459439731:0;ndk-build
+: 1459439738:0;gst
+: 1459439745:0;ls
+: 1459439754:0;gst
+: 1459439792:0;cp ~/Downloads/ffmpeg-3.0/ffmpeg.* ./
+: 1459439795:0;ndk-build
+: 1459439919:0;cp ~/Desktop/ffmpeg-aarch64-shared/include/ ./
+: 1459439924:0;cp ~/Desktop/ffmpeg-aarch64-shared/include/ ./ -rf
+: 1459439927:0;ndk-build
+: 1459440187:0;ps
+: 1459440188:0;gst
+: 1459440196:0;ndk-build
+: 1459441466:0;ps
+: 1459441506:0;cd jni
+: 1459441508:0;ndk-build
+: 1459441520:0;ps
+: 1459441539:0;cd jni
+: 1459441543:0;ndk-build
+: 1459441566:0;ps
+: 1459441587:0;ndk-build
+: 1459441590:0;ps
+: 1459441597:0;cd jni
+: 1459441599:0;ndk-build
+: 1459441606:0;ps
+: 1459441652:0;pwd
+: 1459441654:0;ps
+: 1459441656:0;ndk-build
+: 1459441917:0;ps
+: 1459442163:0;ls
+: 1459442164:0;cd ..
+: 1459442164:0;ls
+: 1459442168:0;rm obj -rf
+: 1459442172:0;rm NERD_tree_1
+: 1459442172:0;ls
+: 1459442175:0;ls libs/
+: 1459442176:0;ls
+: 1459442180:0;rm libs -rf
+: 1459442181:0;gst
+: 1459442186:0;gd jni/videokit/
+: 1459442193:0;cd jni
+: 1459442194:0;ndk-build
+: 1459442269:0;ls ../obj/local/arm64-v8a/objs/videokit/
+: 1459442269:0;ls
+: 1459442271:0;d
+: 1459442274:0;0
+: 1459442275:0;gst
+: 1459442277:0;d
+: 1459442279:0;0
+: 1459442280:0;gst
+: 1459442281:0;d 0
+: 1459442282:0;d
+: 1459442356:0;ndk-build
+: 1459442364:0;ps
+: 1459442492:0;ndk-build
+: 1459442613:0;ps
+: 1459443278:0;gst
+: 1459443307:0;exit
+: 1459443322:0;cd ~/Daols
+: 1459443323:0;ls
+: 1459443324:0;pwd
+: 1459443369:0;cd ~/Android/Projects/ScreenCapture2Gif/app/src/main/java/jni
+: 1459443369:0;ls
+: 1459443374:0;vim Android.mk
+: 1459443409:0;pwd
+: 1459443475:0;ndk-build
+: 1459443649:0;gst
+: 1459443663:0;pwd
+: 1459443664:0;ps
+: 1459443711:0;pwd
+: 1459443715:0;gst
+: 1459443718:0;ndk-build
+: 1459458528:0;tmux
+: 1459458543:0;ls
+: 1459458548:0;tmux
+: 1459458558:0;j capture
+: 1459458559:0;ls
+: 1459458561:0;gst
+: 1459458576:0;cd app/src/main/java/jni
+: 1459458577:0;ls
+: 1459458595:0;ndk-build
+: 1459458612:0;vim Android.mk
+: 1459458642:0;ls
+: 1459458675:0;cp ../../jniLibs/arm64-v8a/lib* ./
+: 1459458680:0;ndk-build
+: 1459458683:0;ps
+: 1459458787:0;ndk-build
+: 1459458793:0;ps
+: 1459458890:0;ls
+: 1459458893:0;ndk-build
+: 1459458912:0;ps
+: 1459458928:0;ndk-build
+: 1459458958:0;ps
+: 1459458992:0;ndk-build
+: 1459459001:0;ps
+: 1459459037:0;ndk-build
+: 1459459043:0;ls
+: 1459459052:0;cd ..
+: 1459459052:0;ls
+: 1459459062:0;rm libs obj -rf
+: 1459459063:0;ls
+: 1459459066:0;cd jni/
+: 1459459066:0;ls
+: 1459459069:0;ndk-build
+: 1459459154:0;ls
+: 1459459162:0;vim ffmpeg_jni.h
+: 1459459302:0;ndk-build 
+: 1459459328:0;ls
+: 1459459334:0;mv ffmpeg_jni.cpp ffmpeg_jni.c
+: 1459459335:0;ps
+: 1459459371:0;ndk-build
+: 1459459378:0;ps
+: 1459459379:0;ls
+: 1459459383:0;ps
+: 1459459401:0;ndk-build
+: 1459459405:0;ps
+: 1459459412:0;ls -a
+: 1459459417:0;ls
+: 1459459441:0;rm ../{libs,obj} -rf
+: 1459459442:0;ls
+: 1459459444:0;ls ../
+: 1459459446:0;ndk-build
+: 1459459466:0;ps
+: 1459459471:0;s
+: 1459459472:0;ps
+: 1459459590:0;ndk-build
+: 1459459607:0;ps
+: 1459459640:0;ndk-build
+: 1459459648:0;ls
+: 1459459656:0;cd ../libs
+: 1459459657:0;ls
+: 1459459677:0;mv arm64-v8a/lib* ../../jniLibs/arm64-v8a
+: 1459459938:0;ls
+: 1459459942:0;d
+: 1459459944:0;1
+: 1459459944:0;ls
+: 1459459947:0;ps
+: 1459459961:0;ndk-build
+: 1459459996:0;ps
+: 1459460005:0;ndk-build
+: 1459460009:0;ps
+: 1459460011:0;ls
+: 1459460054:0;ndk-build
+: 1459460057:0;ps
+: 1459460063:0;ndk-build
+: 1459460065:0;ps
+: 1459460071:0;ndk-build
+: 1459460556:0;cd ~/Downloads
+: 1459460557:0;gst
+: 1459460560:0;cd ffmpeg-3.0
+: 1459460561:0;ls
+: 1459460562:0;gst
+: 1459460570:0;git clean -xdf
+: 1459460571:0;gst
+: 1459460573:0;ps
+: 1459460603:0;ls
+: 1459460635:0;cp ~/Android/Sdk/ndk-bundle/sources/ffmpeg-3.0/build_android_aarch64.sh ./
+: 1459460635:0;ls
+: 1459460636:0;gst
+: 1459460639:0;vim build_android_aarch64.sh
+: 1459460662:0;gst
+: 1459460666:0;ga build_android_aarch64.sh
+: 1459460666:0;ls
+: 1459460671:0;ps
+: 1459460762:0;. ./build_android_aarch64.sh
+: 1459460846:0;ls
+: 1459460850:0;cd android/aarch64/lib
+: 1459460850:0;ls
+: 1459460858:0;pwd
+: 1459460872:0;ls
+: 1459460875:0;cp /home/muqing/Downloads/ffmpeg-3.0/android/aarch64/lib
+: 1459460889:0;cp /home/muqing/Downloads/ffmpeg-3.0/android/aarch64/lib/lib* ./
+: 1459460891:0;ps
+: 1459460919:0;ndk-build
+: 1459460936:0;ps
+: 1459460974:0;ps
+: 1459461022:0;ls
+: 1459461030:0;cd ~/Android/Projects/ffmpeg-android
+: 1459461031:0;ls
+: 1459461033:0;cd jni
+: 1459461033:0;ls
+: 1459461035:0;ndk-build
+: 1459461038:0;ps
+: 1459461041:0;ls
+: 1459461041:0;gst
+: 1459461049:0;vim Android.mk
+: 1459461076:0;gst
+: 1459461079:0;ndk-build
+: 1459461082:0;ps
+: 1459461089:0;gst
+: 1459461091:0;gco videokit/
+: 1459461092:0;gst
+: 1459461093:0;ps
+: 1459461103:0;ndk-build
+: 1459461105:0;ps
+: 1459461114:0;ls
+: 1459461130:0;find -iname "config.h"
+: 1459461132:0;ls
+: 1459461132:0;ps
+: 1459461138:0;ndk-build
+: 1459461238:0;ps
+: 1459461358:0;ndk-build
+: 1459461362:0;ps
+: 1459461378:0;ndk-build
+: 1459461388:0;ps
+: 1459461431:0;cp ~/Downloads/ffmpeg-3.0/config.h ./videokit
+: 1459461441:0;ndk-build
+: 1459461455:0;ps
+: 1459461483:0;ndk-build
+: 1459461494:0;ps
+: 1459461501:0;cd ffmpeg
+: 1459461501:0;ls
+: 1459461515:0;ack SWR_CH_MAX
+: 1459461563:0;ps
+: 1459461605:0;ndk-build
+: 1459461615:0;ps
+: 1459461688:0;ndk-build
+: 1459461699:0;ps
+: 1459461853:0;j JNI
+: 1459461854:0;ls
+: 1459461856:0;cd jni
+: 1459461858:0;ndk-build
+: 1459461862:0;ps
+: 1459461866:0;vim Android.mk
+: 1459461881:0;gst
+: 1459461889:0;gco -- .
+: 1459461890:0;gst
+: 1459461892:0;cd ..
+: 1459461893:0;gst
+: 1459461895:0;gco -- .
+: 1459461895:0;gst
+: 1459461903:0;git reset HEAD --hard
+: 1459461903:0;gst
+: 1459461909:0;git clean -xdf
+: 1459461910:0;gst
+: 1459461910:0;ps
+: 1459461911:0;mtags
+: 1459461971:0;ndk-build
+: 1459461977:0;ps
+: 1459461988:0;ndk-build
+: 1459461996:0;ps
+: 1459462032:0;ndk-build
+: 1459462035:0;ps
+: 1459462155:0;ndk-build
+: 1459462160:0;ps
+: 1459462303:0;ls
+: 1459462343:0;ls[
+: 1459462344:0;gst
+: 1459462356:0;cp ~/Android/Projects/ScreenCapture2Gif/app/src/main/java/jni/{*.so} ./
+: 1459462368:0;cp ~/Android/Projects/ScreenCapture2Gif/app/src/main/java/jni/*.so ./
+: 1459462369:0;ls
+: 1459462383:0;cp Android.mk Android.mk.backup
+: 1459462384:0;ls
+: 1459462392:0;cp ~/Android/Projects/ScreenCapture2Gif/app/src/main/java/jni/Android.mk ./
+: 1459462392:0;ls
+: 1459462393:0;ps
+: 1459462458:0;ndk-build
+: 1459462491:0;rm ../{libs,obj/} -rf
+: 1459462493:0;ndk-build
+: 1459462498:0;ps
+: 1459462516:0;ndk-build
+: 1459462543:0;gst
+: 1459463924:0;pwd
+: 1459463933:0;ps
+: 1459463939:0;ndk-build
+: 1459463940:0;ps
+: 1459464042:0;ndk-build
+: 1459464066:0;ps
+: 1459464138:0;cd $ANDROID_NDK/sources/ffmpeg-3.0/android/aarch64
+: 1459464139:0;ls
+: 1459464142:0;ps
+: 1459464161:0;ndk-build
+: 1459464170:0;ps
+: 1459464175:0;ls
+: 1459464182:0;pwd
+: 1459464191:0;cd $ANDROID_NDK/sources/ffmpeg-3.0
+: 1459464192:0;ls
+: 1459464196:0;cd android/aarch64
+: 1459464196:0;ls
+: 1459464198:0;vim Android.mk 
+: 1459464211:0;ps
+: 1459464229:0;ls lib
+: 1459464231:0;ps
+: 1459464242:0;ndk-build
+: 1459464262:0;ps
+: 1459464276:0;ndk-build
+: 1459464278:0;ps
+: 1459464554:0;ls
+: 1459464558:0;cd ffmpeg
+: 1459464558:0;ls
+: 1459464559:0;gst
+: 1459464564:0;gd
+: 1459464570:0;ls
+: 1459464572:0;gst
+: 1459464574:0;git log
+: 1459464579:0;ls
+: 1459464583:0;j pr__
+: 1459464584:0;ls
+: 1459464591:0;git clone https://github.com/dxjia/ffmpeg-jni-sample.git
+: 1459464632:0;ls
+: 1459464637:0;cd ffmpeg-jni-sample
+: 1459464638:0;ls
+: 1459464638:0;gst
+: 1459464639:0;ls
+: 1459464640:0;mtags
+: 1459464643:0;vim
+: 1459465824:0;gst
+: 1459465826:0;pwd
+: 1459465828:0;ps
+: 1459465835:0;ndk-build
+: 1459465838:0;ps
+: 1459465857:0;gst
+: 1459465863:0;ps
+: 1459465925:0;ndk-build
+: 1459465927:0;ps
+: 1459465940:0;ls
+: 1459465941:0;pwd
+: 1459465951:0;ack main_entry
+: 1459465956:0;cd ~/Downloads/ffmpeg-3.0
+: 1459465956:0;ls
+: 1459465960:0;ack main_entry
+: 1459465964:0;vim build_android_aarch64.sh
+: 1459466030:0;cp android/aarch64/include ~/Android/Projects/ScreenCapture2Gif/app/src/main/java/jni -rf
+: 1459466033:0;ps
+: 1459466099:0;ndk-build
+: 1459466101:0;ps
+: 1459466118:0;ndk-build
+: 1459466122:0;ps
+: 1459466133:0;find -iname "ffmpeg*"
+: 1459466147:0;ls
+: 1459466161:0;cd android/aarch64/include
+: 1459466161:0;ls
+: 1459466173:0;ack ffmpeg
+: 1459466183:0;ack main_entry
+: 1459466189:0;d
+: 1459466191:0;1
+: 1459466194:0;ack main_entry
+: 1459466199:0;d
+: 1459466201:0;1
+: 1459466202:0;ls
+: 1459466208:0;cd lib
+: 1459466216:0;cd libavutil
+: 1459466217:0;ls
+: 1459466223:0;vim tree.h
+: 1459466231:0;ls
+: 1459466232:0;cd ..
+: 1459466233:0;ls
+: 1459466238:0;ack main
+: 1459466256:0;ack "main(int"
+: 1459466266:0;ack "main\(in"
+: 1459466270:0;ack argv
+: 1459466273:0;ack argc
+: 1459466274:0;ls
+: 1459466317:0;cd videokit
+: 1459466317:0;ls
+: 1459466331:0;find -iname "config"
+: 1459466341:0;find -iname config*"
+: 1459466343:0;ack -g config
+: 1459466384:0;cd ~/Downloads/ffmpeg-3.0
+: 1459466384:0;ls
+: 1459466411:0;cp cmdutils.* ~/Android/Projects/ScreenCapture2Gif/app/src/main/java/jni/
+: 1459466422:0;cp ffmpeg.* ~/Android/Projects/ScreenCapture2Gif/app/src/main/java/jni/
+: 1459466438:0;cp ffmpeg_filter.c ~/Android/Projects/ScreenCapture2Gif/app/src/main/java/jni/
+: 1459466459:0;cp ffmpeg_opt.c ~/Android/Projects/ScreenCapture2Gif/app/src/main/java/jni/
+: 1459466464:0;ndk-build
+: 1459466478:0;cp config.h ~/Android/Projects/ScreenCapture2Gif/app/src/main/java/jni/
+: 1459466482:0;ndk-build
+: 1459466493:0;ps
+: 1459466580:0;ndk-build
+: 1459466584:0;ps
+: 1459466622:0;ndk-build
+: 1459466636:0;ps
+: 1459466728:0;ndk-build
+: 1459466738:0;rm ../{libs,obj} -rf
+: 1459466740:0;ndk-build
+: 1459466747:0;ps
+: 1459466759:0;ndk-build
+: 1459466761:0;ps
+: 1459467612:0;cd Desktop
+: 1459467613:0;ls
+: 1459467617:0;mdkir test
+: 1459467618:0;ls
+: 1459467619:0;cd test
+: 1459467623:0;mkdir test
+: 1459467625:0;cd test
+: 1459467626:0;ls
+: 1459467630:0;vim liba.h
+: 1459467785:0;ps
+: 1459467894:0;make
+: 1459467903:0;ps
+: 1459467907:0;make
+: 1459467972:0;ps
+: 1459468038:0;make
+: 1459468617:0;ps
+: 1459468853:0;gst
+: 1459468856:0;ga -A
+: 1459468858:0;gst
+: 1459468859:0;gc
+: 1459468866:0;gp
+: 1459564911:0;tmux
+: 1459564915:0;j screencap
+: 1459564916:0;ls
+: 1459564916:0;gst
+: 1459564917:0;gl
+: 1459564920:0;gst
+: 1459565162:0;j jni
+: 1459565164:0;pwd
+: 1459565165:0;cd -
+: 1459565174:0;cd app/src/main/java/jni
+: 1459565175:0;ls
+: 1459565180:0;ndk-build
+: 1459565229:0;gst
+: 1459565265:0;ndk-build
+: 1459565327:0;vim ffmpeg.c
+: 1459565338:0;ndk-build
+: 1459565339:0;ps
+: 1459565456:0;ndk-build
+: 1459565457:0;ps
+: 1459565468:0;ndk-build
+: 1459565470:0;ps
+: 1459565478:0;ndk-build
+: 1459565500:0;ps
+: 1459565509:0;psps
+: 1459565528:0;ndk-build
+: 1459565532:0;ps
+: 1459565538:0;ndk-build
+: 1459565540:0;ps
+: 1459565550:0;ndk-build
+: 1459565552:0;ps
+: 1459565559:0;ndk-build
+: 1459565563:0;ps
+: 1459565569:0;ndk-build
+: 1459565571:0;ps
+: 1459565585:0;ndk-build
+: 1459565644:0;ls
+: 1459565660:0;cd Android/Projects/ffmpeg-android
+: 1459565661:0;ls
+: 1459565670:0;cd ../JNI_INVOKE_FFMPEG
+: 1459565671:0;ls
+: 1459565673:0;cd jni
+: 1459565674:0;ls
+: 1459565679:0;ndk-build
+: 1459565694:0;cp ~/Downloads/ffmpeg-3.0/config.h ./
+: 1459565696:0;ndk-build
+: 1459565717:0;cp ~/Desktop/ffmpeg-aarch64-shared/include ./ -rf
+: 1459565719:0;ls
+: 1459565721:0;vim Android.mk
+: 1459565749:0;ndk-build
+: 1459600948:0;tmux
+: 1459600949:0;ls
+: 1459600959:0;cd Downloads
+: 1459600959:0;ls
+: 1459600963:0;ls |grep ffmpeg
+: 1459600964:0;ls
+: 1459600968:0;ls |grep ffmpeg
+: 1459600977:0;rm libffmpegjni.so
+: 1459600978:0;ls
+: 1459600991:0;cd ~
+: 1459600992:0;ls
+: 1459601011:0;mv Downloads/ffmpeg-3.0 ~/
+: 1459601012:0;ls
+: 1459601018:0;rm ffmpeg -rf
+: 1459601019:0;ls
+: 1459601116:0;j source
+: 1459601116:0;ls
+: 1459601125:0;j nd__
+: 1459601125:0;ls
+: 1459601131:0;j ndk
+: 1459601132:0;pwd
+: 1459601135:0;cd sources
+: 1459601135:0;ls
+: 1459601141:0;rm -rf ffmpeg-3.0 -rf
+: 1459601142:0;ls
+: 1459601218:0;tmux
+: 1459601235:0;cd ~/Android/Projects
+: 1459601236:0;ls
+: 1459601241:0;cd ffmpeg-for-android-shared-library
+: 1459601242:0;ls
+: 1459601243:0;gst
+: 1459601262:0;git reset HEAD^ --hard
+: 1459601263:0;gst
+: 1459601278:0;d
+: 1459601280:0;1
+: 1459601280:0;ls
+: 1459601288:0;rm ScreenCapture2Gif_1 -rf
+: 1459601290:0;ls
+: 1459601294:0;rm temp_ScreenCapture2Gif -rf
+: 1459601295:0;ls
+: 1459601299:0;cd ffmpeg-jni-sample
+: 1459601299:0;ls
+: 1459601302:0;gcl
+: 1459601315:0;gti config --list
+: 1459601319:0;git config --list
+: 1459601323:0;gst
+: 1459601336:0;s
+: 1459601337:0;ls
+: 1459601340:0;cd source
+: 1459601340:0;ls
+: 1459601342:0;cd ffmpeg
+: 1459601343:0;ls
+: 1459601346:0;cd jni
+: 1459601346:0;ls
+: 1459601355:0;d
+: 1459601362:0;cd ~/Android/Projects
+: 1459601362:0;ls
+: 1459601388:0;cd ffmpeg-for-android-shared-library
+: 1459601388:0;ls
+: 1459601391:0;cd source
+: 1459601391:0;ls
+: 1459601394:0;gst
+: 1459601397:0;cd ffmpeg
+: 1459601398:0;ls
+: 1459601424:0;cd ..
+: 1459601424:0;ls
+: 1459601427:0;cd -
+: 1459601427:0;ls
+: 1459601432:0;rm ~/Downloads
+: 1459601439:0;ls ~/Desktop
+: 1459601440:0;ls
+: 1459601444:0;d
+: 1459601446:0;1
+: 1459601447:0;ls
+: 1459601450:0;cd ffmpeg
+: 1459601451:0;ls
+: 1459601472:0;vim build_android_aarch64.sh
+: 1459601491:0;. ./build_android_aarch64.sh
+: 1459601530:0;cd ~/ffmpeg-3.0
+: 1459601531:0;gstt
+: 1459601532:0;gst
+: 1459601559:0;vim .zshrc
+: 1459601611:0;ls ~/
+: 1459601620:0;ls ~/Android
+: 1459601624:0;ls ~/Desktop
+: 1459601633:0;pwd
+: 1459601640:0;../../
+: 1459601640:0;ls
+: 1459601642:0;../
+: 1459601642:0;ls
+: 1459601651:0;rm ffmpeg-for-android-shared-library -rf
+: 1459601652:0;ls
+: 1459601667:0;git clone https://github.com/dxjia/ffmpeg-for-android-shared-library.git
+: 1459601689:0;gst
+: 1459601763:0;cd ffmpeg-3.0
+: 1459601764:0;gst
+: 1459601780:0;gst > 1.txt
+: 1459601782:0;vim 1.txt
+: 1459601807:0;ls
+: 1459601816:0;cd ffmpeg-for-android-shared-library
+: 1459601816:0;ls
+: 1459601820:0;ls -a |grep config
+: 1459601823:0;cd source
+: 1459601823:0;ls
+: 1459601825:0;gst
+: 1459601828:0;cd ffmpeg
+: 1459601828:0;ls
+: 1459601832:0;ls -a |grep config
+: 1459601871:0;ls
+: 1459601874:0;ls |grep config
+: 1459601891:0;ls -a |grep config
+: 1459601911:0;gd
+: 1459601922:0;gst
+: 1459601923:0;gd
+: 1459601930:0;gst > 1.txt
+: 1459601932:0;ps
+: 1459601936:0;vim 1.txt
+: 1459601946:0;gst
+: 1459601949:0;gco -- .
+: 1459601950:0;gst
+: 1459601952:0;vim build_android_aarch64.sh
+: 1459601970:0;gst
+: 1459601972:0;ga build_android_aarch64.sh
+: 1459601972:0;gst
+: 1459601975:0;gst > 1.tx
+: 1459601978:0;rm 1.tx
+: 1459601980:0;gst > 1.txt
+: 1459601982:0;ps
+: 1459601984:0;vim 1.txt
+: 1459601991:0;ls
+: 1459602010:0;ps
+: 1459602013:0;vim 1.txt
+: 1459602016:0;ls
+: 1459602029:0;gst
+: 1459602034:0;ls -a |grep config
+: 1459602060:0;cp ../build_android_arm.sh build_android_aarch64.sh
+: 1459602063:0;vim build_android_aarch64.sh
+: 1459602212:0;. ./build_android_aarch64.sh
+: 1459602223:0;ps
+: 1459602238:0;ls
+: 1459602246:0;j Projects
+: 1459602247:0;ls
+: 1459602255:0;cd ffmpeg-jni-sample/source/ffmpeg/jni
+: 1459602255:0;ls
+: 1459602256:0;gst
+: 1459602265:0;cd ..
+: 1459602328:0;ls
+: 1459602332:0;cd jni
+: 1459602333:0;ls
+: 1459602338:0;d
+: 1459602345:0;3
+: 1459602347:0;ls
+: 1459602350:0;gst
+: 1459602355:0;ps
+: 1459602358:0;vim build_android_aarch64.sh
+: 1459602374:0;. ./build_android_aarch64.sh
+: 1459602427:0;gst
+: 1459602592:0;pwd
+: 1459602593:0;ls
+: 1459602633:0;ls ~/Android/Projects/ffmpeg-jni-sample/source/ffmpeg/jni/prebuilt/
+: 1459602634:0;ls
+: 1459602664:0;cp android/aarch64 ~/Android/Projects/ffmpeg-jni-sample/source/ffmpeg/jni/ -rf
+: 1459602668:0;ls
+: 1459602670:0;gst
+: 1459602685:0;cd prebuilt/armeabi
+: 1459602685:0;ls
+: 1459602707:0;cd ..
+: 1459602714:0;ls
+: 1459602720:0;ls armeabi
+: 1459602731:0;mkdir arm64-v8a
+: 1459602749:0;cp ../aarch64/lib/*.so arm64-v8a
+: 1459602751:0;cd ..
+: 1459602751:0;ls
+: 1459602760:0;cd include
+: 1459602761:0;ls
+: 1459602776:0;ls ../aarch64/include/
+: 1459602803:0;ls
+: 1459602807:0;cd ..
+: 1459602808:0;ls
+: 1459602818:0;vim Android.mk
+: 1459602932:0;ndk-build
+: 1459602938:0;ps
+: 1459603244:0;ndk-build
+: 1459603250:0;ps
+: 1459603311:0;ack APP_ABI
+: 1459603313:0;ps
+: 1459603317:0;gst
+: 1459603323:0;vim Application.mk
+: 1459603328:0;ps
+: 1459603347:0;ndk-build
+: 1459603354:0;ls
+: 1459603377:0;mv Android.arm64-v8.mk Android.arm64-v8a.mk
+: 1459603381:0;ndk-build
+: 1459603387:0;ps
+: 1459603431:0;ls
+: 1459603434:0;ndk-build
+: 1459603440:0;ps
+: 1459603452:0;ndk-build
+: 1459603462:0;ps
+: 1459603500:0;gst
+: 1459603516:0;rm Android.arm64-v8.mk
+: 1459603517:0;gst
+: 1459603524:0;ps
+: 1459603539:0;gst
+: 1459603546:0;rm Android.arm64-v8.mk
+: 1459603547:0;gst
+: 1459603548:0;ps
+: 1459603590:0;ndk-build
+: 1459603592:0;ps
+: 1459603600:0;ndk-build
+: 1459603603:0;ps
+: 1459603618:0;ndk-build
+: 1459603641:0;ps
+: 1459603717:0;cd Downloads
+: 1459603718:0;ls
+: 1459603727:0;sudo dpkg -i bcompare-4.1.5.21031_amd64.deb
+: 1459603761:0;bcompare
+: 1459603852:0;ps
+: 1459603859:0;ndk-build
+: 1459603905:0;ls
+: 1459603908:0;gst
+: 1459604217:0;ps
+: 1459604221:0;gst
+: 1459604233:0;vim doc/config.texi
+: 1459604255:0;vim config
+: 1459604259:0;vim config.
+: 1459604261:0;ps
+: 1459604478:0;gst
+: 1459604485:0;gco config.log doc/
+: 1459604486:0;gst
+: 1459604490:0;. ./build_android_aarch64.sh
+: 1459604493:0;gst
+: 1459604494:0;ls -a
+: 1459604495:0;gst
+: 1459604521:0;ps
+: 1459604523:0;gd
+: 1459604526:0;. ./build_android_aarch64.sh
+: 1459604585:0;ls
+: 1459604586:0;gst
+: 1459604587:0;ps
+: 1459604601:0;ls ~/Android
+: 1459604604:0;ls ~/Desktop
+: 1459604613:0;rm ~/Desktop/arm -rf
+: 1459604613:0;ls
+: 1459604619:0;gst
+: 1459604621:0;ps
+: 1459604626:0;rm android -rf
+: 1459604627:0;gst
+: 1459604628:0;ls
+: 1459604629:0;gst
+: 1459604634:0;gco -- config.log
+: 1459604635:0;gst
+: 1459604638:0;cd ..
+: 1459604638:0;gst
+: 1459604639:0;cd -
+: 1459604640:0;gst
+: 1459604643:0;. ./build_android_aarch64.sh
+: 1459604701:0;ls
+: 1459604703:0;gst
+: 1459604705:0;ps
+: 1459604730:0;rm config.log
+: 1459604740:0;rm ~/tmp -rf
+: 1459604741:0;ls
+: 1459604745:0;. ./build_android_aarch64.sh
+: 1459604818:0;ls
+: 1459612553:0;gst
+: 1459612571:0;pwd
+: 1459612576:0;gst
+: 1459612636:0;ls
+: 1459612655:0;gst
+: 1459612662:0;ls
+: 1459612667:0;cd ~/Android/Projects/
+: 1459612667:0;ls
+: 1459612676:0;pwd
+: 1459612685:0;l
+: 1459612686:0;ls
+: 1459612930:0;cd ~/ffmpeg-3.0
+: 1459612931:0;ls
+: 1459612931:0;gst
+: 1459612935:0;git clean -xdf
+: 1459612936:0;gst
+: 1459612938:0;vim build_android_aarch64.sh
+: 1459612994:0;ls
+: 1459613013:0;ls ~/Desktop
+: 1459613022:0;gst
+: 1459613040:0;rm ~/Desktop/ffmpeg-aarch64-s* -rf
+: 1459613040:0;gst
+: 1459613046:0;ls
+: 1459613053:0;gst
+: 1459613055:0;vim build_android_aarch64.sh
+: 1459613146:0;ps
+: 1459613154:0;cd ~/ffmpeg-3.0
+: 1459613155:0;ls
+: 1459613157:0;vim build_android_aarch64.sh
+: 1459613163:0;. ./build_android_aarch64.sh
+: 1459613175:0;vim config.log
+: 1459615562:0;ls
+: 1459615583:0;pwd
+: 1459615595:0;ls
+: 1459615597:0;pwd
+: 1459615604:0;ps
+: 1459615629:0;ndk-build
+: 1459615646:0;pwd
+: 1459615681:0;cd ~/Android/Projects/ScreenCapture2Gif
+: 1459615681:0;ls
+: 1459615691:0;cd app/src/main/java/jni
+: 1459615691:0;ls
+: 1459615695:0;ndk-build
+: 1459615717:0;ls
+: 1459615723:0;. ./build_android_aarch64.sh
+: 1459615725:0;ps
+: 1459615727:0;vim config.log
+: 1459615739:0;ps
+: 1459615814:0;vim build_android_aarch64.sh
+: 1459615826:0;. ./build_android_aarch64.sh
+: 1459616064:0;gst
+: 1459616070:0;git clean -xdf
+: 1459616101:0;gst
+: 1459616112:0;vim build_android_aarch64.sh
+: 1459616139:0;. ./build_android_aarch64.sh
+: 1459616147:0;cd ~/Desktop
+: 1459616148:0;ls
+: 1459616216:0;ls ~/Desktop
+: 1459646024:0;ls
+: 1459646031:0;gst
+: 1459646033:0;ps
+: 1459646158:0;pwd
+: 1459646166:0;ls
+: 1459646182:0;cd android
+: 1459646182:0;ls
+: 1459646185:0;cd aarch64
+: 1459646186:0;ls
+: 1459646189:0;pwd
+: 1459646212:0;ls
+: 1459646241:0;pwd
+: 1459646537:0;ls
+: 1459646538:0;gst
+: 1459646548:0;pwd
+: 1459646552:0;gst
+: 1459646561:0;pwd
+: 1459646629:0;ls
+: 1459646633:0;vim Application.mk
+: 1459646639:0;ndk-build
+: 1459646658:0;gst
+: 1459646665:0;ls
+: 1459646672:0;cd include
+: 1459646673:0;ls
+: 1459646675:0;cd ..
+: 1459646675:0;ls
+: 1459646685:0;rm include -rf lib* -rf
+: 1459646686:0;gst
+: 1459646689:0;ls
+: 1459646712:0;cp ~/Desktop/ffmpeg_android/include  ./ -rf
+: 1459646724:0;cp ~/Desktop/ffmpeg_android/lib/* ./ -rf
+: 1459646724:0;ls
+: 1459646740:0;gst
+: 1459646747:0;git clean -xdf
+: 1459646748:0;gst
+: 1459646749:0;gd
+: 1459646755:0;ps
+: 1459646774:0;. ./build_android_aarch64.sh
+: 1459646780:0;ls
+: 1459646784:0;ndk-build
+: 1459646812:0;ps
+: 1459646813:0;gst
+: 1459646821:0;ps
+: 1459646855:0;vim Android.mk
+: 1459646879:0;ls
+: 1459646884:0;ls -a
+: 1459646900:0;ps
+: 1459646935:0;1ps
+: 1459646937:0;ps
+: 1459646951:0;ls
+: 1459646953:0;ps
+: 1459646956:0;ls
+: 1459646972:0;j scr__1__/home/muqing/Android/Projects/ScreenCapture2Gif ls
+: 1459646974:0;ls
+: 1459646986:0;cd app/src/main/java/jni
+: 1459646986:0;ls
+: 1459647012:0;cp ~/ffmpeg-3.0/config.h ./
+: 1459647030:0;cp ~/ffmpeg-3.0/cmdutils.* ./
+: 1459647064:0;cp ~/ffmpeg-3.0/*.c ./
+: 1459647072:0;cp ~/ffmpeg-3.0/*.h ./
+: 1459647077:0;gst
+: 1459647084:0;ndk-build
+: 1459647101:0;ps
+: 1459647130:0;ls
+: 1459647133:0;ps
+: 1459647136:0;ls
+: 1459647138:0;ps
+: 1459647140:0;vim Android.mk
+: 1459647330:0;ps
+: 1459647334:0;gst
+: 1459647337:0;ndk-build
+: 1459647371:0;ps
+: 1459647375:0;vim Android.mk
+: 1459647399:0;ps
+: 1459647413:0;ls
+: 1459647414:0;ndk-build
+: 1459647432:0;cd Android/Projects
+: 1459647433:0;ls
+: 1459647438:0;cd JNI_INVOKE_FFMPEG
+: 1459647439:0;ls
+: 1459647439:0;gst
+: 1459647447:0;gco -- .
+: 1459647448:0;gst
+: 1459647452:0;git clean -xdf
+: 1459647453:0;gst
+: 1459647454:0;ps
+: 1459647457:0;ls
+: 1459647459:0;cd nvidia-persistenced
+: 1459647462:0;cd -
+: 1459647465:0;cd jni
+: 1459647465:0;ls
+: 1459647472:0;vim Android.mk
+: 1459647488:0;ps
+: 1459647490:0;d
+: 1459647492:0;3
+: 1459647493:0;ls
+: 1459647519:0;ndk-
+: 1459647522:0;ndk-build
+: 1459647570:0;ls
+: 1459647574:0;pwd
+: 1459647582:0;find -iname "internal.h*"
+: 1459647618:0;find ~/Desktop/ffmpeg_android/include -iname "internal.h"
+: 1459647648:0;cd include
+: 1459647649:0;ls
+: 1459647673:0;cp ~/ffmpeg-3.0/libavutil/*.h ./
+: 1459647677:0;ndk-build
+: 1459647684:0;pwd
+: 1459647685:0;ls
+: 1459647692:0;rm *.h libavutil
+: 1459647695:0;gst
+: 1459647696:0;ls
+: 1459647709:0;cp ~/ffmpeg-3.0/libavutil/*.h ./libavutil
+: 1459647712:0;ndk-build
+: 1459647764:0;cd ..
+: 1459647764:0;ls
+: 1459647765:0;cd ..
+: 1459647766:0;ls
+: 1459647773:0;pwd
+: 1459647778:0;exit
+: 1459647784:0;ndk-build
+: 1459647786:0;ps
+: 1459647800:0;ndk-build
+: 1459647930:0;gst
+: 1459647943:0;git clean -xdf
+: 1459647944:0;gst
+: 1459647948:0;gco -- .
+: 1459647948:0;gst
+: 1459647952:0;rm ../obj -rf
+: 1459647953:0;gst
+: 1459647955:0;ps
+: 1459647995:0;ndk-build
+: 1459647998:0;ps
+: 1459648022:0;ndk-build
+: 1459648023:0;ps
+: 1459648034:0;ndk-build
+: 1459648036:0;ps
+: 1459648050:0;pwd
+: 1459648062:0;cd /home/muqing/Android/Projects/ScreenCapture2Gif/app/src/main/java/jni
+: 1459648067:0;ps
+: 1459648075:0;ndk-build
+: 1459648335:0;gst
+: 1459648341:0;gco ffmpeg.c
+: 1459648342:0;ps
+: 1459648347:0;gst
+: 1459648350:0;ndk-build
+: 1459648377:0;cp ~/ffmpeg-3.0/libavutil/internal.h include/libavutil/
+: 1459648379:0;ndk-build
+: 1459648390:0;ps
+: 1459648412:0;ndk-build
+: 1459648460:0;3gst
+: 1459648461:0;gst
+: 1459648462:0;ps
+: 1459648506:0;git clean -xdf
+: 1459648507:0;ps
+: 1459648512:0;ndk-build
+: 1459648519:0;. ./build_android_aarch64.sh
+: 1459648526:0;gst
+: 1459648527:0;pwd
+: 1459648528:0;gst
+: 1459648538:0;git clean -xdf
+: 1459648539:0;gst
+: 1459648543:0;ps
+: 1459648550:0;ndk-build
+: 1459648558:0;. ./build_android_aarch64.sh
+: 1459648562:0;ps
+: 1459648881:0;gst
+: 1459648886:0;. ./build_android_aarch64.sh
+: 1459648965:0;lls
+: 1459648966:0;ls
+: 1459648968:0;gst
+: 1459648978:0;ls |grep internal
+: 1459648995:0;ls ~/Desktop/ffmpeg_android/include/libavutil |grep internal
+: 1459649008:0;ps
+: 1459649239:0;ls
+: 1459649250:0;gst
+: 1459649254:0;ps
+: 1459649295:0;ndk-build
+: 1459649670:0;gst
+: 1459649670:0;gt
+: 1459649677:0;ps
+: 1459649783:0;gst
+: 1459649785:0;ndk-build
+: 1459649793:0;ps
+: 1459649811:0;gst
+: 1459649819:0;git clean -xdf
+: 1459649820:0;gst
+: 1459649821:0;ps
+: 1459649824:0;. ./Android.mk
+: 1459649828:0;ndk-build
+: 1459649833:0;ps
+: 1459649846:0;ndk-build
+: 1459649964:0;cd ffmpeg-3.0
+: 1459649964:0;ls
+: 1459649973:0;ps
+: 1459649976:0;mtags
+: 1459649980:0;ps
+: 1459649982:0;vim
+: 1459651764:0;ls
+: 1459651771:0;cd ~/Desktop
+: 1459651771:0;ls
+: 1459651777:0;gst
+: 1459651783:0;exit
+: 1459651806:0;gst
+: 1459651812:0;ndk-build
+: 1459651826:0;ls
+: 1459651831:0;ls ../libs/areabi
+: 1459651833:0;ls
+: 1459651834:0;cd ..
+: 1459651835:0;ls
+: 1459651838:0;cd libs
+: 1459651838:0;ls
+: 1459651841:0;cd armeabi
+: 1459651842:0;ls
+: 1459652258:0;cd ..
+: 1459652259:0;ps
+: 1459652260:0;cd ..
+: 1459652260:0;ls
+: 1459652263:0;cd jni
+: 1459652264:0;ls
+: 1459652265:0;ps
+: 1459652585:0;ndk-build
+: 1459652656:0;ps
+: 1459652739:0;ndk-build
+: 1459653214:0;	ls ~/Desktop/ffmpeg_android
+: 1459653214:0;ls
+: 1459653236:0;cd ~/Desktop/ffmpeg_android
+: 1459653237:0;ls
+: 1459653243:0;find -iname "ffmpeg*"
+: 1459653245:0;cd include
+: 1459653246:0;ls
+: 1459653252:0;ack -g ffmepg
+: 1459653256:0;ack -g ffmpeg.h
+: 1459653260:0;ack -g config.h
+: 1459654602:0;ls
+: 1459654603:0;gst
+: 1459654606:0;pwd
+: 1459654617:0;ls
+: 1459654625:0;pwd
+: 1459654669:0;ls
+: 1459654679:0;ps
+: 1459654680:0;gst
+: 1459654684:0;ls
+: 1459654689:0;ps
+: 1459654781:0;gst
+: 1459654786:0;ps
+: 1459654826:0;ndk-build
+: 1459654841:0;ls /tmp |grep ccJo
+: 1459654848:0;ls
+: 1459654849:0;cd ..
+: 1459654850:0;ls
+: 1459654850:0;gst
+: 1459654853:0;pwd
+: 1459654857:0;d
+: 1459654860:0;2
+: 1459654860:0;ls
+: 1459654861:0;gst
+: 1459654868:0;ls
+: 1459654872:0;ps
+: 1459654923:0;ls
+: 1459654925:0;ps
+: 1459654933:0;cd ..
+: 1459654934:0;ls
+: 1459654935:0;cd ..
+: 1459654936:0;ls
+: 1459654937:0;gst
+: 1459654940:0;vim .gitignore
+: 1459654953:0;gst
+: 1459654956:0;ps
+: 1459654960:0;rm .gitignore
+: 1459654961:0;gst
+: 1459654962:0;d
+: 1459654972:0;2
+: 1459654972:0;gst
+: 1459654975:0;gco -- .
+: 1459654975:0;gst
+: 1459654979:0;git clean -xdf
+: 1459654980:0;gst
+: 1459654981:0;ls
+: 1459654982:0;gst
+: 1459654983:0;ls
+: 1459655020:0;cp ~/ffmpeg-3.0/build_android_aarch64.sh ./
+: 1459655021:0;ps
+: 1459655092:0;. ./build_android_aarch64.sh
+: 1459655095:0;ps
+: 1459655137:0;home/muqing/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc --help
+: 1459655173:0;$ANDROID_NDK/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc --help
+: 1459655229:0;man home/muqing/Android/Sdk/ndk-bundle/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc
+: 1459655232:0;$ANDROID_NDK/toolchains/aarch64-linux-android-4.9/prebuilt/linux-x86_64/bin/aarch64-linux-android-gcc --help
+: 1459655440:0;adb shell cat /proc/cpuinfo
+: 1459655481:0;ps
+: 1459655487:0;gs
+: 1459655489:0;gst
+: 1459655493:0;. ./build_android_aarch64.sh
+: 1459655504:0;ls
+: 1459655505:0;gst
+: 1459655515:0;gd FFmpegNativeHelper.c
+: 1459655611:0;xls
+: 1459655612:0;ls
+: 1459655614:0;gst
+: 1459655615:0;ls
+: 1459655628:0;git clean --help
+: 1459655660:0;gst
+: 1459655670:0;git  clean -xdf lib*
+: 1459655671:0;gst
+: 1459655690:0;gco config.log doc/config.texi
+: 1459655690:0;gst
+: 1459655715:0;rm .config .version config.fate config.h config.mak doc/examples/pc-uninstalled
+: 1459655720:0;rm .config .version config.fate config.h config.mak doc/examples/pc-uninstalled -rf
+: 1459655721:0;gst
+: 1459655744:0;rm compat/{strtod.d,strtod.o,)
+: 1459655747:0;rm compat/{strtod.d,strtod.o
+: 1459655749:0;rm compat/{strtod.d,strtod.o}
+: 1459655750:0;gst
+: 1459655753:0;ps
+: 1459655763:0;. ./build_android_aarch64.sh
+: 1459655773:0;ls
+: 1459655774:0;gst
+: 1459655800:0;exit
+: 1459655802:0;gst
+: 1459655804:0;ls
+: 1459655805:0;gst
+: 1459655806:0;pwd
+: 1459655809:0;gst
+: 1459655810:0;cd ..
+: 1459655812:0;gst
+: 1459655815:0;gco -- .
+: 1459655817:0;gst
+: 1459655823:0;git reset HEAD^ --hard
+: 1459655824:0;gst
+: 1459655828:0;git clean -xdf
+: 1459655828:0;gst
+: 1459655835:0;git clean -xdf ../
+: 1459655836:0;gst
+: 1459655839:0;gl
+: 1459655842:0;ls
+: 1459655856:0;gst
+: 1459655860:0;ls
+: 1459655889:0;ps
+: 1459655938:0;ls
+: 1459655938:0;gst
+: 1459655940:0;ls
+: 1459655951:0;cd com/muqing/android/screencapture2gif/helper/gifhelper
+: 1459655951:0;ls
+: 1459655974:0;cat FFmpegNativeHelper.java
+: 1459655983:0;cat FFmpegNativeHelper.java | top
+: 1459655988:0;cat FFmpegNativeHelper.java | head
+: 1459656009:0;gst
+: 1459656019:0;javah -jni com.muqing.android.screencapture2gif.helper.gifhelper
+: 1459656028:0;ps
+: 1459656042:0;ls
+: 1459656050:0;cat FFmpegNativeHelper.java| head
+: 1459656078:0;javah -jni com.muqing.android.screencapture2gif.helper.gifhelper.FFmpegNativeHelper
+: 1459656109:0;ls
+: 1459656111:0;ps
+: 1459656116:0;vim FFmpegNativeHelper.java
+: 1459656141:0;javah -jni com.muqing.android.screencapture2gif.helper.gifhelper.FFmpegNativeHelper
+: 1459656148:0;ps
+: 1459656168:0;javah --help
+: 1459656179:0;javah -jni --help
+: 1459656184:0;javah -jni
+: 1459656221:0;javah -jni com.muqing.android.screencapture2gif.helper.gifhelper.FFmpegNativeHelper
+: 1459656231:0;javah -jni FfmpegNativeHelper
+: 1459656242:0;javah -jni FFmpegNativeHelper
+: 1459656257:0;ps
+: 1459656267:0;javah -jni FFmpegNativeHelper
+: 1459656293:0;javah -jni com.muqing.android.screencapture2gif.helper.gifhelper.FFmpegNativeHelper
+: 1459656329:0;ls
+: 1459656333:0;cd ../
+: 1459656334:0;cd ..
+: 1459656341:0;ls
+: 1459656345:0;cd main/java
+: 1459656346:0;ls
+: 1459656350:0;javah -jni com.muqing.android.screencapture2gif.helper.gifhelper.FFmpegNativeHelper
+: 1459656352:0;ls
+: 1459656361:0;vim com_muqing_android_screencapture2gif_helper_gifhelper_FFmpegNativeHelper.h
+: 1459656389:0;cp com_muqing_android_screencapture2gif_helper_gifhelper_FFmpegNativeHelper.h ~/
+: 1459656393:0;ls
+: 1459656409:0;ps
+: 1459656520:0;ndk-build
+: 1459656538:0;gt
+: 1459656539:0;gst
+: 1459656547:0;gd FFmpegNativeHelper.h
+: 1459656576:0;gd FFmpegNativeHelper.c
+: 1459656582:0;ps
+: 1459656593:0;ndk-build
+: 1459656598:0;ps
+: 1459656625:0;gst
+: 1459656626:0;gd
+: 1459656630:0;ndk-build
+: 1459656644:0;gst
+: 1459656646:0;git d
+: 1459656700:0;ps
+: 1459656731:0;git d
+: 1459656771:0;ndk-build
+: 1459656913:0;ls
+: 1459656915:0;gst
+: 1459656916:0;ls
+: 1459656949:0;cp android ~/Android/Projects/ffmpeg-jni-sample/source/ffmpeg/jni/
+: 1459656952:0;cp android ~/Android/Projects/ffmpeg-jni-sample/source/ffmpeg/jni/ -rf
+: 1459656956:0;ls
+: 1459656981:0;gst
+: 1459656985:0;ga build_android_aarch64.sh
+: 1459656986:0;gst
+: 1459656988:0;gco -- .
+: 1459656988:0;gst
+: 1459656996:0;gst | head
+: 1459657004:0;gst
+: 1459657008:0;git clean -xdf
+: 1459657008:0;gst
+: 1459657027:0;ls /tmp
+: 1459657055:0;ls
+: 1459657063:0;ps
+: 1459657127:0;ls
+: 1459657144:0;cp android/aarch64/lib/*.so prebuilt/arm64-v8a
+: 1459657145:0;ps
+: 1459657558:0;ndk-build
+: 1459657571:0;ps
+: 1459657581:0;ndk-build
+: 1459657613:0;ps
+: 1459657619:0;ndk-build
+: 1459657650:0;ps
+: 1459657792:0;gvim ~/Desktop/ffmpeg\ on\ android.md
+: 1459657883:0;gst
+: 1459657887:0;gd
+: 1459657889:0;gst
+: 1459658362:0;pwd
+: 1459658365:0;ndk-build
+: 1459658430:0;cp ~/Android/Projects/ffmpeg-jni-sample/source/ffmpeg/jni/*.c jni/
+: 1459658435:0;cp ~/Android/Projects/ffmpeg-jni-sample/source/ffmpeg/jni/*.h jni
+: 1459658435:0;gst
+: 1459658438:0;ndk-build
+: 1459658466:0;ls
+: 1459658482:0;cd jni/
+: 1459658482:0;ls
+: 1459658489:0;rm ffmpeg.c
+: 1459658492:0;ndk-build
+: 1459658512:0;ps
+: 1459658525:0;pwd
+: 1459658529:0;d
+: 1459658531:0;2
+: 1459658532:0;gst
+: 1459658533:0;ndk-build
+: 1459658542:0;vim Android.mk
+: 1459658565:0;ls
+: 1459658566:0;ps
+: 1459658585:0;ls
+: 1459658588:0;ps
+: 1459658592:0;vim Android.mk
+: 1459658615:0;ndk-build
+: 1459658623:0;ls
+: 1459658649:0;ps
+: 1459658659:0;ls
+: 1459658667:0;pwd
+: 1459658669:0;ndk-build
+: 1459658674:0;ps
+: 1459658692:0;cd ~/Android/Projects/ffmpeg-jni-sample
+: 1459658692:0;ls
+: 1459658696:0;cd source/ffmpeg/jni
+: 1459658697:0;ls
+: 1459658709:0;vim Android.arm.mk
+: 1459658715:0;ps
+: 1459658764:0;ndk-build
+: 1459658773:0;ps
+: 1459658779:0;ls
+: 1459658788:0;ndk-build
+: 1459658802:0;rm ../obj -rf
+: 1459658804:0;ndk-build
+: 1459658820:0;ps
+: 1459658854:0;ndk-build
+: 1459658860:0;ps
+: 1459658868:0;pss
+: 1459658870:0;ps
+: 1459658872:0;ls
+: 1459658884:0;ps
+: 1459667176:0;pwd
+: 1459667184:0;exit
+: 1459667186:0;ndk-build
+: 1459667192:0;ps
+: 1459667196:0;vim Android.mk
+: 1459667213:0;gst
+: 1459667220:0;gd Android.mk
+: 1459667233:0;ndk-build
+: 1459667235:0;ps
+: 1459667345:0;ndk-build
+: 1459667359:0;ps
+: 1459667382:0;ndk-build
+: 1459667402:0;rm ../obj -rf
+: 1459667405:0;ndk-build
+: 1459667432:0;ps
+: 1459667435:0;gst
+: 1459667483:0;gco ffmpeg.c
+: 1459667484:0;gst
+: 1459667557:0;ps
+: 1459667559:0;gd Android.mk
+: 1459667565:0;ps
+: 1459667579:0;ndk-build
+: 1459667584:0;ps
+: 1459667598:0;ndk-build
+: 1459667605:0;ps
+: 1459667630:0;:sh
+: 1459667632:0;hs
+: 1459667633:0;sh
+: 1459667637:0;pwd
+: 1459667647:0;cd /home/muqing/Android/Projects/ScreenCapture2Gif/app/src/main/java/jni
+: 1459667648:0;ls
+: 1459667650:0;ps
+: 1459667652:0;ndk-build
+: 1459667657:0;ps
+: 1459667667:0;ls
+: 1459667717:0;ndk-build
+: 1459667719:0;ps
+: 1459667765:0;ndk-build
+: 1459667772:0;ps
+: 1459667820:0;ndk-build
+: 1459667911:0;gst
+: 1459667924:0;ps
+: 1459669160:0;ndk-build
+: 1459669219:0;ps
+: 1459669233:0;pwd
+: 1459669239:0;gst
+: 1459669250:0;gstps
+: 1459669251:0;ps
+: 1459669299:0;gst
+: 1459669306:0;git reset HEAD^ --hard
+: 1459669307:0;gst
+: 1459669312:0;gco -- .
+: 1459669312:0;gst
+: 1459669316:0;git clean -xdf
+: 1459669317:0;ps
+: 1459669317:0;gst
+: 1459669320:0;ndk-build
+: 1459669328:0;ps
+: 1459669338:0;exit
+: 1459669348:0;ps
+: 1459669351:0;mtags
+: 1459669352:0;vim
+: 1459669366:0;ps
+: 1459669375:0;gst
+: 1459669381:0;ndk-build
+: 1459669382:0;ps
+: 1459669406:0;ndk-build
+: 1459669407:0;ps
+: 1459669419:0;ndk-build
+: 1459669421:0;ps
+: 1459669428:0;ndk-build
+: 1459669430:0;ps
+: 1459669437:0;ndk-build
+: 1459669457:0;ps
+: 1459669480:0;ndk-build
+: 1459669483:0;ps
+: 1459669488:0;ndk-build
+: 1459669490:0;ps
+: 1459669495:0;ndk-build
+: 1459669496:0;ps
+: 1459669504:0;ndk-build
+: 1459669505:0;ps
+: 1459669511:0;ndk-build
+: 1459669531:0;ps
+: 1459669629:0;vim
+: 1459669709:0;ps
+: 1459674367:0;tmux
+: 1459674372:0;j /home/muqing/Android/Workspaces/ScreenCapture2Gif
+: 1459674373:0;ls
+: 1459674381:0;j 2Gi__
+: 1459674382:0;pwd
+: 1459674384:0;ls
+: 1459674393:0;cd app/src/main/java/jni
+: 1459674393:0;gst
+: 1459674397:0;ndk-build
+: 1459674416:0;ps
+: 1459674421:0;cd ~/ffmpeg-3.0
+: 1459674421:0;ls
+: 1459674423:0;vim
+: 1459674453:0;ps
+: 1459674455:0;vim
+: 1459674474:0;gst
+: 1459674475:0;gd
+: 1459674476:0;ps
+: 1459674522:0;ndk-build
+: 1459674527:0;ps
+: 1459674541:0;ndk-build
+: 1459674543:0;ps
+: 1459674556:0;ndk-build
+: 1459674562:0;ps
+: 1459674570:0;ndk-build
+: 1459674601:0;ps
+: 1459674609:0;ndk-build
+: 1459674610:0;ps
+: 1459674640:0;cp ~/ffmpeg-3.0/libavutil/time_internal.h include/libavutil
+: 1459674643:0;ndk-build
+: 1459674657:0;ls
+: 1459674677:0;cp ~/Android/Projects/ffmpeg-jni-sample/source/ffmpeg/jni/cmdutils_common_opts.h
+: 1459674680:0;cp ~/Android/Projects/ffmpeg-jni-sample/source/ffmpeg/jni/cmdutils_common_opts.h ./
+: 1459674682:0;ndk-build
+: 1459674699:0;ls
+: 1459674712:0;ps
+: 1459674795:0;gst
+: 1459674812:0;cat include/libavutil/time_internal.h
+: 1459674817:0;ps
+: 1459674819:0;gst
+: 1459674823:0;ps
+: 1459674863:0;ndk-build
+: 1459674871:0;gst
+: 1459674873:0;ps
+: 1459674925:0;ndk-build
+: 1459675019:0;1ps
+: 1459675020:0;ps
+: 1459675037:0;ndk-build
+: 1459675045:0;pwd
+: 1459675048:0;ndk-build
+: 1459675421:0;cd ~/Android/Projects
+: 1459675421:0;ls
+: 1459675425:0;cd JNI_INVOKE_FFMPEG
+: 1459675426:0;ls
+: 1459675428:0;cd jni
+: 1459675428:0;ls
+: 1459675437:0;ps
+: 1459675439:0;mtags
+: 1459675440:0;vim
+: 1459675486:0;ps
+: 1459675519:0;ndk-build
+: 1459675521:0;ps
+: 1459675553:0;pwd
+: 1459675559:0;cp/home/muqing/Android/Projects/ScreenCapture2Gif/app/src/main/java/jni 
+: 1459675565:0;cp /home/muqing/Android/Projects/ScreenCapture2Gif/app/src/main/java/jni
+: 1459675579:0;ls
+: 1459675623:0;mkdir -p ~/ffmpeg-3.0/android/aarch64/
+: 1459675648:0;cp ~/Desktop/ffmpeg_android/* ~/ffmpeg-3.0/android/aarch64/ -rf
+: 1459675656:0;ls
+: 1459675660:0;ls android/aarch64/
+: 1459675665:0;ps
+: 1459675702:0;cp Android.mk ~/ffmpeg-3.0/android/aarch64
+: 1459675705:0;ps
+: 1459675796:0;ndk-build
+: 1459675799:0;ps
+: 1459675874:0;pwd
+: 1459675876:0;ls
+: 1459675890:0;pwd
+: 1459676066:0;ls
+: 1459676074:0;ps
+: 1459676090:0;ndk-build
+: 1459676096:0;ps
+: 1459676124:0;ndk-build
+: 1459676129:0;ps
+: 1459676211:0;gst
+: 1459676213:0;ps
+: 1459676238:0;cp ~/ffmpeg-3.0/android/aarch64/* ./
+: 1459676240:0;cp ~/ffmpeg-3.0/android/aarch64/* ./ -rf
+: 1459676241:0;ps
+: 1459676247:0;mv lib/*.so ./
+: 1459676249:0;rm lib -rf
+: 1459676250:0;ls
+: 1459676252:0;ps
+: 1459676411:0;ls
+: 1459676424:0;ndk-build
+: 1459676445:0;ps
+: 1459676466:0;ndk-build
+: 1459687388:0;sudo apt-get install steam
+: 1459689579:0;tmux
+: 1459689590:0;cd Android/Projects/ScreenCapture2Gif
+: 1459689590:0;ls
+: 1459689605:0;cd app/src/main/java/jni
+: 1459689606:0;ls
+: 1459689612:0;j JNI
+: 1459689614:0;gst
+: 1459689615:0;ls
+: 1459689619:0;cd jni
+: 1459689620:0;ls
+: 1459689624:0;ndk-build
+: 1459689640:0;ps
+: 1459689641:0;gst
+: 1459689645:0;ls
+: 1459689646:0;gst
+: 1459689653:0;rm ../obj -rf
+: 1459689656:0;ndk-build
+: 1459689666:0;ps
+: 1459689669:0;gst
+: 1459689670:0;ps
+: 1459689672:0;ls
+: 1459689675:0;ps
+: 1459689678:0;vim Android.mk
+: 1459689697:0;ndk-build
+: 1459689715:0;cp ~/ffmpeg-3.0/config.h ./
+: 1459689717:0;ls
+: 1459689718:0;ndk-build
+: 1459689722:0;gst
+: 1459689732:0;ndk-build
+: 1459689743:0;gst
+: 1459689758:0;git log ffmpeg.c
+: 1459689777:0;ndk-build
+: 1459689785:0;ls
+: 1459689787:0;ndk-build
+: 1459689795:0;ps
+: 1459689805:0;ndk-build
+: 1459689817:0;ps
+: 1459689820:0;ndk-build
+: 1459689838:0;ps
+: 1459690881:0;cd Android/Projects
+: 1459690882:0;ls
+: 1459690887:0;git clone https://github.com/Harrison0984/ffmpeg-android.git
+: 1459690892:0;cd ffmpeg-android
+: 1459690896:0;git config -l
+: 1459690903:0;ls
+: 1459690906:0;cd jni
+: 1459690906:0;ls
+: 1459690908:0;ndk-build
+: 1459690915:0;vim Application.mk
+: 1459690918:0;gst
+: 1459690919:0;gd
+: 1459690928:0;cd ..
+: 1459690929:0;d
+: 1459690931:0;2
+: 1459690947:0;git clone https://github.com/Harrison0984/ffmpeg-android.git Harrison0984-ffmpeg-android
+: 1459691012:0;ndk-build
+: 1459691065:0;gst
+: 1459691068:0;vim Application.mk
+: 1459691074:0;vim Android.mk
+: 1459691079:0;gst
+: 1459691081:0;gco -- .
+: 1459691083:0;pwd
+: 1459691089:0;git reset HEAD^ --hard
+: 1459691089:0;gst
+: 1459691092:0;git clean x-df
+: 1459691095:0;git clean -xdf
+: 1459691096:0;gst
+: 1459691097:0;ps
+: 1459691108:0;rm ../{libs,obj} -rf
+: 1459691108:0;ls
+: 1459691115:0;ps
+: 1459691116:0;mtags
+: 1459691118:0;vim
+: 1459691163:0;cd ffmpeg-3.0
+: 1459691164:0;ls
+: 1459691167:0;gst
+: 1459691173:0;git clean -xdf
+: 1459691174:0;gst
+: 1459691178:0;gd build_android_aarch64.sh
+: 1459691544:0;cd ~/Android/Projects
+: 1459691545:0;ls
+: 1459691554:0;cd ffmpeg-jni-sample
+: 1459691555:0;ls
+: 1459691559:0;cd source
+: 1459691560:0;gst
+: 1459691560:0;ls
+: 1459691582:0;pwd
+: 1459691585:0;j Projects
+: 1459691586:0;ls
+: 1459691592:0;cd ffmpeg-for-android-shared-library
+: 1459691592:0;gst
+: 1459691596:0;ls
+: 1459691603:0;gst
+: 1459691605:0;gd
+: 1459691615:0;ls
+: 1459691617:0;cd source
+: 1459691617:0;ls
+: 1459691625:0;cp build_android_arm.sh ffmpeg
+: 1459691626:0;ls
+: 1459691627:0;gst
+: 1459691642:0;ls
+: 1459691643:0;pwd
+: 1459691645:0;cd ffmpeg
+: 1459691646:0;ls
+: 1459691647:0;gst
+: 1459691648:0;ls
+: 1459691653:0;vim build_android_arm.sh
+: 1459691675:0;ps
+: 1459691687:0;ls
+: 1459691695:0;cd ffmpeg
+: 1459691695:0;ls
+: 1459691698:0;gst
+: 1459691856:0;ls
+: 1459691859:0;. ./build_android_a
+: 1459691863:0;. ./build_android_arm.sh
+: 1459691870:0;ls
+: 1459691873:0;pwd
+: 1459691876:0;git config -l
+: 1459691879:0;ls
+: 1459691881:0;cd jni
+: 1459691881:0;ls
+: 1459691884:0;gd
+: 1459691888:0;gst
+: 1459691893:0;ps
+: 1459691897:0;vim Application.mk
+: 1459691918:0;ls
+: 1459691919:0;gst
+: 1459691928:0;ps
+: 1459691934:0;ndk-build
+: 1459691943:0;ps
+: 1459691958:0;gst
+: 1459691958:0;gd
+: 1459691963:0;ps
+: 1459691972:0;cd prebuilt/armeabi
+: 1459691973:0;ls
+: 1459692122:0;ps
+: 1459692154:0;ls
+: 1459692159:0;ndk-build
+: 1459692167:0;gst
+: 1459692174:0;ndk-build
+: 1459692467:0;ndk-build 
+: 1459692565:0;adb shell
+: 1459692592:0;ls
+: 1459692594:0;gst
+: 1459692600:0;ps
+: 1459692615:0;ls
+: 1459692619:0;gst
+: 1459692624:0;rm android aarch64 -rf
+: 1459692624:0;gst
+: 1459692625:0;ls
+: 1459692635:0;rm prebuilt/arm64-v8a -rf
+: 1459692635:0;ls
+: 1459692638:0;gst
+: 1459692644:0;gd Android.mk
+: 1459692658:0;gd FFmpegNativeHelper.c
+: 1459692663:0;ls
+: 1459692697:0;cd prebuilt
+: 1459692698:0;ls
+: 1459692700:0;cd armeabi
+: 1459692701:0;ls
+: 1459692702:0;ls -ll
+: 1459692707:0;ls
+: 1459692709:0;pwd
+: 1459692715:0;cd ~/Desktop/ffmeg_arm
+: 1459692716:0;ls
+: 1459692718:0;cd lib
+: 1459692718:0;ls
+: 1459692736:0;cp libavcodec.so libavdevice.so libavfilter.so libavformat.so libavutil.so libswresample.so libswscale.so ~/Desktop
+: 1459692746:0;mv /home/muqing/Desktop/libavcodec.so /home/muqing/Desktop/libavdevice.so /home/muqing/Desktop/libavfilter.so /home/muqing/Desktop/libavformat.so /home/muqing/Desktop/libavutil.so /home/muqing/Desktop/libswresample.so /home/muqing/Desktop/libswscale.so ./
+: 1459692748:0;ls -ll
+: 1459692758:0;cd ..
+: 1459692760:0;ls
+: 1459692768:0;ndk-build
+: 1459692777:0;ndk-build --help
+: 1459692799:0;ps
+: 1459692811:0;ndk-build
+: 1459692815:0;ps
+: 1459692820:0;ls
+: 1459692833:0;rm ../{libs,obj} -rf
+: 1459692835:0;ndk-build
+: 1459692977:0;ls
+: 1459693010:0;gvim
+: 1459693158:0;ndk-build --help
+: 1459693253:0;ndk-build clean
+: 1459693256:0;gst
+: 1459693258:0;ndk-build
+: 1459693278:0;ndk-build clean
+: 1459693291:0;ndk-build -B
+: 1459693410:0;ndk-build --help
+: 1459693424:0;man ndk-build
+: 1459693522:0;gst
+: 1459693532:0;ls
+: 1459693536:0;d
+: 1459693538:0;1
+: 1459693539:0;gst
+: 1459693558:0;ga .
+: 1459693558:0;gst
+: 1459695783:0;ls
+: 1459695795:0;rm com_muqing_android_screencapture2gif_helper_gifhelper_FFmpegNativeHelper.h test java_error_in_STUDIO_.log
+: 1459695796:0;ls
+: 1459695800:0;cd Steam
+: 1459695801:0;ls
+: 1459695814:0;cd ï½ƒ¾
+: 1459695815:0;~/
+: 1459695824:0;mkdir Program
+: 1459695832:0;mv ffmpeg-3.0 Program
+: 1459695833:0;cd Program
+: 1459695834:0;ls
+: 1459695840:0;whic gc
+: 1459695843:0;which gc
+: 1459695852:0;which gco
+: 1459695858:0;which gcn
+: 1459695871:0;ls
+: 1459695875:0;git clone git@github.com:tainzhi/LogRecorder.git
+: 1459695919:0;ls
+: 1459695923:0;git clone git@github.com:tainzhi/LogRecorder.git
+: 1459695949:0;git -T github
+: 1459695955:0;cd .ssh
+: 1459695955:0;ls
+: 1459695974:0;cat config
+: 1459695990:0;ssh-keygen -f github.com
+: 1459695999:0;ls
+: 1459696005:0;cat github.com.pub
+: 1459696061:0;ssh -T github
+: 1459696068:0;git clone git@github.com:tainzhi/LogRecorder.git
+: 1459696084:0;exit
+: 1459696093:0;ls
+: 1459696095:0;cd LogRecorder
+: 1459696096:0;mtags
+: 1459696097:0;ps
+: 1459696099:0;vim
+: 1459696757:0;gst
+: 1459696760:0;ga LogRecorder.java
+: 1459696761:0;ps
+: 1459696784:0;gst
+: 1459696785:0;ps
+: 1459696789:0;ga LogRecorder.java
+: 1459696790:0;ps
+: 1459697515:0;gst
+: 1459697519:0;ga README.md
+: 1459697519:0;gst
+: 1459697520:0;gc
+: 1459697537:0;gp
+: 1459699041:0;gst
+: 1459699048:0;ga 
+: 1459699050:0;gst
+: 1459699052:0;ga .
+: 1459699053:0;gst
+: 1459699055:0;gc
+: 1459699083:0;gst
+: 1459699086:0;gp
+: 1459699091:0;gl
+: 1459699096:0;gst
+: 1459699097:0;gp
+: 1459744605:0;ls
+: 1459744608:0;cd Program
+: 1459744608:0;ls
+: 1459744613:0;git clone git@github.com:tainzhi/ffmpeg-for-android-shared-library.git
+: 1459746256:0;ls
+: 1459746260:0;cd ffmpeg-for-android-shared-library
+: 1459746261:0;ls
+: 1459746279:0;cd source
+: 1459746280:0;ls
+: 1459746282:0;cd ffmpeg
+: 1459746283:0;ls
+: 1459746288:0;vim INSTALL.md
+: 1459746296:0;vim version.sh
+: 1459746301:0;. ./version.sh
+: 1459746306:0;gst
+: 1459746311:0;. ./ver
+: 1459746315:0;ls
+: 1459746320:0;exit
+: 1459746326:0;ps
+: 1459746332:0;cd Program
+: 1459746332:0;ls
+: 1459746336:0;cd ffmpeg-for-android-shared-library
+: 1459746336:0;ls
+: 1459746338:0;cd source
+: 1459746338:0;ls
+: 1459746341:0;cd ffmpeg
+: 1459746341:0;ls
+: 1459746352:0;vim RELEASE
+: 1459746359:0;vim version.sh
+: 1459746371:0;vim MAINTAINERS
+: 1459746416:0;ls
+: 1459746424:0;cd ..
+: 1459746425:0;ls
+: 1459746428:0;ps
+: 1459746435:0;vim build_android_arm.sh
+: 1459750357:0;pwd
+: 1459750363:0;cd Program/ffmpeg-3.0
+: 1459750364:0;ls
+: 1459750365:0;gst
+: 1459750374:0;ga build_android_aarch64.sh
+: 1459750374:0;gst
+: 1459750381:0;vim build_android_aarch64.sh
+: 1459750405:0;gst
+: 1459750405:0;gd
+: 1459750408:0;ps
+: 1459750491:0;gst
+: 1459750497:0;. ./build_android_aarch64.sh
+: 1459750502:0;vim config.log
+: 1459750517:0;ps
+: 1459750551:0;. ./build_android_aarch64.sh
+: 1459750681:0;gst
+: 1459750684:0;make clean
+: 1459750685:0;gst
+: 1459750700:0;vim .config
+: 1459750705:0;vim .version
+: 1459750711:0;vim config.mak
+: 1459750723:0;make clean
+: 1459750788:0;make distclean
+: 1459750789:0;gst
+: 1459750794:0;make distclean
+: 1459750796:0;gst
+: 1459750805:0;ps
+: 1459750814:0;gst
+: 1459750817:0;pwd
+: 1459750849:0;ps
+: 1459750857:0;ls
+: 1459750867:0;vim
+: 1459750917:0;cd $ANDROID_NDK
+: 1459750918:0;ls
+: 1459750933:0;cd platforms/android-21/arch-arm/
+: 1459750954:0;ls
+: 1459750955:0;cd -
+: 1459750958:0;ls toolchains
+: 1459751000:0;gst
+: 1459751005:0;cp build_android_arm.sh ffmpeg
+: 1459751006:0;ls
+: 1459751008:0;cd ffmpeg
+: 1459751010:0;ps
+: 1459751015:0;vim build_android_arm.sh
+: 1459751026:0;. ./build_android_arm.sh
+: 1459751033:0;gst
+: 1459751038:0;gd build_android_aarch64.sh
+: 1459751044:0;ga build_android_aarch64.sh
+: 1459751045:0;gst
+: 1459751046:0;ps
+: 1459751046:0;d
+: 1459751053:0;cd ../ffmpeg-for-android-shared-library
+: 1459751054:0;ls
+: 1459751055:0;gst
+: 1459751057:0;ls
+: 1459751060:0;vim README.md
+: 1459751131:0;ls
+: 1459751132:0;gst
+: 1459751146:0;make distclean
+: 1459751148:0;gst
+: 1459751154:0;make distclean
+: 1459751156:0;ps
+: 1459751168:0;ls
+: 1459751181:0;. ./build_android_arm.sh
+: 1459751291:0;ls
+: 1459751296:0;rm android android1 -rf
+: 1459751297:0;ps
+: 1459751340:0;ls
+: 1459751345:0;mv build_android_arm.sh ../
+: 1459751346:0;ls
+: 1459751346:0;gst
+: 1459751348:0;cd ..
+: 1459751348:0;ls
+: 1459751350:0;ps
+: 1459751382:0;ls
+: 1459751387:0;cd platforms/android-21/
+: 1459751388:0;ls
+: 1459751475:0;d
+: 1459751477:0;1
+: 1459751547:0;gst
+: 1459751558:0;rm ffmpeg/config ffmpeg/doc/config.texi
+: 1459751560:0;gst
+: 1459751565:0;rm ffmpeg/config.log
+: 1459751573:0;rm ffmpeg/doc/config.text
+: 1459751574:0;gst
+: 1459751587:0;rm ffmpeg/doc/config.texi
+: 1459751588:0;gst
+: 1459751612:0;ls
+: 1459751615:0;cd ffmpeg
+: 1459751616:0;ls
+: 1459751617:0;gst
+: 1459751627:0;cp ../build_android_x86.sh ./
+: 1459751633:0;. ./build_android_x86.sh
+: 1459751714:0;$who
+: 1459751735:0;ls
+: 1459751736:0;gst
+: 1459751750:0;ls
+: 1459751751:0;ps
+: 1459751751:0;ls
+: 1459751752:0;gst
+: 1459751755:0;rm android1 -rf
+: 1459751756:0;ps
+: 1459751779:0;gst
+: 1459751791:0;cp ffmpeg/build_android_x86.sh ./
+: 1459751791:0;gst
+: 1459751797:0;mv ffmpeg/build_android_x86.sh ./
+: 1459751798:0;gst
+: 1459751808:0;ga build_android_arm.sh build_android_x86.sh
+: 1459751809:0;gst
+: 1459751813:0;ga build_android_aarch64.sh
+: 1459751814:0;gst
+: 1459751824:0;gc
+: 1459751848:0;gst
+: 1459751852:0;ps
+: 1459752222:0;gst
+: 1459752225:0;ps
+: 1459752227:0;ls
+: 1459752229:0;cd ..
+: 1459752230:0;ls
+: 1459752233:0;vim README.md
+: 1459752436:0;gst
+: 1459752439:0;ls
+: 1459752443:0;ack anroid1
+: 1459752448:0;ps
+: 1459753340:0;gst
+: 1459753347:0;ga README.md
+: 1459753348:0;gst
+: 1459753349:0;gd
+: 1459753351:0;gst
+: 1459753359:0;gd source/build_android_arm.sh
+: 1459753362:0;gd source/
+: 1459753371:0;gd source/build_android_x86.sh
+: 1459753376:0;gst
+: 1459753380:0;ga source/build_android_*
+: 1459753380:0;gst
+: 1459753383:0;gc
+: 1459753389:0;gst
+: 1459753395:0;gp
+: 1459753483:0;ps
+: 1459753509:0;ls
+: 1459753513:0;cd source/ffmpeg
+: 1459753513:0;ps
+: 1459753954:0;gst
+: 1459753958:0;ps
+: 1459754164:0;gst
+: 1459754167:0;ga README.md
+: 1459754167:0;gst
+: 1459754171:0;gc
+: 1459754181:0;g
+: 1459754182:0;gp
+: 1459754349:0;ls
+: 1459754355:0;ps
+: 1459754455:0;gst
+: 1459754458:0;ga README.md
+: 1459754459:0;ps
+: 1459754460:0;gc
+: 1459754470:0;gst
+: 1459754471:0;gp
+: 1459754478:0;gst
+: 1459754679:0;ls
+: 1459754680:0;ps
+: 1459754685:0;cd ..
+: 1459754685:0;ls
+: 1459754693:0;mkdir ffmpeg-jni-example
+: 1459754694:0;cd ffmpeg-jni-example
+: 1459754695:0;ls
+: 1459754703:0;echo "# ffmpeg-jni-example" >> README.md\
+git init\
+git add README.md\
+git commit -m "first commit"\
+git remote add origin git@github.com:tainzhi/ffmpeg-jni-example.git\
+git push -u origin master
+: 1459754711:0;gst
+: 1459754715:0;ls
+: 1459754717:0;vim README.md
+: 1459755053:0;ps
+: 1459755055:0;vim README.md
+: 1459755190:0;cd ~/Android/Sdk/
+: 1459755190:0;ls
+: 1459755198:0;cd sources/android-23
+: 1459755198:0;ls
+: 1459755206:0;cd ..
+: 1459755208:0;ls
+: 1459755209:0;cd ..
+: 1459755210:0;ls
+: 1459755214:0;ack -g example
+: 1459755459:0;gst
+: 1459755461:0;gd
+: 1459755464:0;ga README.md
+: 1459755465:0;gst
+: 1459755466:0;ps
+: 1459755466:0;gc
+: 1459755472:0;gst
+: 1459755474:0;gp
+: 1459755484:0;exit
+: 1459755581:0;pwd
+: 1459755583:0;cd Projects
+: 1459755583:0;ls
+: 1459755593:0;cd ffmpeg-jni-example
+: 1459755594:0;gst
+: 1459755595:0;ls
+: 1459755625:0;histroy
+: 1459755627:0;history
+: 1459755643:0;git init
+: 1459755644:0;gst
+: 1459755653:0;ga .
+: 1459755653:0;gst
+: 1459755654:0;gc
+: 1459755663:0;gst
+: 1459755687:0;git remote add origin git@github.com:tainzhi/ffmpeg-jni-example.git
+: 1459755688:0;gst
+: 1459755689:0;gl
+: 1459755702:0;git pull origin master
+: 1459755716:0;gst
+: 1459755717:0;git log
+: 1459755721:0;gl
+: 1459755724:0;glo
+: 1459755726:0;gst
+: 1459756072:0;ks
+: 1459756076:0;ls
+: 1459756086:0;cd app/src/main/java
+: 1459756087:0;ls
+: 1459756094:0;cd android
+: 1459756094:0;ls
+: 1459756096:0;cd ..
+: 1459756117:0;gst
+: 1459756118:0;gd
+: 1459756120:0;gst
+: 1459756125:0;glo origin
+: 1459756132:0;glo origin/master
+: 1459756177:0;ls
+: 1459756179:0;pwd
+: 1459756180:0;d
+: 1459756182:0;3
+: 1459756183:0;ls
+: 1459756188:0;rm ffmpeg-jni-example -rf
+: 1459756188:0;ls
+: 1459756269:0;cd ffmpeg-jni-example
+: 1459756269:0;gst
+: 1459756272:0;git init
+: 1459756273:0;gst
+: 1459756275:0;ga -A
+: 1459756276:0;gc
+: 1459756291:0;gst
+: 1459756295:0;git remote add origin git@github.com:tainzhi/ffmpeg-jni-example.git
+: 1459756303:0;git pull origin master
+: 1459756407:0;gst
+: 1459756418:0;pwd
+: 1459756419:0;gst
+: 1459756423:0;gc --list
+: 1459756432:0;git config --list
+: 1459756451:0;vim ~/.gitconfig
+: 1459756457:0;gst
+: 1459756462:0;git config --list
+: 1459756464:0;ls
+: 1459756465:0;gst
+: 1459756473:0;cd app/src
+: 1459756474:0;ls
+: 1459756479:0;cd -
+: 1459756488:0;cd app/src/main/java
+: 1459756491:0;ls
+: 1459756576:0;javah -jni com.muqing.android.ffmpeg_jni_example.FFmpegNativeHelper
+: 1459756578:0;gst
+: 1459756581:0;ls
+: 1459756599:0;history
+: 1459756653:0;ls
+: 1459756805:0;cd app/src/main/java/
+: 1459756806:0;ls
+: 1459756808:0;cd ..
+: 1459756809:0;ls
+: 1459756822:0;ps
+: 1459756823:0;pwd
+: 1459756826:0;ls
+: 1459756832:0;ps
+: 1459756838:0;psk:qa
+: 1459756840:0;qa
+: 1459756845:0;pw
+: 1459756846:0;gst
+: 1459756847:0;pwd
+: 1459756852:0;cd ffmpeg-jni-sample
+: 1459756853:0;ls
+: 1459756855:0;cd source
+: 1459756855:0;ls
+: 1459756857:0;cd ffmpeg
+: 1459756857:0;ls
+: 1459756860:0;cd jni
+: 1459756861:0;ls
+: 1459756862:0;gst
+: 1459756889:0;d
+: 1459756891:0;pwd
+: 1459757115:0;ls
+: 1459757117:0;pwd
+: 1459757120:0;ls
+: 1459757124:0;pwd
+: 1459757130:0;ls
+: 1459757131:0;gst
+: 1459757135:0;cd ../jni
+: 1459757135:0;ls
+: 1459757148:0;ack arm_config.h
+: 1459757158:0;vim config.h
+: 1459757419:0;ls
+: 1459757427:0;vim Android.mk
+: 1459757465:0;rm arm_config.h
+: 1459757466:0;ps
+: 1459757520:0;exit
+: 1459757551:0;ndk-build
+: 1459757725:0;cd ~/Program/ffmpeg-3.0
+: 1459757726:0;gst
+: 1459757730:0;rm android
+: 1459757740:0;make distclean
+: 1459757743:0;. ./configure
+: 1459757758:0;./configure
+: 1459757766:0;ls
+: 1459757774:0;vim INSTALL.md
+: 1459757783:0;make -j8
+: 1459758058:0;make install
+: 1459758061:0;sudo make install
+: 1459758069:0;ffmpeg --version
+: 1459758087:0;ffmpeg -v
+: 1459758717:0;gst
+: 1459758718:0;pwd
+: 1459758721:0;gst
+: 1459758728:0;make distclean
+: 1459758734:0;gst
+: 1459758746:0;ndk-build -B
+: 1459758788:0;ls
+: 1459758803:0;vim cmdutils.h
+: 1459758975:0;ndk-build -B
+: 1459758983:0;gst
+: 1459759006:0;ga -A
+: 1459759007:0;gst
+: 1459759017:0;ndk-build clean
+: 1459759018:0;gst
+: 1459759056:0;git rm --help
+: 1459759192:0;ls
+: 1459759195:0;gst
+: 1459759196:0;ps
+: 1459759198:0;pwd
+: 1459759200:0;ps
+: 1459759204:0;gst
+: 1459759206:0;ps
+: 1459759208:0;cd ..
+: 1459759208:0;ls
+: 1459759213:0;gst
+: 1459759246:0;ls
+: 1459759249:0;gst
+: 1459759256:0;git add jni
+: 1459759256:0;gst
+: 1459759259:0;ls
+: 1459759269:0;cd jniLibs
+: 1459759269:0;ls
+: 1459759272:0;cd ..
+: 1459759473:0;gst
+: 1459759482:0;ls
+: 1459759485:0;cd java
+: 1459759485:0;ls
+: 1459759487:0;cd ..
+: 1459759487:0;ls
+: 1459759492:0;cd jniLibs
+: 1459759492:0;ls
+: 1459759494:0;cd ..
+: 1459759494:0;ls
+: 1459759508:0;d
+: 1459759510:0;2
+: 1459759511:0;ls
+: 1459759522:0;javah -jni com.muqing.android.ffmpeg_jni_example.FFmpegNativeHelper
+: 1459759528:0;ls
+: 1459759533:0;mkdir jni
+: 1459759539:0;mv com_muqing_android_ffmpeg_jni_example_FFmpegNativeHelper.h jni
+: 1459759539:0;ls
+: 1459759542:0;cd jni
+: 1459759588:0;ps
+: 1459759594:0;cd ~/Android/Projects/ffmpeg-jni-sample
+: 1459759595:0;ls
+: 1459759596:0;gst
+: 1459759601:0;ls
+: 1459759603:0;cd source
+: 1459759604:0;ls
+: 1459759814:0;ps
+: 1459759820:0;cd ~/Program/ffmpeg-for-android-shared-library
+: 1459759821:0;ls
+: 1459759822:0;cd source
+: 1459759823:0;ls
+: 1459759825:0;gst
+: 1459759827:0;cd ffmpeg
+: 1459759828:0;ls
+: 1459759835:0;cp ../build_android_arm.sh ./
+: 1459759836:0;ls
+: 1459759837:0;gst
+: 1459759841:0;. ./build_android_arm.sh
+: 1459783495:0;ls
+: 1459783504:0;cd Program
+: 1459783504:0;ls
+: 1459783509:0;cd ffmpeg-jni-example/
+: 1459783509:0;ls
+: 1459783512:0;vim README.md
+: 1459783687:0;tmux
+: 1459783695:0;vls
+: 1459783696:0;ls
+: 1459783698:0;vim README.md
+: 1459783705:0;ls
+: 1459783713:0;cd ~/Android/Projects/ffmpeg-jni-sample
+: 1459783714:0;ls
+: 1459783723:0;cd source
+: 1459783733:0;ls
+: 1459783735:0;gst
+: 1459783741:0;git branch -r
+: 1459783743:0;pwd
+: 1459783746:0;cd ..
+: 1459783746:0;ls
+: 1459783755:0;pwd
+: 1459783756:0;gst
+: 1459783759:0;git log
+: 1459783764:0;ls
+: 1459783765:0;exit
+: 1459783772:0;ls
+: 1459783775:0;exit
+: 1459783783:0;cd Program/ffmpeg-jni-example
+: 1459783784:0;ls
+: 1459783785:0;gst
+: 1459783795:0;git config --list
+: 1459783800:0;gl
+: 1459783811:0;ls
+: 1459783812:0;cd ..
+: 1459783815:0;tmux
+: 1459783823:0;cd ~/Android/Projects/ffmpeg-jni-
+: 1459783825:0;cd ~/Android/Projects/ffmpeg-jni-example
+: 1459783825:0;ls
+: 1459783827:0;vim README.md
+: 1459783856:0;gst
+: 1459783889:0;ga README.md
+: 1459783890:0;gst
+: 1459783899:0;git log
+: 1459783901:0;gst
+: 1459783903:0;ga -A
+: 1459783904:0;gst
+: 1459783966:0;ls
+: 1459783977:0;cd ffmpeg-for-android-shared-library
+: 1459783978:0;ls
+: 1459783983:0;cd source
+: 1459783983:0;ls
+: 1459783985:0;cd ffmpeg
+: 1459783986:0;ls
+: 1459783996:0;cd android
+: 1459783997:0;ls
+: 1459783998:0;cd arm
+: 1459783999:0;ls
+: 1459784260:0;l
+: 1459784261:0;ls
+: 1459784262:0;sl
+: 1459784263:0;ls
+: 1459784268:0;cd app/src/main/java/jni
+: 1459784268:0;ls
+: 1459784272:0;vim Android.arm.mk
+: 1459784349:0;ndk-build
+: 1459784541:0;ls
+: 1459784542:0;pwd
+: 1459784556:0;cd ~/Android/Projects/ffmpeg-jni-sample
+: 1459784556:0;ls
+: 1459784563:0;cd source/ffmpeg/jni/include
+: 1459784563:0;ls
+: 1459784564:0;cd ..
+: 1459784564:0;ls
+: 1459784572:0;make distclean
+: 1459784577:0;ndk-build clean
+: 1459784580:0;ndk-build
+: 1459784586:0;ls
+: 1459784594:0;vim Android.arm.mk
+: 1459784616:0;gst
+: 1459784662:0;ls include/libavutil |grep -i lib
+: 1459784681:0;ls
+: 1459784758:0;ndk-build
+: 1459784763:0;ps
+: 1459784765:0;pwd
+: 1459784767:0;gst
+: 1459784781:0;vim Application.mk
+: 1459784889:0;ls
+: 1459784895:0;cd ffmpeg-for-android-shared-library
+: 1459784896:0;ls
+: 1459784896:0;gst
+: 1459784909:0;lw
+: 1459784910:0;ls
+: 1459784912:0;cd source
+: 1459784912:0;ls
+: 1459784914:0;cd ffmpeg
+: 1459784915:0;ls
+: 1459784921:0;make clean
+: 1459784925:0;make distclean
+: 1459784932:0;vim build_android_arm.sh
+: 1459784950:0;. ./build_android_arm.sh
+: 1459785057:0;ls android1
+: 1459785058:0;ls
+: 1459785230:0;gst
+: 1459785326:0;ga *.c
+: 1459785327:0;gst
+: 1459785330:0;ga *.h
+: 1459785331:0;gst
+: 1459785336:0;make distclean
+: 1459785338:0;ls
+: 1459785340:0;lls
+: 1459785345:0;ndk-build clean
+: 1459785346:0;ls
+: 1459785346:0;gst
+: 1459785382:0;ga include prebuilt
+: 1459785383:0;gst
+: 1459785392:0;ndk-build
+: 1459785635:0;gst
+: 1459785640:0;ndk-build
+: 1459785678:0;ack mathops.h
+: 1459785767:0;ndk-build
+: 1459785814:0;ls
+: 1459785821:0;vim Android.arm.mk
+: 1459785856:0;gst
+: 1459785866:0;ndk-build
+: 1459785943:0;gst
+: 1459785947:0;ndk-build
+: 1459785982:0;ps
+: 1459785998:0;ls
+: 1459786008:0;cd app/src/main/java/jni
+: 1459786008:0;ls
+: 1459786009:0;gst
+: 1459786012:0;ps
+: 1459786018:0;ls
+: 1459786022:0;vim Android.mk
+: 1459786080:0;ndk-build
+: 1459786085:0;ps
+: 1459786122:0;ndk-build clean
+: 1459786124:0;ndk-build
+: 1459786132:0;ps
+: 1459786134:0;ls
+: 1459786308:0;ndk-build clean
+: 1459786311:0;ndk-build
+: 1459786417:0;gst
+: 1459786427:0;pwd
+: 1459786443:0;j ffmpeg-jni-example
+: 1459786444:0;pwd
+: 1459786449:0;vim README.md
+: 1459786706:0;ps
+: 1459786763:0;ack x86
+: 1459786800:0;gst
+: 1459786807:0;ndk-build clean
+: 1459786808:0;gst
+: 1459786820:0;ga -A
+: 1459786821:0;gst
+: 1459786831:0;ack x86
+: 1459786907:0;gst
+: 1459786935:0;ps
+: 1459786966:0;git relog
+: 1459786969:0;git reflog
+: 1459787597:0;ack x86
+: 1459787601:0;ls
+: 1459787612:0;pwd
+: 1459787618:0;cd /home/muqing/Android/Projects/ffmpeg-jni-example/app/src/main/java/jni
+: 1459787619:0;ls
+: 1459787652:0;vim include/libavutil/
+: 1459787676:0;ack -g arm
+: 1459787699:0;vim include/libavcodec/arm/mathops.h
+: 1459787708:0;ls
+: 1459793951:0;top -a |grep steam
+: 1459793958:0;top |grep steam
+: 1459794014:0;ping www.baidu.com
+: 1459796723:0;ls
+: 1459796726:0;cd Android
+: 1459796726:0;sl
+: 1459796727:0;ls
+: 1459796729:0;cd Projects
+: 1459796729:0;ls
+: 1459796737:0;cd ffmpeg-jni-example
+: 1459796737:0;ls
+: 1459796739:0;gst
+: 1459796743:0;vim README.md
+: 1459796747:0;gst
+: 1459796755:0;ps
+: 1459796766:0;tmux
+: 1459796778:0;cd app/src/main/java/jni
+: 1459796778:0;ls
+: 1459796780:0;vim
+: 1459796799:0;gst
+: 1459796803:0;ga .
+: 1459796804:0;gst
+: 1459796808:0;ga -A
+: 1459796808:0;gst
+: 1459796809:0;gc
+: 1459796825:0;ps
+: 1459796890:0;ndk-build clean
+: 1459796891:0;gst
+: 1459796973:0;ps
+: 1459796976:0;0ps
+: 1459796977:0;ps
+: 1459796983:0;vim README.md
+: 1459797145:0;adb shell cat /proc/cpuinfo
+: 1459797160:0;ps
+: 1459797771:0;ls
+: 1459798598:0;gst
+: 1459798613:0;ga README.md
+: 1459798614:0;gst
+: 1459798615:0;gc
+: 1459798624:0;gp
+: 1459798633:0;git push --set-upstream origin master
+: 1459798640:0;cd ~/Program
+: 1459798641:0;ls
+: 1459798654:0;rm ffmpeg-jni-example LogRecorder -rf
+: 1459798655:0;ls
+: 1459814317:0;j screen
+: 1459814318:0;gst
+: 1459814322:0;gp
+: 1459866652:0;tmux
+: 1459866654:0;j scree
+: 1459866655:0;ls
+: 1459866713:0;gst
+: 1459866715:0;gl
+: 1459866717:0;ls
+: 1459866721:0;cd Downloads
+: 1459866721:0;ls
+: 1459866726:0;j project
+: 1459866728:0;which j
+: 1459866928:0;adb devices
+: 1459866939:0;adb shell ip -f inet addr wlan0
+: 1459866953:0;adb shell ip -f inet addr
+: 1459866962:0;adb shell ip -f inet addr wlan0
+: 1459866969:0;adb shell ip -f inet addr
+: 1459866995:0;adb tcpip 5555
+: 1459867006:0;adb connect 192.168.1.107:5555
+: 1459867035:0;adb tcpip 5555
+: 1459867049:0;adb connect 192.168.1.100:5555
+: 1459867052:0;adb devices
+: 1459867054:0;adb logcat
+: 1459891699:0;adb connect 192.168.1.100:5555
+: 1459892653:0;ls
+: 1459892661:0;vim ~/what\'s\ fuck
+: 1459896257:0;sudo apt-get purge steam
+: 1459896278:0;steam
+: 1459896283:0;ls ~ |grep steam
+: 1459896289:0;cd `
+: 1459896290:0;cd ~
+: 1459896291:0;ls
+: 1459896293:0;ls -a 
+: 1459896296:0;ls -a |grep steam
+: 1459896301:0;rm .steam* -rf
+: 1459896302:0;ls
+: 1459896306:0;ls -a |grep steam
+: 1459897110:0;iptables -L
+: 1459897309:0;sudo ptables -A FORWARD  -m string â€ƒ³string â€ƒ¼dotamax.comâ€ƒ½ â€ƒ³algo bm -j DROP
+: 1459897322:0;sudo iptables -A FORWARD  -m string â€ƒ³string â€ƒ¼dotamax.comâ€ƒ½ â€ƒ³algo bm -j DROP
+: 1459897335:0;iptables --help
+: 1459897357:0;iptables --help |grep string
+: 1459897361:0;iptables --help
+: 1459897407:0;sudo iptables -A FORWARD  -m string --string â€ƒ¼dotamax.comâ€ƒ½ â€ƒ³algo bm -j DROP
+: 1459897420:0;sudo iptables -A FORWARD  -m string --string â€ƒ¼dotamax.comâ€ƒ½ -â€ƒ³algo bm -j DROP
+: 1459897448:0;sudo iptables -A FORWARD  -m string --string "dotamax.comâ€ƒ½ -â€ƒ³algo bm -j DROP
+: 1459897457:0;sudo iptables -A FORWARD  -m string --string "dotamax.com" -â€ƒ³algo bm -j DROP
+: 1459897500:0;sudo iptables -A FORWARD -m string --string "dotamax.com" --algo bm -j DROP
+: 1459897542:0;sudo iptables -A OUTPUT -m string --string "dotamax.com" -j DROP
+: 1459897554:0;sudo iptables -A OUTPUT -m string --string "dotamax.com" --algo bm -j DROP
+: 1459897568:0;ping dotamax
+: 1459897574:0;ping www.dotamax.com
+: 1459897597:0;sudo iptables -A OUTPUT -m string --string "dotamax.com" --algo bm -j DROP
+: 1459897610:0;sudo iptables -A OUTPUT -m string --string "douyu.com" --algo bm -j DROP
+: 1459897640:0;sudo iptables -A OUTPUT -m string --string "zhanqi.tv" --algo bm -j DROP
+: 1459897681:0;sudo iptables -A OUTPUT -m string --string "huomaotv" --algo bm -j DROP
+: 1459897686:0;iptables -L
+: 1459897691:0;sudo iptables -L
+: 1459897735:0;history
+: 1459897743:0;sudo iptables -A OUTPUT -m string --string "huomaotv" --algo bm -j DROP
+: 1459897759:0;sudo iptables -A OUTPUT -m string --string "huya.com" --algo bm -j DROP
+: 1459897839:0;sudo iptables -A OUTPUT -m string --string "panda.tv" --algo bm -j DROP
+: 1459897892:0;sudo iptables -A OUTPUT -m string --string "longzhu.com" --algo bm -j DROP
+: 1459897914:0;sudo iptables -L
+: 1459898056:0;ls
+: 1459898068:0;cd /etc/
+: 1459898068:0;ls
+: 1459898071:0;ls |grep iptables
+: 1459898080:0;cat os-release
+: 1459898220:0;ls
+: 1459898227:0;ls |grep iptable
+: 1459898244:0;vim iptables.up.rules
+: 1459898276:0;du -h -d 0
+: 1459898282:0;sudo du -h -d 0
+: 1459899067:0;sudo iptables -L
+: 1459899291:0;ls
+: 1459899299:0;cat what\'s\ fuck
+: 1459899301:0;ls
+: 1459899333:0;sudo iptables -L
+: 1459899348:0;sudo iptables -A OUTPUT -m string --string "dotamax.com" --algo bm -j DROP\
+iptables -A OUTPUT -m string --string "douyutv.com" --algo bm -j DROP\
+iptables -A OUTPUT -m string --string "zhanqi.tv" --algo bm -j DROP\
+iptables -A OUTPUT -m string --string "huomaotv.com" --algo bm -j DROP\
+iptables -A OUTPUT -m string --string "huya.com" --algo bm -j DROP\
+iptables -A OUTPUT -m string --string "panda.tv" --algo bm -j DROP\
+iptables -A OUTPUT -m string --string "longzhu.com" --algo bm -j DROP
+: 1459899355:0;ls
+: 1459899359:0;vim test.sh
+: 1459899369:0;sudo sh ./test.sh
+: 1459899379:0;sudo iptables -L
+: 1459899402:0;sudo iptables-save > /etc/iptables.up.rules
+: 1459899408:0;sudo
+: 1459899420:0;sudo iptables-save > /etc/iptables.up.rules
+: 1459899424:0;cat /etc/iptables.up.rules
+: 1459899434:0;sudo touch /etc/iptables.up.rules
+: 1459899437:0;sudo iptables-save > /etc/iptables.up.rules
+: 1459899450:0;sudo vim /etc/iptables.up.rules
+: 1459899465:0;sudo vim /etc/network/interfaces
+: 1459899705:0;sudo su
+: 1459899774:0;sudo vim /etc/network/interfaces
+: 1459899957:0;sudo iptables -L
+: 1459899966:0;sudo vim /etc/iptables.up.rules
+: 1459899978:0;ls
+: 1459899990:0;sudo sh ./test.sh
+: 1459899995:0;sudo iptables -L
+: 1459900026:0;sudo rm /etc/iptables.up.rules
+: 1459900029:0;sudo su
+: 1459900183:0;sudo iptables -L
+: 1459900220:0;sudo vim /etc/network/interfaces
+: 1459900272:0;sudo iptables -L
+: 1459900894:0;j screen
+: 1459900895:0;ls
+: 1459900896:0;gst
+: 1459900898:0;ga -
+: 1459900901:0;ga -A
+: 1459900902:0;gst
+: 1459900902:0;gc
+: 1459900909:0;gp
+: 1459948965:0;tmux
+: 1459948968:0;j screen
+: 1459948968:0;gst
+: 1459948969:0;gl
+: 1459952371:0;gst
+: 1459952372:0;gd
+: 1459953532:0;adb devices
+: 1459953540:0;adb connect 192.168.1.100:5555
+: 1459953544:0;adb devices
+: 1459953709:0;adb logcat |grep -i runtime
+: 1459953759:0;adb logcat |grep muqing
+: 1459953773:0;adb logcat |grep screencap
+: 1459953779:0;adb shell ps |grep screencap
+: 1459953794:0;adb logcat -v threadtime |grep 19873
+: 1459953821:0;gst
+: 1459953828:0;git stash 
+: 1459953829:0;gst
+: 1459953956:0;git stash pop
+: 1459953956:0;gst
+: 1459953957:0;gd
+: 1459954071:0;git d
+: 1459982592:0;ls
+: 1459982593:0;tmux
+: 1459983457:0;adb connect 192.168.1.100:5555
+: 1459983887:0;cd Android/Sdk
+: 1459983887:0;ls
+: 1459983893:0;cd platform-tools
+: 1459983893:0;ls
+: 1459983899:0;cd ../tools
+: 1459983900:0;ls
+: 1459983905:0;ls |grep mo
+: 1459983946:0;monitor
+: 1459984040:0;adb shell wm density
+: 1459985414:0;j screen
+: 1459985414:0;gst
+: 1459985415:0;sgt
+: 1459985427:0;ga app/src
+: 1459985428:0;gst
+: 1459985433:0;gc
+: 1459985443:0;gst
+: 1459985739:0;ga app/src
+: 1459985739:0;gst
+: 1459985741:0;gc!
+: 1459986420:0;gst
+: 1459986422:0;gd
+: 1459986427:0;gco -- .
+: 1459986428:0;gst
+: 1459986693:0;ga .
+: 1459986694:0;gc!
+: 1459986696:0;gp
+: 1459986748:0;gst
+: 1460040167:0;ls
+: 1460070575:0;rm test.sh
+: 1460070575:0;ls
+: 1460070579:0;exity
+: 1460070688:0;tmux
+: 1460070690:0;anstudio
+: 1460070691:0;ls
+: 1460070711:0;ps aux
+: 1460070719:0;ps aux |grep android
+: 1460070752:0;pgrep android
+: 1460070754:0;pgrep
+: 1460070759:0;pgrep studio
+: 1460070768:0;pgrep
+: 1460070772:0;pgrep --help
+: 1460070781:0;pgrep --count android
+: 1460070791:0;pgrep --count studio
+: 1460070799:0;~pgrep --count chrome
+: 1460070809:0;pgrep chrome --count
+: 1460070822:0;pgrep chrome --count--full
+: 1460070827:0;pgrep chrome --count --full
+: 1460070831:0;pgrep chrome
+: 1460070839:0;ps -es
+: 1460070844:0;ps -ef |grep studio
+: 1460070848:0;ps --help
+: 1460070856:0;man ps
+: 1460070921:0;ps -ejh
+: 1460070927:0;ps -ejh |grep studio
+: 1460070936:0;pgrep studio
+: 1460070943:0;kill -9 2531
+: 1460070950:0;pgrep studio
+: 1460070961:0;ps -aux |grep studio
+: 1460070971:0;kill -9 2580
+: 1460070988:0;anstudio
+: 1460071004:0;pkill -9 studio
+: 1460071009:0;pkill -9 android
+: 1460071015:0;ps -ef |grep android
+: 1460071022:0;ps -aux
+: 1460071029:0;ps -aux |grep android
+: 1460071039:0;ps -aux |grep chrome
+: 1460071062:0;kill -9 3508
+: 1460071070:0;kill -9 2371
+: 1460071084:0;ps -ef
+: 1460071106:0;kill -9 2068
+: 1460118345:0;adb connect 192.168.1.100:5555
+: 1460159952:0;cd .config/google-chrome/Default/Extensions/pioclpoplcdbaefihamjohnefbikjilc
+: 1460159952:0;ls
+: 1460159955:0;cd 6.7.1_0
+: 1460159956:0;ls
+: 1460159973:0;cd js/common
+: 1460159973:0;ls
+: 1460159976:0;vim Bootstrap.js
+: 1460160128:0;ls
+: 1460160131:0;cd ..
+: 1460160132:0;ls
+: 1460160135:0;cd common
+: 1460160135:0;ls
+: 1460160140:0;vim 
+: 1460160146:0;vim Bootstrap.js
+: 1460160238:0;ls
+: 1460160239:0;cd ..
+: 1460160240:0;ls
+: 1460160246:0;vim common/Bootstrap.js
+: 1460160793:0;adb connect 192.168.1.100:5555
+: 1460160895:0;adb tcpip 5555
+: 1460160902:0;adb connect 192.168.1.100:5555
+: 1460160912:0;tmux
+: 1460160915:0;ls
+: 1460160933:0;cd Program
+: 1460160934:0;ls
+: 1460160939:0;git clone https://github.com/izacus/RoboGif
+: 1460160961:0;ls
+: 1460160964:0;cd RoboGif
+: 1460160965:0;ls
+: 1460160968:0;python setup.py
+: 1460161280:0;ls
+: 1460161281:0;l
+: 1460161281:0;ls
+: 1460161289:0;cd ..
+: 1460161289:0;ls
+: 1460161296:0;cd RoboGif
+: 1460161296:0;ls
+: 1460161303:0;python install setup.py
+: 1460161310:0;python setup.py
+: 1460161327:0;pip install distribution
+: 1460161334:0;sudo apt-get install pip
+: 1460161439:0;sudo apt-get install python-setuptools python-dev build-essential
+: 1460161448:0;sudo easy_install pip
+: 1460161501:0;ls
+: 1460161512:0;python ./setup.py install --record install.txt
+: 1460161518:0;ls
+: 1460161532:0;pip install --record distribution
+: 1460161543:0;pip install distribution
+: 1460161550:0;ls
+: 1460161552:0;vim setup.py
+: 1460161569:0;ps
+: 1460161579:0;pip instal distutils
+: 1460161588:0;pip install distutils
+: 1460161593:0;ps
+: 1460161619:0;pip install blessings
+: 1460161639:0;pip install --help
+: 1460161652:0;pip install blessings
+: 1460161666:0;pip install --help
+: 1460161692:0;sudo pip install blessings
+: 1460161709:0;sudo python ./setup.py install --record install.txt
+: 1460161720:0;ls
+: 1460161722:0;vim install.txt
+: 1460161735:0;ls
+: 1460161764:0;robogit
+: 1460161766:0;robogif
+: 1460161787:0;robogif demo.mp4
+: 1460161799:0;ls
+: 1460161801:0;pwd
+: 1460161804:0;cd -
+: 1460161805:0;ls
+: 1460161818:0;cat install.txt|xargs rm -rf
+: 1460161823:0;sudo cat install.txt|xargs rm -rf
+: 1460161831:0;sudo cat install.txt|xargs sudo rm -rf
+: 1460161844:0;cat install.txt|xargs ls -ll
+: 1460161850:0;cat install.txt|xargs ls 
+: 1460161863:0;python ./setup.py
+: 1460161895:0;python ./setup.py install
+: 1460161907:0;pip install click
+: 1460161926:0;sudo pip install click
+: 1460161939:0;ls
+: 1460161946:0;pip uninstall ls
+: 1460161950:0;pip uninstall click
+: 1460161963:0;sudo pip install click
+: 1460161971:0;ls
+: 1460161983:0;python ./setup.py install
+: 1460161995:0;sudll python ./setup.py install
+: 1460162006:0;ls
+: 1460162012:0;sudo python ./setup.py install
+: 1460162029:0;robogif
+: 1460162031:0;ls
+: 1460162033:0;exit
+: 1460162041:0;robogif
+: 1460162049:0;j Robo
+: 1460162049:0;ls
+: 1460162050:0;gst
+: 1460162055:0;rm install.txt
+: 1460162072:0;cat install.txt| xargs rm -rf
+: 1460162081:0;cat install.txt| xargs sudo rm -rf
+: 1460162093:0;cat install.txt| xrags sudo ls 
+: 1460162102:0;cat install.txt| xargs sudo ls
+: 1460162158:0;pip install robogif
+: 1460162166:0;sudo pip install robogif
+: 1460162178:0;robogif
+: 1460162188:0;robogif demo.gif
+: 1460162234:0;ls
+: 1460162248:0;pip uninstall robogif
+: 1460162253:0;sidp pip uninstall robogif
+: 1460162263:0;sudo pip uninstall robogif
+: 1460162272:0;ls
+: 1460162279:0;pwd
+: 1460162282:0;cd ..
+: 1460162282:0;ls
+: 1460162288:0;cat install.txt
+: 1460162307:0;ls /usr/local/lib/python2.7
+: 1460162313:0;ls /usr/local/lib/python2.7/dist-packages
+: 1460162329:0;pwd
+: 1460162331:0;cd -
+: 1460162345:0;cd /usr/local/lib/python2.7
+: 1460162346:0;ls
+: 1460162352:0;cd /usr/local/lib/python2.7/dist-packages
+: 1460162353:0;pwd
+: 1460162394:0;ls
+: 1460162396:0;d
+: 1460162404:0;2
+: 1460162405:0;ls
+: 1460162417:0;sudo apt-get install ffmpeg
+: 1460162434:0;pip install robogif
+: 1460162438:0;sudo pip install robogif
+: 1460162446:0;robogif --help
+: 1460162459:0;robofig -s 480 demo.gif
+: 1460162466:0;robogif -s 480 demo.gif
+: 1460162536:0;ls
+: 1460162563:0;cd ~/
+: 1460162563:0;ls
+: 1460162566:0;cd Videos
+: 1460162566:0;ls
+: 1460162569:0;d
+: 1460162572:0;2
+: 1460162573:0;ls
+: 1460162591:0;sudo pip uninstall robogif
+: 1460162605:0;ls
+: 1460162616:0;cd ..
+: 1460162617:0;ls
+: 1460162622:0;python install setup.py
+: 1460162627:0;python setup.py
+: 1460162633:0;python setup.py install
+: 1460162648:0;sudo python setup.py install --record install.txt
+: 1460162660:0;robogif
+: 1460162664:0;robogig --help
+: 1460162670:0;robogif --help
+: 1460162682:0;cd .
+: 1460162682:0;ls
+: 1460162694:0;cd ..
+: 1460162708:0;cat install.txt| xargs sudo rm -rf
+: 1460162778:0;pip install --help
+: 1460162819:0;pip install ./
+: 1460162829:0;sudo pip install ./
+: 1460162833:0;robogif
+: 1460162837:0;robogif --help
+: 1460162847:0;pip uninstall robogif
+: 1460162854:0;sudo pip uninstall robogif
+: 1460162859:0;robogif
+: 1460162869:0;pip install ./
+: 1460162873:0;cd ..
+: 1460162873:0;ls
+: 1460162895:0;vim setup.py
+: 1460162907:0;ls
+: 1460162915:0;sudo pip install ./
+: 1460162929:0;robogif -s 480 demo.gif
+: 1460163017:0;ls
+: 1460163032:0;j Robo
+: 1460163034:0;ls
+: 1460163038:0;gst
+: 1460163041:0;cd ~/linux_config
+: 1460163042:0;gst
+: 1460163045:0;git stash
+: 1460163046:0;gst
+: 1460163048:0;gl
+: 1460163057:0;git stash pop
+: 1460163058:0;gst
+: 1460163059:0;tmux
+: 1460163063:0;cd ~/.vim
+: 1460163063:0;gst
+: 1460163065:0;gd
+: 1460163070:0;git stash
+: 1460163070:0;gl
+: 1460163077:0;git stash pop
+: 1460163082:0;d
+: 1460163085:0;j Robo
+: 1460163088:0;mtags
+: 1460163089:0;ls
+: 1460163089:0;vim
+: 1460163142:0;sudo pip install ./
+: 1460163163:0;sudo pip uninstall robogif
+: 1460163169:0;sudo pip install ./
+: 1460163186:0;sudo pip uninstall robogif
+: 1460163197:0;sudo pip install ./
+: 1460163221:0;robogif -s 480 demo.gif
+: 1460163257:0;ps
+: 1460163548:0;robogif -s 480 demo.gif
+: 1460163565:0;robogif demo.gif
+: 1460163579:0;ls /tmp |grep mp4
+: 1460163581:0;ls
+: 1460163640:0;gst
+: 1460163641:0;ps
+: 1460163649:0;sudo apt-get install ffmpeg
+: 1460163834:0;ls
+: 1460163838:0;ps
+: 1460163839:0;ls
+: 1460163841:0;exit
+: 1460163849:0;ps
+: 1460164631:0;ls
+: 1460164634:0;j Ro__
+: 1460164635:0;gst
+: 1460164643:0;vim robogif/recorder.py
+: 1460164787:0;sudo pip install ./
+: 1460164795:0;adb tcpip 5555
+: 1460164805:0;adb connect 192.168.1.100:5555
+: 1460164810:0;robogif
+: 1460164818:0;robogif -s demo.gif
+: 1460164827:0;rebofig demo.gif
+: 1460164833:0;robogif demo.gif
+: 1460164844:0;ps
+: 1460164844:0;gd
+: 1460164859:0;ps
+: 1460165039:0;sudo apt-get install zlib
+: 1460165048:0;sudo apt-get install zlib1g-dev
+: 1460165057:0;sudo apt-get install ffmpeg
+: 1460165064:0;sudo apt-get purge ffmpeg
+: 1460165075:0;sudo apt-get install ffmpeg
+: 1460165080:0;ffmpeg
+: 1460165087:0;ffmpeg --codec
+: 1460165095:0;ffmpeg -codecs
+: 1460165099:0;ffmpeg -codecs |grep png
+: 1460165111:0;robogif demo.gif
+: 1460165161:0;ps
+: 1460165434:0;sudo apt-get install ffmpeg
+: 1460165444:0;sudo pip install ./
+: 1460165454:0;robofig demo.gif
+: 1460165460:0;robogif demo.gif
+: 1460165479:0;sudo pip uninstall robogif
+: 1460212904:0;tmux
+: 1460212908:0;robogif
+: 1460212935:0;ls
+: 1460212937:0;j Robo
+: 1460212938:0;gst
+: 1460212939:0;gd
+: 1460212941:0;ps
+: 1460212947:0;adb connect 192.168.1.100:5555
+: 1460212967:0;gst
+: 1460212977:0;vim
+: 1460213000:0;gst
+: 1460213002:0;gd
+: 1460213005:0;ps
+: 1460213018:0;gst
+: 1460213018:0;gd
+: 1460213025:0;ps
+: 1460213049:0;gst
+: 1460213050:0;gd
+: 1460213053:0;ps
+: 1460213057:0;gd
+: 1460213062:0;ps
+: 1460213080:0;gst
+: 1460213083:0;gd
+: 1460213084:0;ps
+: 1460213087:0;gst
+: 1460213089:0;gco -- .
+: 1460213089:0;gst
+: 1460213093:0;git reset HEAD^ --hard
+: 1460213094:0;gst
+: 1460213095:0;ps
+: 1460213098:0;git clean -xdf
+: 1460213099:0;gst
+: 1460213100:0;ps
+: 1460213102:0;gst
+: 1460213108:0;mtags
+: 1460213109:0;ps
+: 1460213467:0;ls
+: 1460213470:0;cd robogif
+: 1460213471:0;ls
+: 1460213473:0;cd ..
+: 1460213474:0;ls
+: 1460213481:0;git clean -xdf
+: 1460213481:0;gst
+: 1460213482:0;pwd
+: 1460213483:0;ps
+: 1460213490:0;j robo
+: 1460213490:0;gst
+: 1460213492:0;ls
+: 1460213493:0;gl
+: 1460213498:0;gst
+: 1460213500:0;git log
+: 1460213505:0;git show HEAD
+: 1460213515:0;ps
+: 1460213517:0;mtags
+: 1460213518:0;ps
+: 1460213519:0;vim
+: 1460213899:0;ps
+: 1460213901:0;gst
+: 1460213902:0;ps
+: 1460213905:0;vim robogif/recorder.py
+: 1460213919:0;gst
+: 1460213926:0;sudo pip install ./
+: 1460213939:0;robogif demo.gif
+: 1460213962:0;ps
+: 1460214000:0;sudo pip install ./
+: 1460214012:0;sudo pip install ./ --upgrade
+: 1460214022:0;robogif demo.gif
+: 1460214038:0;ps
+: 1460214118:0;git d
+: 1460214207:0;ps
+: 1460214209:0;ls
+: 1460214219:0;sudo pip install ./ --upgrade
+: 1460214227:0;robogif demo.gif
+: 1460214232:0;ps
+: 1460214238:0;j rebo
+: 1460214242:0;j robo
+: 1460214242:0;gst
+: 1460214247:0;robogif demo.gif
+: 1460214249:0;ps
+: 1460214255:0;vim robogif/recorder.py
+: 1460214265:0;ps
+: 1460214289:0;sudo pip install ./ --upgrade
+: 1460214302:0;robogif demo.gif
+: 1460214322:0;ps
+: 1460214367:0;sudo pip install ./ --upgrade
+: 1460214371:0;robogif demo.gif
+: 1460214376:0;ls
+: 1460214461:0;robogif -s 270 demo.gif
+: 1460214642:0;ls
+: 1460214700:0;gst
+: 1460214700:0;gd
+: 1460214704:0;rm demo.gif
+: 1460214705:0;gst
+: 1460214707:0;ps
+: 1460214908:0;gst
+: 1460214961:0;pip install robogif
+: 1460214974:0;sudo pip uninstall robogif
+: 1460214978:0;gst
+: 1460214991:0;pip install robogif
+: 1460215103:0;gst
+: 1460215129:0;git diff > ~/Program/robogif.patch
+: 1460215130:0;gst
+: 1460215135:0;cat ~/Program/robogif.patch
+: 1460215138:0;ls
+: 1460215138:0;gst
+: 1460215139:0;gl
+: 1460215143:0;gst
+: 1460215145:0;git stash
+: 1460215146:0;gst
+: 1460215146:0;gl
+: 1460215150:0;ps
+: 1460215155:0;vim README.md
+: 1460215201:0;gst
+: 1460215207:0;ps
+: 1460215225:0;gst
+: 1460215228:0;ps
+: 1460215389:0;gst
+: 1460215391:0;cd ..
+: 1460215391:0;ls
+: 1460215401:0;git pull git@github.com:tainzhi/RoboGif.git myRoboGif
+: 1460215419:0;tmux
+: 1460215423:0;cd Program
+: 1460215432:0;git clone git@github.com:tainzhi/RoboGif.git mRoboGig
+: 1460215472:0;mv mRoboGig mRoboGif
+: 1460215474:0;cd mRoboGif
+: 1460215475:0;ls
+: 1460215476:0;mtags
+: 1460215477:0;ps
+: 1460215482:0;vim
+: 1460215536:0;gst
+: 1460215539:0;ga .
+: 1460215540:0;gc
+: 1460215567:0;ps
+: 1460215644:0;gst
+: 1460215646:0;ps
+: 1460215650:0;gst
+: 1460215651:0;gd
+: 1460215653:0;gst
+: 1460215660:0;ps
+: 1460215750:0;gst
+: 1460215752:0;ga .
+: 1460215752:0;gc
+: 1460215769:0;ps
+: 1460215920:0;sudo pip install ./ --upgrade
+: 1460215945:0;robogif demo.gif
+: 1460215953:0;ps
+: 1460215966:0;sudo pip install ./ --upgrade
+: 1460215975:0;robogif demo.gif
+: 1460215991:0;ps
+: 1460216001:0;sudo pip install ./ --upgrade
+: 1460216052:0;robogif demo.gif
+: 1460216063:0;ls
+: 1460216066:0;ps
+: 1460216068:0;gst
+: 1460216071:0;ga robogif/
+: 1460216072:0;gst
+: 1460216073:0;gc
+: 1460216124:0;ps
+: 1460216200:0;sudo pip install ./ --upgrade
+: 1460216216:0;mgif
+: 1460216226:0;mgif --help
+: 1460216255:0;mgidf demo.mp4
+: 1460216264:0;mgif demo.gif
+: 1460216340:0;gst
+: 1460216341:0;ps
+: 1460216364:0;gst
+: 1460216365:0;gd
+: 1460216367:0;gst
+: 1460216371:0;ps
+: 1460216390:0;gst
+: 1460216395:0;ga README.md setup.py
+: 1460216403:0;ps
+: 1460216406:0;gc
+: 1460216422:0;gst
+: 1460216423:0;ps
+: 1460216424:0;gst
+: 1460216425:0;ps
+: 1460216514:0;gst
+: 1460216516:0;ga README.md
+: 1460216517:0;gc!
+: 1460216519:0;gst
+: 1460216521:0;gp
+: 1460216559:0;gst
+: 1460216725:0;cd .vim
+: 1460216725:0;gst
+: 1460216726:0;ls
+: 1460216733:0;git config -l
+: 1460216757:0;ls
+: 1460216768:0;cd linux_config
+: 1460216769:0;ls
+: 1460216773:0;ack mtags
+: 1460216783:0;ack tags
+: 1460216787:0;ack tags.sh
+: 1460216798:0;ps
+: 1460216800:0;[s
+: 1460216801:0;ps
+: 1460216803:0;vim vimrc
+: 1460216826:0;gst
+: 1460216829:0;ga vimrc
+: 1460216835:0;gst
+: 1460216836:0;gc
+: 1460216851:0;gst
+: 1460216853:0;ls
+: 1460216866:0;gst
+: 1460216868:0;ls
+: 1460216873:0;ls -ll
+: 1460216887:0;rm vimfile -rf
+: 1460216888:0;gst
+: 1460216896:0;cd ..
+: 1460216896:0;ls
+: 1460216898:0;ls -ll
+: 1460216903:0;ls -lla |grep vim
+: 1460216918:0;cd .vim
+: 1460216919:0;gst
+: 1460216968:0;ls
+: 1460216974:0;ls -ll
+: 1460216978:0;ls -lla 
+: 1460216995:0;git submodule
+: 1460217011:0;git gst
+: 1460217013:0;gst
+: 1460217019:0;rm tags.sh
+: 1460217020:0;gst
+: 1460217036:0;cd bundle/vundle
+: 1460217037:0;gst
+: 1460217039:0;cd ..
+: 1460217041:0;ls
+: 1460217044:0;cd .
+: 1460217044:0;ls
+: 1460217045:0;gst
+: 1460217049:0;d
+: 1460217050:0;2
+: 1460217051:0;gst
+: 1460217054:0;ga tags.sh vimfile
+: 1460217055:0;gst
+: 1460217057:0;gc
+: 1460217072:0;gst
+: 1460217073:0;gp
+: 1460217084:0;gst
+: 1460217218:0;ls
+: 1460217219:0;ls -a
+: 1460217224:0;cat .netrwhist
+: 1460217235:0;ls
+: 1460217238:0;ps
+: 1460217253:0;ls
+: 1460217255:0;ls -a
+: 1460217260:0;git rm .netrwhist
+: 1460217262:0;ls -a
+: 1460217262:0;gst
+: 1460217271:0;git add 
+: 1460217271:0;gst
+: 1460217275:0;gc
+: 1460217284:0;gst
+: 1460217285:0;gp
+: 1460242043:0;tmux
+: 1460242327:0;cd linux_config
+: 1460242327:0;ls
+: 1460242335:0;vim software.sh
+: 1460242433:0;apt-get --help
+: 1460242441:0;s
+: 1460242444:0;apt-get --help
+: 1460242548:0;gst
+: 1460242555:0;gd
+: 1460242580:0;git d
+: 1460242662:0;ps
+: 1460242664:0;vim install.sh
+: 1460242768:0;gst
+: 1460242793:0;ga config_sh/ install.sh software.sh
+: 1460242794:0;gst
+: 1460242811:0;ga unistall.sh
+: 1460242812:0;gst
+: 1460242815:0;gs
+: 1460242817:0;gst
+: 1460242852:0;gc
+: 1460242880:0;gst
+: 1460242889:0;ls
+: 1460242903:0;git mv unistall.sh uninstall.sh
+: 1460242905:0;gst
+: 1460242908:0;ps
+: 1460242910:0;vim
+: 1460243077:0;gst
+: 1460243088:0;gc
+: 1460243097:0;gst
+: 1460243110:0;ga README.md
+: 1460243111:0;gst
+: 1460243115:0;gc!
+: 1460243144:0;gst
+: 1460243152:0;git remote --help
+: 1460243402:0;ping www.baidu.com
+: 1460243493:0;cd /etc
+: 1460243493:0;s
+: 1460243494:0;ls
+: 1460243504:0;du -d 0 -h
+: 1460243511:0;cd ssh
+: 1460243511:0;ls
+: 1460243514:0;vim ssh_config
+: 1460243525:0;ls
+: 1460243533:0;cd /etc/
+: 1460243533:0;ls
+: 1460244005:0;tmux
+: 1460244005:0;ls
+: 1460244009:0;cd linux_config
+: 1460244009:0;gst
+: 1460244032:0;git remote set-url origin git@github.com:tainzhi/linux_config.git
+: 1460244037:0;gcl
+: 1460244045:0;which gcl
+: 1460244069:0;gc l
+: 1460244073:0;which gc
+: 1460244084:0;ps
+: 1460244086:0;vim
+: 1460244123:0;gcf
+: 1460244129:0;gp
+: 1460244199:0;cd linux_config
+: 1460244200:0;ls
+: 1460244203:0;vim README.md
+: 1460244206:0;gcl
+: 1460244209:0;gcf
+: 1460244252:0;gcf |grep coding
+: 1460244253:0;ps
+: 1460244294:0;gst
+: 1460244299:0;ga README.md
+: 1460244306:0;gc
+: 1460244314:0;gst
+: 1460244316:0;gp
+: 1460244399:0;ps
+: 1460244508:0;cd Program
+: 1460244508:0;ls
+: 1460244513:0;cd mRoboGif
+: 1460244515:0;ls
+: 1460244527:0;gru --hard HEAD~3
+: 1460244528:0;gst
+: 1460244539:0;which gru
+: 1460244553:0;gru hard HEAD~3
+: 1460244554:0;gst
+: 1460244565:0;git reset HEAD^ --hard
+: 1460244566:0;gst
+: 1460244569:0;gl
+: 1460244584:0;gru HEAD~3 --hard
+: 1460244585:0;gst
+: 1460244596:0;ps
+: 1460244641:0;grh^^
+: 1460244652:0;gst
+: 1460244667:0;ga config_sh
+: 1460244668:0;gst
+: 1460244670:0;gc
+: 1460244687:0;gst
+: 1460244688:0;gp
+: 1460245066:0;ls
+: 1460245085:0;iptables-save > iptables-save
+: 1460245086:0;ls
+: 1460245088:0;vim iptables-save
+: 1460245097:0;ls
+: 1460245100:0;sudo su
+: 1460245240:0;ls
+: 1460245248:0;gst
+: 1460245360:0;mv iptables.rules config_sh
+: 1460245361:0;ls
+: 1460245363:0;gst
+: 1460245368:0;vim install.sh
+: 1460245426:0;ps
+: 1460245554:0;cd Desktop
+: 1460245554:0;ls
+: 1460245567:0;echo "post-down iptables-save > /etc/iptables.up.rules" > test
+: 1460245569:0;cat test
+: 1460245572:0;echo "post-down iptables-save > /etc/iptables.up.rules" > test
+: 1460245574:0;cat test
+: 1460245581:0;echo "post-down iptables-save > /etc/iptables.up.rules" >> test
+: 1460245584:0;cat test
+: 1460245594:0;echo "post-down iptables-save > /etc/iptables.up.rules" >> test1
+: 1460245596:0;cat test1
+: 1460245608:0;ps
+: 1460245764:0;gst
+: 1460245764:0;gd
+: 1460245769:0;gst
+: 1460245774:0;ga config_sh/iptables.rules
+: 1460245775:0;gst
+: 1460245782:0;ga install.sh uninstall.sh
+: 1460245783:0;gst
+: 1460245784:0;gc
+: 1460245806:0;gst
+: 1460245808:0;git show HEAD
+: 1460245811:0;gst
+: 1460245813:0;gp
+: 1460245914:0;ps
+: 1460246003:0;gc
+: 1460246004:0;gst
+: 1460246006:0;ga README.md
+: 1460246007:0;gc
+: 1460246015:0;gst
+: 1460246016:0;gp
+: 1460246446:0;ls
+: 1460246447:0;gst
+: 1460246449:0;cd tmux
+: 1460246450:0;gst
+: 1460246453:0;ls
+: 1460246456:0;gst
+: 1460246458:0;ls
+: 1460246555:0;ps
+: 1460246557:0;cd ..
+: 1460246558:0;ls
+: 1460246563:0;cd muqing
+: 1460246569:0;j tmux
+: 1460246570:0;l
+: 1460246571:0;ls
+: 1460246574:0;ls -ll
+: 1460246586:0;gst
+: 1460246588:0;ls
+: 1460246594:0;rm tmux -rf
+: 1460246594:0;gst
+: 1460246605:0;ls
+: 1460246607:0;cd plugins
+: 1460246607:0;ls
+: 1460246610:0;cd ..
+: 1460246613:0;ls
+: 1460246622:0;vim config_sh/tmux.conf
+: 1460246655:0;ls
+: 1460246660:0;vim install.sh
+: 1460246910:0;git submodule
+: 1460246927:0;gst
+: 1460246945:0;git submodule --help
+: 1460283072:0;ls
+: 1460283203:0;git submodule
+: 1460283206:0;git submodule --help
+: 1460284493:0;cd linux_config
+: 1460284494:0;gst
+: 1460284498:0;git status
+: 1460284504:0;ls
+: 1460284510:0;gcf
+: 1460284627:0;git submodule update
+: 1460284640:0;cd oh-my-zsh
+: 1460284641:0;gst
+: 1460284642:0;git log
+: 1460284646:0;cd ../vimfile
+: 1460284647:0;ls
+: 1460284653:0;gb
+: 1460284657:0;git submodule
+: 1460284662:0;git show HEAD
+: 1460284816:0;cd ..
+: 1460284830:0;git log -p --submodule=short
+: 1460284850:0;git log -p
+: 1460284852:0;git log
+: 1460284855:0;git log --hep
+: 1460284858:0;git log --help
+: 1460284906:0;tmux
+: 1460284912:0;git submodule --help
+: 1460289459:0;gst
+: 1460289464:0;ls
+: 1460289467:0;ls -a
+: 1460289477:0;vm .gitmodules
+: 1460289481:0;vim .gitmodules
+: 1460289593:0;gst
+: 1460289598:0;ga .gitmodules
+: 1460289599:0;gst
+: 1460289599:0;gc
+: 1460289614:0;gst
+: 1460289615:0;gp
+: 1460289639:0;git submodule update
+: 1460289641:0;gst
+: 1460289666:0;cd ~/Program
+: 1460289667:0;ls
+: 1460289670:0;rm mRoboGif -rf
+: 1460289674:0;rm robogif.patch
+: 1460289679:0;git clone https://github.com/tainzhi/linux_config.git 
+: 1460289699:0;git clone --recursive https://github.com/tainzhi/linux_config.git
+: 1460289761:0;cd ~/.vim
+: 1460289762:0;gst
+: 1460289766:0;gb
+: 1460289770:0;git submodule
+: 1460289780:0;rm linux_config -rf
+: 1460289784:0;git submodule
+: 1460289794:0;git submodule update --remote
+: 1460289815:0;gst
+: 1460289817:0;gb
+: 1460289822:0;gst
+: 1460289825:0;lo
+: 1460289826:0;glo
+: 1460289915:0;git submodule
+: 1460289952:0;git config -f .gitmodules submodule.oh-my-zsh.branch master
+: 1460289953:0;ls
+: 1460289958:0;vim .gitmodules
+: 1460289967:0;gst
+: 1460289968:0;gd
+: 1460289973:0;git config -f .gitmodules submodule.oh-my-zsh.branch master
+: 1460289974:0;gd
+: 1460290001:0;git config -f .gitmodules submodule.vimfile.branch master
+: 1460290003:0;gd
+: 1460290005:0;ps
+: 1460290011:0;gst
+: 1460290019:0;cd oh-my-zsh
+: 1460290020:0;gst
+: 1460290020:0;gd
+: 1460290022:0;cd ..
+: 1460290023:0;gst
+: 1460290025:0;gco -- .
+: 1460290025:0;gst
+: 1460290037:0;cd vimfile
+: 1460290038:0;gst
+: 1460290039:0;cd ..
+: 1460290181:0;gst
+: 1460290189:0;git submodule
+: 1460290194:0;vim .gitmodules
+: 1460290203:0;gst
+: 1460290248:0;git submodule foreach git checkout master
+: 1460290264:0;git submodule foreach git pull
+: 1460290285:0;gst
+: 1460290287:0;gb
+: 1460290290:0;git submodule
+: 1460290296:0;git submodule foreach git status
+: 1460290303:0;gst
+: 1460290312:0;git diff
+: 1460290357:0;ls
+: 1460290371:0;ps
+: 1460290373:0;cd ~
+: 1460290374:0;ls
+: 1460290377:0;vim .tmux.conf
+: 1460290416:0;ls -lla |grep tmux
+: 1460290422:0;ps
+: 1460290565:0;pkill -9 tmux
+: 1460290580:0;ps
+: 1460290582:0;tmux
+: 1460290586:0;cd ~
+: 1460290587:0;ls
+: 1460290591:0;vim .tmux.conf
+: 1460290603:0;tmux --version
+: 1460290605:0;tmux -v
+: 1460290612:0;tmux --version
+: 1460290622:0;tmux -v
+: 1460290624:0;exit
+: 1460290626:0;man tmux
+: 1460290632:0;tmux -V
+: 1460290633:0;exit
+: 1460290641:0;vim .tmux.conf
+: 1460290704:0;cd ~/linux_config
+: 1460290705:0;gst
+: 1460290732:0;pkill tmux
+: 1460290734:0;tmux
+: 1460290785:0;cd ~/
+: 1460290785:0;ls
+: 1460290793:0;vim config_sh/tmux.conf
+: 1460290806:0;pkill tmux
+: 1460290812:0;$'\177'
+: 1460290813:0;tmux
+: 1460291313:0;vim .bash_history
+: 1460291403:0;bash
+: 1460291738:0;ls
+: 1460292485:0;cat ~/.bash_logout
+: 1460292522:0;ls
+: 1460292548:0;cp ~/.bash_history config_sh/bash_history
+: 1460292550:0;ls
+: 1460292554:0;vim install.sh
+: 1460292714:0;ps
+: 1460292715:0;vim README.md
+: 1460292959:0;gst
+: 1460292979:0;ga README.md config_sh/
+: 1460292980:0;gst
+: 1460292984:0;ga install.sh uninstall.sh
+: 1460292984:0;gst
+: 1460292991:0;git diff HEAD
+: 1460292999:0;gst
+: 1460293012:0;git diff HEAD
+: 1460293018:0;gst
+: 1460293021:0;gc
+: 1460293038:0;gst
+: 1460293057:0;. ./install.sh
+: 1460293066:0;ls ~/ -lla |grep bash
+: 1460293165:0;ls
+: 1460293182:0;ls -lla |grep zsh
+: 1460293189:0;vim .zshrc
+: 1460293209:0;ls
+: 1460293215:0;man zsh
+: 1460293330:0;zsh --help
+: 1460293348:0;man zsh
+: 1460293360:0;zshall
+: 1460293363:0;man zsh
+: 1460293384:0;zshroundmap
+: 1460293479:0;ls
+: 1460293481:0;ps
+: 1460293737:0;ls -lla |grep zsh
+: 1460293753:0;vim .zsh-update
+: 1460293890:0;cp ~/.zsh_history config_sh/zsh_history
+: 1460294379:0;ls ~/ lla |grep zsh
+: 1460294393:0;ls -lla ~/ |grep zsh
+: 1460294398:0;ls -lla ~/ |grep bash
+: 1460294415:0;gst
+: 1460294419:0;ga
+: 1460294421:0;gst
+: 1460294445:0;ls ~/ lla |grep zsh
+: 1460294453:0;ga install.sh
+: 1460294454:0;gst
+: 1460294465:0;ga config_sh/
+: 1460294466:0;gst
+: 1460294470:0;gc
+: 1460294479:0;gst
+: 1460294482:0;ga 
+: 1460294484:0;gc
+: 1460294522:0;pkill -9 tmux
+: 1460290814:0;vim config_sh/tmux.conf
+: 1460294524:0;gst
+: 1460294539:0;git show HEAD
+: 1460294542:0;gst
+: 1460294545:0;git status
+: 1460294548:0;exit
+: 1460294551:0;cd linux_config
+: 1460294552:0;gst
+: 1460294558:0;gc
+: 1460294582:0;exit
+: 1460294592:0;pkill -9 tmux
+: 1460294600:0;cd linux_config
+: 1460294601:0;gc
+: 1460295622:0;cd linux_config
+: 1460295623:0;gst
+: 1460295625:0;gc
+: 1460297600:0;gst
+: 1460297601:0;cd linux_config
+: 1460297601:0;gst
+: 1460297631:0;git show hostory
+: 1460297633:0;git log -l 3
+: 1460330105:0;ls
+: 1460330107:0;cd linux_config
+: 1460330108:0;gst
+: 1460330110:0;cd ..
+: 1460330111:0;ls
+: 1460330114:0;vim tmux-client-138
+: 1460330120:0;vim tmux-client-13819.log
+: 1460330149:0;ls
+: 1460330151:0;cd linux_config
+: 1460330152:0;ls
+: 1460330172:0;tmux
+: 1460330200:0;ls
+: 1460330201:0;gst
+: 1460330214:0;cd tmux
+: 1460330216:0;ls
+: 1460330221:0;cd plugins
+: 1460330221:0;ls
+: 1460330226:0;cd ..
+: 1460330227:0;ls
+: 1460330234:0;ls -lla
+: 1460330237:0;rm resurrect -rf
+: 1460330238:0;ls
+: 1460330241:0;cd plugins
+: 1460330241:0;ls
+: 1460330251:0;rm tmux-resurrect tmux-sensible -rf
+: 1460330252:0;cd 
+: 1460330255:0;d
+: 1460330257:0;3
+: 1460330258:0;gst
+: 1460330265:0;cd vimfile
+: 1460330267:0;gst
+: 1460330268:0;gc
+: 1460330270:0;gst
+: 1460330271:0;cd ..
+: 1460330271:0;gst
+: 1460330272:0;gc
+: 1460330284:0;cd linux_config
+: 1460330285:0;gst
+: 1460330291:0;gc
+: 1460330303:0;pkill -9 tmux
+: 1460330312:0;ps -aux
+: 1460330316:0;ps -aux |grep tmux
+: 1460330325:0;ps -aux |grep terminal
+: 1460330331:0;kill -9 3799
+: 1460330335:0;kill -9 2006
+: 1460330340:0;cd linux_config
+: 1460330413:0;gst
+: 1460330423:0;git show HEAD
+: 1460330436:0;git show HEAD --stat
+: 1460330447:0;cd linux_config
+: 1460330457:0;git show HEAD config_sh/bashrc
+: 1460330470:0;gst
+: 1460330490:0;cd tmux
+: 1460330491:0;gst
+: 1460330495:0;rm tmux -rf
+: 1460330496:0;gst
+: 1460330500:0;cd ..
+: 1460330500:0;gst
+: 1460330507:0;gc
+: 1460330518:0;ps -aux |grep terminal
+: 1460330524:0;kill -9 3823
+: 1460330531:0;kill -9 3832
+: 1460330535:0;ls
+: 1460330543:0;vim tmux-client-13819.log
+: 1460330583:0;gst
+: 1460330593:0;cd linux_config
+: 1460330594:0;gst
+: 1460330603:0;git diff HEAD
+: 1460330617:0;git diff HEAD > ~/linux.config.patch
+: 1460330619:0;cat ~/linux.config.patch
+: 1460330623:0;gst
+: 1460330632:0;git reset HEAD^ --hard
+: 1460330632:0;gst
+: 1460330641:0;gc!
+: 1460330647:0;gst
+: 1460330665:0;git show HEAD
+: 1460330670:0;gst
+: 1460330677:0;git show HEAD
+: 1460330683:0;gst
+: 1460330684:0;gl
+: 1460330692:0;gst
+: 1460330695:0;git show HEAD
+: 1460330700:0;glo -2
+: 1460330708:0;git show HEAD
+: 1460330713:0;gp
+: 1460330718:0;gst
+: 1460330719:0;pwd
+: 1460330776:0;gst
+: 1460330794:0;ls ~/ lla |grep zsh
+: 1460330801:0;ls ~/ -lla |grep zsh
+: 1460330827:0;ls ~/ -lla |grep bash
+: 1460330840:0;vim config_sh/bashrc
+: 1460330845:0;gst
+: 1460330856:0;git patch ~/linux.config.patch
+: 1460330857:0;gst
+: 1460330864:0;git patch ~/linux.config.patch
+: 1460330877:0;git apply ~/linux.config.patch
+: 1460330878:0;gst
+: 1460330882:0;git apply ~/linux.config.patch
+: 1460330902:0;vim uninstall.sh
+: 1460330918:0;gst
+: 1460330923:0;git show HEAD
+: 1460330949:0;gst
+: 1460330954:0;vim install.sh
+: 1460330959:0;gst
+: 1460384524:0;tmux
+: 1460384529:0;exit
+: 1460384536:0;cd Program/RoboGif
+: 1460384537:0;gst
+: 1460384541:0;ga README.md
+: 1460384542:0;gc
+: 1460384553:0;gst
+: 1460384554:0;vim
+: 1460384559:0;tmux
+: 1460384561:0;gst
+: 1460384578:0;ga README.md
+: 1460384578:0;gst
+: 1460384579:0;gc
+: 1460384586:0;gst
+: 1460384590:0;j linux__
+: 1460384591:0;gst
+: 1460384664:0;gl
+: 1460384670:0;gst
+: 1460384678:0;git submodule foreach git pull
+: 1460384692:0;gst
+: 1460384697:0;cd ~/.vim
+: 1460384698:0;gst
+: 1460384710:0;cd vimfile
+: 1460384713:0;gst
+: 1460384714:0;cd ..
+: 1460384715:0;gst
+: 1460384742:0;ls -ll
+: 1460384755:0;rm vimfile
+: 1460384756:0;gst
+: 1460384758:0;cd ..
+: 1460384761:0;ls -lla |grep vim
+: 1460384774:0;vim .vim_mru_files
+: 1460384782:0;gst
+: 1460384792:0;ls
+: 1460384796:0;gst
+: 1460384799:0;ls
+: 1460384805:0;d
+: 1460384808:0;1
+: 1460384809:0;gst
+: 1460384813:0;git log -3
+: 1460384821:0;ls
+: 1460384840:0;ls config_sh |grep zsh
+: 1460384858:0;vim install.sh
+: 1460385019:0;ls
+: 1460385034:0;ls ~/ -lla |grep bash
+: 1460385057:0;ls config_sh |grep bash
+: 1460385075:0;vim ~/.bash_history
+: 1460385091:0;vim ~/.bash_history_backup
+: 1460385100:0;ls -lla ~/ |grep bash
+: 1460385149:0;rm ~/{.bash_history,.bash_history_backup,.bashrc_backup}
+: 1460385151:0;ls -lla ~/ |grep bash
+: 1460385160:0;ls
+: 1460385175:0;touch config_sh/bash_history
+: 1460385177:0;gst
+: 1460385180:0;ps
+: 1460385257:0;man bash
+: 1460385370:0;gst
+: 1460385375:0;. ./install.sh
+: 1460385389:0;ls -lla ~/ |grep bash
+: 1460385399:0;ps
+: 1460385894:0;ls -lla ~/ |grep bash
+: 1460385903:0;rm ~/.bashrc_backup
+: 1460385906:0;. ./install.sh
+: 1460385914:0;ls -lla ~/ |grep bash
+: 1460385924:0;gst
+: 1460385949:0;ga config_sh README.md install.sh uninstall.sh 
+: 1460385949:0;gst
+: 1460385960:0;gc
+: 1460385977:0;gst
+: 1460385978:0;ps
+: 1460386004:0;gst
+: 1460386009:0;git show HEAD --stat
+: 1460386019:0;ls -lla ~/ |grep zsh
+: 1460386089:0;diff ~/.zsh_history ~/.zsh_history_backup
+: 1460386095:0;diff --help
+: 1460386110:0;diff ~/.zsh_history ~/.zsh_history_backup -y
+: 1460386115:0;diff --help
+: 1460386159:0;diff -y ~/.zsh_history ~/.zsh_history_backup
+: 1460386188:0;ls
+: 1460386246:0;vim -d ~/.zsh_history ~/.zsh_history_backup
+: 1460386268:0;ls
+: 1460386275:0;ls -lla ~/ |grep zsh
+: 1460386322:0;cp ~/.zsh_history config_sh/zsh_history
+: 1460386971:0;ls -lla ~/ |grep zsh
+: 1460386983:0;ps
+: 1460388771:0;ls -lla ~/ |grep zsh
+: 1460388782:0;gst
+: 1460388791:0;tmux
+: 1460388794:0;ls
+: 1460388806:0;cd ~/.vim
+: 1460388806:0;gst
+: 1460388813:0;cd ~/.oh-my-zsh
+: 1460388814:0;ls
+: 1460388817:0;vim
+: 1460388858:0;gst
+: 1460388876:0;vim config_sh/tmux.conf
+: 1460388993:0;ps
+: 1460388994:0;gst
+: 1460388997:0;gc
+: 1460389010:0;ls ~/
+: 1460389019:0;ls ~/ -lla -t
+: 1460389349:0;cd .vim
+: 1460389350:0;gst
+: 1460389356:0;vim vimrc
+: 1460389409:0;ls
+: 1460389413:0;cd ~/linux_config
+: 1460389414:0;gst
+: 1460389418:0;gc
+: 1460389507:0;pkill -o terminal
+: 1460389510:0;cd linux_config
+: 1460389511:0;gst
+: 1460389512:0;gc
+: 1460389571:0;pkill -o terminal
+: 1460389574:0;cd linux_config
+: 1460389574:0;gst
+: 1460389579:0;ga config_sh/
