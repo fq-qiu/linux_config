@@ -39,6 +39,16 @@ DISABLE_AUTO_UPDATE="false"
 # The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
 # HIST_STAMPS="mm/dd/yyyy"
 
+HISTSIZE=10000
+# the number of saved commands in file after quit
+SAVEHIST=100000
+# The name of file in which commands history is saved
+# HISTFILE=~/.zsh_history
+# ignore duplicated command
+setopt HIST_IGNORE_DUPS
+# ignore command which starts with a space
+setopt HIST_IGNORE_SPACE
+
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 

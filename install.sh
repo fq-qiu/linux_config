@@ -9,7 +9,14 @@ fi
 ln -s ~/linux_config/config_sh/bash_history ~/.bash_history
 
 # zsh
+if [ ! -L ~/.zshrc ]; then
+    mv ~/.zshrc ~/.zshrc_backup
+fi
 ln -s ~/linux_config/config_sh/zshrc ~/.zshrc
+if [ ! -L ~/.zsh_history ]; then
+    mv ~/.zsh_history ~/.zsh_history_backup
+fi
+ln -s ~/linux_config/config_sh/zsh_history ~/.zsh_history
 ln -s ~/linux_config/oh-my-zsh ~/.oh-my-zsh
 
 # git

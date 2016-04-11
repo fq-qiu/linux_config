@@ -1,10 +1,22 @@
 # bash shell
-rm -rf ~/.bashrc
+if [ -L ~/.bashrc ]; then
+    rm -rf ~/.bashrc
+fi
 mv ~/.bashrc_backup ~/.bashrc
-rm -rf ~/.bash_history
+if [ -L ~/.bash_history ]; then
+    rm -rf ~/.bash_history
+fi
 mv ~/.bash_history_backup ~/.bash_history
 
-rm -rf ~/.zshrc
+# zsh
+if [ -L ~/.zshrc ]; then
+    rm -rf ~/.zshrc
+fi
+mv ~/.zshrc_backup ~/.zshrc
+if [ -L ~/.zsh_history ]; then
+    rm -rf ~/.zsh_history
+fi
+mv ~/.zsh_history_backup ~/.zsh_history
 rm -rf ~/.oh-my-zsh
 
 # git

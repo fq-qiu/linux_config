@@ -99,4 +99,5 @@ mdatabase 1501_db_1 #拷贝出data/data/com.android.providers.media/databases
 - ideavimrc: vim配置for Android Studio vim plugin ideavim
 - ssh-config: config for ssh, for coding.net, github
 - tmux.conf: tmux config
+- zsh_history
 - zshrc
