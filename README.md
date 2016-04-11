@@ -89,6 +89,7 @@ mdatabase 1501_db_1 #拷贝出data/data/com.android.providers.media/databases
 
 该目录下的配置文件都通过**软连接**连接到`~`目录下, `install.sh`生成软连接, `uninstall.sh`删除软连接
 - ackrc: ack命令的配置
+- bach_history
 - bashrc
 - bashrc_cygwin
 - bashrc_zshrc_general: bashrc和zshrc都source的文件, 包括一些共有配置和alias
