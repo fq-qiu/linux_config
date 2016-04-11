@@ -6079,3 +6079,23 @@ iptables -A OUTPUT -m string --string "longzhu.com" --algo bm -j DROP
 : 1460411188:0;gc
 : 1460411195:0;gst
 : 1460411198:0;ga config_sh/
+: 1460411199:0;gst
+: 1460411201:0;gc
+: 1460411322:0;ls
+: 1460411329:0;cd ~/linux_config
+: 1460411331:0;vim
+: 1460411379:0;gst
+: 1460411429:0;git commit -m "modify README"
+: 1460411431:0;gst
+: 1460411433:0;gp
+: 1460411507:0;	man tmux
+: 1460411653:0;cat config_sh/zsh_history
+: 1460411661:0;ls
+: 1460411665:0;vim config_sh/tmux.conf
+: 1460411711:0;pkikk tmux
+: 1460411715:0;pkill -9 tmux
+: 1460411717:0;tmux
+: 1460411720:0;cd linux_config
+: 1460411724:0;cat config_sh/zsh_history
+: 1460411732:0;gst
+: 1460411737:0;ga config_sh/
