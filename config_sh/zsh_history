@@ -6099,3 +6099,16 @@ iptables -A OUTPUT -m string --string "longzhu.com" --algo bm -j DROP
 : 1460411724:0;cat config_sh/zsh_history
 : 1460411732:0;gst
 : 1460411737:0;ga config_sh/
+: 1460411738:0;gst
+: 1460411751:0;cd linux_config
+: 1460411752:0;vim
+: 1460411835:0;gst
+: 1460411846:0;git commit
+: 1460411868:0;gst
+: 1460411871:0;g[
+: 1460411872:0;gp
+: 1460411895:0;ls
+: 1460411897:0;ps
+: 1460411901:0;vim config_sh/tmux.conf
+: 1460412073:0;man tmux
+: 1460412099:0;ps
