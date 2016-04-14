@@ -1,22 +1,41 @@
 This a auto configure script for my linux configure
 
+
+##PreInstall
+
+This is tested on ubuntu15.10.
+
+'git` and `vim` should be installed previously.
+
 ##Install##
+
+- download
 ```
 git clone --recursive https://github.com/tainzhi/linux_config.git
 cd linux_config
 git submodule foreach --recursive git checkout master
 ```
-##Environment:
 
-## ubuntu install software ##
+- configure
+```
+sudo sh software.sh     # install some softwares
+sudo sh install.sh      # make some alias to customize the system
+```
+- uninstall
+```
+sudo sh uninstall.sh    # delete some alias
+```
 
-following softwares should be installed:
-
-- git
-- tmux
-- autojump
-- zsh
-- vim-gnome
+##Functions
+- install some softwares,`g++`, `python`, `zsh`, `autojump`, `tmux`
+- install some tools for vim, `cscope`, `ctags`, `ack`
+- install some libs to compatible i386 for android tools
+- my bash/zsh configure
+- my tmux configure
+- my vim configure
+- my ssh configure
+- for iptables, block some online game show sites ip
+- some shell scripts tools
 
 ### 第三方开发工具 ###
 Android Stduio, Intellij IDEA, eclipse都安装在`/opt/`下
@@ -84,20 +103,29 @@ msplit --help
 mdatabase 1501_db_1 #拷贝出data/data/com.android.providers.media/databases
 ```
 
-## config ##
-`linux_config/config_sh`目录
+##File Stucture
 
-该目录下的配置文件都通过**软连接**连接到`~`目录下, `install.sh`生成软连接, `uninstall.sh`删除软连接
-- ackrc: ack命令的配置
-- bach_history
-- bashrc
-- bashrc_cygwin
-- bashrc_zshrc_general: bashrc和zshrc都source的文件, 包括一些共有配置和alias
-- gitconfig
-- gitignore
-- iptables.rules: some rules to block some online game show ip
-- ideavimrc: vim配置for Android Studio vim plugin ideavim
-- ssh-config: config for ssh, for coding.net, github
-- tmux.conf: tmux config
-- zsh_history
-- zshrc
+    +-- config_sh: some configure files. For more deatils, to to seen some files, the precess only call to the one
+       +-- ackrc: ack configure
+       +-- bach_history
+       +-- bashrc
+       +-- bashrc_cygwin
+       +-- bashrc_zshrc_general: the file which is sourced by bashrc and zshrc, including some alias and common configures
+       +-- gitconfig
+       +-- gitignore
+       +-- iptables.rules: some rules to block some online game show ip
+       +-- ideavimrc: vim配置for Android Studio vim plugin ideavim
+       +-- ssh-config: config for ssh, for coding.net, github
+       +-- tmux.conf: tmux config
+       +-- zsh_history
+       +-- zshrc
+    +-- oh-my-zsh: submodules to oh-my-zsh
+    +-- shell_tools: my customized shell tools
+    +-- tmux: submodules to tmux plugins
+    +-- vimfile: submodules to my Q-vim
+    +-- vivo_bashtool: my bash tools with vivo
+    +-- install.sh: create alias 
+    +-- software.sh: the script to uninstall some softwares
+    +-- uninstall.sh:  delete alias
+
+The files in `config_sh` are symbolinked into `$HOME` by `sh install.sh` and then take effect.
