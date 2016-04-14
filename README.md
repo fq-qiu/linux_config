@@ -50,7 +50,7 @@ ack -g "match"      # find dirs
 
 - tmux
 
-because of 'tmux-plugins/tmux-continuum`, tmux will restore sessions
+because of `tmux-plugins/tmux-continuum`, tmux will restore sessions
 
 [tmux README](./readme/tmux_readme.md)
 
