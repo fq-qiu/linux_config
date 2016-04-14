@@ -19,6 +19,7 @@ easy_install pip
 # zsh
 yes | apt-get install zsh
 yes | apt-get install autojump
+apt-get install -y xclip
 # chsh -s /bin/zsh
 sed -i "s/$USER\:\/bin\/bash/$USER\:\/bin\/zsh/g" /etc/passwd
 # just start the terminal and use zsh

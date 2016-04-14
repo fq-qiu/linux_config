@@ -37,6 +37,27 @@ sudo sh uninstall.sh    # delete some alias
 - for iptables, block some online game show sites ip
 - some shell scripts tools
 
+##Some help and readme
+
+- autojump
+```
+j fo        # jump to the directory whose name has fo
+jo fo       # open the file manager
+```
+
+- ack
+```
+ack -h      
+ack "match"
+ack -g "match"      # find dirs
+```
+
+- zsh
+
+[zsh README](./readme/zsh_readme.md)
+
+[zsh configure](https://zybuluo.com/mdeditor#40808)
+
 ### 第三方开发工具 ###
 Android Stduio, Intellij IDEA, eclipse都安装在`/opt/`下
 各自的启动命令如下
