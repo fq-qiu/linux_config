@@ -26,16 +26,6 @@ sudo sh install.sh      # make some alias to customize the system
 sudo sh uninstall.sh    # delete some alias
 ```
 
-##Functions
-- install some softwares,`g++`, `python`, `zsh`, `autojump`, `tmux`
-- install some tools for vim, `cscope`, `ctags`, `ack`
-- install some libs to compatible i386 for android tools
-- my bash/zsh configure
-- my tmux configure
-- my vim configure
-- my ssh configure
-- for iptables, block some online game show sites ip
-- some shell scripts tools
 
 ##Some help and readme
 
@@ -57,6 +47,14 @@ ack -g "match"      # find dirs
 [zsh README](./readme/zsh_readme.md)
 
 [zsh configure](https://zybuluo.com/mdeditor#40808)
+
+- tmux
+
+because of 'tmux-plugins/tmux-continuum`, tmux will restore sessions
+
+[tmux README](./readme/tmux_readme.md)
+
+[tmux configure](https://zybuluo.com/mdeditor#56429)
 
 ### 第三方开发工具 ###
 Android Stduio, Intellij IDEA, eclipse都安装在`/opt/`下
@@ -150,3 +148,14 @@ mdatabase 1501_db_1 #拷贝出data/data/com.android.providers.media/databases
     +-- uninstall.sh:  delete alias
 
 The files in `config_sh` are symbolinked into `$HOME` by `sh install.sh` and then take effect.
+
+##Functions
+- install some softwares,`g++`, `python`, `zsh`, `autojump`, `tmux`
+- install some tools for vim, `cscope`, `ctags`, `ack`
+- install some libs to compatible i386 for android tools
+- my bash/zsh configure
+- my tmux configure
+- my vim configure
+- my ssh configure
+- for iptables, block some online game show sites ip
+- some shell scripts tools
