@@ -35,6 +35,8 @@ ln -s ~/linux_config/config_sh/ideavimrc ~/.ideavimrc
 # for vim
 if [ ! -d ~/.vim ]; then
     ln -s ~/linux_config/vimfile ~/.vim
+    cd ~/.vim
+    echo | vim -u ~/.vim/vimrc +BundleUpdate +qall
 fi
 
 # for ack

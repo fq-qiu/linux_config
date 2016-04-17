@@ -13,7 +13,7 @@ apt-get -y install g++
 yes | apt-get install build-essential
 yes | apt-get install automake libevent-dev libncurses5-dev libncurses5-dev
 yes | apt-get install curl
-yes | apt-get install cmake python-dev python-setuptools
+yes | apt-get install cmake python-dev python-setuptools python3-dev
 easy_install pip
 
 # zsh
@@ -73,12 +73,6 @@ if [ ! -d ack-2.15_01 ]; then
     make test
     make install # for a system-wide installation (recommended)
 fi
-
-## vim plugin update
-ln -s ~/linux_config/vimfile ~/.vim
-cd ~/.vim
-echo | vim -u ~/.vim/vimrc +BundleUpdate +qall
-
 
 ## compatible i386, for android mksdard tool
 dpkg --add-architecture i386
