@@ -74,6 +74,9 @@ if [ ! -d ack-2.15_01 ]; then
     make install # for a system-wide installation (recommended)
 fi
 
+###ag
+sudo apt-get install silversearcher-ag
+
 ## compatible i386, for android mksdard tool
 dpkg --add-architecture i386
 apt-get install libncurses5:i386 libstdc++6:i386 zlib1g:i386 lib32z1 lib32ncurses5

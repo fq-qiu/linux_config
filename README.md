@@ -41,6 +41,13 @@ ack -h
 ack "match"
 ack -g "match"      # find dirs
 ```
+- [ag](https://github.com/ggreer/the_silver_searcher)
+ag is faster than ack
+```
+ag -g file_name_string_match
+ag file_string_match
+man ag
+```
 
 - zsh
 
