@@ -20,7 +20,7 @@ function repository {
 }
 alias plog='plus git-log --author=qiufuqing ./'
 alias previewer='plus changes-query --reviewers ./'
-alias ppush='git push origin HEAD:refs/for/$(remote_branch)'
+alias ppush='git push origin HEAD:refs/for/$(remote_branch) 2>&1 |tee .commit_temp'
 alias pmansuo='. ~/linux_config/vivo_bashtool/plus_revision.sh'
 alias padd='. ~/linux_config/vivo_bashtool/plus_add.sh'
 alias mdatabase='adb pull /data/data/com.android.providers.media/databases'
