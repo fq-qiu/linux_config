@@ -5,7 +5,7 @@ This a auto configure script for my linux configure
 
 This is tested on ubuntu15.10.
 
-'git` and `vim` should be installed previously.
+`git` and `vim` should be installed previously.
 
 ##Install##
 
