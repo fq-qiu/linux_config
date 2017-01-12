@@ -21,6 +21,9 @@ git submodule foreach --recursive git checkout master
 sudo sh software.sh     # install some softwares
 sudo sh install.sh      # make some alias to customize the system
 ```
+- add ssh key for github and coding.net
+go to `~/.ssh/`, copy `github.com.pub` to [github](https://github.com/settings/keys), copy `coding.net.pub` to [coding.net](https://coding.net/user/account/setting/keys)
+        
 - uninstall
 ```
 sudo sh uninstall.sh    # delete some alias

@@ -45,6 +45,10 @@ ln -s ~/linux_config/config_sh/ackrc ~/.ackrc
 # for ssh
 mkdir ~/.ssh
 ln -s ~/linux_config/config_sh/ssh-config ~/.ssh/config
+cd ~/.ssh
+yes | ssh-keygen -P "" -t rsa -b 4096 -f ~/.ssh/github.com
+yes | ssh-keygen -P "" -t rsa -b 4096 -f ~/.ssh/coding.net
+
 
 # for iptables, block some online game show sites
 iptables-restore < config_sh/iptables.rules
