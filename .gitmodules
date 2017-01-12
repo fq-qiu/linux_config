@@ -2,11 +2,14 @@
 	path = vimfile
 	url = https://github.com/tainzhi/Q-vimfile
     branch = master
+    ignore = all
 [submodule "tmux/plugins/tpm"]
 	path = tmux/plugins/tpm
 	url = https://github.com/tmux-plugins/tpm
     branch = master
+    ignore = all
 [submodule "oh-my-zsh"]
 	path = oh-my-zsh
 	url = https://github.com/robbyrussell/oh-my-zsh
     branch = master
+    ignore = all

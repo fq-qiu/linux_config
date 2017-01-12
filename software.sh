@@ -77,6 +77,9 @@ fi
 ###ag
 sudo apt-get install silversearcher-ag
 
+###p7zip-full
+yes | apt-get install p7zip-full
+
 ## compatible i386, for android mksdard tool
 dpkg --add-architecture i386
 apt-get install libncurses5:i386 libstdc++6:i386 zlib1g:i386 lib32z1 lib32ncurses5

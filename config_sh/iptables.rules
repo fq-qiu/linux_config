@@ -4,7 +4,7 @@
 :FORWARD ACCEPT [0:0]
 :OUTPUT ACCEPT [659191:136205460]
 -A OUTPUT -m string --string "dotamax.com" --algo bm --to 65535 -j DROP
--A OUTPUT -m string --string "douyutv.com" --algo bm --to 65535 -j DROP
+-A OUTPUT -m string --string "douyu.com" --algo bm --to 65535 -j DROP
 -A OUTPUT -m string --string "zhanqi.tv" --algo bm --to 65535 -j DROP
 -A OUTPUT -m string --string "huomaotv.com" --algo bm --to 65535 -j DROP
 -A OUTPUT -m string --string "huya.com" --algo bm --to 65535 -j DROP

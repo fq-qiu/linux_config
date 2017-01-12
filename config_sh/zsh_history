@@ -6112,3 +6112,22 @@ iptables -A OUTPUT -m string --string "longzhu.com" --algo bm -j DROP
 : 1460411901:0;vim config_sh/tmux.conf
 : 1460412073:0;man tmux
 : 1460412099:0;ps
+: 1484095433:0;cd linux_config
+: 1484095434:0;gst
+: 1484095443:0;vim install.sh
+: 1484116137:0;git clone --recursive https://github.com/tainzhi/linux_config.git\
+cd linux_config\
+git submodule foreach --recursive git checkout master
+: 1484116149:0;ls
+: 1484116150:0;gst
+: 1484144551:0;cd vimfile
+: 1484144552:0;gst
+: 1484144593:0;git apply ~/Desktop/vim.diff
+: 1484144594:0;gst
+: 1484144596:0;gd vimrc
+: 1484144613:0;cd bundle/vundle
+: 1484144614:0;ls
+: 1484144626:0;cd ..
+: 1484144627:0;ls
+: 1484144632:0;ls |grep -i im
+: 1484144641:0;ps
