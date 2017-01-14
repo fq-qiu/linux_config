@@ -5,7 +5,7 @@ This a auto configure script for my linux configure
 
 This is tested on ubuntu15.10.
 
-`git` and `vim` should be installed previously.
+`git` should be installed previously.
 
 ##Install##
 
@@ -45,7 +45,7 @@ ack "match"
 ack -g "match"      # find dirs
 ```
 - [ag](https://github.com/ggreer/the_silver_searcher)
-ag is faster than ack
+ag is faster than ack, but search weaker than ack
 ```
 ag -g file_name_string_match
 ag file_string_match

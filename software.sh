@@ -38,9 +38,12 @@ if [ ! -d tmux ]; then
     # rm -rf ${SOFTWARE_PATH}"/tmux/"
 fi
 
+# vim
+apt-get install vim-gnome
 
 # vim denpendency
 apt-get install ctags cscope
+
 
 ## install clang and YouCompleteMe
 ## ack-2.14
@@ -74,12 +77,12 @@ if [ ! -d ack-2.15_01 ]; then
     make install # for a system-wide installation (recommended)
 fi
 
-###ag
+##ag
 sudo apt-get install silversearcher-ag
 
-###p7zip-full
+#p7zip-full
 yes | apt-get install p7zip-full
 
-## compatible i386, for android mksdard tool
+# compatible i386, for android mksdard tool
 dpkg --add-architecture i386
 apt-get install libncurses5:i386 libstdc++6:i386 zlib1g:i386 lib32z1 lib32ncurses5

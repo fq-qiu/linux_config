@@ -72,7 +72,7 @@ clippaste > <file>      - paste contents to a file
 ### extract ###
 Extract an archive (supported types: tar.{bz2,gz,xz,lzma}, bz2, rar, gz, tar, tbz2, tgz, zip, Z, 7z).
 ```
-x | extract archive_file
+x archive_file.xx
 ```
 
 ### git ###
