@@ -42,5 +42,3 @@ alias msplit='sh ~/linux_config/shell_tools/split.sh'
 alias gre='git reset'
 
 export SVN_EDITOR=vim
-
-source ~/linux_config/vivo_bashtool/config_bash.sh
