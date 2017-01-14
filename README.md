@@ -79,19 +79,6 @@ eclipse         # eclipse
 
 自定义的shell脚本
 
-### mbianyi ###
-```
-mbianyi app-project-path
-```
-编译apk, 并把输出结果写入到当前目录的.commit_tmp, 供本地的`minstall`使用
-
-### minstall ###
-```
-minstall
-minstall update
-```
-解析从远程编译服务器同步过来的`.commit_tmp`本地安装apk, 有`update`参数时, 不清楚MediaProvider的database, 如果没有则清除, 重新生成database
-
 ### mkill ###
 杀死android device的名为的进程, 名称可以是正则表达式
 ```
@@ -152,7 +139,6 @@ mdatabase 1501_db_1 #拷贝出data/data/com.android.providers.media/databases
     +-- shell_tools: my customized shell tools
     +-- tmux: submodules to tmux plugins
     +-- vimfile: submodules to my Q-vim
-    +-- vivo_bashtool: my bash tools with vivo
     +-- install.sh: create alias 
     +-- software.sh: the script to uninstall some softwares
     +-- uninstall.sh:  delete alias
