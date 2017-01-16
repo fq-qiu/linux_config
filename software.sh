@@ -45,7 +45,6 @@ apt-get install vim-gnome
 apt-get install ctags cscope
 
 
-## install clang and YouCompleteMe
 ## ack-2.14
 ### File-Next
 cd $SOFTWARE_PATH
