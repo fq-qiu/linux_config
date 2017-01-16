@@ -85,4 +85,12 @@ o                   # "open" a highlighted selection with the system default pro
 Ctrl-o              # open a highlighted selection with the $EDITOR
 ```
 
+##[tmux-resurrect](https://github.com/tmux-plugins/tmux-resurrect)
+```
+prefix + Ctrl-s     # save
+prefix + Ctrl-r     # restore
+```
+
+##[tmux-continuum](https://github.com/tmux-plugins/tmux-continuum)
+together with `tmux-resurrect`, automatic restore happens exclusively on tmux server start
 
