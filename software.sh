@@ -48,14 +48,14 @@ apt-get install ctags cscope
 ## ack-2.14
 ### File-Next
 cd $SOFTWARE_PATH
-# if File-Next-1.12.tar.gz doesn't exist, then download it
-if [ ! -f File-Next-1.12.tar.gz ]; then
-    wget http://search.cpan.org/CPAN/authors/id/P/PE/PETDANCE/File-Next-1.12.tar.gz 
+# if File-Next-1.16.tar.gz doesn't exist, then download it
+if [ ! -f File-Next-1.16.tar.gz ]; then
+    wget http://www.cpan.org/authors/id/P/PE/PETDANCE/File-Next-1.16.tar.gz
 fi
 # if not exists, then extract to get it
-if [ ! -d File-Next-1.12 ]; then
-    tar zxvf File-Next-1.12.tar.gz
-    cd File-Next-1.12/
+if [ ! -d File-Next-1.16 ]; then
+    tar zxvf File-Next-1.16.tar.gz
+    cd File-Next-1.16/
     perl Makefile.PL
     make
     make test
@@ -64,12 +64,12 @@ fi
 ###ack
 cd $SOFTWARE_PATH
 # if ack-2.15_01.tar.gz doesn't exist. then downloads it
-if [ ! -f ack-2.15_01.tar.gz ]; then
-    wget http://search.cpan.org/CPAN/authors/id/P/PE/PETDANCE/ack-2.15_01.tar.gz 
+if [ ! -f ack-2.15_02.tar.gz ]; then
+    wget http://search.cpan.org/CPAN/authors/id/P/PE/PETDANCE/ack-2.15_02.tar.gz 
 fi
-if [ ! -d ack-2.15_01 ]; then
-    tar zxvf ack-2.15_01.tar.gz
-    cd ack-2.15_01
+if [ ! -d ack-2.15_02 ]; then
+    tar zxvf ack-2.15_02.tar.gz
+    cd ack-2.15_02
     perl Makefile.PL
     make
     make test
