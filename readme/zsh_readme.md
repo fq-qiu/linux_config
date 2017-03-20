@@ -1,6 +1,6 @@
-#zsh README or command cheets
+# zsh README or command cheets
 
-###about zsh
+### about zsh
 ```
 zsh_stats               # get a list of the top ten comands and how many times they have been run
 upgrade_oh_my_zsh       # upgrade
@@ -35,14 +35,14 @@ alias ll='ls -lh'
 alias la='ls -lAh'
 ```
 
-###clipcopy - Copy data to clipboard
+### clipcopy - Copy data to clipboard
 
 ```
 <command> | clipcopy    - copies stdin to clipboard
 clipcopy <file>         - copies a file's contents to clipboard
 ```
 
-###clippaste - "Paste" data from clipboard to stdout
+### clippaste - "Paste" data from clipboard to stdout
 
 ```
 clippaste   - writes clipboard's contents to stdout
@@ -52,7 +52,7 @@ clippaste > <file>      - paste contents to a file
 
 
 ## plugins ##
-###history-sustring-search
+### history-sustring-search
 
 - Type any part of any previous command and then:
 

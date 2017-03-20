@@ -1,7 +1,7 @@
 This a auto configure script for my linux configure
 
 
-##PreInstall
+## PreInstall
 
 This is tested on ubuntu15.10.
 
@@ -30,7 +30,7 @@ sudo sh uninstall.sh    # delete some alias
 ```
 
 
-##Some help and readme
+## Some help and readme
 
 - autojump
 ```
@@ -95,7 +95,7 @@ mcapture            #截屏原图为screen_original.png, 缩小率为%30x%30, �
 ```
 mcapture 50 file_name.png #截屏原图为screen_original.png, 缩小率为%50x%50, 缩小后的图片为file_name.png
 ```
-###mtags###
+### mtags ###
 ```
 mtags       #在当前目录下生成vim的cscope和tag文件
 ```
@@ -108,7 +108,7 @@ mtags       #在当前目录下生成vim的cscope和tag文件
 - crontab命令通过`linux_config/install.sh`添加, 并通过`linux_config/unisntall.sh`删除
 - 如果批量删除, `rm test\*`,末尾添加星号
 
-###msplit###
+### msplit ###
 切分文件
 ```
 msplit --help
@@ -119,7 +119,7 @@ msplit --help
 mdatabase 1501_db_1 #拷贝出data/data/com.android.providers.media/databases
 ```
 
-##File Stucture
+## File Stucture
 
     +-- config_sh: some configure files. For more deatils, to to seen some files, the precess only call to the one
        +-- ackrc: ack configure
@@ -145,7 +145,7 @@ mdatabase 1501_db_1 #拷贝出data/data/com.android.providers.media/databases
 
 The files in `config_sh` are symbolinked into `$HOME` by `sh install.sh` and then take effect.
 
-##Functions
+## Functions
 - install some softwares,`g++`, `python`, `zsh`, `autojump`, `tmux`
 - install some tools for vim, `cscope`, `ctags`, `ack`
 - install some libs to compatible i386 for android tools

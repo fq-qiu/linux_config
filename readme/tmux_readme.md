@@ -1,8 +1,8 @@
-#tmux command sheets
+# tmux command sheets
 
 The defaut prefix is **Ctrl+b**, but I change it to **Ctrl+x**
 
-##tmux general
+## tmux general
 ```
 Ctrl + B + N        #下一个窗口
 Ctrl + B + C        #创建窗口
@@ -32,7 +32,7 @@ Ctrl+x n            #选择下一个窗口
 Ctrl+x h/j/kl       #类vim, 上下左右选择pane
 ```
 
-##[tmux plugin manager](https://github.com/tmux-plugins/tpm)
+## [tmux plugin manager](https://github.com/tmux-plugins/tpm)
 
 ```
 prefix + I          # install plugins
@@ -40,7 +40,7 @@ prefix + alt + u    # uninstall plugins
 prefix + U          # update plugins
 ```
 
-##[tmux-copycat](https://github.com/tmux-plugins/tmux-copycat)
+## [tmux-copycat](https://github.com/tmux-plugins/tmux-copycat)
 
 ```
 prefix + /          # regex search, examples, [0-9]+, search for numbers
@@ -62,7 +62,7 @@ Enter
 Copying a highlighted match will take you "out" of copycat mode. Paste with prefix + ] (this is Tmux default paste).
 
 
-##[tmux-yank](https://github.com/tmux-plugins/tmux-yank)
+## [tmux-yank](https://github.com/tmux-plugins/tmux-yank)
 
 ```
 prefix + y          # copy text from the command line to clipboard
@@ -78,19 +78,19 @@ Alt-y               # performs both of the above: copy to system clipboard and p
 ```
 
 
-##[tmux-open](https://github.com/tmux-plugins/tmux-open)
+## [tmux-open](https://github.com/tmux-plugins/tmux-open)
 n tmux copy mode:
 ```
 o                   # "open" a highlighted selection with the system default program. open for OS X or xdg-open for Linux.
 Ctrl-o              # open a highlighted selection with the $EDITOR
 ```
 
-##[tmux-resurrect](https://github.com/tmux-plugins/tmux-resurrect)
+## [tmux-resurrect](https://github.com/tmux-plugins/tmux-resurrect)
 ```
 prefix + Ctrl-s     # save
 prefix + Ctrl-r     # restore
 ```
 
-##[tmux-continuum](https://github.com/tmux-plugins/tmux-continuum)
+## [tmux-continuum](https://github.com/tmux-plugins/tmux-continuum)
 together with `tmux-resurrect`, automatic restore happens exclusively on tmux server start
 
