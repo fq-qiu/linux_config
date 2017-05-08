@@ -77,24 +77,7 @@ eclipse         # eclipse
 
 ## shell tools usage ##
 
-自定义的shell脚本
 
-### mkill ###
-杀死android device的名为的进程, 名称可以是正则表达式
-```
-mkill *float*       #杀死符合正则表达式规则的*float*进程
-```
-
-### mcapture ###
-android device解屏并保存到当前目录, 同时也能缩小图片, 用于博客等. 有两种用法
-默认参数
-```
-mcapture            #截屏原图为screen_original.png, 缩小率为%30x%30, 缩小后的图片为thumnail.png
-```
-自定义参数
-```
-mcapture 50 file_name.png #截屏原图为screen_original.png, 缩小率为%50x%50, 缩小后的图片为file_name.png
-```
 ### mtags ###
 ```
 mtags       #在当前目录下生成vim的cscope和tag文件
@@ -116,9 +99,25 @@ gh-md-toc --depth 3  ./REAME.md #生成三层toc到标准输出
 gh-md-toc ./README.md > ./1.txt   #生成全部toc到1.txt
 ```
 
-### mdatabase ###
+### mdatabase for android develope
 ```
 mdatabase 1501_db_1 #拷贝出data/data/com.android.providers.media/databases
+```
+### mkill developt
+杀死android device的名为的进程, 名称可以是正则表达式
+```
+mkill *float*       #杀死符合正则表达式规则的*float*进程
+```
+
+### mcapture develop
+android device解屏并保存到当前目录, 同时也能缩小图片, 用于博客等. 有两种用法
+默认参数
+```
+mcapture            #截屏原图为screen_original.png, 缩小率为%30x%30, 缩小后的图片为thumnail.png
+```
+自定义参数
+```
+mcapture 50 file_name.png #截屏原图为screen_original.png, 缩小率为%50x%50, 缩小后的图片为file_name.png
 ```
 
 ## File Stucture
