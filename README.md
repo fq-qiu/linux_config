@@ -7,7 +7,7 @@ This is tested on ubuntu15.10.
 
 `git` should be installed previously.
 
-##Install##
+## Install
 
 - download
 ```
@@ -99,14 +99,6 @@ mcapture 50 file_name.png #截屏原图为screen_original.png, 缩小率为%50x%
 ```
 mtags       #在当前目录下生成vim的cscope和tag文件
 ```
-### myrm ###
-防止/bash/rm误删文件, 便于恢复
-
-- 用alias连接myrm.sh为rm, 把要删除的文件放到`~/.rm_recovery`下
-- 如果要完全删除该命令, 可以使用`/bin/rm`
-- 通过crontab命令, 定义定时任务, 每周清理一次该目录
-- crontab命令通过`linux_config/install.sh`添加, 并通过`linux_config/unisntall.sh`删除
-- 如果批量删除, `rm test\*`,末尾添加星号
 
 ### msplit ###
 切分文件
