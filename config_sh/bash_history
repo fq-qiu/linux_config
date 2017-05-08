@@ -1,3 +1,31 @@
 clang
 clang -v
 ps
+aria2c https://software-download.microsoft.com/pr/Win7_HomeBasic_SP1_Chinese(Simplified)_COEM_x32.iso?t=5df7ea35-6602-4dac-bc71-34e9e6a4bcb6&e=1489296420&h=543b83a72ef45b2fdc44cdf10510dbcc
+sh
+exit
+ls
+sudo apt-get install unity-tweak-tool
+sudo unity-tweak-tool --reset-unity
+sudo shutdown -r now
+./bin/texmacs
+ls
+./bin/texmacs
+./bin/texmacs.bin 
+cd ..
+ls
+rm TeXmacs-1.99.5-* -rf
+ls
+ps
+vim
+sudo make install
+ls
+/usr/bin/vim
+ls
+cmake .
+vim CMakeFiles/CMakeOutput.log 
+ls
+gst
+gl
+git update
+git status

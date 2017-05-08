@@ -41,4 +41,7 @@ alias msplit='sh ~/linux_config/shell_tools/split.sh'
 # git
 alias gre='git reset'
 
+# gh-md-toc
+alias gh-md-toc='~/linux_config/bin_tools/gh-md-toc'
+
 export SVN_EDITOR=vim

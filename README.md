@@ -114,6 +114,16 @@ mtags       #在当前目录下生成vim的cscope和tag文件
 msplit --help
 ```
 
+### gh-md-toc
+
+为REAME.md生成toc目录, [参考](https://github.com/ekalinin/github-markdown-toc.go)
+
+```
+gh-md-toc --help
+gh-md-toc --depth 3  ./REAME.md #生成三层toc到标准输出
+gh-md-toc ./README.md > ./1.txt   #生成全部toc到1.txt
+```
+
 ### mdatabase ###
 ```
 mdatabase 1501_db_1 #拷贝出data/data/com.android.providers.media/databases
@@ -121,6 +131,8 @@ mdatabase 1501_db_1 #拷贝出data/data/com.android.providers.media/databases
 
 ## File Stucture
 
+    +-- bin_tools: some tools in binary source for x86_64
+       +-- gh-md-toc: 
     +-- config_sh: some configure files. For more deatils, to to seen some files, the precess only call to the one
        +-- ackrc: ack configure
        +-- bach_history
