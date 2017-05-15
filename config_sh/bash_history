@@ -29,3 +29,6 @@ gst
 gl
 git update
 git status
+thefuck
+ls ~/.local/bin
+ps

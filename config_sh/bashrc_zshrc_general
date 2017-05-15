@@ -44,4 +44,7 @@ alias gre='git reset'
 # gh-md-toc
 alias gh-md-toc='~/linux_config/bin_tools/gh-md-toc'
 
+# A tiny utility to highlight multiple keywords with different colors
+. ~/linux_config/shell_tools/h.sh
+
 export SVN_EDITOR=vim

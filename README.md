@@ -99,6 +99,17 @@ gh-md-toc --depth 3  ./REAME.md #生成三层toc到标准输出
 gh-md-toc ./README.md > ./1.txt   #生成全部toc到1.txt
 ```
 
+### hhighlighte or h
+[hhighlighter](https://github.com/paoloantinori/hhighlighter), a tiny utility to highlight multiple keywords with different colors
+```
+$ h
+usage: YOUR_COMMAND | h [-i] [-d] args...
+	-i : ignore case
+	-d : disable regexp
+	-n : invert colors
+```
+
+
 ### mdatabase for android develope
 ```
 mdatabase 1501_db_1 #拷贝出data/data/com.android.providers.media/databases
