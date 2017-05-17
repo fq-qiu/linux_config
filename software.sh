@@ -14,8 +14,6 @@ yes | apt-get install build-essential
 yes | apt-get install automake libevent-dev libncurses5-dev libncurses5-dev
 yes | apt-get install curl
 yes | apt-get install cmake python-dev python-setuptools python3-dev
-yes | apt-get install pylint
-yes | apt-get install sqlite3 libsqlite3-dev qt4-dev-tools qt5-default qttools5-dev-tools 
 easy_install pip
 
 # zsh
@@ -35,27 +33,10 @@ if [ ! -d tmux ]; then
     echo `pwd`
     cd ${SOFTWARE_PATH}"/tmux/"
     sh autogen.sh
-    ./configure && make -j32
+    ./configure && make
     make install
     # rm -rf ${SOFTWARE_PATH}"/tmux/"
 fi
-
-
-# codequery
-cd $SOFTWARE_PATH
-if [ ! -d codequery ]; then
-    git clone https://github.com/ruben2020/codequery.git
-    echo `pwd`
-    cd ${SOFTWARE_PATH}"/codequery/"
-    mkdir build
-    cd build
-    cmake -G "Unix Makefiles" -DBUILD_QT5=ON ..
-    cmake -G "Unix Makefiles" -DBUILD_QT5=OFF ..
-    make -j32
-    make install
-    # rm -rf ${SOFTWARE_PATH}"/tmux/"
-fi
-
 
 # vim
 apt-get install vim-gnome
@@ -90,7 +71,8 @@ if [ ! -d ack-2.15_02 ]; then
     tar zxvf ack-2.15_02.tar.gz
     cd ack-2.15_02
     perl Makefile.PL
-    make -j32
+    make
+    make test
     make install # for a system-wide installation (recommended)
 fi
 

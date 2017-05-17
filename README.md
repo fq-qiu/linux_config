@@ -169,6 +169,3 @@ The files in `config_sh` are symbolinked into `$HOME` by `sh install.sh` and the
 - my ssh configure
 - for iptables, block some online game show sites ip
 - some shell scripts tools
-
-## log
-17/05/17 21:16:09 add [codequery](https://github.com/ruben2020/codequery)
