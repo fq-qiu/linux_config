@@ -41,16 +41,6 @@ if [ ! -d tmux ]; then
 fi
 
 
-# pycscope
-cd $SOFTWARE_PATH
-if [ ! -d pycscope ]; then
-    git clone https://github.com/portante/pycscope
-    echo `pwd`
-    cd ${SOFTWARE_PATH}"/pycscope/"
-    python setup.py install
-    # rm -rf ${SOFTWARE_PATH}"/pycscope/"
-fi
-
 # codequery
 cd $SOFTWARE_PATH
 if [ ! -d codequery ]; then
