@@ -1,5 +1,10 @@
 # tmux command sheets
 
+**reload tmux config**
+```
+$ tmux source-file ~/.tmux.conf
+```
+
 The defaut prefix is **Ctrl+b**, but I change it to **Ctrl+x**
 
 ## tmux general

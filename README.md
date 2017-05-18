@@ -54,7 +54,7 @@ man ag
 
 - zsh
 
-[zsh README](./readme/zsh_readme.md)
+[zsh README](./doc/zsh_readme.md)
 
 [zsh configure](https://zybuluo.com/mdeditor#40808)
 
@@ -62,7 +62,7 @@ man ag
 
 because of `tmux-plugins/tmux-continuum`, tmux will restore sessions
 
-[tmux README](./readme/tmux_readme.md)
+[tmux README](./doc/tmux_readme.md)
 
 [tmux configure](https://zybuluo.com/mdeditor#56429)
 
