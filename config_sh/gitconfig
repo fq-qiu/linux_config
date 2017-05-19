@@ -14,3 +14,5 @@
 	prompt = true
 [merge]
 	tool = vimdiff
+[init]
+	templatedir = ~/.git.init.templateDir

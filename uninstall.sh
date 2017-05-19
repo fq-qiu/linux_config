@@ -22,6 +22,7 @@ rm -rf ~/.oh-my-zsh
 # git
 rm -rf ~/.gitignore
 rm -rf ~/.gitconfig
+rm -rf ~/.git.init.templateDir
 
 # tmux
 rm -rf ~/.tmux.conf

@@ -1,0 +1,12 @@
+#!/bin/sh
+has_passwd=$(git diff HEAD | grep -iE "password|passwd")
+warning='Your commit has password and you may reveal your private information!\n
+If you want to commit it, please commit with the option -n or --no-verify to bypass the hook!\n
+\tgit commit -n\n
+Use the following command to get the unsecrue information\n
+\tgit diff HEAD'
+
+if [ -n has_passwd ]; then
+    echo $warning
+    exit 1
+fi

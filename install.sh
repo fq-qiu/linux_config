@@ -22,6 +22,7 @@ ln -s ~/linux_config/oh-my-zsh ~/.oh-my-zsh
 # git
 ln -s ~/linux_config/config_sh/gitignore ~/.gitignore
 ln -s ~/linux_config/config_sh/gitconfig ~/.gitconfig
+ln -s ~/linux_config/config_sh/git.init.templateDir ~/.git.init.templateDir
 
 # tmux
 if [ ! -d ~/.tmux ]; then
