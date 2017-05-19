@@ -6,7 +6,9 @@ If you want to commit it, please commit with the option -n or --no-verify to byp
 Use the following command to get the unsecrue information\n
 \tgit diff HEAD'
 
-if [ -n has_passwd ]; then
+echo $has_passwd
+
+if [ 0 -lt ${#has_passwd} ]; then
     echo $warning
     exit 1
 fi
