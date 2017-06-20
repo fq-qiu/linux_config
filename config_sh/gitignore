@@ -15,3 +15,6 @@ project.properties
 .settings/
 bin/
 .commit_temp
+*.pyc
+__pycache__/
+.ropeproject/

@@ -14,7 +14,7 @@ yes | apt-get install build-essential
 yes | apt-get install automake libevent-dev libncurses5-dev libncurses5-dev
 yes | apt-get install curl
 yes | apt-get install cmake python-dev python-setuptools python3-dev
-easy_install pip
+easy_install pip pip3
 
 # zsh
 yes | apt-get install zsh
@@ -98,3 +98,13 @@ sudo apt-get install Node.js npm
 # compatible i386, for android mksdard tool
 dpkg --add-architecture i386
 apt-get install libncurses5:i386 libstdc++6:i386 zlib1g:i386 lib32z1 lib32ncurses5
+
+# python3 libs
+apt-get install python3-tk
+pip3 install --upgrade autopep
+pip3 install pygmo
+pip3 install numpy
+pip3 install matploblib
+pip3 install deap
+
+

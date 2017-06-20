@@ -10,5 +10,7 @@
 -A OUTPUT -m string --string "huya.com" --algo bm --to 65535 -j DROP
 -A OUTPUT -m string --string "panda.tv" --algo bm --to 65535 -j DROP
 -A OUTPUT -m string --string "longzhu.com" --algo bm --to 65535 -j DROP
+-A OUTPUT -m string --string "iqiyi.com" --algo bm --to 65535 -j DROP
+-A OUTPUT -m string --string "bilibili.com" --algo bm --to 65535 -j DROP
 COMMIT
 # Completed on Sun Apr 10 07:38:56 2016

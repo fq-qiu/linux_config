@@ -50,6 +50,9 @@ cd ~/.ssh
 yes | ssh-keygen -P "" -t rsa -b 4096 -f ~/.ssh/github.com
 yes | ssh-keygen -P "" -t rsa -b 4096 -f ~/.ssh/coding.net
 
+# for show markdown toc in vim tagbar
+ln -s ~/linux_config/config_sh/ctags ~/.ctags
+
 
 # for iptables, block some online game show sites
 iptables-restore < config_sh/iptables.rules

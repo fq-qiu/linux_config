@@ -32,3 +32,4 @@ git status
 thefuck
 ls ~/.local/bin
 ps
+ipython3

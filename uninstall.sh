@@ -44,6 +44,9 @@ rm -rf ~/.ackrc
 # for ssh
 rm -rf ~/.ssh
 
+# for show markdown toc in vim tagbar
+ln -s ~/.ctags
+
 # for iptables, unblock some online game show sites
 rm /etc/iptables.up.rules
 iptables -F
