@@ -53,3 +53,6 @@ iptables -F
 
 # for rm crontab
 crontab -l | grep -v rm_recovery | crontab -
+
+# to solve ubuntu linux unzip compressed file Chinese garbage problem
+sed -i '/ZIP/d' /etc/environment

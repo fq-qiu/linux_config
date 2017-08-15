@@ -61,3 +61,8 @@ echo "post-down iptables-save > /etc/iptables.up.rules" >> /etc/network/interfac
 
 # crontab rm: /bin/rm ~/.tmp_reconvery every week
 (crontab -l 2>/dev/null; echo "10 4 * * 1 /bin/rm -rf ~/.rm_recovery") | crontab -
+
+# to solve ubuntu linux unzip compressed file Chinese garbage problem
+sed -i '$a UNZIP = "-O CP936"' /etc/environment
+sed -i '$a ZIPINFO = "-O CP936"' /etc/environment
+
