@@ -110,17 +110,17 @@ usage: YOUR_COMMAND | h [-i] [-d] args...
 ```
 
 
-### mdatabase for android develope
+### mdatabase for android develop
 ```
 mdatabase 1501_db_1 #拷贝出data/data/com.android.providers.media/databases
 ```
-### mkill developt
+### mkill
 杀死android device的名为的进程, 名称可以是正则表达式
 ```
 mkill *float*       #杀死符合正则表达式规则的*float*进程
 ```
 
-### mcapture develop
+### mcapture
 android device解屏并保存到当前目录, 同时也能缩小图片, 用于博客等. 有两种用法
 默认参数
 ```

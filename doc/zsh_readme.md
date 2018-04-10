@@ -76,24 +76,23 @@ x archive_file.xx
 ```
 
 ### git ###
+更多的alias可以查看oh-my-zsh的git plugin
 ```
-gst     git status
-gl      git pull
-gp      git push
-gd      git diff
-gc      git commit -v
-gc!     git commit -v -amend
-gcf     git config --list
-gco     git checkout
-gcm     git checkout master
-gr      git remote
-gb      git branch
-gcf     git config --list
-ga      git add
-gm      git merge
-gre     git reset
-
+alias g='git'
+alias ga='git add'
+alias gst='git status'
+alias gd='git diff'
+alias gc='git commit -v'
+alias gc!='git commit -v -amend' 
+alias gp='git push'
+alias gl='git pull'
+alias gcf='git config --list'
+alias gco='git checkout'
+alias gcm='git checkout master'
+alias gr='git remote'
+alias gb='git branch'
+alias gm='git merge'
+alias gre='git reset'
 alias glo='git log --oneline --decorate --color'
-
 alias glog='git log --oneline --decorate --color ---graph'
-```
+``
