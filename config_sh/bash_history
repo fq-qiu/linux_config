@@ -33,3 +33,126 @@ thefuck
 ls ~/.local/bin
 ps
 ipython3
+ack -v
+ack --version
+python -v
+python3
+pip3
+sudo apt-get install pip3
+sudo easy_install pip3
+cd ~/.vim
+ls
+cd plugged/YouCompleteMe/
+python3 install.py -all
+python3 install.py -h
+vim ../../vimrc 
+vim ~/.vim/vimrc 
+vim vimrc
+vim ~/.vim/vimrc 
+cd ../..
+ls
+vim vimrc
+cd ../linux_config/
+ls
+mv install.sh config.sh
+mv uninstall.sh unconfig.sh
+ls
+vim README.md 
+. ./config.sh 
+exit
+ls
+cd ~
+ls
+cd Documents/
+ls
+vim kalilinux.md
+exit
+sudo ./bootstrap && make && make install
+cmake --version
+sudo apt-get install fcitx
+cd ...
+..
+cd ..
+ls
+sudo dpkg -i sogoupinyin_2.2.0.0108_amd64.deb 
+sogou
+sudo apt-get -f install
+dpkg -i sogoupinyin_2.2.0.0108_amd64.deb 
+apt -f install
+ls
+exit
+sudo apt-get install cmake
+cmake --version
+cd ~/Downloads/
+ls
+x cmake-3.11.2-Linux-x86_64.tar.gz 
+zsh
+tar zxvf cmake-3.11.2-Linux-x86_64.tar.gz 
+cd cmake-3.11.2-Linux-x86_64/
+ls
+sudo apt-get purge cmake
+sudo apt-get install cmake
+ls
+cd ..
+ls
+rm cmake-3.11.2* -rf
+ls
+tar xvf cmake-3.11.2.tar.gz 
+cd cmake-3.11.2/
+ls
+vim README.rst 
+exit
+sudo vim /etc/apt/sources.list
+sudo apt-get update
+sudo apt-get install fcitx
+sudo vim /etc/apt/sources.list
+sudo apt-get dist-upgrade
+sudo apt-get update
+sudo vim /etc/apt/sources.list
+sudo apt-get update
+sudo vim /etc/apt/sources.list
+sudo apt-get update
+sudo apt-get dist-upgrade
+sudo apt-get install fcitx
+zsh
+git clone --recursive https://github.com/tainzhi/linux_config.git
+cd linux_config
+git submodule foreach --recursive git checkout master
+ls
+vim software.sh 
+sudo sh software.sh 
+sudo apt --fix-broken
+sudo apt-get -f install
+sudo apt --fix-broken install
+sudo sh software.sh 
+vim software.sh 
+exit
+ls
+cd ~/.oh-my-zsh
+ls
+cd ..
+ls
+j
+ls
+tmux
+ls
+ls -A
+vim .zshrc 
+exit
+zsh
+exit
+chsh -s /bin/zsh 
+exit
+chsh -s /bin/zsh
+exit
+sudo vim /etc/passwd
+shich zsh
+which zsh
+chsh -s $(which zsh)
+exit
+/bin/zsh
+$USER
+echo $USER
+sudo chch --shell=/bin/zsh $USER
+sudo chsh --shell=/bin/zsh $USER
+sudo vim /etc/passwd
