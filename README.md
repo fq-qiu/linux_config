@@ -19,14 +19,14 @@ git submodule foreach --recursive git checkout master
 - configure
 ```
 sudo sh software.sh     # install some softwares
-sudo sh install.sh      # make some alias to customize the system
+sudo sh config.sh      # make some alias to customize the system
 ```
 - add ssh key for github and coding.net
 go to `~/.ssh/`, copy `github.com.pub` to [github](https://github.com/settings/keys), copy `coding.net.pub` to [coding.net](https://coding.net/user/account/setting/keys)
         
 - uninstall
 ```
-sudo sh uninstall.sh    # delete some alias
+sudo sh unconfig.sh    # delete some alias
 ```
 
 
@@ -153,11 +153,11 @@ mcapture 50 file_name.png #截屏原图为screen_original.png, 缩小率为%50x%
     +-- shell_tools: my customized shell tools
     +-- tmux: submodules to tmux plugins
     +-- vimfile: submodules to my Q-vim
-    +-- install.sh: create alias 
+    +-- config.sh: create alias 
     +-- software.sh: the script to uninstall some softwares
-    +-- uninstall.sh:  delete alias
+    +-- unconfig.sh:  delete alias
 
-The files in `config_sh` are symbolinked into `$HOME` by `sh install.sh` and then take effect.
+The files in `config_sh` are symbolinked into `$HOME` by `sh config.sh` and then take effect.
 
 ## Functions
 - install some softwares,`g++`, `python`, `zsh`, `autojump`, `tmux`

@@ -6131,3 +6131,9 @@ git submodule foreach --recursive git checkout master
 : 1484144627:0;ls
 : 1484144632:0;ls |grep -i im
 : 1484144641:0;ps
+: 1526787097:0;ls
+: 1526787107:0;j vim
+: 1526787151:0;ls
+: 1526787152:0;pwd
+: 1526787159:0;vim .zshrc
+: 1526787168:0;exit
