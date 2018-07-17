@@ -38,8 +38,8 @@ if [ -L ~/.vim ]; then
     rm -rf ~/.vim
 fi
 
-# for ack
-rm -rf ~/.ackrc
+# # for ack
+# rm -rf ~/.ackrc
 
 # for ssh
 rm -rf ~/.ssh

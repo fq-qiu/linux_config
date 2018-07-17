@@ -10,18 +10,19 @@ fi
 
 # build essential
 apt-get -y install g++
-yes | apt-get install build-essential
-yes | apt-get install automake libevent-dev libncurses5-dev libncurses5-dev
-yes | apt-get install curl
-yes | apt-get install cmake python-dev python-setuptools python3-dev
-easy_install pip pip3
+apt-get -y install build-essential
+apt-get -y install automake libevent-dev libncurses5-dev libncurses5-dev
+apt-get -y install curl
+apt-get -y install cmake python-dev python-setuptools python3-dev python3-pip
+yes | pip3 install --upgrade pip
+apt-get -y remove python3-pip
 
 # zsh
-yes | apt-get install zsh
-yes | apt-get install autojump
-apt-get install -y xclip
+apt-get -y install zsh
+apt-get -y install autojump
+apt-get -y install xclip
 # chsh -s /bin/zsh
-sed -i "s/$USER\:\/bin\/bash/$USER\:\/bin\/zsh/g" /etc/passwd
+# sed -i "s/$USER\:\/bin\/bash/$USER\:\/bin\/zsh/g" /etc/passwd
 # just start the terminal and use zsh
 # /usr/bin/env zsh
 
@@ -49,58 +50,26 @@ if [ ! -d pycscope ]; then
 fi
 
 # vim
-apt-get install vim-gnome
+apt-get -y install vim-gnome
 
 # vim denpendency
-apt-get install ctags cscope
-
-
-## ack-2.14
-### File-Next
-cd $SOFTWARE_PATH
-# if File-Next-1.16.tar.gz doesn't exist, then download it
-if [ ! -f File-Next-1.16.tar.gz ]; then
-    wget http://www.cpan.org/authors/id/P/PE/PETDANCE/File-Next-1.16.tar.gz
-fi
-# if not exists, then extract to get it
-if [ ! -d File-Next-1.16 ]; then
-    tar zxvf File-Next-1.16.tar.gz
-    cd File-Next-1.16/
-    perl Makefile.PL
-    make
-    make test
-    make install
-fi
-###ack
-cd $SOFTWARE_PATH
-# if ack-2.15_01.tar.gz doesn't exist. then downloads it
-if [ ! -f ack-2.15_02.tar.gz ]; then
-    wget http://search.cpan.org/CPAN/authors/id/P/PE/PETDANCE/ack-2.15_02.tar.gz 
-fi
-if [ ! -d ack-2.15_02 ]; then
-    tar zxvf ack-2.15_02.tar.gz
-    cd ack-2.15_02
-    perl Makefile.PL
-    make
-    make test
-    make install # for a system-wide installation (recommended)
-fi
+apt-get -y install ctags cscope
 
 ##ag
-sudo apt-get install silversearcher-ag
+apt-get -y install silversearcher-ag
 
 #p7zip-full
-yes | apt-get install p7zip-full
+apt-get -y install p7zip-full
 
 # Node.js, npm
-sudo apt-get install Node.js npm
+apt-get -y install Node.js npm
 
 # compatible i386, for android mksdard tool
 dpkg --add-architecture i386
-apt-get install libncurses5:i386 libstdc++6:i386 zlib1g:i386 lib32z1 lib32ncurses5
+apt-get -y install libncurses5:i386 libstdc++6:i386 zlib1g:i386 lib32z1 lib32ncurses5
 
 # python3 libs
-apt-get install python3-tk
+apt-get -y install python3-tk
 pip3 install --upgrade autopep
 pip3 install pygmo
 pip3 install numpy

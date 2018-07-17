@@ -156,3 +156,82 @@ echo $USER
 sudo chch --shell=/bin/zsh $USER
 sudo chsh --shell=/bin/zsh $USER
 sudo vim /etc/passwd
+cd .vim/
+gvim
+gd
+gst
+ps
+cd 
+cd ~/linux_config/
+gst
+ls
+sudo sh ./config.sh 
+ext
+ls
+vim software.sh 
+exit
+ls
+j vim
+cd .vim
+gst
+gd
+ps
+ls
+vim vimrc
+gst
+gd
+gst
+gvim vimrc
+gst
+ga vimrc
+gst
+gc
+gst
+glo
+gp
+git push origin master
+cd ../linux_config/
+exit
+cd linux_config/
+sudo apt-get install -y autojump
+j --version
+autojump --version
+vim config.sh 
+python3 -v
+pip3
+vim software.sh 
+pip3 install --upgrade pip
+sudo apt-get install python3-pip
+ps
+vim software.sh 
+gst
+gd software.sh 
+ps
+gst
+glo
+git show HEAD
+glo
+ps
+vim software.sh 
+man autojump
+ag autojump
+ls
+vim config.sh 
+ag ack
+ag \<ack\>
+ag "ack"
+ag -w ack
+ps
+vim vimrc
+vim config.sh 
+ps
+vim /etc/passwd
+sudo vim /etc/passwd
+exit
+sudo vim /etc/passwd
+exit
+sudo chsh -s /bin/zsh
+/usr/bin/env zsh
+exit
+vim .bashrc
+exit

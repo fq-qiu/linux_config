@@ -40,8 +40,8 @@ if [ ! -d ~/.vim ]; then
     echo | vim -u ~/.vim/vimrc +BundleUpdate +qall
 fi
 
-# for ack
-ln -s ~/linux_config/config_sh/ackrc ~/.ackrc
+# # for ack
+# ln -s ~/linux_config/config_sh/ackrc ~/.ackrc
 
 # for ssh
 mkdir ~/.ssh
