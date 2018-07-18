@@ -28,16 +28,7 @@ apt-get -y install xclip
 
 
 # tmux
-cd $SOFTWARE_PATH
-if [ ! -d tmux ]; then
-    git clone https://github.com/tmux/tmux.git
-    echo `pwd`
-    cd ${SOFTWARE_PATH}"/tmux/"
-    sh autogen.sh
-    ./configure && make
-    make install
-    # rm -rf ${SOFTWARE_PATH}"/tmux/"
-fi
+apt-get -y install tmux
 
 # pycscope
 cd $SOFTWARE_PATH
