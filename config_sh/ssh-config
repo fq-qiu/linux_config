@@ -15,3 +15,10 @@ HostName 123.206.23.132
 User ubuntu
 Port 22
 Identityfile ~/.ssh/sshForWSL
+
+# 我的google cloud服务器，用于翻墙
+Host google
+HostName 35.187.225.217
+User qfq0601
+Port 22
+Identityfile ~/.ssh/cloud.google
