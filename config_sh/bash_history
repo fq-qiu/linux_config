@@ -235,3 +235,14 @@ sudo chsh -s /bin/zsh
 exit
 vim .bashrc
 exit
+ls
+sudo vim /etc/passwd
+/bin/zsh
+ls
+cdl install.sh 
+cd linux_config/
+ls
+vim software.sh 
+ps
+vim software.sh 
+exit

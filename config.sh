@@ -48,7 +48,7 @@ mkdir ~/.ssh
 ln -s ~/linux_config/config_sh/ssh-config ~/.ssh/config
 cd ~/.ssh
 yes | ssh-keygen -P "" -t rsa -b 4096 -f ~/.ssh/github.com
-yes | ssh-keygen -P "" -t rsa -b 4096 -f ~/.ssh/coding.net
+yes | ssh-keygen -P "" -t rsa -f ~/.ssh/coding.net
 chmod 600 ~/.ssh/*
 
 # for show markdown toc in vim tagbar
