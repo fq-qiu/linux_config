@@ -53,7 +53,7 @@ apt-get -y install silversearcher-ag
 apt-get -y install p7zip-full
 
 # Node.js, npm
-apt-get -y install Node.js npm
+# apt-get -y install Nodejs npm
 
 # compatible i386, for android mksdard tool
 dpkg --add-architecture i386
