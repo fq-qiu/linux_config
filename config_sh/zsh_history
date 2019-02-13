@@ -6139,3 +6139,14 @@ git submodule foreach --recursive git checkout master
 : 1526787168:0;exit
 : 1531798580:0;ls
 : 1531798589:0;exit
+: 1550038171:0;gst
+: 1550038175:0;ls
+: 1550038184:0;vim software.sh
+: 1550038218:0;gst
+: 1550038221:0;ga software.sh
+: 1550038222:0;gst
+: 1550038225:0;vim config.sh
+: 1550038411:0;gst
+: 1550038423:0;ga config.sh
+: 1550038424:0;gst
+: 1550038428:0;ga config_sh/

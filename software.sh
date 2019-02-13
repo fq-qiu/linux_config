@@ -1,13 +1,3 @@
-SOFTWARE_PATH="/home/muqing/Downloads/software"
-
-if [ -d $SOFTWARE_PATH ]; then
-    echo $SOFTWARE_PATH
-else
-    mkdir -p ${HOME}"/software_install"
-    SOFTWARE_PATH=${HOME}"/software_install"
-    echo $SOFTWARE_PATH
-fi
-
 # build essential
 apt-get -y install g++
 apt-get -y install build-essential
@@ -31,20 +21,13 @@ apt-get -y install xclip
 apt-get -y install tmux
 
 # pycscope
-cd $SOFTWARE_PATH
-if [ ! -d pycscope ]; then
-    git clone https://github.com/portante/pycscope
-    echo `pwd`
-    cd ${SOFTWARE_PATH}"/pycscope/"
-    python setup.py install
-    # rm -rf ${SOFTWARE_PATH}"/pycscope/"
-fi
-
+pip3 install pycscope
 # vim
 apt-get -y install vim-gnome
-
 # vim denpendency
 apt-get -y install ctags cscope
+# pycscope
+pip3 install pycscope
 
 ##ag
 apt-get -y install silversearcher-ag
@@ -58,13 +41,3 @@ apt-get -y install p7zip-full
 # compatible i386, for android mksdard tool
 dpkg --add-architecture i386
 apt-get -y install libncurses5:i386 libstdc++6:i386 zlib1g:i386 lib32z1 lib32ncurses5
-
-# python3 libs
-apt-get -y install python3-tk
-pip3 install --upgrade autopep
-pip3 install pygmo
-pip3 install numpy
-pip3 install matploblib
-pip3 install deap
-
-
