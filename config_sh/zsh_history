@@ -6150,3 +6150,29 @@ git submodule foreach --recursive git checkout master
 : 1550038423:0;ga config.sh
 : 1550038424:0;gst
 : 1550038428:0;ga config_sh/
+: 1550038429:0;gst
+: 1550038434:0;gc
+: 1550038479:0;gst
+: 1550038486:0;cd `\
+ls
+: 1550038488:0;cd `
+: 1550038491:0;cd ~
+: 1550038491:0;ls
+: 1550038501:0;rm node-v10.8.0-linux-x64 -rf
+: 1550038663:0;gst
+: 1550038665:0;ls
+: 1550038669:0;rm MyPython
+: 1550038672:0;rm -rf MyPython
+: 1550038681:0;cd linux_config
+: 1550038681:0;ls
+: 1550038689:0;cd config_sh
+: 1550038690:0;ls
+: 1550038696:0;vim pip.conf
+: 1550038770:0;gst
+: 1550038774:0;cd ..
+: 1550038775:0;ls
+: 1550038780:0;vim config.sh
+: 1550038851:0;gst
+: 1550038853:0;gd
+: 1550038862:0;ga config.sh unconfig.sh
+: 1550038865:0;ga config_sh/

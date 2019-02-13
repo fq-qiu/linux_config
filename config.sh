@@ -69,3 +69,6 @@ echo "post-down iptables-save > /etc/iptables.up.rules" >> /etc/network/interfac
 sed -i '$a UNZIP = "-O CP936"' /etc/environment
 sed -i '$a ZIPINFO = "-O CP936"' /etc/environment
 
+# pip使用国内镜像源
+mkdir -p ~/.pip/
+ln -s ./config_sh/pip.conf ~/.pip/pip.confg
