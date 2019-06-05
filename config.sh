@@ -72,3 +72,8 @@ sed -i '$a ZIPINFO = "-O CP936"' /etc/environment
 # pip使用国内镜像源
 mkdir -p ~/.pip/
 ln -s ./config_sh/pip.conf ~/.pip/pip.confg
+
+
+# fonts
+ln -s ./fonts ~/.fonts
+fc-cache -vf
