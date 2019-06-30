@@ -8,7 +8,6 @@ NERD*
 *patch
 .idea/
 .plus/
-bundle/
 project.properties
 .classpath
 .project

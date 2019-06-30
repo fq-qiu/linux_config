@@ -1,5 +1,25 @@
 This a auto configure script for my linux configure
 
+<!-- vim-markdown-toc GFM -->
+
+* [PreInstall](#preinstall)
+* [Install](#install)
+* [需要安装配置的项目](#需要安装配置的项目)
+* [Some help and readme](#some-help-and-readme)
+    - [第三方开发工具](#第三方开发工具)
+* [shell tools usage](#shell-tools-usage)
+    - [mtags](#mtags)
+    - [msplit](#msplit)
+    - [gh-md-toc](#gh-md-toc)
+    - [hhighlighte or h](#hhighlighte-or-h)
+    - [mdatabase for android develop](#mdatabase-for-android-develop)
+    - [mkill](#mkill)
+    - [mcapture](#mcapture)
+* [File Stucture](#file-stucture)
+* [Functions](#functions)
+
+<!-- vim-markdown-toc -->
+
 
 ## PreInstall
 
@@ -28,7 +48,10 @@ go to `~/.ssh/`, copy `github.com.pub` to [github](https://github.com/settings/k
 ```
 sudo sh unconfig.sh    # delete some alias
 ```
-
+## 需要安装配置的项目
+- vim和插件
+- git: editor为vim -u vimrc.simple
+- 添加字体: 微软雅黑, 宋体, Helivetica
 
 ## Some help and readme
 
