@@ -2,9 +2,10 @@
 	name = tainzhi
 	email = qfq61@qq.com
 [core]
-    editor = vim -u ~/.vim/vimrc.simple
+	editor = vim -u ~/.vim/vimrc.simple
 	excludesfile = ~/.gitignore
 	quotepath = false
+    autocrlf = true
 [color]
 	ui = auto
 [alias]
