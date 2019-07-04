@@ -9,13 +9,16 @@ apt-get -y remove python3-pip
 
 # zsh
 apt-get -y install zsh
-apt-get -y install autojump
 apt-get -y install xclip
 # chsh -s /bin/zsh
 # sed -i "s/$USER\:\/bin\/bash/$USER\:\/bin\/zsh/g" /etc/passwd
 # just start the terminal and use zsh
 # /usr/bin/env zsh
 
+
+# replace autojump with z.lua
+apt-get -y install lua5.3
+git clone https://github.com/skywind3000/z.lua ~/
 
 # tmux
 apt-get -y install tmux
@@ -33,11 +36,11 @@ pip3 install pycscope
 apt-get -y install silversearcher-ag
 
 #p7zip-full
-apt-get -y install p7zip-full
+# apt-get -y install p7zip-full
 
 # Node.js, npm
 # apt-get -y install Nodejs npm
 
 # compatible i386, for android mksdard tool
-dpkg --add-architecture i386
-apt-get -y install libncurses5:i386 libstdc++6:i386 zlib1g:i386 lib32z1 lib32ncurses5
+# dpkg --add-architecture i386
+# apt-get -y install libncurses5:i386 libstdc++6:i386 zlib1g:i386 lib32z1 lib32ncurses5

@@ -56,12 +56,14 @@ setopt HIST_IGNORE_SPACE
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git extract history-substring-search)
+plugins=(git git-prompt extract history-substring-search zsh-syntax-highlighting zsh-autosuggestions)
 
 # User configuration
 
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 # export MANPATH="/usr/local/man:$MANPATH"
+
+ZSH_DISABLE_COMPFIX=true
 
 source $ZSH/oh-my-zsh.sh
 
@@ -94,5 +96,14 @@ export PATH=$PATH
 
 source ~/linux_config/config_sh/bashrc_zshrc_general
 
-# autojump
-. /usr/share/autojump/autojump.sh
+# replace autojump with z.lua
+eval "$(lua5.3 ~/z.lua/z.lua --init zsh)"
+
+alias vi="vim -u ~/.vim/vimrc.simple"
+alias gvim="/mnt/c/gvim_8.0.0003_x64/vim/vim80/gvim.exe %1"
+
+# bind P and N for EMACS mode
+ bindkey '^p' history-substring-search-up
+ bindkey '^n' history-substring-search-down
+
+bindkey '^j' autosuggest-accept
