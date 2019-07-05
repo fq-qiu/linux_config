@@ -32,8 +32,10 @@ apt-get -y install ctags cscope
 # pycscope
 pip3 install pycscope
 
-##ag
-apt-get -y install silversearcher-ag
+## rg search
+## if linux version >= 18.10, ripgrep can be installed by apt-install
+## others, it can only be installed mannually
+apt-get -y install ripgrep || curl -LO https://github.com/BurntSushi/ripgrep/releases/download/11.0.1/ripgrep_11.0.1_amd64.deb && dpkg -i ripgrep_11.0.1_amd64.deb
 
 #p7zip-full
 # apt-get -y install p7zip-full
