@@ -37,6 +37,9 @@ pip3 install pycscope
 ## others, it can only be installed mannually
 apt-get -y install ripgrep || curl -LO https://github.com/BurntSushi/ripgrep/releases/download/11.0.1/ripgrep_11.0.1_amd64.deb && dpkg -i ripgrep_11.0.1_amd64.deb
 
+## better than find
+apt-get -y fd-find
+
 #p7zip-full
 # apt-get -y install p7zip-full
 

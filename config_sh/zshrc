@@ -53,10 +53,10 @@ setopt HIST_IGNORE_SPACE
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
 # Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
-# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
+# Custom plugins may be added to ~/.oh-my-zsh/custom/etlugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git git-prompt extract history-substring-search zsh-syntax-highlighting zsh-autosuggestions)
+plugins=(git extract history-substring-search zsh-syntax-highlighting zsh-autosuggestions)
 
 # User configuration
 
@@ -101,6 +101,7 @@ eval "$(lua5.3 ~/z.lua/z.lua --init zsh)"
 
 alias vi="vim -u ~/.vim/vimrc.simple"
 alias gvim="/mnt/c/gvim_8.0.0003_x64/vim/vim80/gvim.exe %1"
+alias wuser="/mnt/c/users/muqing/"
 
 # bind P and N for EMACS mode
  bindkey '^p' history-substring-search-up

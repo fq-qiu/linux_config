@@ -53,6 +53,8 @@ sudo sh unconfig.sh    # delete some alias
 - git: editor 为 vim -u vimrc.simple
 - 添加字体：微软雅黑，宋体，Helivetica
 - 替换 autojump（比 z.lua 慢 3 倍）, 使用 [z.lua](https://github.com/skywind3000/z.lua). 使用前要安装 lua5.3,clone z.lua 到用户目录，并在 zshrc 中设置
+- 安装rg
+- 安装fd, faster and better than find
 
 ## Some help and readme
 
