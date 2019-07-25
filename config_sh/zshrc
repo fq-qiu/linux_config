@@ -15,7 +15,7 @@ ZSH_THEME="robbyrussell"
 DISABLE_AUTO_UPDATE="false"
 
 # Uncomment the following line to change how often to auto-update (in days).
-# export UPDATE_ZSH_DAYS=13
+# export UPDATE_ZSH_DAYS=0
 
 # Uncomment the following line to disable colors in ls.
 # DISABLE_LS_COLORS="true"
@@ -56,7 +56,13 @@ setopt HIST_IGNORE_SPACE
 # Custom plugins may be added to ~/.oh-my-zsh/custom/etlugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git extract history-substring-search zsh-syntax-highlighting zsh-autosuggestions)
+plugins=(
+    git
+    extract
+    history-substring-search
+    zsh-syntax-highlighting
+    zsh-autosuggestions
+)
 
 # User configuration
 
@@ -92,12 +98,56 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-export PATH=$PATH
 
-source ~/linux_config/config_sh/bashrc_zshrc_general
+# # java 
+# JAVA_HOME=/opt/jdk1.8.0_74
+# JRE_HOME=/opt/jdk1.8.0_74/jre
+# CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar:$JRE_HOME/lib
+# PATH=$JAVA_HOME/bin:$JRE_HOME/bin:$PATH
+
+# # anroid Sdk
+# ANDROID_SDK=~/Android/Sdk
+# PATH=$ANDROID_SDK/build-tools/23.0.2:$ANDROID_SDK/platform-tools:$ANDROID_SDK/tools:$PATH
+# ANDROID_NDK=$ANDROID_SDK/ndk-bundle
+# PATH=$ANDROID_NDK:$PATH
+
+# #AndroidStudio
+# alias anstudio="/opt/android-studio/bin/studio.sh"
+
+# # Intellij IDEA for java
+# alias idea="/opt/idea-IC-139.225.3/bin/idea.sh"
+
+
+#adb shell kill
+alias mkill=". ~/linux_config/shell_tools/adb_shell_kill.sh"
+
+#adb shell screen capture
+alias mcapture=". ~/linux_config/shell_tools/adb_screencap.sh"
+
+# rm recovert
+# alias rm='. ~/linux_config/shell_tools/myrm.sh'
+
+# auto color    
+alias grep="grep --color"
+# alias ls="ls -hF --color=tty"
+
+# tags
+alias mtags=". ~/linux_config/shell_tools/tags.sh"
+
+
+# split file
+alias msplit='sh ~/linux_config/shell_tools/split.sh'
+
+# gh-md-toc
+alias gh-md-toc='~/linux_config/bin_tools/gh-md-toc'
+
+# A tiny utility to highlight multiple keywords with different colors
+. ~/linux_config/shell_tools/h.sh
+
+export SVN_EDITOR=vim
 
 # replace autojump with z.lua
-eval "$(lua5.3 ~/z.lua/z.lua --init zsh)"
+eval "$(lua5.3 ~/Library/z.lua/z.lua --init zsh)"
 
 alias vi="vim -u ~/.vim/vimrc.simple"
 alias gvim="/mnt/c/gvim_8.0.0003_x64/vim/vim80/gvim.exe %1"
@@ -108,3 +158,5 @@ alias wuser="/mnt/c/users/muqing/"
  bindkey '^n' history-substring-search-down
 
 bindkey '^j' autosuggest-accept
+
+export PATH=$PATH

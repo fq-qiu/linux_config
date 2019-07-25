@@ -1,5 +1,7 @@
 # bash shell
 # 先备份原有的.bashrc, 再使用自定义的
+# ln -s source_file target_file
+
 if [ ! -L ~/.bashrc ]; then
     mv ~/.bashrc ~/.bashrc_backup
 fi

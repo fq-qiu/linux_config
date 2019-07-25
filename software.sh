@@ -49,3 +49,9 @@ apt-get -y fd-find
 # compatible i386, for android mksdard tool
 # dpkg --add-architecture i386
 # apt-get -y install libncurses5:i386 libstdc++6:i386 zlib1g:i386 lib32z1 lib32ncurses5
+
+
+zsh plugin
+echo $ZSH_CUSTOM # ~/.oh-my-zsh/custom
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
