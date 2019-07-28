@@ -161,29 +161,14 @@ if [ ${OS} = "Darwin" ]; then
     # Mac OS X 操作系统
     MacVimHome=/Applications/MacVim.app/Contents/MacOS
     PATH=/Users/00390839/Library/hugo_0.56.0_macOS-64bit:$PATH
-    # alias vi="/Applications/MacVim.app/Contents/MacOS/Vim -u ~/.vim/vimrc.simple" 
-    # alias vim="/Applications/MacVim.app/Contents/MacOS/Vim -u ~/.vim/vimrc" 
+    alias vi="/Applications/MacVim.app/Contents/MacOS/Vim -u ~/.vim/vimrc.simple" 
+    alias vim="/Applications/MacVim.app/Contents/MacOS/Vim -u ~/.vim/vimrc" 
     alias vi=${MacVimHome}"/Vim -u ~/.vim/vimrc.simple"
     alias vim=${MacVimHome}"/Vim -u ~/.vim/vimrc"
 elif [ ${OS} = "Linux"  ]; then
-    source /etc/os-release
-    case $ID in
-        debian|ubuntu|devuan)
-            sudo apt-get install git
-            ;;
-        centos|fedora|rhel)
-            yumdnf="yum"
-            if test "$(echo "$VERSION_ID >= 22" | bc)" -ne 0;
-            then
-                yumdnf="dnf"
-            fi
-            sudo $yumdnf install -y git
-            ;;
-        *)
-            exit 1
-            ;;
-    esac
+    alias vi="vim -u ~/.vim/vimrc.simple"
 elif [ ${OS} = "MINGW32_NT" ]; then
+    # wsl
     alias gvim="/mnt/c/gvim_8.0.0003_x64/vim/vim80/gvim.exe %1"
     alias wuser="/mnt/c/users/muqing/"
     echo "Other OS: ${OS}"
