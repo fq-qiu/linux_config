@@ -106,8 +106,8 @@ source $ZSH/oh-my-zsh.sh
 # PATH=$JAVA_HOME/bin:$JRE_HOME/bin:$PATH
 
 # # anroid Sdk
-# ANDROID_SDK=~/Android/Sdk
-# PATH=$ANDROID_SDK/build-tools/23.0.2:$ANDROID_SDK/platform-tools:$ANDROID_SDK/tools:$PATH
+ANDROID_SDK=~/Library/Android/sdk
+PATH=$ANDROID_SDK/build-tools:$ANDROID_SDK/platform-tools:$ANDROID_SDK/tools:$PATH
 # ANDROID_NDK=$ANDROID_SDK/ndk-bundle
 # PATH=$ANDROID_NDK:$PATH
 
@@ -149,14 +149,44 @@ export SVN_EDITOR=vim
 # replace autojump with z.lua
 eval "$(lua5.3 ~/Library/z.lua/z.lua --init zsh)"
 
-alias vi="vim -u ~/.vim/vimrc.simple"
-alias gvim="/mnt/c/gvim_8.0.0003_x64/vim/vim80/gvim.exe %1"
-alias wuser="/mnt/c/users/muqing/"
 
 # bind P and N for EMACS mode
  bindkey '^p' history-substring-search-up
  bindkey '^n' history-substring-search-down
 
 bindkey '^j' autosuggest-accept
+
+OS=`uname -s`
+if [ ${OS} = "Darwin" ]; then
+    # Mac OS X 操作系统
+    MacVimHome=/Applications/MacVim.app/Contents/MacOS
+    PATH=/Users/00390839/Library/hugo_0.56.0_macOS-64bit:$PATH
+    # alias vi="/Applications/MacVim.app/Contents/MacOS/Vim -u ~/.vim/vimrc.simple" 
+    # alias vim="/Applications/MacVim.app/Contents/MacOS/Vim -u ~/.vim/vimrc" 
+    alias vi=${MacVimHome}"/Vim -u ~/.vim/vimrc.simple"
+    alias vim=${MacVimHome}"/Vim -u ~/.vim/vimrc"
+elif [ ${OS} = "Linux"  ]; then
+    source /etc/os-release
+    case $ID in
+        debian|ubuntu|devuan)
+            sudo apt-get install git
+            ;;
+        centos|fedora|rhel)
+            yumdnf="yum"
+            if test "$(echo "$VERSION_ID >= 22" | bc)" -ne 0;
+            then
+                yumdnf="dnf"
+            fi
+            sudo $yumdnf install -y git
+            ;;
+        *)
+            exit 1
+            ;;
+    esac
+elif [ ${OS} = "MINGW32_NT" ]; then
+    alias gvim="/mnt/c/gvim_8.0.0003_x64/vim/vim80/gvim.exe %1"
+    alias wuser="/mnt/c/users/muqing/"
+    echo "Other OS: ${OS}"
+fi
 
 export PATH=$PATH
