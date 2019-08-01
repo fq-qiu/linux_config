@@ -1,9 +1,6 @@
 CURRENT_PATH=`pwd`
 
-find $CURRENT_PATH -iname "*.java" -o -name "*.xml" -o -name "*.h"  -o -name "*.c" -o -name "*.cpp" -o -name "*.cc" -o -name "*.aidl" -o -name "*.py" -o -name "*.md" | grep -v .plus > ./cscope.files
-
-# find $CURRENT_PATH -iname "*.xml" >> ./cscope.files
-# find $CURRENT_PATH  -name "*.h" -o -name "*.c" -o -name "*.cc"  -o -name "*.cpp" >> cscope.files
+find $CURRENT_PATH -not -path "*build/generat*" -not -path "*intermediates/*" -not -path "*.plus*" -iname "*.java" -o -name "*.xml" -o -name "*.h"  -o -name "*.c" -o -name "*.cpp" -o -name "*.cc" -o -name "*.aidl" -o -name "*.py" -o -name "*.md" > ./cscope.files
 
 ctags --fields=+i -n -R -L ./cscope.files
 
