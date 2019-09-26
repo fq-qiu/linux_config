@@ -98,19 +98,6 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-
-# # java 
-# JAVA_HOME=/opt/jdk1.8.0_74
-# JRE_HOME=/opt/jdk1.8.0_74/jre
-# CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar:$JRE_HOME/lib
-# PATH=$JAVA_HOME/bin:$JRE_HOME/bin:$PATH
-
-# # anroid Sdk
-ANDROID_SDK=~/Library/Android/sdk
-PATH=$ANDROID_SDK/build-tools:$ANDROID_SDK/platform-tools:$ANDROID_SDK/tools:$PATH
-# ANDROID_NDK=$ANDROID_SDK/ndk-bundle
-# PATH=$ANDROID_NDK:$PATH
-
 # #AndroidStudio
 # alias anstudio="/opt/android-studio/bin/studio.sh"
 
@@ -147,7 +134,7 @@ alias gh-md-toc='~/linux_config/bin_tools/gh-md-toc'
 export SVN_EDITOR=vim
 
 # replace autojump with z.lua
-eval "$(lua5.3 ~/Library/z.lua/z.lua --init zsh)"
+eval "$(lua /Applications/z.lua/z.lua --init zsh)"
 
 
 # bind P and N for EMACS mode
@@ -159,12 +146,21 @@ bindkey '^j' autosuggest-accept
 OS=`uname -s`
 if [ ${OS} = "Darwin" ]; then
     # Mac OS X 操作系统
-    MacVimHome=/Applications/MacVim.app/Contents/MacOS
-    PATH=/Users/00390839/Library/hugo_0.56.0_macOS-64bit:$PATH
-    alias vi="/Applications/MacVim.app/Contents/MacOS/Vim -u ~/.vim/vimrc.simple" 
-    alias vim="/Applications/MacVim.app/Contents/MacOS/Vim -u ~/.vim/vimrc" 
-    alias vi=${MacVimHome}"/Vim -u ~/.vim/vimrc.simple"
-    alias vim=${MacVimHome}"/Vim -u ~/.vim/vimrc"
+    # MacVimHome=/Applications/MacVim.app/Contents/MacOS
+    # PATH=/Users/00390839/Library/hugo_0.56.0_macOS-64bit:$PATH
+    # alias vi="/Applications/MacVim.app/Contents/MacOS/Vim -u ~/.vim/vimrc.simple" 
+    # alias vim="/Applications/MacVim.app/Contents/MacOS/Vim -u ~/.vim/vimrc" 
+    # alias vi=${MacVimHome}"/Vim -u ~/.vim/vimrc.simple"
+    # alias vim=${MacVimHome}"/Vim -u ~/.vim/vimrc"
+
+	# java 
+	JAVA_HOME=/Applications/Android\ Studio.app/Contents/jre/jdk/Contents/Home
+	JRE_HOME=$JAVA_HOME/lib
+	PATH=$JAVA_HOME/bin:$JRE_HOME/bin:$PATH
+
+	# anroid Sdk
+	ANDROID_SDK=~/Library/Android/sdk
+	PATH=$ANDROID_SDK/build-tools:$ANDROID_SDK/platform-tools:$ANDROID_SDK/tools:$PATH
 elif [ ${OS} = "Linux"  ]; then
     alias vi="vim -u ~/.vim/vimrc.simple"
 elif [ ${OS} = "MINGW32_NT" ]; then
