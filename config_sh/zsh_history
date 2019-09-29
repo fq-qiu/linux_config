@@ -6321,3 +6321,59 @@ ls
 : 1564089439:0;ln -s ~/linux_config/config_sh/zsh_history .zsh_history
 : 1564089453:0;vim .zshrc
 : 1564089465:0;vim .zsh_history
+: 1569717420:0;cat .zsh_history
+: 1569717442:0;vim .zshrc
+: 1569717471:0;cd .oh-my-zsh
+: 1569717472:0;ls
+: 1569717474:0;vim
+: 1569717525:0;vim ~/.zshrc
+: 1569717682:0;ls
+: 1569717705:0;cd ~
+: 1569717706:0;ls
+: 1569717712:0;vim ~/.zshrc
+: 1569717724:0;gst
+: 1569717821:0;cd ~/.ssh
+: 1569717822:0;ls
+: 1569717909:0;cat config
+: 1569717910:0;ls
+: 1569717913:0;vi config
+: 1569717917:0;cd ..
+: 1569717920:0;rm -rf .ssh
+: 1569717946:0;mkdir .ssh
+: 1569717947:0;cd .ssh
+: 1569717961:0;ln -s ~/linux_config/config_sh/ssh-config config
+: 1569717964:0;cat config
+: 1569717984:0;ssh-keygen -t rsa -C "email@gmail.com" -f ~/.ssh/github.com
+: 1569717994:0;cat github.com.pub
+: 1569718029:0;ssh-keygen -t rsa -C "qfq61l@qq.com" -f ~/.ssh/github.com
+: 1569718035:0;cat github.com.pub
+: 1569718118:0;ssh -T github
+: 1569718199:0;cat config
+: 1569718204:0;ssh -T github.com
+: 1569718215:0;vim config
+: 1569718235:0;ssh -T github.com
+: 1569718248:0;cd ~/linux_config
+: 1569718250:0;gst
+: 1569718258:0;git remote set-url origin git@github.com:tainzhi/linux_config.git
+: 1569718259:0;gst
+: 1569718260:0;gl
+: 1569718275:0;z ssh
+: 1569718276:0;ls
+: 1569718299:0;cat github.com.pub
+: 1569718418:0;ssh-keygen -t rsa -b 4096 -C ""qfq61@qq.com" -f ~/.ssh/github.com
+: 1569718426:0;ssh-keygen -t rsa -b 4096 -C "qfq61@qq.com" -f ~/.ssh/github.com
+: 1569718446:0;pbcocpy --help
+: 1569718452:0;pbcopy -help
+: 1569718470:0;pbcopy < ./github.com.pub
+: 1569718490:0;ssh -T github.com
+: 1569718497:0;z -
+: 1569718499:0;gl
+: 1569718525:0;gst
+: 1569718531:0;gl
+: 1569718567:0;ls
+: 1569718571:0;z -
+: 1569718573:0;vim config
+: 1569718588:0;z -
+: 1569718589:0;gl
+: 1569718597:0;gst
+: 1569718609:0;ga config_sh/

@@ -138,8 +138,8 @@ eval "$(lua /Applications/z.lua/z.lua --init zsh)"
 
 
 # bind P and N for EMACS mode
- bindkey '^p' history-substring-search-up
- bindkey '^n' history-substring-search-down
+bindkey '^p' history-substring-search-up
+bindkey '^n' history-substring-search-down
 
 bindkey '^j' autosuggest-accept
 

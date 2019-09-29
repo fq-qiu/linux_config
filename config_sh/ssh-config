@@ -8,8 +8,8 @@ Host github.com
 User qfq61@qq.com
 Port 22
 PreferredAuthentications publickey
-ProxyCommand nc -v -x 127.0.0.1:10811 %h %p
 Identityfile ~/.ssh/github.com
+# ProxyCommand nc -v -x 127.0.0.1:10811 %h %p
 
 Host tencent
 HostName 123.206.23.132
