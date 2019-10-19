@@ -1,25 +1,38 @@
 # coding.net
-Host git.coding.net
-User qfq61@qq.com
-PreferredAuthentications publickey
-Identityfile ~/.ssh/coding.net
+Host coding.net
+    HostName git.coding.net
+    User qfq61@qq.com
+    PreferredAuthentications publickey
+    Identityfile ~/.ssh/coding.net
 
 Host github.com
-User qfq61@qq.com
-Port 22
-PreferredAuthentications publickey
-Identityfile ~/.ssh/github.com
-# ProxyCommand nc -v -x 127.0.0.1:10811 %h %p
+    User git
+    Port 22
+    PreferredAuthentications publickey
+    Identityfile ~/.ssh/github
+    # ProxyCommand nc -v -x 127.0.0.1:10811 %h %p
 
 Host tencent
-HostName 123.206.23.132
-User ubuntu
-Port 22
-Identityfile ~/.ssh/sshForWSL
+    HostName 123.206.23.132
+    User ubuntu
+    Port 22
+    Identityfile ~/.ssh/sshForWSL
 
 # 我的google cloud服务器，用于翻墙
 Host google
-HostName 35.187.225.217
-User qfq0601
-Port 22
-Identityfile ~/.ssh/cloud.google
+    HostName 35.187.225.217
+    User qfq0601
+    Port 22
+    Identityfile ~/.ssh/cloud.google
+
+Host want
+    HostName git.hollywant.com
+    User git
+    Port 10022
+    PreferredAuthentications publickey
+    Identityfile ~/.ssh/git.lab
+
+Host android
+    HostName shqnb00001950.want-want.com
+    User 00390839
+    Identityfile ~/.ssh/android

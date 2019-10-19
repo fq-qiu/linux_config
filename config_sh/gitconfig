@@ -17,5 +17,7 @@
 	tool = vimdiff
 [init]
 	templatedir = ~/.git.init.templateDir
-[http "https://github.com"]
-	proxy = socks5://127.0.0.1:10811
+; [http "https://github.com"]
+	; proxy = socks5://127.0.0.1:10811
+[http]
+	postBuffer = 524288000
