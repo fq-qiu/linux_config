@@ -163,6 +163,11 @@ if [ ${OS} = "Darwin" ]; then
 	# anroid Sdk
 	ANDROID_SDK=~/Library/Android/sdk
 	PATH=$ANDROID_SDK/build-tools:$ANDROID_SDK/platform-tools:$ANDROID_SDK/tools:$PATH
+
+    # homebrew sbin
+    PATH="/usr/local/sbin:$PATH"
+    # homebrew速度慢，替换成清华的镜像
+    export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles
 elif [ ${OS} = "Linux"  ]; then
     alias vi="vim -u ~/.vim/vimrc.simple"
 elif [ ${OS} = "MINGW32_NT" ]; then
@@ -171,5 +176,3 @@ elif [ ${OS} = "MINGW32_NT" ]; then
     alias wuser="/mnt/c/users/muqing/"
     echo "Other OS: ${OS}"
 fi
-
-export PATH=$PATH
