@@ -152,6 +152,8 @@ if [ ${OS} = "Darwin" ]; then
     # alias vim="/Applications/MacVim.app/Contents/MacOS/Vim -u ~/.vim/vimrc" 
     # alias vi=${MacVimHome}"/Vim -u ~/.vim/vimrc.simple"
     # alias vim=${MacVimHome}"/Vim -u ~/.vim/vimrc"
+    alias vscode="/Applications/Visual\ Studio\ Code.app/Contents/MacOS/Electron"
+
 
 	# java 
 	JAVA_HOME=/Applications/Android\ Studio.app/Contents/jre/jdk/Contents/Home

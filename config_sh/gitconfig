@@ -8,16 +8,27 @@
 [color]
 	ui = auto
 [alias]
+    dirdiff = difftool --dir-diff --no-symlinks
 	d = difftool
 [diff]
-	tool = vimdiff
-[difftool]
+	tool = bcomp
+[difftool "bcomp"]
 	prompt = true
+    cmd = "'/Applications/Beyond Compare.app/Contents/MacOs/bcomp'" \"$LOCAL\" \"$REMOTE\"
+    prompt = true
+    trustExitCode = true
 [merge]
 	tool = vimdiff
+    conflictstyle = diff3
+    prompt = true
+    keeyBackup = false
 [init]
 	templatedir = ~/.git.init.templateDir
+
 ; [http "https://github.com"]
 	; proxy = socks5://127.0.0.1:10811
-[http]
-	postBuffer = 524288000
+   
+; for windows
+; [difftool "bc"]
+; path = c:/Program Files/Beyond Compare 4/bcomp.exe
+; cmd = \"c:/Program Files/Beyond Compare 4/bcomp.exe\" \"$LOCAL\" \"$REMOTE\"
