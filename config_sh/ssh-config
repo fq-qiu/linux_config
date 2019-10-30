@@ -6,10 +6,12 @@ Host coding.net
     Identityfile ~/.ssh/coding.net
 
 Host github.com
+    # default
     User git
+    # default
     Port 22
     PreferredAuthentications publickey
-    Identityfile ~/.ssh/github
+    Identityfile ~/.ssh/github.com
     # ProxyCommand nc -v -x 127.0.0.1:10811 %h %p
 
 Host tencent
@@ -29,10 +31,10 @@ Host want
     HostName git.hollywant.com
     User git
     Port 10022
-    PreferredAuthentications publickey
-    Identityfile ~/.ssh/git.lab
+    RSAAuthentication yes
+    Identityfile ~/.ssh/gitlab
 
 Host android
-    HostName shqnb00001950.want-want.com
-    User 00390839
-    Identityfile ~/.ssh/android
+    HostName shqnb00001912.want-want.com
+    User 00386165
+    Identityfile ~/.ssh/android_qing
