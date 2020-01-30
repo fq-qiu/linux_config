@@ -17,4 +17,9 @@ bin/
 *.pyc
 __pycache__/
 .ropeproject/
+
+# gradle
+build/
+
+# mac os
 .DS_Store

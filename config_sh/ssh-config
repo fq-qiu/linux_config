@@ -38,3 +38,8 @@ Host android
     HostName shqnb00001912.want-want.com
     User 00386165
     Identityfile ~/.ssh/android_qing
+    
+Host vultr
+    HostName 66.42.44.163
+    User root
+    Identityfile ~/.ssh/android_qing
