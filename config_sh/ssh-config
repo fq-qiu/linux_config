@@ -4,6 +4,11 @@ Host coding.net
     User qfq61@qq.com
     PreferredAuthentications publickey
     Identityfile ~/.ssh/coding.net
+# gitee
+Host gitee.com
+HostName gitee.com
+PreferredAuthentications publickey
+IdentityFile ~/.ssh/android_qing
 
 Host github.com
     # default
@@ -40,6 +45,6 @@ Host android
     Identityfile ~/.ssh/android_qing
     
 Host vultr
-    HostName 66.42.44.163
+    HostName 149.28.22.60
     User root
     Identityfile ~/.ssh/android_qing
