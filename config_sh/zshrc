@@ -146,14 +146,14 @@ bindkey '^j' autosuggest-accept
 OS=`uname -s`
 if [ ${OS} = "Darwin" ]; then
     # Mac OS X 操作系统
-    # MacVimHome=/Applications/MacVim.app/Contents/MacOS
+    MacVimHome=/Applications/MacVim.app/Contents/MacOS
     # PATH=/Users/00390839/Library/hugo_0.56.0_macOS-64bit:$PATH
     # alias vi="/Applications/MacVim.app/Contents/MacOS/Vim -u ~/.vim/vimrc.simple" 
     # alias vim="/Applications/MacVim.app/Contents/MacOS/Vim -u ~/.vim/vimrc" 
-    # alias vi=${MacVimHome}"/Vim -u ~/.vim/vimrc.simple"
-    # alias vim=${MacVimHome}"/Vim -u ~/.vim/vimrc"
+    alias vi=${MacVimHome}"/Vim -u ~/.vim/vimrc.simple"
+    alias vim=${MacVimHome}"/Vim -u ~/.vim/vimrc"
     alias vscode="/Applications/Visual\ Studio\ Code.app/Contents/MacOS/Electron"
-
+    alias hugo="/Applications/hugo_0.66.0/hugo"
 
 	# java 
 	JAVA_HOME=/Applications/Android\ Studio.app/Contents/jre/jdk/Contents/Home
