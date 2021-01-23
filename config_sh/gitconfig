@@ -5,6 +5,7 @@
 	editor = vim -u ~/.vim/vimrc.simple
 	excludesfile = ~/.gitignore
 	quotepath = false
+	autocrlf = input
 [color]
 	ui = auto
 [alias]

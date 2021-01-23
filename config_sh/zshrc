@@ -154,6 +154,7 @@ if [ ${OS} = "Darwin" ]; then
     alias vim=${MacVimHome}"/Vim -u ~/.vim/vimrc"
     alias vscode="/Applications/Visual\ Studio\ Code.app/Contents/MacOS/Electron"
     alias hugo="/Applications/hugo_0.66.0/hugo"
+    alias aproxy="sh ~/linux_config/proxy.sh"
 
 	# java 
 	JAVA_HOME=/Applications/Android\ Studio.app/Contents/jre/jdk/Contents/Home
@@ -162,6 +163,7 @@ if [ ${OS} = "Darwin" ]; then
 
 	# anroid Sdk
 	ANDROID_SDK=~/Library/Android/sdk
+    NDK=~/Library/Android/sdk/ndk/20.1.5948944
 	PATH=$ANDROID_SDK/build-tools:$ANDROID_SDK/platform-tools:$ANDROID_SDK/tools:$PATH
 
     # homebrew sbin
@@ -170,6 +172,7 @@ if [ ${OS} = "Darwin" ]; then
     export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles
 elif [ ${OS} = "Linux"  ]; then
     alias vi="vim -u ~/.vim/vimrc.simple"
+    alias aproxy="sh ~/linux_config/proxy.sh"
 elif [ ${OS} = "MINGW32_NT" ]; then
     # wsl
     alias gvim="/mnt/c/gvim_8.0.0003_x64/vim/vim80/gvim.exe %1"

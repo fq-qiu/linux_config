@@ -9,12 +9,12 @@ Host github.com
     # default
     Port 22
     PreferredAuthentications publickey
-    Identityfile ~/.ssh/qinmen
+    Identityfile ~/.ssh/github.com
     # ProxyCommand nc -v -x 127.0.0.1:10811 %h %p
 Host vultr
-    HostName 149.28.22.60
+    HostName 167.179.112.207
     User root
-    Identityfile ~/.ssh/qinmen
+    Identityfile ~/.ssh/vultr
 # coding.net
 Host coding.net
     HostName git.coding.net
