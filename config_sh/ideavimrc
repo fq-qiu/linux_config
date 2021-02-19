@@ -1,7 +1,56 @@
-set hls
-set ic
-set scs
-set ws
-set smd
-set nu
+" update in AndroidStudio: so ~/.ideavimrc
+set hlsearch
+set incsearch
+set ignorecase
+set smartcase
+set showmode
+set showmatch
+set number
+set relativenumber
+set scrolloff=3
+set history=500
 
+filetype indent on
+set autoindent
+set mouse=a
+set clipboard=unnamed
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+set ruler
+set cursorline
+set expandtab
+
+" :actionlist pattern 查看有哪些action
+" <C-[> 跳转到定义处
+" <C-o> go back
+" <C-i> go forward
+map == :action ReformatCode<CR>
+
+let mapleader = " "
+" EasyMotion模拟，依赖AceJump, IdeaVim-EasyMotion插件
+set easymotion
+" IdeaVim-EasyMotion 默认<Leader><Leader>触发， 更改为单<Leader>
+" <leader>f, <leader>t, <leader>w, <leader>b, <leader>e, <leader>j, <leader>k,
+" <leader>s, <leader>n 类似vim的移动命令
+map <Leader> <Plug>(easymotion-prefix)
+
+" set <vim-surround>
+" ys, cs, ds S
+set surround
+
+" set <commentary.vim>
+" 默认命令： gcc, gc4j
+set commentary
+" nmap gcc :action CommentByLineComment<cr>
+
+" for plugin IdeaVimExtension
+set keep-english-in-normal
+set keep-english-in-normal-and-restore-in-insert
+
+nmap g, :action JumpToLastChange<CR>
+nmap g. :action JumpToNextChange<CR>
+" Run app
+nmap rr :action Run<CR>
+" apply change
+" nmap aa :action 
