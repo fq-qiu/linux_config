@@ -128,6 +128,8 @@ alias msplit='sh ~/linux_config/shell_tools/split.sh'
 # gh-md-toc
 alias gh-md-toc='~/linux_config/bin_tools/gh-md-toc'
 
+alias aproxy='~/dotfiles/shell_tools/proxy.sh'
+
 # A tiny utility to highlight multiple keywords with different colors
 . ~/linux_config/shell_tools/h.sh
 
@@ -154,7 +156,6 @@ if [ ${OS} = "Darwin" ]; then
     alias vim=${MacVimHome}"/Vim -u ~/.vim/vimrc"
     alias vscode="/Applications/Visual\ Studio\ Code.app/Contents/MacOS/Electron"
     alias hugo="/Applications/hugo_0.66.0/hugo"
-    alias aproxy="sh ~/linux_config/proxy.sh"
 
 	# java 
 	JAVA_HOME=/Applications/Android\ Studio.app/Contents/jre/jdk/Contents/Home
@@ -172,7 +173,6 @@ if [ ${OS} = "Darwin" ]; then
     export HOMEBREW_BOTTLE_DOMAIN=https://mirrors.tuna.tsinghua.edu.cn/homebrew-bottles
 elif [ ${OS} = "Linux"  ]; then
     alias vi="vim -u ~/.vim/vimrc.simple"
-    alias aproxy="sh ~/linux_config/proxy.sh"
 elif [ ${OS} = "MINGW32_NT" ]; then
     # wsl
     alias gvim="/mnt/c/gvim_8.0.0003_x64/vim/vim80/gvim.exe %1"

@@ -72,5 +72,3 @@ fi
 # pip使用国内镜像源
 mkdir -p ~/.pip/
 ln -f -s "$DIR"/config_sh/pip.conf ~/.pip/pip.confg
-
-
