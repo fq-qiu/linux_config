@@ -8,9 +8,9 @@ ln -f -s $DIR/config_sh/bashrc ~/.bashrc
 ln -f -s $DIR/config_sh/bash_history ~/.bash_history
 
 # zsh
+ln -F -h -f -s $DIR/oh-my-zsh ~/.oh-my-zsh
 ln -f -s $DIR/config_sh/zshrc ~/.zshrc
 ln -f -s $DIR/config_sh/zsh_history ~/.zsh_history
-ln -f -s $DIR/oh-my-zsh ~/.oh-my-zsh
 
 # git
 ln -f -s $DIR/config_sh/gitignore ~/.gitignore
