@@ -105,6 +105,13 @@ eclipse         # eclipse
 ## shell tools usage ##
 
 
+### aproxy
+设置当前调试手机代理为本电脑. 涉及到的脚本为`shell_tools/proxy.sh`
+```bash
+aproxy set
+aproxy clean
+```
+
 ### mtags ###
 ```
 mtags       #在当前目录下生成 vim 的 cscope 和 tag 文件
