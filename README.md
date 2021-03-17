@@ -56,6 +56,13 @@ sudo sh unconfig.sh    # delete some alias
 - 安装rg
 - 安装fd, faster and better than find
 
+
+## ssh 
+遇到的问题` UNPROTECTED PRIVATE KEY FILE!`, 修改私钥文件权限
+```bash
+# github.com为github ssh的私钥文件
+chmod 600 github.com
+```
 ## Some help and readme
 
 - ack

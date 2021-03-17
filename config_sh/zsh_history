@@ -6377,3 +6377,40 @@ ls
 : 1569718589:0;gl
 : 1569718597:0;gst
 : 1569718609:0;ga config_sh/
+gst
+zsh
+cd linux_config
+vi ~/.zsh_history
+rm ~/.zsh_history
+sh config.sh
+cat ~/.zsh_history
+cd config.sh
+ls
+vi config.sh
+gst
+git status
+git remote set-url origin https://github.com/tainzhi/dotfiles
+gst
+git pull origin master
+sh config.sh
+cd ~/.oh-my-zsh
+ls
+cd oh-my-zsh
+ls
+exit
+cd ~/.oh-my-zsh
+ls
+cd ..
+cd linux_config
+gst
+vi config.sh
+sh -n config.sh
+sh config.sh
+cd ~/.oh-my-zsh
+ls
+cd -
+vi config.sh
+sh config.sh
+ls ~/.oh-my-zsh
+ls
+exit
