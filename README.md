@@ -21,6 +21,11 @@ This a auto configure script for my linux configure
 <!-- vim-markdown-toc -->
 
 
+## 参考
+- [shell debug](https://blog.csdn.net/qq_43127921/article/details/89852012)
+- [优秀的配置dotfiles](https://github.com/skwp/dotfiles)
+
+
 ## PreInstall
 
 This is tested on ubuntu15.10.
