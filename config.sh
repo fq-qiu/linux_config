@@ -2,32 +2,37 @@
 # 先备份原有的.bashrc, 再使用自定义的
 # ln -s source_file target_file
 DIR="$( cd "$( dirname "$0" )" && pwd )"
-OS=`uname -s`
+OS=$(uname -s)
 
 # bash
-ln -f -s $DIR/config_sh/bashrc ~/.bashrc
-ln -f -s $DIR/config_sh/bash_history ~/.bash_history
+ln -f -s ""$DIR""/config_sh/bashrc ~/.bashrc
+ln -f -s "$DIR"/config_sh/bash_history ~/.bash_history
 
 # zsh
-ln -F -h -f -s $DIR/oh-my-zsh ~/.oh-my-zsh
-ln -f -s $DIR/config_sh/zshrc ~/.zshrc
-ln -f -s $DIR/config_sh/zsh_history ~/.zsh_history
+ln -F -h -f -s "$DIR"/oh-my-zsh ~/.oh-my-zsh
+ln -f -s "$DIR"/config_sh/zshrc ~/.zshrc
+ln -f -s "$DIR"/config_sh/zsh_history ~/.zsh_history
+
+# zsh plugin
+echo $ZSH_CUSTOM # ~/.oh-my-zsh/custom
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 
 # git
-ln -f -s $DIR/config_sh/gitignore ~/.gitignore
-ln -f -s $DIR/config_sh/gitconfig ~/.gitconfig
-ln -F -h -f -s $DIR/config_sh/git.init.templateDir ~/.git.init.templateDir
+ln -f -s "$DIR"/git/gitignore ~/.gitignore
+ln -f -s "$DIR"/git/gitconfig ~/.gitconfig
+ln -F -h -f -s "$DIR"/git/git.init.templateDir ~/.git.init.templateDir
 
 # tmux
-ln -f -s $DIR/config_sh/tmux.conf ~/.tmux.conf
+ln -f -s "$DIR"/config_sh/tmux.conf ~/.tmux.conf
 
 # for AndroidStudio or Intellij IDEA plugin IdeaVim
-ln -f -s $DIR/config_sh/ideavimrc ~/.ideavimrc
+ln -f -s "$DIR"/config_sh/ideavimrc ~/.ideavimrc
 
 # for vim
 if [ ! -d ~/.vim ]; then
-    ln -F -h -f -s $DIR/vimfile ~/.vim
-    cd ~/.vim
+    ln -F -h -f -s "$DIR"/vimfile ~/.vim
+    cd ~/.vim || exit
     echo | vim -u ~/.vim/vimrc +BundleUpdate +qall
 fi
 
@@ -36,14 +41,14 @@ fi
 
 # for ssh
 mkdir ~/.ssh
-ln -f -s $DIR/config_sh/ssh-config ~/.ssh/config
+ln -f -s "$DIR"/config_sh/ssh-config ~/.ssh/config
 # cd ~/.ssh
 # yes | ssh-keygen -P "" -t rsa -b 4096 -f ~/.ssh/github.com
 # yes | ssh-keygen -P "" -t rsa -f ~/.ssh/coding.net
 chmod 600 ~/.ssh/*
 
 # for show markdown toc in vim tagbar
-ln -f -s $DIR/config_sh/ctags ~/.ctags
+ln -f -s "$DIR"/config_sh/ctags ~/.ctags
 
 
 # crontab rm: /bin/rm ~/.tmp_reconvery every week
@@ -60,12 +65,12 @@ if [ ${OS} = "Linux"  ]; then
     echo "post-down iptables-save > /etc/iptables.up.rules" >> /etc/network/interfaces
 
     # fonts
-    ln -F -h -f -s $DIR/fonts ~/.fonts
+    ln -F -h -f -s "$DIR"/fonts ~/.fonts
     fc-cache -vf
 fi
 
 # pip使用国内镜像源
 mkdir -p ~/.pip/
-ln -f -s $DIR/config_sh/pip.conf ~/.pip/pip.confg
+ln -f -s "$DIR"/config_sh/pip.conf ~/.pip/pip.confg
 
 

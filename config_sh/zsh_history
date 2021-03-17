@@ -6414,3 +6414,35 @@ sh config.sh
 ls ~/.oh-my-zsh
 ls
 exit
+: 1615970715:0;sh -n config.sh
+: 1615970719:0;cd ~/.vim
+: 1615970719:0;ls
+: 1615970721:0;cd ..
+: 1615970726:0;vi linux_config/config.sh
+: 1615970732:0;cd ~/.vim
+: 1615970732:0;ls
+: 1615970769:0;cd ~/linux_config
+: 1615970770:0;ls
+: 1615970772:0;cd config_sh
+: 1615970773:0;ls
+: 1615970918:0;mv git* ../git
+: 1615970919:0;ls
+: 1615971076:0;..
+: 1615971080:0;sh -n config.sh
+: 1615971083:0;sh config.sh
+: 1615971101:0;vi ~/.gitconfig
+: 1615971118:0;sh config.sh
+: 1615971125:0;ssh github.com
+: 1615971140:0;ping https://github.com
+: 1615971181:0;git config --global --unset http.https://github.com.proxy
+: 1615971187:0;vi ~/.gitconfig
+: 1615971198:0;sh config.sh
+: 1615971243:0;gst
+: 1615971321:0;ls
+: 1615971333:0;cd config_sh
+: 1615971333:0;ls
+: 1615971361:0;rm ackrc
+: 1615971968:0;ls
+: 1615972117:0;..
+: 1615972155:0;ls
+: 1615972168:0;gst
