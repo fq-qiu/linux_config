@@ -136,7 +136,7 @@ sh ~/dotfiles/shell_tools/h.sh
 export SVN_EDITOR=vim
 
 # replace autojump with z.lua
-eval "$(lua /Applications/z.lua/z.lua --init zsh)"
+eval "$(lua ~/dotfiles/z.lua/z.lua --init zsh)"
 
 
 # bind P and N for EMACS mode
