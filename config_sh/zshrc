@@ -106,32 +106,32 @@ source $ZSH/oh-my-zsh.sh
 
 
 #adb shell kill
-alias mkill=". ~/linux_config/shell_tools/adb_shell_kill.sh"
+alias mkill=". ~/dotfiles/shell_tools/adb_shell_kill.sh"
 
 #adb shell screen capture
-alias mcapture=". ~/linux_config/shell_tools/adb_screencap.sh"
+alias mcapture=". ~/dotfiles/shell_tools/adb_screencap.sh"
 
 # rm recovert
-# alias rm='. ~/linux_config/shell_tools/myrm.sh'
+# alias rm='. ~/dotfiles/shell_tools/myrm.sh'
 
 # auto color    
 alias grep="grep --color"
 # alias ls="ls -hF --color=tty"
 
 # tags
-alias mtags=". ~/linux_config/shell_tools/tags.sh"
+alias mtags=". ~/dotfiles/shell_tools/tags.sh"
 
 
 # split file
-alias msplit='sh ~/linux_config/shell_tools/split.sh'
+alias msplit='sh ~/dotfiles/shell_tools/split.sh'
 
 # gh-md-toc
-alias gh-md-toc='~/linux_config/bin_tools/gh-md-toc'
+alias gh-md-toc='~/dotfiles/bin_tools/gh-md-toc'
 
 alias aproxy='~/dotfiles/shell_tools/proxy.sh'
 
 # A tiny utility to highlight multiple keywords with different colors
-. ~/linux_config/shell_tools/h.sh
+sh ~/dotfiles/shell_tools/h.sh
 
 export SVN_EDITOR=vim
 
