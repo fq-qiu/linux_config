@@ -36,7 +36,7 @@ This is tested on ubuntu15.10.
 
 - download
 ```
-git clone --recursive https://github.com/tainzhi/linux_config.git
+git clone --recursive https://github.com/tainzhi/dotfiles.git
 cd linux_config
 git submodule foreach --recursive git checkout master
 ```
@@ -208,3 +208,18 @@ The files in `config_sh` are symbolinked into `$HOME` by `sh config.sh` and then
 - my ssh configure
 - for iptables, block some online game show sites ip
 - some shell scripts tools
+
+## changes
+- 废弃`h.sh`, 因为`h.sh`是ack的前端，不支持rg search
+
+### 用[zoxide](https://github.com/ajeetdsouza/zoxide/)代替z.lua
+给curl添加代理，快速从github上下载
+```bash
+sudo curl --proxy http://10.99.93.35:8080 -sS https://webinstall.dev/zoxide | bash
+```
+安装在`~/.local/bin/zoxide`目录下
+
+使用方法：
+```bash
+j some_dir
+```
